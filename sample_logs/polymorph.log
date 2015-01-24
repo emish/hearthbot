@@ -1,0 +1,89 @@
+[Zone] ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Polymorph id=61 zone=PLAY zonePos=5 cardId=CS2_022 player=2] to 
+ 
+[Zone] ZoneChangeList.ProcessChanges() - START waiting for [name=Polymorph id=61 zone=PLAY zonePos=5 cardId=CS2_022 player=2] to load (zoneChanged=True controllerChanged=False powerTask=(not null))
+ 
+[Zone] ZoneChangeList.ProcessChanges() - END waiting for [name=Polymorph id=61 zone=PLAY zonePos=5 cardId=CS2_022 player=2] to load (zoneChanged=True controllerChanged=False powerTask=(not null))
+ 
+[Zone] ZoneChangeList.ProcessChanges() - START waiting for [name=Polymorph id=61 zone=PLAY zonePos=5 cardId=CS2_022 player=2] to become ready (zoneChanged=True controllerChanged=False powerTask=(not null)) 
+
+[Zone] ZoneChangeList.ProcessChanges() - END waiting for [name=Polymorph id=61 zone=PLAY zonePos=5 cardId=CS2_022 player=2] to become ready (zoneChanged=True controllerChanged=False powerTask=(not null))
+
+[Zone] ZoneChangeList.ProcessChanges() - id=63 local=False [name=Polymorph id=61 zone=PLAY zonePos=5 cardId=CS2_022 player=2] zone from OPPOSING HAND -> 
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=3 change=powerTask=[power=[type=TAG_CHANGE entity=[id=61 cardId=CS2_022 name=Polymorph] tag=ZONE_POSITION value=0] complete=False] entity=[name=Polymorph id=61 zone=PLAY zonePos=5 cardId=CS2_022 player=2] srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=0
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=4 change=powerTask=[power=[type=TAG_CHANGE entity=[id=61 cardId=CS2_022 name=Polymorph] tag=JUST_PLAYED value=1] complete=False] entity=[name=Polymorph id=61 zone=PLAY zonePos=0 cardId=CS2_022 player=2] srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=5 change=powerTask=[power=[type=TAG_CHANGE entity=[id=61 cardId=CS2_022 name=Polymorph] tag=CARD_TARGET value=13] complete=False] entity=[name=Polymorph id=61 zone=PLAY zonePos=0 cardId=CS2_022 player=2] srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+
+[Zone] ZoneChangeList.UpdateDirtyZones() - m_id=63 START waiting for zone OPPOSING HAND
+
+[Zone] ZoneChangeList.OnUpdateLayoutComplete() - m_id=63 END waiting for zone OPPOSING HAND 
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=0 change=powerTask=[power=[type=META_DATA metaType=META_TARGET data=0 info=1] complete=False] entity=[name=Boulderfist Ogre id=13 zone=PLAY zonePos=1 cardId=CS2_200 player=1] srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=1 change=powerTask=[power=[type=FULL_ENTITY entity=[id=75 cardId=CS2_tk1 name=UNKNOWN ENTITY [id=75 type=MINION zone=SETASIDE zonePos=0]] tags=System.Collections.Generic.List`1[Network+Entity+Tag]] complete=False] entity=UNKNOWN ENTITY [id=75 type=MINION zone=SETASIDE zonePos=0] srcZoneTag=INVALID srcPos= dstZoneTag=SETASIDE dstPos=
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=75 cardId=CS2_tk1 name=Sheep] tag=341 value=1] complete=False] entity=[name=Sheep id=75 zone=SETASIDE zonePos=0 cardId=CS2_tk1 player=1] srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+
+[Zone] ZoneChangeList.ProcessChanges() - START waiting for [name=Sheep id=75 zone=SETASIDE zonePos=0 cardId=CS2_tk1 player=1] to load (powerTask=(not null))
+
+[Zone] ZoneChangeList.ProcessChanges() - END waiting for [name=Sheep id=75 zone=SETASIDE zonePos=0 cardId=CS2_tk1 player=1] to load (powerTask=(not null))
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=3 change=powerTask=[power=[type=TAG_CHANGE entity=[id=75 cardId=CS2_tk1 name=Sheep] tag=LINKEDCARD value=13] complete=False] entity=[name=Sheep id=75 zone=SETASIDE zonePos=0 cardId=CS2_tk1 player=1] srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=4 change=powerTask=[power=[type=TAG_CHANGE entity=[id=13 cardId=CS2_200 name=Boulderfist Ogre] tag=LINKEDCARD value=75] complete=False] entity=[name=Boulderfist Ogre id=13 zone=PLAY zonePos=1 cardId=CS2_200 player=1] srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=5 change=powerTask=[power=[type=TAG_CHANGE entity=[id=75 cardId=CS2_tk1 name=Sheep] tag=TOPDECK value=1] complete=False] entity=[name=Sheep id=75 zone=SETASIDE zonePos=0 cardId=CS2_tk1 player=1] srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=6 change=powerTask=[power=[type=TAG_CHANGE entity=[id=13 cardId=CS2_200 name=Boulderfist Ogre] tag=EXHAUSTED value=0] complete=False] entity=[name=Boulderfist Ogre id=13 zone=PLAY zonePos=1 cardId=CS2_200 player=1] srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=7 change=powerTask=[power=[type=TAG_CHANGE entity=[id=13 cardId=CS2_200 name=Boulderfist Ogre] tag=ZONE value=SETASIDE] complete=False] entity=[name=Boulderfist Ogre id=13 zone=PLAY zonePos=1 cardId=CS2_200 player=1] srcZoneTag=INVALID srcPos= dstZoneTag=SETASIDE dstPos=
+
+[Zone] ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Boulderfist Ogre id=13 zone=SETASIDE zonePos=1 cardId=CS2_200 player=1] to 
+ 
+[Zone] ZoneChangeList.ProcessChanges() - id=64 local=False [name=Boulderfist Ogre id=13 zone=SETASIDE zonePos=1 cardId=CS2_200 player=1] zone from FRIENDLY PLAY -> 
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=8 change=powerTask=[power=[type=TAG_CHANGE entity=[id=13 cardId=CS2_200 name=Boulderfist Ogre] tag=ZONE_POSITION value=0] complete=False] entity=[name=Boulderfist Ogre id=13 zone=SETASIDE zonePos=1 cardId=CS2_200 player=1] srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=0
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=9 change=powerTask=[power=[type=TAG_CHANGE entity=[id=75 cardId=CS2_tk1 name=Sheep] tag=ZONE value=PLAY] complete=False] entity=[name=Sheep id=75 zone=SETASIDE zonePos=0 cardId=CS2_tk1 player=1] srcZoneTag=INVALID srcPos= dstZoneTag=PLAY dstPos=
+
+[Zone] ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sheep id=75 zone=PLAY zonePos=0 cardId=CS2_tk1 player=1] to FRIENDLY PLAY
+
+[Zone] ZoneChangeList.ProcessChanges() - id=64 local=False [name=Sheep id=75 zone=PLAY zonePos=0 cardId=CS2_tk1 player=1] zone from  -> FRIENDLY PLAY
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=10 change=powerTask=[power=[type=TAG_CHANGE entity=[id=75 cardId=CS2_tk1 name=Sheep] tag=ZONE_POSITION value=1] complete=False] entity=[name=Sheep id=75 zone=PLAY zonePos=0 cardId=CS2_tk1 player=1] srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=1
+
+[Zone] ZoneChangeList.ProcessChanges() - START waiting for [name=Sheep id=75 zone=PLAY zonePos=0 cardId=CS2_tk1 player=1] to load (powerTask=(not null))
+
+[Zone] ZoneChangeList.ProcessChanges() - END waiting for [name=Sheep id=75 zone=PLAY zonePos=0 cardId=CS2_tk1 player=1] to load (powerTask=(not null))
+
+[Zone] ZoneChangeList.ProcessChanges() - id=64 local=False [name=Sheep id=75 zone=PLAY zonePos=1 cardId=CS2_tk1 player=1] pos from 0 -> 1
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=11 change=powerTask=[power=[type=TAG_CHANGE entity=[id=75 cardId=CS2_tk1 name=Sheep] tag=EXHAUSTED value=1] complete=False] entity=[name=Sheep id=75 zone=PLAY zonePos=1 cardId=CS2_tk1 player=1] srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+
+[Zone] ZoneChangeList.UpdateDirtyZones() - m_id=64 START waiting for zone FRIENDLY PLAY
+
+[Zone] ZoneChangeList.OnUpdateLayoutComplete() - m_id=64 END waiting for zone FRIENDLY PLAY
+
+[Zone] ZoneChangeList.FireCompleteCallback() - m_id=64 m_taskList=498 m_changes.Count=12 m_complete=True m_completeCallback=(not null)
+
+[Power] PowerProcessor.DoTaskListForCard() - actionStart has unhandled SubType PLAY for sourceEntity [name=Polymorph id=61 zone=PLAY zonePos=0 cardId=CS2_022 player=2]
+
+[Zone] ZoneChangeList.ProcessChanges() - processing index=0 change=powerTask=[power=[type=TAG_CHANGE entity=[id=61 cardId=CS2_022 name=Polymorph] tag=ZONE value=GRAVEYARD] complete=False] entity=[name=Polymorph id=61 zone=PLAY zonePos=0 cardId=CS2_022 player=2] srcZoneTag=INVALID srcPos= dstZoneTag=GRAVEYARD dstPos=
+
+[Zone] ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Polymorph id=61 zone=GRAVEYARD zonePos=0 cardId=CS2_022 player=2] to OPPOSING GRAVEYARD
+
+[Zone] ZoneChangeList.ProcessChanges() - id=65 local=False [name=Polymorph id=61 zone=GRAVEYARD zonePos=0 cardId=CS2_022 player=2] zone from  -> OPPOSING GRAVEYARD
+
+[Zone] ZoneChangeList.UpdateDirtyZones() - m_id=65 START waiting for [name=Polymorph id=61 zone=GRAVEYARD zonePos=0 cardId=CS2_022 player=2] to load (card=[name=Polymorph id=61 zone=GRAVEYARD zonePos=0 cardId=CS2_022 player=2])
+
+[Zone] ZoneChangeList.UpdateDirtyZones() - m_id=65 END waiting for [name=Polymorph id=61 zone=GRAVEYARD zonePos=0 cardId=CS2_022 player=2] to load (card=[name=Polymorph id=61 zone=GRAVEYARD zonePos=0 cardId=CS2_022 player=2])
+
+[Zone] ZoneChangeList.UpdateDirtyZones() - m_id=65 START waiting for zone OPPOSING GRAVEYARD
+ 
+[Zone] ZoneChangeList.OnUpdateLayoutComplete() - m_id=65 END waiting for zone OPPOSING GRAVEYARD
+
+[Power] PowerProcessor.DoTaskListForCard() - actionStart has unhandled SubType PLAY for sourceEntity [name=Polymorph id=61 zone=GRAVEYARD zonePos=0 cardId=CS2_022 player=2]
+
+[Power] PowerProcessor.DoTaskListForCard() - actionStart has unhandled SubType PLAY for sourceEntity [name=Polymorph id=61 zone=GRAVEYARD zonePos=0 cardId=CS2_022 player=2]

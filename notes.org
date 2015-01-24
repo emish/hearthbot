@@ -1,0 +1,18 @@
+* Needs randomness
+  They make plays metronomically, waiting an equal amount of time
+  between each attack. They don't respond to emotes.
+
+* Notes
+  - I don't need to apply cards' effects to the game for every card.
+    I just need to know minions, their stats, and hero stats.
+  
+* Ref
+  - http://www.pcgamer.com/interview-with-a-hearthstone-botter-im-not-scared-of-getting-caught/
+** Hearthstone logs
+   http://www.reddit.com/r/hearthstone/comments/268fkk/simple_hearthstone_logging_see_your_complete_play/
+** Python Tutorial
+   http://code.tutsplus.com/tutorials/how-to-build-a-python-bot-that-can-play-web-games--active-11117
+** Mouse clicking osx 
+   http://www.geekorgy.com/index.php/2010/06/python-mouse-click-and-move-mouse-in-apple-mac-osx-snow-leopard-10-6-x/
+** Card DB
+   http://hearthstonejson.com
