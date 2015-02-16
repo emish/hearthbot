@@ -30,6 +30,7 @@ class Player(object):
         self.mana = 0
         # The amount of mana spent this turn
         self.mana_spent = 0
+        self.max_mana = 10
 
     def mana_available(self):
         return int(self.mana) - int(self.mana_spent)
@@ -37,6 +38,21 @@ class Player(object):
     def spend_mana(self, amount):
         self.mana_spent += amount
         logger.info("Spending {} mana. Total spent = {}".format(amount, self.mana_spent))
+
+    def prepare_for_new_turn(self):
+        """Prepares a player for their turn.
+        - Restore and increment mana.
+        - Wake minions from summoning sickness.
+        - Set can_attack of minions and self.
+        """
+        # Add a mana to our pool and reset our spent mana
+        self.mana_spent = 0
+        if self.mana < self.max_mana:
+            self.mana += 1
+        
+        # All minions we have are now active (barring any edge cases)
+        for minion in self.minions:
+            minion.activate()
 
 class GameState(object):
     def __init__(self):
@@ -90,14 +106,6 @@ class GameState(object):
         
     def set_our_turn(self):
         self.turn = "OURS"
-
-        # Add a mana to our pool and reset our spent mana
-        self.tingle.mana += 1
-        self.tingle.mana_spent = 0
-        
-        # All minions we have are now active (barring any edge cases)
-        for minion in self.tingle.minions:
-            minion.activate()
 
         logger.info("*"*10)
         logger.info("TINGLE's TURN - {} mana".format(self.tingle.mana_available()))
