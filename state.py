@@ -106,7 +106,7 @@ class GameState(object):
         
     def set_our_turn(self):
         self.turn = "OURS"
-
+        self.tingle.prepare_for_new_turn()
         logger.info("*"*10)
         logger.info("TINGLE's TURN - {} mana".format(self.tingle.mana_available()))
         logger.info("*"*10)
