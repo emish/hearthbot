@@ -1,4 +1,13 @@
 * Bugs
+** TODO Add a minion location cache (state)
+   Have a cache handy with minion locations. This will help with the game logs being buggy.
+   This will also help speed up attack phases.
+   Whenever an event happes with minions (we can isolate these into a function)
+   apply those changes to the cache as they would normally happen.
+   The cache loses accuracy over time as more minions are played, but should remain valid
+   as minions are destroyed (there was already an ordering)
+   This is basically just updating the positions of minions prematurely, rather than storing all the
+   info somewhere.
 ** TODO Garner status of minion from log
    If it's possible to get the status of a minion (taunt, divine shield, etc..) from the log,
    this would help reduce dependency on manual labor, as well as be able to notice when minions
@@ -37,7 +46,11 @@
    If spend max mana results in life tap being necessary, play life tap first, then
    recalculate spending max mana again.
 ** TODO Minions cannot be left active after a turn ends
+   Heavy assertion in place.
 
+** TODO Special deathrattle attack case
+   When a minion with deathrattle is destroyed, wait for animation, and recalculate 
+   attack phase. The deathrattle might have dramatically changed the arena.
 * Notes
   - I don't need to apply cards' effects to the game for every card.
     I just need to know minions, their stats, and hero stats.
