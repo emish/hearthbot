@@ -22,6 +22,7 @@ class NonBlockingStreamReader:
                 if line:
                     queue.put(line)
                 else:
+                    print "LINE = ", line
                     raise UnexpectedEndOfStream
 
         self._t = Thread(target = _populateQueue,

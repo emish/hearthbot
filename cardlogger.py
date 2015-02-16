@@ -1,49 +1,13 @@
 """
+A parser for the hearthstone log file.
+
 player=1 is me
 player=2 is opponent
 
-If we draw 4 first turn, we have to include the coin.
-
-target of spells/powers is same as id of card. all entities have an id.
-
-still need a way to know it is our turn
-
-should probably use logs to update state, not our actions. If
-our actions fail for some reason, we can fall back.
-
-Truths:
+Notes:
 - The hearthstone log resets on startup.
-
-Notes: 
-! = needs testing
-? = no current solution
-
-- Garrosh didn't register armor up (Hero powers in general) (todo)
-(fixed) - After a minion takes lethal damage, Tingle continues to register them taking 0 damage.
-!- Tingle doesn't know if a minion has taunt, divine shield, etc... IMPORTANT (todo)
-!- When a minion is destroyed by a spell, the damage taking doesn't account for that -> rely on zone updates
-    - I think the zone update to graveyard will work to fix this.
-!- Opponent plays a spell
-- after opponent takes control of a minion, it might die before we record that the opponent PLAYs it (todo)
-!- effect of a spell can happen before the spell is played. rely on zone updates (we register graveyard)
-(fixed) - We don't register that some cards' value changes (loetheb)
-(fixed) - we don't register health upgrades
-- I want Tingle to say Kooloo limpah when he wins.
-- Minion buffs can take place before spells are played (wtf)
-    - idea: queue tag changes if the id can't be found right now, and try again next time we perform a tag update.
-    - drawback: we may accumulate many tag changes in the queue that are just plain invalid...
-    - better idea: whenever an id is seen that doesn't exist, make it into an unknown base card and give it values. 
-        future assignment of card from definition should not alter these values, this will be tough... dirty bit?
-?- zone updates to play or deck don't always take place? (todo)
-!- not moving minions to graveyard out of hand. (todo)
-!- minions in graveyard can't be updated (todo)
-!- weapons take damage (todo)
-- Need to reset state
-    - Game state can be continuously recorded even after a win/loss is recorded. We should wait for a new game to start.
-- Add heroes as separate entities (not minions)
-- Flame imp didn't give opponent damage (todo)
-- Destruction of weapon (low priority)
-- Weapon mechanics: gives hero attack, but takes damage itself.
+- target of spells/powers is same as id of card. 
+- all entities have an id.
 """
 
 import os, sys
@@ -52,7 +16,6 @@ import time
 import logging
 
 import state
-import nbstreamreader
 
 logging.basicConfig(level=logging.INFO)
 
@@ -66,44 +29,60 @@ class Parser(object):
         self.filepath = filepath
         # The logfile object
         self.logfile = file(self.filepath, 'r')
+        self.pos = 0
         # The state of the game
-        self.gstate = None
+        self.gstate = state.GameState()
         # The stream reader for the log file
-        try:
-            self.logstream = nbstreamreader.NonBlockingStreamReader(self.logfile)
-        except nbstreamreader.UnexpectedEndOfStream:
-            logging.warn("The log file is closed")
+        # try:
+        #     self.logstream = nbstreamreader.NonBlockingStreamReader(self.logfile)
+        # except nbstreamreader.UnexpectedEndOfStream:
+        #     logging.warn("The log file is closed")
             
-        assert self.logstream, "Can't do shit without a log"
+        #assert self.logstream, "Can't do shit without a log"
 
+    def reset_log(self):
+        """Read until the end of the log, not processing any of 
+        the events to the game state.
+        """
+        logging.info("Skipping to end of log file")
+        self.logfile.seek(self.pos)
+        self.logfile.readlines()
+        self.pos = self.logfile.tell()
+        
     def process_log(self):
         """Process the log, line by line, updating the state as necessary,
         until the log has no more data to provide for the time being.
+        The log will close it's file handle, and we'll remember where we were
+        for next time.
         """
-        while self.parse_next_line():
-            pass
+        self.logfile.seek(self.pos)
+        line = self.logfile.readline()
+        while line:
+            self.parse_next_line(line)
+            line = self.logfile.readline()
+        self.pos = self.logfile.tell()
         
-    def parse_next_line(self):
+    def parse_next_line(self, line):
         """Parse the next line of the log and update state as necessary.
         
         Returns:
             True if a line was read and parsed, false otherwise.
         """
-        # Get the next line, allow 0.1 seconds to timeout if none available
-        line = self.logstream.readline(0.1)
-        if not line:
-            return False
+        # # Get the next line, allow 0.1 seconds to timeout if none available
+        # line = self.logstream.readline(0.1)
+        # if not line:
+        #     return False
         
         # This is the start of the game
         # [Power] GameState.DebugPrintPower() - CREATE_GAME
         gamestart_re = re.compile(r'.*CREATE_GAME')
         match = gamestart_re.match(line)
         if match:
-            self.gstate = state.GameState()
+            self.gstate.start_game()
             return True
 
-        # Without a state, we do nothing
-        if not self.gstate:
+        # If the game hasn't started, don't parse further
+        if not self.gstate.game_started:
             return True
 
         # Figure out if we are player 1 or 2: we see 'friendly play'
@@ -113,7 +92,7 @@ class Parser(object):
         if match:
             self.gstate.set_player_number(match.group(1))
             return True
-
+        
         # If we win or lose
         # [Power] GameState.DebugPrintPower() - TAG_CHANGE Entity=bish3al tag=PLAYSTATE value=WON
         win_re = re.compile(r'.*TAG_CHANGE Entity='+player_name+' tag=PLAYSTATE value=(.*)')
@@ -122,10 +101,8 @@ class Parser(object):
             win_value = match.group(1)
             if win_value == "WON":
                 self.gstate.set_won()
-                self.gstate = None
             elif win_value == "LOST":
                 self.gstate.set_lost()
-                self.gstate = None
             else:
                 pass
                 #logging.error("Unknown tag for win state: {}".format(win_value))
@@ -159,13 +136,14 @@ class Parser(object):
         # Opponent plays a hero, hero power, or minion 
         # [Zone] ZoneChangeList.ProcessChanges() - id=75 local=False [name=Lightwarden id=79 zone=PLAY zonePos=2 cardId=EX1_001 player=2] zone from  -> OPPOSING PLAY
         # [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Anduin Wrynn id=4 zone=PLAY zonePos=0 cardId=HERO_09 player=1] zone from  -> OPPOSING PLAY (Hero)
-        opposing_play = re.compile(r'.*id=([0-9]+).*cardId=([a-zA-Z0-9_]+) .* -> OPPOSING PLAY')
+        opposing_play = re.compile(r'.*id=([0-9]+).*zonePos=([0-9]).*cardId=([a-zA-Z0-9_]+) .* -> OPPOSING PLAY')
         match = opposing_play.match(line)
         if match:
             logging.debug(line)
             card_id = match.group(1)
-            cardId = match.group(2)
-            self.gstate.opp_play_minion(cardId, card_id)
+            pos = match.group(2)
+            cardId = match.group(3)
+            self.gstate.opp_play_minion(cardId, card_id, pos=pos)
             return True
 
         # We play a minion
@@ -180,6 +158,16 @@ class Parser(object):
             self.gstate.play_minion(cardId, card_id)
             return True
 
+        # Minion goes to graveyard
+        # [Zone] ZoneChangeList.ProcessChanges() - id=16 local=False [name=Wolfrider id=47 zone=GRAVEYARD zonePos=1 cardId=CS2_124 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+        grave_re = re.compile(r'.*id=([0-9]+).* -> OPPOSING GRAVEYARD')
+        match = grave_re.match(line)
+        if match:
+            logging.debug(line)
+            card_id = match.group(1)
+            self.gstate.send_to_graveyard(card_id)
+            return True
+        
         # Update zone of a card
         # [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=The Coin id=68 zone=HAND zonePos=4 cardId=GAME_005 player=1] tag=ZONE value=PLAY
         #    9876:[Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Amani Berserker id=13 zone=PLAY zonePos=1 cardId=EX1_393 player=1] tag=ZONE value=GRAVEYARD
@@ -277,7 +265,7 @@ class Parser(object):
 #filename = os.path.expanduser("~/Documents/hearthbot/sample_logs/real_game_1.log")
 #filename = os.path.expanduser("~/Documents/hearthbot/sample_logs/jaina_anduin.log")
 #filename = os.path.expanduser("~/Documents/hearthbot/sample_logs/warlock_1.log")
-filename = os.path.expanduser("~/Documents/hearthbot/sample_logs/priest.log")
+filename = os.path.expanduser("~/Documents/hearthbot/sample_logs/tingle_bug_1.log")
 
 def main():
     """Just read the log and output the state changes. 

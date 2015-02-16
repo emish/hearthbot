@@ -1,10 +1,43 @@
-* Needs randomness
-  They make plays metronomically, waiting an equal amount of time
-  between each attack. They don't respond to emotes.
+* Bugs
+** TODO Garner status of minion from log
+   If it's possible to get the status of a minion (taunt, divine shield, etc..) from the log,
+   this would help reduce dependency on manual labor, as well as be able to notice when minions
+   are granted these special abilities through other means (spells, other minion battlecries etc.)
+** TODO Hero powers are not getting registered
+** TODO Special handling of minion control change
+   after opponent takes control of a minion, it might die before we
+   record that the opponent PLAYs it.
+
+** TODO Minion buffs can take place before spells are played (wtf)
+   - idea: queue tag changes if the id can't be found right now, and
+     try again next time we perform a tag update.
+
+   - drawback: we may accumulate many tag changes in the queue that
+     are just plain invalid...
+
+   - better idea: whenever an id is seen that doesn't exist, make it
+     into an unknown base card and give it values.  future
+   assignment of card from definition should not alter these values,
+   this will be tough... dirty bit?
+
+** TODO zone updates to play or deck don't always take place?
+   If the log is flat out missing some game updates, it will be hard, 
+   if not impossible, to work around this.
+** TODO Flame imp didn't give opponent damage
+** TODO Heroes as separate entities
+   Instead of being anothe minion in play.
+** TODO Weapon mechanics: gives hero attack, but takes damage itself.
+** TODO Use coin primitively to increase mana usage
+   For starters, teach tingle to use the coin whenever he can.
+   In the future, we can add better heuristics to using the coin by looking at
+   the play that would be done next turn given the current hand.
+
 
 * Notes
   - I don't need to apply cards' effects to the game for every card.
     I just need to know minions, their stats, and hero stats.
+  - Randomness: They make plays metronomically, waiting an equal amount of time
+  between each attack. They don't respond to emotes.    
   
 * Ref
   - http://www.pcgamer.com/interview-with-a-hearthstone-botter-im-not-scared-of-getting-caught/
