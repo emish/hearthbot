@@ -17,46 +17,30 @@ import copy # for deep copies with copy.deepcopy
 import control, cardlogger, state
 import kooloolimpah
 
+from botattack import *
+
 # The file for the hearthstone log
 hearthstone_log = os.path.expanduser("~/Library/Logs/Unity/Player.log")
 
 # The global state of the game, used to make decisions about things.
 gstate = None
 
-# TODO: log to a file later
-#logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s:%(message)s')
+# Since this is where main is, we set up the main logging here
+# The root logger (everything) logs to the log file at debug level
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s %(name)-12s - %(levelname)-8s %(message)s',
+                    datefmt='%H:%M:%S',
+                    filename='tingle_logs/tingle_{}.log'.format(int(time.time())),
+                    filemode='w')
+# And logs to the console at info level
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+# Simple console format
+formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
+console.setFormatter(formatter)
+logging.getLogger('').addHandler(console)
+
 logger = logging.getLogger('BOT')
-logger.setLevel(logging.DEBUG)
-
-def highest_attack_cmp(min1, min2):
-    if int(min1.attack) < int(min2.attack):
-        return -1
-    elif int(min1.attack) > int(min2.attack):
-        return 1
-    else:
-        return 0
-
-def can_kill_minion(min_list, minion):
-    """Returns a subset of minions that can be used to attack the
-    minion and kill it. Else, returns None.
-    Use as few minions as possible to kill minion.
-    Don't worry about keeping as many minions alive as possible yet.
-    """
-    for i in range(1, len(min_list)+1):
-        candidates = itertools.combinations(min_list, i)
-        best_candidate = None   # use later
-        for c in candidates:
-            # Evaluate this candidate list
-            minion_health = int(minion.remaining_health())
-            # For every minion in this list of candidates
-            for m in c:
-                minion_health -= int(m.attack)
-
-            # this candidate list kills the minion
-            if minion_health <= 0:
-                return c
-        
-    return None
 
 def attack_them(us, minions, parser):
     """Attack the list of minions provided.
@@ -147,6 +131,8 @@ def attack_phase(parser):
 
     # Here lies a bug: we may think we are attacking with a minion, but we click
     # on the wrong one
+    time.sleep(1)
+    parser.process_log()
     active_minions = [m for m in gstate.tingle.minions[:] if m.active]
     assert not active_minions , \
         "Attack phase complete, but some minions did not attack {}".format(active_minions)
@@ -154,6 +140,9 @@ def attack_phase(parser):
 def attack_hero(attacker):
     """Attack the defending hero. Don't wait for animation here
     because no status updates will occur.
+    Except for secrets - we want to check if one exists before waiting for it to trigger.
+    Store a secret object locally. If we attack, and nothing happens (secret still there), 
+    move at full pace. If the secret triggers, wait, then move at full pace anyway.
     """
     my_num_minions = len(gstate.tingle.minions)
     control.my_click_on_minion(my_num_minions, int(attacker.pos))
@@ -172,72 +161,22 @@ def attack_minion(attacker, defender):
     assert defender.zone == "PLAY"
     control.my_click_on_minion(my_num_minions, int(attacker.pos))
     control.opponent_click_on_minion(their_num_minions, int(defender.pos))
-    attacker.deactivate()       # Can't attack anymore
     time.sleep(2)
-
-def cost_to_play_cards(cards):
-    """Given a list of cards, return the cost to play them all.
-    """
-    total = 0
-    for card in cards:
-        total += int(card.cost)
-    return total
-    
-def spend_max_mana():
-    """Return how much mana would be spent this turn playing cards from hand, 
-    and the cards needed to play them.
-    Right now, play as many cards as possible.
-    
-    Returns:
-        (mana, cards) - where mana is an int and cards is a tuple of state.Card's
-        Returns (0, ()) if no play is possible.
-    
-    Limitations:
-        Only calculates mana spending with minions. Spell support forthcoming -_-
-    """
-    avail_mana = gstate.tingle.mana_available()
-    logger.debug("Spend max mana. Available: {}".format(avail_mana))
-    hand = gstate.tingle.hand[:] # shallow copy (so we still get updates to contents)
-
-    # Remove any cards that cost more than the mana we can spend
-    hand = [c for c in hand if c.cost <= avail_mana]
-    # Remove any cards that are not minions
-    hand = [c for c in hand if isinstance(c, state.Minion)]
-
-    logger.debug("Candidates: {}".format(hand))
-
-    # Try to play as many cards as possible, so consider more first
-    for i in reversed(range(1, len(hand)+1)):
-        # The amount of mana that would be spent by the current candidate play
-        pot_mana_spent = 0
-        pot_play = None
-        # These are all the combinations of cards that can be played of size i
-        play_combs = itertools.combinations(hand, i)
-        for play in play_combs:
-            mana_spent = cost_to_play_cards(play)
-            logger.debug("Possible combination with cost {}: {}".format(mana_spent, play))
-            # We can't play this hand
-            if mana_spent > avail_mana:
-                continue
-            # This is the new potential candidate
-            if mana_spent > pot_mana_spent:
-                pot_mana_spent = mana_spent
-                pot_play = play
-                
-        # This is the end of all plays of size i
-        # If we have one, play it. Otherwise, keep looking
-        if pot_play:
-            assert pot_mana_spent
-            return (pot_mana_spent, pot_play)
-
-    return (0, ())
     
 def play_phase(parser):
     """Decide which cards to play and play them.
+    When making a decision, incorporate the coin primitively.
     """
-    logger.debug("Play phase")
-    (total, cards) = spend_max_mana()
+    logger.debug("Play phase start")
+    (total, cards) = spend_max_mana(gstate.tingle)
     logger.debug("Going to play {} with {} mana".format(cards, total))
+
+    if total == gstate.tingle.mana_available - 2:
+        # We should play the draw ability first and recalculate
+        play_hero_ability()
+        parser.process_log()
+        (total, cards) = spend_max_mana(gstate.tingle)
+    
     for card in cards:
         num_in_hand = len(gstate.tingle.hand)
         control.play_minion(num_in_hand, int(card.pos))
@@ -246,6 +185,11 @@ def play_phase(parser):
         time.sleep(2)
         parser.process_log()
 
+def play_hero_ability():
+    control.use_hero_ability()
+    gstate.tingle.spend_mana(2)
+    time.sleep(2)
+        
 def hero_power_phase():
     """Plays our hero power if we have enough mana.
     """
@@ -296,7 +240,7 @@ def main():
         while not gstate.turn == "OURS":
             logger.info("Waiting for our turn...")
             parser.process_log()
-            time.sleep(10)
+            time.sleep(5)
 
         # When the logs say it's our turn, animation might still be taking place
         time.sleep(10)
@@ -306,14 +250,14 @@ def main():
         play_phase(parser)
         parser.process_log()
 
-        # Play hero power
-        hero_power_phase()
-        time.sleep(5)           # We'll have to adjust this for different animations
-        parser.process_log()
+        # # Play hero power
+        # hero_power_phase()
+        # time.sleep(5)           # We'll have to adjust this for different animations
+        # parser.process_log()
 
-        # Play minions phase 2
-        play_phase(parser)
-        parser.process_log()
+        # # Play minions phase 2
+        # play_phase(parser)
+        # parser.process_log()
 
         # If any minions on the board, figure out if we should attack
         attack_phase(parser)
