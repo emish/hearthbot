@@ -14,7 +14,6 @@ import pprint
 import kooloolimpah
 
 logger = logging.getLogger('STATE')
-logger.setLevel(logging.DEBUG)
 
 class Player(object):
     def __init__(self, name):
@@ -53,6 +52,16 @@ class Player(object):
         # All minions we have are now active (barring any edge cases)
         for minion in self.minions:
             minion.activate()
+
+    def has_card(self, card_name):
+        """Returns the Card object if the player has a card in hand with name card_name.
+        Returns None if no card has that name.
+        """
+        for c in self.hand:
+            if c.name == card_name:
+                return c
+
+        return None
 
 class GameState(object):
     def __init__(self):
@@ -313,7 +322,8 @@ class GameState(object):
         """
         att_card = self.card_with_id(att_id)
         def_card = self.card_with_id(def_id)
-        logger.info("ATTACK: {} -> {}".format(att_card, def_card))
+        logger.info("ATTACK: {} -> {}".format(att_card, def_card))        
+        att_card.performs_attack()
 
     def update_card_tag(self, card_id, tag, value):
         """Update a specific property of a card.
@@ -403,9 +413,10 @@ class GameState(object):
         kooloolimpah.grouch()
     
 class Card(object):
-    def __init__(self, name, card_id, cost=0, health=0):
-        self.name = name
-        self.cost = cost
+    def __init__(self, data, card_id):
+        self.name = data['name']
+        self.cost = data.get('cost', 0)
+        self.health = data.get('health', 0)
         # Every card in the game has a unique id
         self.id = card_id
         # A card's zone can be PLAY, HAND, GRAVEYARD
@@ -417,20 +428,19 @@ class Card(object):
         # Whether or not a card can be used (minion summoning sickness or having attacked)
         self.active = False
         # Any card can have mechanics. They are strings.
-        self.mechanics = []
+        self.mechanics = data.get('mechanics', [])
 
     def activate(self):
         self.active = True
 
     def deactivate(self):
-        """Put in graveyard."""
         self.active = False
 
 class Hero(Card):
-    def __init__(self, name, card_id, health=30, attack='0'):
-        Card.__init__(self, name, card_id)
-        self.attack = attack
-        self.health = health
+    def __init__(self, data, card_id):
+        Card.__init__(self, data, card_id)
+        self.attack = data['attack']
+        self.health = data['health']
         self.damage = 0
 
     def __repr__(self):
@@ -441,40 +451,64 @@ class Hero(Card):
         return int(self.health) - int(self.damage)
 
 class HeroPower(Card):
-    def __init__(self, name, card_id, cost):
-        Card.__init__(self, name, card_id, cost)
+    def __init__(self, data, card_id):
+        Card.__init__(self, data, card_id)
 
     def __repr__(self):
         return "{} - (id:{})".format(self.name, self.id)
     
 class Minion(Card):
-    def __init__(self, name, card_id, cost, attack, health):
-        Card.__init__(self, name, card_id, cost)
-        self.attack = attack
-        self.health = health
+    def __init__(self, data, card_id):
+        """Battlecry-triggered events will change the minion state appropriately after they occur.
+        """
+        Card.__init__(self, data, card_id)
+        self.attack = data['attack']
+        self.health = data['health']
         self.damage = 0
+        self._has_attacked = False
+
+        # Check for specific mechanics
+        if self.has_charge():
+            self.activate()
 
     def __repr__(self):
         return "{} ({}/{}) - {} mana (id:{})".format(self.name, self.attack,
                                                      self.health, self.cost, self.id)
+            
+    def has_charge(self):
+        return 'Charge' in self.mechanics
 
+    def has_stealth(self):
+        return (not self.has_attacked()) and 'Stealth' in self.mechanics
+
+    def has_attacked(self):
+        return self._has_attacked
+
+    def performs_attack(self):
+        """Apply state changes that take place when attacking.
+        """
+        # TODO: Check if any mechanics allow the card to attack more than once.
+        # TODO: Check if any mechanics need status updates (stealth, other auras)
+        self._has_attacked = True
+        self.deactivate()       # Can't attack anymore
+    
     def remaining_health(self):
         return int(self.health) - int(self.damage)
 
 class Spell(Card):
-    def __init__(self, name, card_id, cost):
-        Card.__init__(self, name, card_id, cost)
+    def __init__(self, data, card_id):
+        Card.__init__(self, data, card_id)
 
     def __repr__(self):
         return "{} - {} mana (id:{})".format(self.name, self.cost, self.id)
 
 class Weapon(Card):
-    def __init__(self, name, card_id, cost, attack, durability):
-        Card.__init__(self, name, card_id, cost)
-        self.attack = attack
+    def __init__(self, data, card_id):
+        Card.__init__(self, data, card_id)
+        self.attack = data['attack']
         # For the purposes of scorekeeping, a weapon's durability is basically health
         # (Weapons take damage when they lose durability)
-        self.health = durability
+        self.health = data['durability']
         self.damage = 0
 
     def __repr__(self):
@@ -485,8 +519,8 @@ class Weapon(Card):
         return int(self.health) - int(self.damage)
 
 class Enchantment(Card):
-    def __init__(self, name, card_id, cost):
-        Card.__init__(self, name, card_id, cost)
+    def __init__(self, data, card_id):
+        Card.__init__(self, data, card_id)
 
     def __repr__(self):
         return "{} - {} mana (id:{})".format(self.name, self.cost, self.id)
@@ -522,22 +556,18 @@ def card_from_id(cardId, card_id):
     card = None
     
     if data['type'] == 'Minion':
-        card = Minion(data['name'], card_id, data['cost'], data['attack'], data['health'])
+        card = Minion(data, card_id)
     elif data['type'] == 'Weapon':
-        card = Weapon(data['name'], card_id, data['cost'], data['attack'], data['durability'])
+        card = Weapon(data, card_id)
     elif data['type'] == 'Spell':
-        card = Spell(data['name'], card_id, data.get('cost', '0'))
+        card = Spell(data, card_id)
     elif data['type'] == 'Enchantment':
-        card = Enchantment(data['name'], card_id, data.get('cost', '0'))
+        card = Enchantment(data, card_id)
     elif data['type'] == 'Hero':
-        card = Hero(data['name'], card_id)
+        card = Hero(data, card_id)
     elif data['type'] == 'Hero Power':
-        card = HeroPower(data['name'], card_id, data['cost'])
+        card = HeroPower(data, card_id)
     else:
         logger.error("No card type found for cardId: "+cardId)
-
-    # Add any mechanics to this card if it has any
-    if data.has_key('mechanics'):
-        card.mechanics = data['mechanics']
 
     return card
