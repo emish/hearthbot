@@ -83,7 +83,7 @@ class Parser(object):
             self.gstate.start_game()
             return True
 
-        # If the game hasn't started, don't parse further
+        # If the game hasn't started, don't try to decode any lines (we don't care about them)
         if not self.gstate.game_started:
             return True
 
@@ -112,7 +112,7 @@ class Parser(object):
         # Set current player (and as such, the start of their turn)
         # [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=bish3al tag=CURRENT_PLAYER value=0
         # [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=The Innkeeper tag=CURRENT_PLAYER value=1
-        curr_player = re.compile(r'.*TAG_CHANGE Entity=bish3al tag=CURRENT_PLAYER value=([0-9])')
+        curr_player = re.compile(r'.*TAG_CHANGE Entity='+player_name+r' tag=CURRENT_PLAYER value=([0-9])')
         match = curr_player.match(line)
         if match:
             playing = match.group(1)
