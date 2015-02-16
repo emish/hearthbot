@@ -32,6 +32,11 @@
    In the future, we can add better heuristics to using the coin by looking at
    the play that would be done next turn given the current hand.
 
+** TODO Tingle shouldn't play more than 10 minions on the field
+** TODO Use life tap before playing cards
+   If spend max mana results in life tap being necessary, play life tap first, then
+   recalculate spending max mana again.
+** TODO Minions cannot be left active after a turn ends
 
 * Notes
   - I don't need to apply cards' effects to the game for every card.
