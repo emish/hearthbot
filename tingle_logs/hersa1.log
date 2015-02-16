@@ -1,0 +1,1516 @@
+mawadah-base:hearthbot mawadah$ python bot.py
+INFO:BOT:STARTING IN 5 SECONDS
+INFO:BOT:Tingle Tingle! Kooloo limpah!
+INFO:BOT:Waiting for game state to start: GameState: started: False
+INFO:BOT:Waiting for game state to start: GameState: started: False
+INFO:STATE:**************************
+INFO:STATE:***** STARTING GAME *****
+INFO:STATE:**************************
+INFO:STATE:Adding opponent hero to play: Gul'dan (0/30) - (id:4)
+INFO:STATE:Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'4': Gul'dan (0/30) - (id:4)}
+INFO:STATE:Ignoring moving Hero Power/Weapon to play: Life Tap - (id:5)
+DEBUG:STATE:Cards in play:
+{'4': Gul'dan (0/30) - (id:4)}
+INFO:STATE:TINGLE is player 2
+INFO:STATE:OPPONENT is player 2
+INFO:STATE:Adding our hero to play: Gul'dan (0/30) - (id:36)
+INFO:STATE:Adding Gul'dan (0/30) - (id:36) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36), '4': Gul'dan (0/30) - (id:4)}
+INFO:STATE:Ignoring moving Hero Power/Weapon to play: Life Tap - (id:37)
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36), '4': Gul'dan (0/30) - (id:4)}
+INFO:STATE:DRAW CARD: Harvest Golem (2/3) - 3 mana (id:53)
+INFO:STATE:Adding Harvest Golem (2/3) - 3 mana (id:53) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '53': Harvest Golem (2/3) - 3 mana (id:53)}
+INFO:STATE:Cards in HAND:
+[Harvest Golem (2/3) - 3 mana (id:53)]
+INFO:STATE:Update card Harvest Golem (2/3) - 3 mana (id:53) to position 1 in HAND
+INFO:STATE:DRAW CARD: Raid Leader (2/2) - 3 mana (id:54)
+INFO:STATE:Adding Raid Leader (2/2) - 3 mana (id:54) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54)}
+INFO:STATE:Cards in HAND:
+[Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54)]
+INFO:STATE:Update card Raid Leader (2/2) - 3 mana (id:54) to position 4 in HAND
+INFO:STATE:DRAW CARD: Amani Berserker (2/3) - 2 mana (id:63)
+INFO:STATE:Adding Amani Berserker (2/3) - 2 mana (id:63) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '63': Amani Berserker (2/3) - 2 mana (id:63)}
+INFO:STATE:Cards in HAND:
+[Harvest Golem (2/3) - 3 mana (id:53),
+ Raid Leader (2/2) - 3 mana (id:54),
+ Amani Berserker (2/3) - 2 mana (id:63)]
+INFO:STATE:Update card Amani Berserker (2/3) - 2 mana (id:63) to position 2 in HAND
+INFO:STATE:DRAW CARD: Harvest Golem (2/3) - 3 mana (id:65)
+INFO:STATE:Adding Harvest Golem (2/3) - 3 mana (id:65) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '63': Amani Berserker (2/3) - 2 mana (id:63),
+ '65': Harvest Golem (2/3) - 3 mana (id:65)}
+INFO:STATE:Cards in HAND:
+[Harvest Golem (2/3) - 3 mana (id:53),
+ Raid Leader (2/2) - 3 mana (id:54),
+ Amani Berserker (2/3) - 2 mana (id:63),
+ Harvest Golem (2/3) - 3 mana (id:65)]
+INFO:STATE:Update card Harvest Golem (2/3) - 3 mana (id:65) to position 3 in HAND
+INFO:STATE:DRAW CARD: The Coin - 0 mana (id:68)
+INFO:STATE:Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '63': Amani Berserker (2/3) - 2 mana (id:63),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '68': The Coin - 0 mana (id:68)}
+INFO:STATE:Cards in HAND:
+[Harvest Golem (2/3) - 3 mana (id:53),
+ Raid Leader (2/2) - 3 mana (id:54),
+ Amani Berserker (2/3) - 2 mana (id:63),
+ Harvest Golem (2/3) - 3 mana (id:65),
+ The Coin - 0 mana (id:68)]
+INFO:STATE:Update card The Coin - 0 mana (id:68) to position 5 in HAND
+WARNING:STATE:No id 24 found to perform tag update for EXHAUSTED = 1
+INFO:STATE:Adding Argent Squire (1/1) - 1 mana (id:24) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'24': Argent Squire (1/1) - 1 mana (id:24),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '63': Amani Berserker (2/3) - 2 mana (id:63),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '68': The Coin - 0 mana (id:68)}
+INFO:STATE:OPPONENT plays: Argent Squire (1/1) - 1 mana (id:24)
+INFO:STATE:OPPONENT's minions:
+[Argent Squire (1/1) - 1 mana (id:24)]
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:24) to position 1 in PLAY
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 1 mana
+INFO:STATE:**********
+INFO:STATE:DRAW CARD: Voidwalker (1/3) - 1 mana (id:61)
+INFO:STATE:Adding Voidwalker (1/3) - 1 mana (id:61) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'24': Argent Squire (1/1) - 1 mana (id:24),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '61': Voidwalker (1/3) - 1 mana (id:61),
+ '63': Amani Berserker (2/3) - 2 mana (id:63),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '68': The Coin - 0 mana (id:68)}
+INFO:STATE:Cards in HAND:
+[Harvest Golem (2/3) - 3 mana (id:53),
+ Raid Leader (2/2) - 3 mana (id:54),
+ Amani Berserker (2/3) - 2 mana (id:63),
+ Harvest Golem (2/3) - 3 mana (id:65),
+ The Coin - 0 mana (id:68),
+ Voidwalker (1/3) - 1 mana (id:61)]
+INFO:STATE:Update card Voidwalker (1/3) - 1 mana (id:61) to position 6 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 1
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 1
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:4) has 2 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:ATTACK: Argent Squire (1/1) - 1 mana (id:24) -> Gul'dan (0/30) - (id:36)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has 1 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 2 mana
+INFO:STATE:**********
+INFO:STATE:DRAW CARD: Haunted Creeper (1/2) - 2 mana (id:48)
+INFO:STATE:Adding Haunted Creeper (1/2) - 2 mana (id:48) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'24': Argent Squire (1/1) - 1 mana (id:24),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '48': Haunted Creeper (1/2) - 2 mana (id:48),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '61': Voidwalker (1/3) - 1 mana (id:61),
+ '63': Amani Berserker (2/3) - 2 mana (id:63),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '68': The Coin - 0 mana (id:68)}
+INFO:STATE:Cards in HAND:
+[Harvest Golem (2/3) - 3 mana (id:53),
+ Raid Leader (2/2) - 3 mana (id:54),
+ Amani Berserker (2/3) - 2 mana (id:63),
+ Harvest Golem (2/3) - 3 mana (id:65),
+ The Coin - 0 mana (id:68),
+ Voidwalker (1/3) - 1 mana (id:61),
+ Haunted Creeper (1/2) - 2 mana (id:48)]
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:48) to position 7 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 2
+DEBUG:BOT:Candidates: [Voidwalker (1/3) - 1 mana (id:61)]
+DEBUG:BOT:Possible combination with cost 1: (Voidwalker (1/3) - 1 mana (id:61),)
+DEBUG:BOT:Going to play (Voidwalker (1/3) - 1 mana (id:61),) with 1 mana
+DEBUG:CONTROL:Clicking on hand card index 5 with 7 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Voidwalker (1/3) - 1 mana (id:61)
+INFO:STATE:Spending 1 mana. Total spent = 1
+INFO:STATE:Update card Voidwalker (1/3) - 1 mana (id:61) to position 1 in PLAY
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:48) to position 6 in HAND
+INFO:STATE:Update Voidwalker (1/3) - 1 mana (id:61) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 1
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions to attack = []
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag EXHAUSTED
+WARNING:STATE:No id 27 found to perform tag update for EXHAUSTED = 1
+DEBUG:STATE:Unused tag TAUNT
+DEBUG:STATE:Unused tag SILENCED
+INFO:STATE:Adding Ironbeak Owl (2/1) - 2 mana (id:27) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'24': Argent Squire (1/1) - 1 mana (id:24),
+ '27': Ironbeak Owl (2/1) - 2 mana (id:27),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '48': Haunted Creeper (1/2) - 2 mana (id:48),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '61': Voidwalker (1/3) - 1 mana (id:61),
+ '63': Amani Berserker (2/3) - 2 mana (id:63),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '68': The Coin - 0 mana (id:68)}
+INFO:STATE:OPPONENT plays: Ironbeak Owl (2/1) - 2 mana (id:27)
+INFO:STATE:OPPONENT's minions:
+[Argent Squire (1/1) - 1 mana (id:24), Ironbeak Owl (2/1) - 2 mana (id:27)]
+INFO:STATE:Update card Ironbeak Owl (2/1) - 2 mana (id:27) to position 1 in PLAY
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:24) to position 2 in PLAY
+INFO:STATE:ATTACK: Argent Squire (1/1) - 1 mana (id:24) -> Gul'dan (0/30) - (id:36)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has 2 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:BOT:Waiting for our turn...
+INFO:BOT:Waiting for our turn...
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 3 mana
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:DRAW CARD: Frostwolf Grunt (2/2) - 2 mana (id:50)
+INFO:STATE:Adding Frostwolf Grunt (2/2) - 2 mana (id:50) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'24': Argent Squire (1/1) - 1 mana (id:24),
+ '27': Ironbeak Owl (2/1) - 2 mana (id:27),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '48': Haunted Creeper (1/2) - 2 mana (id:48),
+ '50': Frostwolf Grunt (2/2) - 2 mana (id:50),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '61': Voidwalker (1/3) - 1 mana (id:61),
+ '63': Amani Berserker (2/3) - 2 mana (id:63),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '68': The Coin - 0 mana (id:68)}
+INFO:STATE:Cards in HAND:
+[Harvest Golem (2/3) - 3 mana (id:53),
+ Raid Leader (2/2) - 3 mana (id:54),
+ Amani Berserker (2/3) - 2 mana (id:63),
+ Harvest Golem (2/3) - 3 mana (id:65),
+ The Coin - 0 mana (id:68),
+ Haunted Creeper (1/2) - 2 mana (id:48),
+ Frostwolf Grunt (2/2) - 2 mana (id:50)]
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:50) to position 7 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 3
+DEBUG:BOT:Candidates: [Amani Berserker (2/3) - 2 mana (id:63), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50)]
+DEBUG:BOT:Possible combination with cost 6: (Amani Berserker (2/3) - 2 mana (id:63), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 4: (Amani Berserker (2/3) - 2 mana (id:63), Haunted Creeper (1/2) - 2 mana (id:48))
+DEBUG:BOT:Possible combination with cost 4: (Amani Berserker (2/3) - 2 mana (id:63), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 4: (Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 2: (Amani Berserker (2/3) - 2 mana (id:63),)
+DEBUG:BOT:Possible combination with cost 2: (Haunted Creeper (1/2) - 2 mana (id:48),)
+DEBUG:BOT:Possible combination with cost 2: (Frostwolf Grunt (2/2) - 2 mana (id:50),)
+DEBUG:BOT:Going to play (Amani Berserker (2/3) - 2 mana (id:63),) with 2 mana
+DEBUG:CONTROL:Clicking on hand card index 1 with 7 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Amani Berserker (2/3) - 2 mana (id:63)
+INFO:STATE:Spending 2 mana. Total spent = 2
+INFO:STATE:Update card Harvest Golem (2/3) - 3 mana (id:65) to position 2 in HAND
+INFO:STATE:Update card Raid Leader (2/2) - 3 mana (id:54) to position 3 in HAND
+INFO:STATE:Update card The Coin - 0 mana (id:68) to position 4 in HAND
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:48) to position 5 in HAND
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:50) to position 6 in HAND
+INFO:STATE:Update Amani Berserker (2/3) - 2 mana (id:63) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 1
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions to attack = [Voidwalker (1/3) - 1 mana (id:61)]
+DEBUG:BOT:Performing attack Voidwalker (1/3) - 1 mana (id:61) -> Argent Squire (1/1) - 1 mana (id:24)
+DEBUG:CONTROL:Clicking on minion at position 1
+DEBUG:CONTROL:Clicking on opponent minion at position 2
+INFO:STATE:ATTACK: Voidwalker (1/3) - 1 mana (id:61) -> Argent Squire (1/1) - 1 mana (id:24)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Voidwalker (1/3) - 1 mana (id:61) has 1 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag EXHAUSTED
+WARNING:STATE:No id 6 found to perform tag update for EXHAUSTED = 1
+INFO:STATE:Ironbeak Owl (2/2) - 2 mana (id:27) has 2 HEALTH
+INFO:STATE:Ironbeak Owl (3/2) - 2 mana (id:27) has 3 ATTACK
+INFO:STATE:Adding Shattered Sun Cleric (3/2) - 3 mana (id:6) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'24': Argent Squire (1/1) - 1 mana (id:24),
+ '27': Ironbeak Owl (3/2) - 2 mana (id:27),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '48': Haunted Creeper (1/2) - 2 mana (id:48),
+ '50': Frostwolf Grunt (2/2) - 2 mana (id:50),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '6': Shattered Sun Cleric (3/2) - 3 mana (id:6),
+ '61': Voidwalker (1/3) - 1 mana (id:61),
+ '63': Amani Berserker (2/3) - 2 mana (id:63),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '68': The Coin - 0 mana (id:68)}
+INFO:STATE:OPPONENT plays: Shattered Sun Cleric (3/2) - 3 mana (id:6)
+INFO:STATE:OPPONENT's minions:
+[Argent Squire (1/1) - 1 mana (id:24),
+ Ironbeak Owl (3/2) - 2 mana (id:27),
+ Shattered Sun Cleric (3/2) - 3 mana (id:6)]
+INFO:STATE:Update card Shattered Sun Cleric (3/2) - 3 mana (id:6) to position 1 in PLAY
+INFO:STATE:Update card Ironbeak Owl (3/2) - 2 mana (id:27) to position 2 in PLAY
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:24) to position 3 in PLAY
+INFO:BOT:Waiting for our turn...
+INFO:BOT:Waiting for our turn...
+INFO:STATE:ATTACK: Ironbeak Owl (3/2) - 2 mana (id:27) -> Amani Berserker (2/3) - 2 mana (id:63)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Amani Berserker (2/3) - 2 mana (id:63) has 3 DAMAGE
+INFO:STATE:Amani Berserker (2/3) - 2 mana (id:63) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Ironbeak Owl (3/2) - 2 mana (id:27) has 2 DAMAGE
+INFO:STATE:Ironbeak Owl (3/2) - 2 mana (id:27) has fatal damage
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:STATE:Amani Berserker (5/3) - 2 mana (id:63) has 5 ATTACK
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Ironbeak Owl (3/2) - 2 mana (id:27) to zone GRAVEYARD
+INFO:STATE:Ironbeak Owl (3/2) - 2 mana (id:27) has been moved to graveyard
+WARNING:STATE:No id 69 found to perform tag update for ATTACHED = 0
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Amani Berserker (5/3) - 2 mana (id:63) to zone GRAVEYARD
+INFO:STATE:Amani Berserker (5/3) - 2 mana (id:63) has been moved to graveyard
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:24) to position 2 in PLAY
+INFO:STATE:ATTACK: Argent Squire (1/1) - 1 mana (id:24) -> Gul'dan (0/30) - (id:36)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has 3 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:BOT:Waiting for our turn...
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 4 mana
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:DRAW CARD: Amani Berserker (2/3) - 2 mana (id:67)
+INFO:STATE:Adding Amani Berserker (2/3) - 2 mana (id:67) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'24': Argent Squire (1/1) - 1 mana (id:24),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '48': Haunted Creeper (1/2) - 2 mana (id:48),
+ '50': Frostwolf Grunt (2/2) - 2 mana (id:50),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '6': Shattered Sun Cleric (3/2) - 3 mana (id:6),
+ '61': Voidwalker (1/3) - 1 mana (id:61),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '67': Amani Berserker (2/3) - 2 mana (id:67),
+ '68': The Coin - 0 mana (id:68)}
+INFO:STATE:Cards in HAND:
+[Harvest Golem (2/3) - 3 mana (id:53),
+ Raid Leader (2/2) - 3 mana (id:54),
+ Harvest Golem (2/3) - 3 mana (id:65),
+ The Coin - 0 mana (id:68),
+ Haunted Creeper (1/2) - 2 mana (id:48),
+ Frostwolf Grunt (2/2) - 2 mana (id:50),
+ Amani Berserker (2/3) - 2 mana (id:67)]
+INFO:STATE:Update card Amani Berserker (2/3) - 2 mana (id:67) to position 7 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 4
+DEBUG:BOT:Candidates: [Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67)]
+DEBUG:BOT:Possible combination with cost 15: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 13: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 13: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 13: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 12: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 12: (Harvest Golem (2/3) - 3 mana (id:53), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 12: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 11: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48))
+DEBUG:BOT:Possible combination with cost 11: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 11: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 10: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 10: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Haunted Creeper (1/2) - 2 mana (id:48), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 10: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 10: (Harvest Golem (2/3) - 3 mana (id:53), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 10: (Harvest Golem (2/3) - 3 mana (id:53), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 10: (Harvest Golem (2/3) - 3 mana (id:53), Harvest Golem (2/3) - 3 mana (id:65), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 9: (Harvest Golem (2/3) - 3 mana (id:53), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 10: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 10: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 10: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 9: (Raid Leader (2/2) - 3 mana (id:54), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 9: (Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 9: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65))
+DEBUG:BOT:Possible combination with cost 8: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Haunted Creeper (1/2) - 2 mana (id:48))
+DEBUG:BOT:Possible combination with cost 8: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 8: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 8: (Harvest Golem (2/3) - 3 mana (id:53), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48))
+DEBUG:BOT:Possible combination with cost 8: (Harvest Golem (2/3) - 3 mana (id:53), Harvest Golem (2/3) - 3 mana (id:65), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 8: (Harvest Golem (2/3) - 3 mana (id:53), Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 7: (Harvest Golem (2/3) - 3 mana (id:53), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 7: (Harvest Golem (2/3) - 3 mana (id:53), Haunted Creeper (1/2) - 2 mana (id:48), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 7: (Harvest Golem (2/3) - 3 mana (id:53), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 8: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48))
+DEBUG:BOT:Possible combination with cost 8: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 8: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 7: (Raid Leader (2/2) - 3 mana (id:54), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 7: (Raid Leader (2/2) - 3 mana (id:54), Haunted Creeper (1/2) - 2 mana (id:48), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 7: (Raid Leader (2/2) - 3 mana (id:54), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 7: (Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 7: (Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 7: (Harvest Golem (2/3) - 3 mana (id:65), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 6: (Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 6: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54))
+DEBUG:BOT:Possible combination with cost 6: (Harvest Golem (2/3) - 3 mana (id:53), Harvest Golem (2/3) - 3 mana (id:65))
+DEBUG:BOT:Possible combination with cost 5: (Harvest Golem (2/3) - 3 mana (id:53), Haunted Creeper (1/2) - 2 mana (id:48))
+DEBUG:BOT:Possible combination with cost 5: (Harvest Golem (2/3) - 3 mana (id:53), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 5: (Harvest Golem (2/3) - 3 mana (id:53), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 6: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65))
+DEBUG:BOT:Possible combination with cost 5: (Raid Leader (2/2) - 3 mana (id:54), Haunted Creeper (1/2) - 2 mana (id:48))
+DEBUG:BOT:Possible combination with cost 5: (Raid Leader (2/2) - 3 mana (id:54), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 5: (Raid Leader (2/2) - 3 mana (id:54), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 5: (Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:48))
+DEBUG:BOT:Possible combination with cost 5: (Harvest Golem (2/3) - 3 mana (id:65), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 5: (Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 4: (Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 4: (Haunted Creeper (1/2) - 2 mana (id:48), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 4: (Frostwolf Grunt (2/2) - 2 mana (id:50), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Going to play (Haunted Creeper (1/2) - 2 mana (id:48), Frostwolf Grunt (2/2) - 2 mana (id:50)) with 4 mana
+DEBUG:CONTROL:Clicking on hand card index 4 with 7 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Haunted Creeper (1/2) - 2 mana (id:48)
+INFO:STATE:Spending 2 mana. Total spent = 2
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:48) to position 2 in PLAY
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:50) to position 5 in HAND
+INFO:STATE:Update card Amani Berserker (2/3) - 2 mana (id:67) to position 6 in HAND
+INFO:STATE:Update Haunted Creeper (1/2) - 2 mana (id:48) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:CONTROL:Clicking on hand card index 4 with 6 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Frostwolf Grunt (2/2) - 2 mana (id:50)
+INFO:STATE:Spending 2 mana. Total spent = 4
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:50) to position 2 in PLAY
+INFO:STATE:Update card Amani Berserker (2/3) - 2 mana (id:67) to position 5 in HAND
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:48) to position 3 in PLAY
+INFO:STATE:Update Frostwolf Grunt (2/2) - 2 mana (id:50) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 0
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions to attack = [Voidwalker (1/3) - 1 mana (id:61)]
+DEBUG:BOT:Performing attack Voidwalker (1/3) - 1 mana (id:61) -> Argent Squire (1/1) - 1 mana (id:24)
+DEBUG:CONTROL:Clicking on minion at position 1
+DEBUG:CONTROL:Clicking on opponent minion at position 2
+INFO:STATE:ATTACK: Voidwalker (1/3) - 1 mana (id:61) -> Argent Squire (1/1) - 1 mana (id:24)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Argent Squire (1/1) - 1 mana (id:24) has 1 DAMAGE
+INFO:STATE:Argent Squire (1/1) - 1 mana (id:24) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Voidwalker (1/3) - 1 mana (id:61) has 2 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Argent Squire (1/1) - 1 mana (id:24) to zone GRAVEYARD
+INFO:STATE:Argent Squire (1/1) - 1 mana (id:24) has been moved to graveyard
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Frostwolf Grunt (2/2) - 2 mana (id:50) has 2 DAMAGE
+INFO:STATE:Frostwolf Grunt (2/2) - 2 mana (id:50) has fatal damage
+INFO:STATE:Gul'dan (0/30) - (id:4) has 0 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Frostwolf Grunt (2/2) - 2 mana (id:50) to zone GRAVEYARD
+INFO:STATE:Frostwolf Grunt (2/2) - 2 mana (id:50) has been moved to graveyard
+INFO:STATE:OPPONENT plays: Drain Life - 3 mana (id:23)
+INFO:STATE:Adding Drain Life - 3 mana (id:23) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'23': Drain Life - 3 mana (id:23),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '48': Haunted Creeper (1/2) - 2 mana (id:48),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '6': Shattered Sun Cleric (3/2) - 3 mana (id:6),
+ '61': Voidwalker (1/3) - 1 mana (id:61),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '67': Amani Berserker (2/3) - 2 mana (id:67),
+ '68': The Coin - 0 mana (id:68)}
+INFO:STATE:Drain Life - 3 mana (id:23) has been moved to graveyard
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:48) to position 2 in PLAY
+INFO:BOT:Waiting for our turn...
+INFO:BOT:Waiting for our turn...
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Voidwalker (1/3) - 1 mana (id:61) has 3 DAMAGE
+INFO:STATE:Voidwalker (1/3) - 1 mana (id:61) has fatal damage
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Voidwalker (1/3) - 1 mana (id:61) to zone GRAVEYARD
+INFO:STATE:Voidwalker (1/3) - 1 mana (id:61) has been moved to graveyard
+INFO:STATE:OPPONENT plays: Mortal Coil - 1 mana (id:29)
+INFO:STATE:Adding Mortal Coil - 1 mana (id:29) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'29': Mortal Coil - 1 mana (id:29),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '48': Haunted Creeper (1/2) - 2 mana (id:48),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '6': Shattered Sun Cleric (3/2) - 3 mana (id:6),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '67': Amani Berserker (2/3) - 2 mana (id:67),
+ '68': The Coin - 0 mana (id:68)}
+INFO:BOT:Waiting for our turn...
+INFO:STATE:ATTACK: Shattered Sun Cleric (3/2) - 3 mana (id:6) -> Gul'dan (0/30) - (id:36)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has 6 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:STATE:Mortal Coil - 1 mana (id:29) has been moved to graveyard
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:48) to position 1 in PLAY
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 5 mana
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:DRAW CARD: Haunted Creeper (1/2) - 2 mana (id:56)
+INFO:STATE:Adding Haunted Creeper (1/2) - 2 mana (id:56) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '48': Haunted Creeper (1/2) - 2 mana (id:48),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '56': Haunted Creeper (1/2) - 2 mana (id:56),
+ '6': Shattered Sun Cleric (3/2) - 3 mana (id:6),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '67': Amani Berserker (2/3) - 2 mana (id:67),
+ '68': The Coin - 0 mana (id:68)}
+INFO:STATE:Cards in HAND:
+[Harvest Golem (2/3) - 3 mana (id:53),
+ Raid Leader (2/2) - 3 mana (id:54),
+ Harvest Golem (2/3) - 3 mana (id:65),
+ The Coin - 0 mana (id:68),
+ Amani Berserker (2/3) - 2 mana (id:67),
+ Haunted Creeper (1/2) - 2 mana (id:56)]
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:56) to position 6 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 5
+DEBUG:BOT:Candidates: [Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67), Haunted Creeper (1/2) - 2 mana (id:56)]
+DEBUG:BOT:Possible combination with cost 13: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 11: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 11: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 10: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Amani Berserker (2/3) - 2 mana (id:67), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 10: (Harvest Golem (2/3) - 3 mana (id:53), Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 10: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 9: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65))
+DEBUG:BOT:Possible combination with cost 8: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 8: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 8: (Harvest Golem (2/3) - 3 mana (id:53), Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 8: (Harvest Golem (2/3) - 3 mana (id:53), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 7: (Harvest Golem (2/3) - 3 mana (id:53), Amani Berserker (2/3) - 2 mana (id:67), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 8: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 8: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 7: (Raid Leader (2/2) - 3 mana (id:54), Amani Berserker (2/3) - 2 mana (id:67), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 7: (Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 6: (Harvest Golem (2/3) - 3 mana (id:53), Raid Leader (2/2) - 3 mana (id:54))
+DEBUG:BOT:Possible combination with cost 6: (Harvest Golem (2/3) - 3 mana (id:53), Harvest Golem (2/3) - 3 mana (id:65))
+DEBUG:BOT:Possible combination with cost 5: (Harvest Golem (2/3) - 3 mana (id:53), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 5: (Harvest Golem (2/3) - 3 mana (id:53), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 6: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65))
+DEBUG:BOT:Possible combination with cost 5: (Raid Leader (2/2) - 3 mana (id:54), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 5: (Raid Leader (2/2) - 3 mana (id:54), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 5: (Harvest Golem (2/3) - 3 mana (id:65), Amani Berserker (2/3) - 2 mana (id:67))
+DEBUG:BOT:Possible combination with cost 5: (Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 4: (Amani Berserker (2/3) - 2 mana (id:67), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Going to play (Harvest Golem (2/3) - 3 mana (id:53), Amani Berserker (2/3) - 2 mana (id:67)) with 5 mana
+DEBUG:CONTROL:Clicking on hand card index 0 with 6 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Harvest Golem (2/3) - 3 mana (id:53)
+INFO:STATE:Spending 3 mana. Total spent = 3
+INFO:STATE:Update card Harvest Golem (2/3) - 3 mana (id:53) to position 2 in PLAY
+INFO:STATE:Update card Harvest Golem (2/3) - 3 mana (id:65) to position 1 in HAND
+INFO:STATE:Update card Raid Leader (2/2) - 3 mana (id:54) to position 2 in HAND
+INFO:STATE:Update card The Coin - 0 mana (id:68) to position 3 in HAND
+INFO:STATE:Update card Amani Berserker (2/3) - 2 mana (id:67) to position 4 in HAND
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:56) to position 5 in HAND
+INFO:STATE:Update Harvest Golem (2/3) - 3 mana (id:53) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:CONTROL:Clicking on hand card index 3 with 5 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Amani Berserker (2/3) - 2 mana (id:67)
+INFO:STATE:Spending 2 mana. Total spent = 5
+INFO:STATE:Update card Amani Berserker (2/3) - 2 mana (id:67) to position 2 in PLAY
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:56) to position 4 in HAND
+INFO:STATE:Update card Harvest Golem (2/3) - 3 mana (id:53) to position 3 in PLAY
+INFO:STATE:Update Amani Berserker (2/3) - 2 mana (id:67) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 0
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions to attack = [Haunted Creeper (1/2) - 2 mana (id:48)]
+DEBUG:CONTROL:Clicking on minion at position 1
+INFO:STATE:ATTACK: Haunted Creeper (1/2) - 2 mana (id:48) -> Gul'dan (0/30) - (id:4)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:4) has 1 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:BOT:Waiting for our turn...
+INFO:BOT:Waiting for our turn...
+WARNING:STATE:No id 20 found to perform tag update for EXHAUSTED = 1
+INFO:STATE:Adding Ancient Watcher (4/5) - 2 mana (id:20) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'20': Ancient Watcher (4/5) - 2 mana (id:20),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '48': Haunted Creeper (1/2) - 2 mana (id:48),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '56': Haunted Creeper (1/2) - 2 mana (id:56),
+ '6': Shattered Sun Cleric (3/2) - 3 mana (id:6),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '67': Amani Berserker (2/3) - 2 mana (id:67),
+ '68': The Coin - 0 mana (id:68)}
+INFO:STATE:OPPONENT plays: Ancient Watcher (4/5) - 2 mana (id:20)
+INFO:STATE:OPPONENT's minions:
+[Shattered Sun Cleric (3/2) - 3 mana (id:6),
+ Ancient Watcher (4/5) - 2 mana (id:20)]
+INFO:STATE:Update card Ancient Watcher (4/5) - 2 mana (id:20) to position 2 in PLAY
+INFO:BOT:Waiting for our turn...
+WARNING:STATE:No id 7 found to perform tag update for EXHAUSTED = 1
+DEBUG:STATE:Unused tag SILENCED
+INFO:STATE:Adding Ironbeak Owl (2/1) - 2 mana (id:7) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'20': Ancient Watcher (4/5) - 2 mana (id:20),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '48': Haunted Creeper (1/2) - 2 mana (id:48),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '56': Haunted Creeper (1/2) - 2 mana (id:56),
+ '6': Shattered Sun Cleric (3/2) - 3 mana (id:6),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '67': Amani Berserker (2/3) - 2 mana (id:67),
+ '68': The Coin - 0 mana (id:68),
+ '7': Ironbeak Owl (2/1) - 2 mana (id:7)}
+INFO:STATE:OPPONENT plays: Ironbeak Owl (2/1) - 2 mana (id:7)
+INFO:STATE:OPPONENT's minions:
+[Shattered Sun Cleric (3/2) - 3 mana (id:6),
+ Ancient Watcher (4/5) - 2 mana (id:20),
+ Ironbeak Owl (2/1) - 2 mana (id:7)]
+INFO:STATE:Update card Ironbeak Owl (2/1) - 2 mana (id:7) to position 2 in PLAY
+INFO:STATE:Update card Ancient Watcher (4/5) - 2 mana (id:20) to position 3 in PLAY
+INFO:STATE:ATTACK: Shattered Sun Cleric (3/2) - 3 mana (id:6) -> Amani Berserker (2/3) - 2 mana (id:67)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Amani Berserker (2/3) - 2 mana (id:67) has 3 DAMAGE
+INFO:STATE:Amani Berserker (2/3) - 2 mana (id:67) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Shattered Sun Cleric (3/2) - 3 mana (id:6) has 2 DAMAGE
+INFO:STATE:Shattered Sun Cleric (3/2) - 3 mana (id:6) has fatal damage
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:STATE:Amani Berserker (5/3) - 2 mana (id:67) has 5 ATTACK
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Shattered Sun Cleric (3/2) - 3 mana (id:6) to zone GRAVEYARD
+INFO:STATE:Shattered Sun Cleric (3/2) - 3 mana (id:6) has been moved to graveyard
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Amani Berserker (5/3) - 2 mana (id:67) to zone GRAVEYARD
+INFO:STATE:Amani Berserker (5/3) - 2 mana (id:67) has been moved to graveyard
+INFO:STATE:Update card Ironbeak Owl (2/1) - 2 mana (id:7) to position 1 in PLAY
+INFO:STATE:Update card Ancient Watcher (4/5) - 2 mana (id:20) to position 2 in PLAY
+INFO:STATE:Update card Harvest Golem (2/3) - 3 mana (id:53) to position 2 in PLAY
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:4) has 3 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:BOT:Waiting for our turn...
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 6 mana
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:DRAW CARD: Frostwolf Grunt (2/2) - 2 mana (id:64)
+INFO:STATE:Adding Frostwolf Grunt (2/2) - 2 mana (id:64) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'20': Ancient Watcher (4/5) - 2 mana (id:20),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '48': Haunted Creeper (1/2) - 2 mana (id:48),
+ '53': Harvest Golem (2/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '56': Haunted Creeper (1/2) - 2 mana (id:56),
+ '64': Frostwolf Grunt (2/2) - 2 mana (id:64),
+ '65': Harvest Golem (2/3) - 3 mana (id:65),
+ '68': The Coin - 0 mana (id:68),
+ '7': Ironbeak Owl (2/1) - 2 mana (id:7)}
+INFO:STATE:Cards in HAND:
+[Raid Leader (2/2) - 3 mana (id:54),
+ Harvest Golem (2/3) - 3 mana (id:65),
+ The Coin - 0 mana (id:68),
+ Haunted Creeper (1/2) - 2 mana (id:56),
+ Frostwolf Grunt (2/2) - 2 mana (id:64)]
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:64) to position 5 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 6
+DEBUG:BOT:Candidates: [Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:56), Frostwolf Grunt (2/2) - 2 mana (id:64)]
+DEBUG:BOT:Possible combination with cost 10: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:56), Frostwolf Grunt (2/2) - 2 mana (id:64))
+DEBUG:BOT:Possible combination with cost 8: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 8: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65), Frostwolf Grunt (2/2) - 2 mana (id:64))
+DEBUG:BOT:Possible combination with cost 7: (Raid Leader (2/2) - 3 mana (id:54), Haunted Creeper (1/2) - 2 mana (id:56), Frostwolf Grunt (2/2) - 2 mana (id:64))
+DEBUG:BOT:Possible combination with cost 7: (Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:56), Frostwolf Grunt (2/2) - 2 mana (id:64))
+DEBUG:BOT:Possible combination with cost 6: (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65))
+DEBUG:BOT:Possible combination with cost 5: (Raid Leader (2/2) - 3 mana (id:54), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 5: (Raid Leader (2/2) - 3 mana (id:54), Frostwolf Grunt (2/2) - 2 mana (id:64))
+DEBUG:BOT:Possible combination with cost 5: (Harvest Golem (2/3) - 3 mana (id:65), Haunted Creeper (1/2) - 2 mana (id:56))
+DEBUG:BOT:Possible combination with cost 5: (Harvest Golem (2/3) - 3 mana (id:65), Frostwolf Grunt (2/2) - 2 mana (id:64))
+DEBUG:BOT:Possible combination with cost 4: (Haunted Creeper (1/2) - 2 mana (id:56), Frostwolf Grunt (2/2) - 2 mana (id:64))
+DEBUG:BOT:Going to play (Raid Leader (2/2) - 3 mana (id:54), Harvest Golem (2/3) - 3 mana (id:65)) with 6 mana
+DEBUG:CONTROL:Clicking on hand card index 1 with 5 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Raid Leader (2/2) - 3 mana (id:54)
+INFO:STATE:Spending 3 mana. Total spent = 3
+INFO:STATE:Update card The Coin - 0 mana (id:68) to position 2 in HAND
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:56) to position 3 in HAND
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:64) to position 4 in HAND
+INFO:STATE:Update card Harvest Golem (2/3) - 3 mana (id:53) to position 3 in PLAY
+INFO:STATE:Update Raid Leader (2/2) - 3 mana (id:54) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Harvest Golem (3/3) - 3 mana (id:53) has 3 ATTACK
+INFO:STATE:Haunted Creeper (2/2) - 2 mana (id:48) has 2 ATTACK
+DEBUG:CONTROL:Clicking on hand card index 0 with 4 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Harvest Golem (2/3) - 3 mana (id:65)
+INFO:STATE:Spending 3 mana. Total spent = 6
+INFO:STATE:Update card Harvest Golem (2/3) - 3 mana (id:65) to position 3 in PLAY
+INFO:STATE:Update card The Coin - 0 mana (id:68) to position 1 in HAND
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:56) to position 2 in HAND
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:64) to position 3 in HAND
+INFO:STATE:Update card Harvest Golem (3/3) - 3 mana (id:53) to position 4 in PLAY
+INFO:STATE:Update Harvest Golem (2/3) - 3 mana (id:65) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Harvest Golem (3/3) - 3 mana (id:65) has 3 ATTACK
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 0
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions to attack = [Haunted Creeper (2/2) - 2 mana (id:48), Harvest Golem (3/3) - 3 mana (id:53)]
+DEBUG:BOT:Performing attack Haunted Creeper (2/2) - 2 mana (id:48) -> Ironbeak Owl (2/1) - 2 mana (id:7)
+DEBUG:CONTROL:Clicking on minion at position 1
+DEBUG:CONTROL:Clicking on opponent minion at position 1
+INFO:STATE:ATTACK: Haunted Creeper (2/2) - 2 mana (id:48) -> Ironbeak Owl (2/1) - 2 mana (id:7)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Ironbeak Owl (2/1) - 2 mana (id:7) has 2 DAMAGE
+INFO:STATE:Ironbeak Owl (2/1) - 2 mana (id:7) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Haunted Creeper (2/2) - 2 mana (id:48) has 2 DAMAGE
+INFO:STATE:Haunted Creeper (2/2) - 2 mana (id:48) has fatal damage
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Haunted Creeper (2/2) - 2 mana (id:48) to zone GRAVEYARD
+INFO:STATE:Haunted Creeper (2/2) - 2 mana (id:48) has been moved to graveyard
+WARNING:STATE:No id 71 found to perform tag update for ATTACHED = 0
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Ironbeak Owl (2/1) - 2 mana (id:7) to zone GRAVEYARD
+INFO:STATE:Ironbeak Owl (2/1) - 2 mana (id:7) has been moved to graveyard
+INFO:STATE:Update card Harvest Golem (3/3) - 3 mana (id:65) to position 2 in PLAY
+INFO:STATE:Update card Raid Leader (2/2) - 3 mana (id:54) to position 1 in PLAY
+INFO:STATE:Update card Harvest Golem (3/3) - 3 mana (id:53) to position 3 in PLAY
+INFO:STATE:Update card Ancient Watcher (4/5) - 2 mana (id:20) to position 1 in PLAY
+INFO:STATE:Update card Harvest Golem (3/3) - 3 mana (id:65) to position 3 in PLAY
+INFO:STATE:Update card Raid Leader (2/2) - 3 mana (id:54) to position 2 in PLAY
+INFO:STATE:Update card Harvest Golem (3/3) - 3 mana (id:53) to position 4 in PLAY
+INFO:STATE:Playing a minion that was not in our hand!
+INFO:STATE:Adding Spectral Spider (1/1) - 1 mana (id:73) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'20': Ancient Watcher (4/5) - 2 mana (id:20),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '53': Harvest Golem (3/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '56': Haunted Creeper (1/2) - 2 mana (id:56),
+ '64': Frostwolf Grunt (2/2) - 2 mana (id:64),
+ '65': Harvest Golem (3/3) - 3 mana (id:65),
+ '68': The Coin - 0 mana (id:68),
+ '73': Spectral Spider (1/1) - 1 mana (id:73)}
+INFO:STATE:TINGLE plays: Spectral Spider (1/1) - 1 mana (id:73)
+INFO:STATE:TINGLE's minions:
+[Harvest Golem (3/3) - 3 mana (id:53),
+ Raid Leader (2/2) - 3 mana (id:54),
+ Harvest Golem (3/3) - 3 mana (id:65),
+ Spectral Spider (1/1) - 1 mana (id:73)]
+INFO:STATE:Update card Spectral Spider (1/1) - 1 mana (id:73) to position 1 in PLAY
+INFO:STATE:Update card Spectral Spider (1/1) - 1 mana (id:73) to position 2 in PLAY
+INFO:STATE:Update card Harvest Golem (3/3) - 3 mana (id:65) to position 4 in PLAY
+INFO:STATE:Update card Raid Leader (2/2) - 3 mana (id:54) to position 3 in PLAY
+INFO:STATE:Update card Harvest Golem (3/3) - 3 mana (id:53) to position 5 in PLAY
+INFO:STATE:Playing a minion that was not in our hand!
+INFO:STATE:Adding Spectral Spider (1/1) - 1 mana (id:74) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'20': Ancient Watcher (4/5) - 2 mana (id:20),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '53': Harvest Golem (3/3) - 3 mana (id:53),
+ '54': Raid Leader (2/2) - 3 mana (id:54),
+ '56': Haunted Creeper (1/2) - 2 mana (id:56),
+ '64': Frostwolf Grunt (2/2) - 2 mana (id:64),
+ '65': Harvest Golem (3/3) - 3 mana (id:65),
+ '68': The Coin - 0 mana (id:68),
+ '73': Spectral Spider (1/1) - 1 mana (id:73),
+ '74': Spectral Spider (1/1) - 1 mana (id:74)}
+INFO:STATE:TINGLE plays: Spectral Spider (1/1) - 1 mana (id:74)
+INFO:STATE:TINGLE's minions:
+[Harvest Golem (3/3) - 3 mana (id:53),
+ Raid Leader (2/2) - 3 mana (id:54),
+ Harvest Golem (3/3) - 3 mana (id:65),
+ Spectral Spider (1/1) - 1 mana (id:73),
+ Spectral Spider (1/1) - 1 mana (id:74)]
+INFO:STATE:Update card Spectral Spider (1/1) - 1 mana (id:74) to position 1 in PLAY
+DEBUG:CONTROL:Clicking on minion at position 5
+INFO:STATE:ATTACK: Harvest Golem (3/3) - 3 mana (id:53) -> Gul'dan (0/30) - (id:4)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:4) has 6 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:BOT:Waiting for our turn...
+INFO:BOT:Waiting for our turn...
+INFO:BOT:Waiting for our turn...
+INFO:BOT:Waiting for our turn...
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:4) has 9 DAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has 9 DAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Harvest Golem (3/3) - 3 mana (id:53) has 3 DAMAGE
+INFO:STATE:Harvest Golem (3/3) - 3 mana (id:53) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Ancient Watcher (4/5) - 2 mana (id:20) has 3 DAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Raid Leader (2/2) - 3 mana (id:54) has 3 DAMAGE
+INFO:STATE:Raid Leader (2/2) - 3 mana (id:54) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Harvest Golem (3/3) - 3 mana (id:65) has 3 DAMAGE
+INFO:STATE:Harvest Golem (3/3) - 3 mana (id:65) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Spectral Spider (1/1) - 1 mana (id:73) has 3 DAMAGE
+INFO:STATE:Spectral Spider (1/1) - 1 mana (id:73) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Spectral Spider (1/1) - 1 mana (id:74) has 3 DAMAGE
+INFO:STATE:Spectral Spider (1/1) - 1 mana (id:74) has fatal damage
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Harvest Golem (3/3) - 3 mana (id:53) to zone GRAVEYARD
+INFO:STATE:Harvest Golem (3/3) - 3 mana (id:53) has been moved to graveyard
+WARNING:STATE:No id 70 found to perform tag update for ATTACHED = 0
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Raid Leader (2/2) - 3 mana (id:54) to zone GRAVEYARD
+INFO:STATE:Raid Leader (2/2) - 3 mana (id:54) has been moved to graveyard
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Harvest Golem (3/3) - 3 mana (id:65) to zone GRAVEYARD
+INFO:STATE:Harvest Golem (3/3) - 3 mana (id:65) has been moved to graveyard
+WARNING:STATE:No id 72 found to perform tag update for ATTACHED = 0
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Spectral Spider (1/1) - 1 mana (id:73) to zone GRAVEYARD
+INFO:STATE:Spectral Spider (1/1) - 1 mana (id:73) has been moved to graveyard
+WARNING:STATE:No id 76 found to perform tag update for ATTACHED = 0
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Spectral Spider (1/1) - 1 mana (id:74) to zone GRAVEYARD
+INFO:STATE:Spectral Spider (1/1) - 1 mana (id:74) has been moved to graveyard
+WARNING:STATE:No id 75 found to perform tag update for ATTACHED = 0
+INFO:STATE:OPPONENT plays: Hellfire - 4 mana (id:11)
+INFO:STATE:Adding Hellfire - 4 mana (id:11) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'11': Hellfire - 4 mana (id:11),
+ '20': Ancient Watcher (4/5) - 2 mana (id:20),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '56': Haunted Creeper (1/2) - 2 mana (id:56),
+ '64': Frostwolf Grunt (2/2) - 2 mana (id:64),
+ '68': The Coin - 0 mana (id:68)}
+INFO:STATE:Hellfire - 4 mana (id:11) has been moved to graveyard
+INFO:BOT:Waiting for our turn...
+INFO:STATE:Playing a minion that was not in our hand!
+INFO:STATE:Adding Damaged Golem (2/1) - 1 mana (id:77) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'20': Ancient Watcher (4/5) - 2 mana (id:20),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '56': Haunted Creeper (1/2) - 2 mana (id:56),
+ '64': Frostwolf Grunt (2/2) - 2 mana (id:64),
+ '68': The Coin - 0 mana (id:68),
+ '77': Damaged Golem (2/1) - 1 mana (id:77)}
+INFO:STATE:TINGLE plays: Damaged Golem (2/1) - 1 mana (id:77)
+INFO:STATE:TINGLE's minions:
+[Damaged Golem (2/1) - 1 mana (id:77)]
+INFO:STATE:Update card Damaged Golem (2/1) - 1 mana (id:77) to position 1 in PLAY
+INFO:STATE:ATTACK: Ancient Watcher (4/5) - 2 mana (id:20) -> Gul'dan (0/30) - (id:36)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has 13 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:STATE:Playing a minion that was not in our hand!
+INFO:STATE:Adding Damaged Golem (2/1) - 1 mana (id:78) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'20': Ancient Watcher (4/5) - 2 mana (id:20),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '56': Haunted Creeper (1/2) - 2 mana (id:56),
+ '64': Frostwolf Grunt (2/2) - 2 mana (id:64),
+ '68': The Coin - 0 mana (id:68),
+ '77': Damaged Golem (2/1) - 1 mana (id:77),
+ '78': Damaged Golem (2/1) - 1 mana (id:78)}
+INFO:STATE:TINGLE plays: Damaged Golem (2/1) - 1 mana (id:78)
+INFO:STATE:TINGLE's minions:
+[Damaged Golem (2/1) - 1 mana (id:77), Damaged Golem (2/1) - 1 mana (id:78)]
+INFO:STATE:Update card Damaged Golem (2/1) - 1 mana (id:78) to position 2 in PLAY
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:4) has 11 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 7 mana
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:DRAW CARD: Argent Squire (1/1) - 1 mana (id:62)
+INFO:STATE:Adding Argent Squire (1/1) - 1 mana (id:62) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'20': Ancient Watcher (4/5) - 2 mana (id:20),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '56': Haunted Creeper (1/2) - 2 mana (id:56),
+ '62': Argent Squire (1/1) - 1 mana (id:62),
+ '64': Frostwolf Grunt (2/2) - 2 mana (id:64),
+ '68': The Coin - 0 mana (id:68),
+ '77': Damaged Golem (2/1) - 1 mana (id:77),
+ '78': Damaged Golem (2/1) - 1 mana (id:78)}
+INFO:STATE:Cards in HAND:
+[The Coin - 0 mana (id:68),
+ Haunted Creeper (1/2) - 2 mana (id:56),
+ Frostwolf Grunt (2/2) - 2 mana (id:64),
+ Argent Squire (1/1) - 1 mana (id:62)]
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:62) to position 4 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 7
+DEBUG:BOT:Candidates: [Haunted Creeper (1/2) - 2 mana (id:56), Frostwolf Grunt (2/2) - 2 mana (id:64), Argent Squire (1/1) - 1 mana (id:62)]
+DEBUG:BOT:Possible combination with cost 5: (Haunted Creeper (1/2) - 2 mana (id:56), Frostwolf Grunt (2/2) - 2 mana (id:64), Argent Squire (1/1) - 1 mana (id:62))
+DEBUG:BOT:Going to play (Haunted Creeper (1/2) - 2 mana (id:56), Frostwolf Grunt (2/2) - 2 mana (id:64), Argent Squire (1/1) - 1 mana (id:62)) with 5 mana
+DEBUG:CONTROL:Clicking on hand card index 1 with 4 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Haunted Creeper (1/2) - 2 mana (id:56)
+INFO:STATE:Spending 2 mana. Total spent = 2
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:64) to position 2 in HAND
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:62) to position 3 in HAND
+INFO:STATE:Update card Damaged Golem (2/1) - 1 mana (id:78) to position 3 in PLAY
+INFO:STATE:Update Haunted Creeper (1/2) - 2 mana (id:56) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:CONTROL:Clicking on hand card index 1 with 3 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Frostwolf Grunt (2/2) - 2 mana (id:64)
+INFO:STATE:Spending 2 mana. Total spent = 4
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:64) to position 3 in PLAY
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:62) to position 2 in HAND
+INFO:STATE:Update card Damaged Golem (2/1) - 1 mana (id:78) to position 4 in PLAY
+INFO:STATE:Update Frostwolf Grunt (2/2) - 2 mana (id:64) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:CONTROL:Clicking on hand card index 1 with 2 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Argent Squire (1/1) - 1 mana (id:62)
+INFO:STATE:Spending 1 mana. Total spent = 5
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:62) to position 3 in PLAY
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:64) to position 4 in PLAY
+INFO:STATE:Update card Damaged Golem (2/1) - 1 mana (id:78) to position 5 in PLAY
+INFO:STATE:Update Argent Squire (1/1) - 1 mana (id:62) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:CONTROL:Clicking hero power
+INFO:STATE:Spending 2 mana. Total spent = 7
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has 15 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:DRAW CARD: Young Priestess (2/1) - 1 mana (id:43)
+INFO:STATE:Adding Young Priestess (2/1) - 1 mana (id:43) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'20': Ancient Watcher (4/5) - 2 mana (id:20),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '43': Young Priestess (2/1) - 1 mana (id:43),
+ '56': Haunted Creeper (1/2) - 2 mana (id:56),
+ '62': Argent Squire (1/1) - 1 mana (id:62),
+ '64': Frostwolf Grunt (2/2) - 2 mana (id:64),
+ '68': The Coin - 0 mana (id:68),
+ '77': Damaged Golem (2/1) - 1 mana (id:77),
+ '78': Damaged Golem (2/1) - 1 mana (id:78)}
+INFO:STATE:Cards in HAND:
+[The Coin - 0 mana (id:68), Young Priestess (2/1) - 1 mana (id:43)]
+INFO:STATE:Update card Young Priestess (2/1) - 1 mana (id:43) to position 2 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 0
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions to attack = [Damaged Golem (2/1) - 1 mana (id:77), Damaged Golem (2/1) - 1 mana (id:78)]
+DEBUG:BOT:Performing attack Damaged Golem (2/1) - 1 mana (id:77) -> Ancient Watcher (4/5) - 2 mana (id:20)
+DEBUG:CONTROL:Clicking on minion at position 1
+DEBUG:CONTROL:Clicking on opponent minion at position 1
+INFO:STATE:ATTACK: Damaged Golem (2/1) - 1 mana (id:77) -> Ancient Watcher (4/5) - 2 mana (id:20)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Ancient Watcher (4/5) - 2 mana (id:20) has 5 DAMAGE
+INFO:STATE:Ancient Watcher (4/5) - 2 mana (id:20) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Damaged Golem (2/1) - 1 mana (id:77) has 4 DAMAGE
+INFO:STATE:Damaged Golem (2/1) - 1 mana (id:77) has fatal damage
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Ancient Watcher (4/5) - 2 mana (id:20) to zone GRAVEYARD
+INFO:STATE:Ancient Watcher (4/5) - 2 mana (id:20) has been moved to graveyard
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Damaged Golem (2/1) - 1 mana (id:77) to zone GRAVEYARD
+INFO:STATE:Damaged Golem (2/1) - 1 mana (id:77) has been moved to graveyard
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:62) to position 2 in PLAY
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:64) to position 3 in PLAY
+INFO:STATE:Update card Haunted Creeper (1/2) - 2 mana (id:56) to position 1 in PLAY
+INFO:STATE:Update card Damaged Golem (2/1) - 1 mana (id:78) to position 4 in PLAY
+DEBUG:CONTROL:Clicking on minion at position 4
+INFO:STATE:ATTACK: Damaged Golem (2/1) - 1 mana (id:78) -> Gul'dan (0/30) - (id:4)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:4) has 13 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+WARNING:STATE:No id 8 found to perform tag update for EXHAUSTED = 1
+INFO:STATE:Adding Baron Geddon (7/5) - 7 mana (id:8) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '43': Young Priestess (2/1) - 1 mana (id:43),
+ '56': Haunted Creeper (1/2) - 2 mana (id:56),
+ '62': Argent Squire (1/1) - 1 mana (id:62),
+ '64': Frostwolf Grunt (2/2) - 2 mana (id:64),
+ '68': The Coin - 0 mana (id:68),
+ '78': Damaged Golem (2/1) - 1 mana (id:78),
+ '8': Baron Geddon (7/5) - 7 mana (id:8)}
+INFO:STATE:OPPONENT plays: Baron Geddon (7/5) - 7 mana (id:8)
+INFO:STATE:OPPONENT's minions:
+[Baron Geddon (7/5) - 7 mana (id:8)]
+INFO:STATE:Update card Baron Geddon (7/5) - 7 mana (id:8) to position 1 in PLAY
+INFO:BOT:Waiting for our turn...
+INFO:BOT:Waiting for our turn...
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:4) has 15 DAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has 17 DAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Damaged Golem (2/1) - 1 mana (id:78) has 2 DAMAGE
+INFO:STATE:Damaged Golem (2/1) - 1 mana (id:78) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Haunted Creeper (1/2) - 2 mana (id:56) has 2 DAMAGE
+INFO:STATE:Haunted Creeper (1/2) - 2 mana (id:56) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Frostwolf Grunt (2/2) - 2 mana (id:64) has 2 DAMAGE
+INFO:STATE:Frostwolf Grunt (2/2) - 2 mana (id:64) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Damaged Golem (2/1) - 1 mana (id:78) to zone GRAVEYARD
+INFO:STATE:Damaged Golem (2/1) - 1 mana (id:78) has been moved to graveyard
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Haunted Creeper (1/2) - 2 mana (id:56) to zone GRAVEYARD
+INFO:STATE:Haunted Creeper (1/2) - 2 mana (id:56) has been moved to graveyard
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Frostwolf Grunt (2/2) - 2 mana (id:64) to zone GRAVEYARD
+INFO:STATE:Frostwolf Grunt (2/2) - 2 mana (id:64) has been moved to graveyard
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 8 mana
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:62) to position 1 in PLAY
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:62) to position 2 in PLAY
+INFO:STATE:Playing a minion that was not in our hand!
+INFO:STATE:Adding Spectral Spider (1/1) - 1 mana (id:79) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '43': Young Priestess (2/1) - 1 mana (id:43),
+ '62': Argent Squire (1/1) - 1 mana (id:62),
+ '68': The Coin - 0 mana (id:68),
+ '79': Spectral Spider (1/1) - 1 mana (id:79),
+ '8': Baron Geddon (7/5) - 7 mana (id:8)}
+INFO:STATE:TINGLE plays: Spectral Spider (1/1) - 1 mana (id:79)
+INFO:STATE:TINGLE's minions:
+[Argent Squire (1/1) - 1 mana (id:62), Spectral Spider (1/1) - 1 mana (id:79)]
+INFO:STATE:Update card Spectral Spider (1/1) - 1 mana (id:79) to position 1 in PLAY
+INFO:STATE:Update card Spectral Spider (1/1) - 1 mana (id:79) to position 2 in PLAY
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:62) to position 3 in PLAY
+INFO:STATE:Playing a minion that was not in our hand!
+INFO:STATE:Adding Spectral Spider (1/1) - 1 mana (id:80) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '43': Young Priestess (2/1) - 1 mana (id:43),
+ '62': Argent Squire (1/1) - 1 mana (id:62),
+ '68': The Coin - 0 mana (id:68),
+ '79': Spectral Spider (1/1) - 1 mana (id:79),
+ '8': Baron Geddon (7/5) - 7 mana (id:8),
+ '80': Spectral Spider (1/1) - 1 mana (id:80)}
+INFO:STATE:TINGLE plays: Spectral Spider (1/1) - 1 mana (id:80)
+INFO:STATE:TINGLE's minions:
+[Argent Squire (1/1) - 1 mana (id:62),
+ Spectral Spider (1/1) - 1 mana (id:79),
+ Spectral Spider (1/1) - 1 mana (id:80)]
+INFO:STATE:Update card Spectral Spider (1/1) - 1 mana (id:80) to position 1 in PLAY
+INFO:STATE:DRAW CARD: Shieldbearer (0/4) - 1 mana (id:46)
+INFO:STATE:Adding Shieldbearer (0/4) - 1 mana (id:46) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '43': Young Priestess (2/1) - 1 mana (id:43),
+ '46': Shieldbearer (0/4) - 1 mana (id:46),
+ '62': Argent Squire (1/1) - 1 mana (id:62),
+ '68': The Coin - 0 mana (id:68),
+ '79': Spectral Spider (1/1) - 1 mana (id:79),
+ '8': Baron Geddon (7/5) - 7 mana (id:8),
+ '80': Spectral Spider (1/1) - 1 mana (id:80)}
+INFO:STATE:Cards in HAND:
+[The Coin - 0 mana (id:68),
+ Young Priestess (2/1) - 1 mana (id:43),
+ Shieldbearer (0/4) - 1 mana (id:46)]
+INFO:STATE:Update card Shieldbearer (0/4) - 1 mana (id:46) to position 3 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 8
+DEBUG:BOT:Candidates: [Young Priestess (2/1) - 1 mana (id:43), Shieldbearer (0/4) - 1 mana (id:46)]
+DEBUG:BOT:Possible combination with cost 2: (Young Priestess (2/1) - 1 mana (id:43), Shieldbearer (0/4) - 1 mana (id:46))
+DEBUG:BOT:Going to play (Young Priestess (2/1) - 1 mana (id:43), Shieldbearer (0/4) - 1 mana (id:46)) with 2 mana
+DEBUG:CONTROL:Clicking on hand card index 1 with 3 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Young Priestess (2/1) - 1 mana (id:43)
+INFO:STATE:Spending 1 mana. Total spent = 1
+INFO:STATE:Update card Young Priestess (2/1) - 1 mana (id:43) to position 3 in PLAY
+INFO:STATE:Update card Shieldbearer (0/4) - 1 mana (id:46) to position 2 in HAND
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:62) to position 4 in PLAY
+INFO:STATE:Update Young Priestess (2/1) - 1 mana (id:43) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:CONTROL:Clicking on hand card index 1 with 2 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Shieldbearer (0/4) - 1 mana (id:46)
+INFO:STATE:Spending 1 mana. Total spent = 2
+INFO:STATE:Update card Shieldbearer (0/4) - 1 mana (id:46) to position 3 in PLAY
+INFO:STATE:Update card Young Priestess (2/1) - 1 mana (id:43) to position 4 in PLAY
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:62) to position 5 in PLAY
+INFO:STATE:Update Shieldbearer (0/4) - 1 mana (id:46) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:CONTROL:Clicking hero power
+INFO:STATE:Spending 2 mana. Total spent = 4
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has 19 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:DRAW CARD: Faerie Dragon (3/2) - 2 mana (id:40)
+INFO:STATE:Adding Faerie Dragon (3/2) - 2 mana (id:40) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '40': Faerie Dragon (3/2) - 2 mana (id:40),
+ '43': Young Priestess (2/1) - 1 mana (id:43),
+ '46': Shieldbearer (0/4) - 1 mana (id:46),
+ '62': Argent Squire (1/1) - 1 mana (id:62),
+ '68': The Coin - 0 mana (id:68),
+ '79': Spectral Spider (1/1) - 1 mana (id:79),
+ '8': Baron Geddon (7/5) - 7 mana (id:8),
+ '80': Spectral Spider (1/1) - 1 mana (id:80)}
+INFO:STATE:Cards in HAND:
+[The Coin - 0 mana (id:68), Faerie Dragon (3/2) - 2 mana (id:40)]
+INFO:STATE:Update card Faerie Dragon (3/2) - 2 mana (id:40) to position 2 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 4
+DEBUG:BOT:Candidates: [Faerie Dragon (3/2) - 2 mana (id:40)]
+DEBUG:BOT:Possible combination with cost 2: (Faerie Dragon (3/2) - 2 mana (id:40),)
+DEBUG:BOT:Going to play (Faerie Dragon (3/2) - 2 mana (id:40),) with 2 mana
+DEBUG:CONTROL:Clicking on hand card index 1 with 2 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Faerie Dragon (3/2) - 2 mana (id:40)
+INFO:STATE:Spending 2 mana. Total spent = 6
+INFO:STATE:Update card Faerie Dragon (3/2) - 2 mana (id:40) to position 4 in PLAY
+INFO:STATE:Update card Young Priestess (2/1) - 1 mana (id:43) to position 5 in PLAY
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:62) to position 6 in PLAY
+INFO:STATE:Update Faerie Dragon (3/2) - 2 mana (id:40) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions to attack = [Argent Squire (1/1) - 1 mana (id:62)]
+DEBUG:CONTROL:Clicking on minion at position 6
+INFO:STATE:ATTACK: Argent Squire (1/1) - 1 mana (id:62) -> Gul'dan (0/30) - (id:4)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:4) has 16 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:STATE:Shieldbearer (0/5) - 1 mana (id:46) has 5 HEALTH
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:BOT:Waiting for our turn...
+INFO:BOT:Waiting for our turn...
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:4) has 18 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:BOT:Waiting for our turn...
+WARNING:STATE:No id 18 found to perform tag update for COST = 20
+WARNING:STATE:No id 18 found to perform tag update for EXHAUSTED = 1
+INFO:STATE:Adding Molten Giant (8/8) - 20 mana (id:18) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'18': Molten Giant (8/8) - 20 mana (id:18),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '40': Faerie Dragon (3/2) - 2 mana (id:40),
+ '43': Young Priestess (2/1) - 1 mana (id:43),
+ '46': Shieldbearer (0/5) - 1 mana (id:46),
+ '62': Argent Squire (1/1) - 1 mana (id:62),
+ '68': The Coin - 0 mana (id:68),
+ '79': Spectral Spider (1/1) - 1 mana (id:79),
+ '8': Baron Geddon (7/5) - 7 mana (id:8),
+ '80': Spectral Spider (1/1) - 1 mana (id:80)}
+INFO:STATE:OPPONENT plays: Molten Giant (8/8) - 20 mana (id:18)
+INFO:STATE:OPPONENT's minions:
+[Baron Geddon (7/5) - 7 mana (id:8), Molten Giant (8/8) - 20 mana (id:18)]
+INFO:STATE:Update card Molten Giant (8/8) - 20 mana (id:18) to position 2 in PLAY
+WARNING:STATE:No id 16 found to perform tag update for EXHAUSTED = 1
+INFO:STATE:Adding Argent Squire (1/1) - 1 mana (id:16) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'16': Argent Squire (1/1) - 1 mana (id:16),
+ '18': Molten Giant (8/8) - 20 mana (id:18),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '40': Faerie Dragon (3/2) - 2 mana (id:40),
+ '43': Young Priestess (2/1) - 1 mana (id:43),
+ '46': Shieldbearer (0/5) - 1 mana (id:46),
+ '62': Argent Squire (1/1) - 1 mana (id:62),
+ '68': The Coin - 0 mana (id:68),
+ '79': Spectral Spider (1/1) - 1 mana (id:79),
+ '8': Baron Geddon (7/5) - 7 mana (id:8),
+ '80': Spectral Spider (1/1) - 1 mana (id:80)}
+INFO:STATE:OPPONENT plays: Argent Squire (1/1) - 1 mana (id:16)
+INFO:STATE:OPPONENT's minions:
+[Baron Geddon (7/5) - 7 mana (id:8),
+ Molten Giant (8/8) - 20 mana (id:18),
+ Argent Squire (1/1) - 1 mana (id:16)]
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:16) to position 3 in PLAY
+INFO:STATE:ATTACK: Baron Geddon (7/5) - 7 mana (id:8) -> Shieldbearer (0/5) - 1 mana (id:46)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Shieldbearer (0/5) - 1 mana (id:46) has 7 DAMAGE
+INFO:STATE:Shieldbearer (0/5) - 1 mana (id:46) has fatal damage
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Shieldbearer (0/5) - 1 mana (id:46) to zone GRAVEYARD
+INFO:STATE:Shieldbearer (0/5) - 1 mana (id:46) has been moved to graveyard
+WARNING:STATE:No id 81 found to perform tag update for ATTACHED = 0
+INFO:STATE:Update card Faerie Dragon (3/2) - 2 mana (id:40) to position 3 in PLAY
+INFO:STATE:Update card Young Priestess (2/1) - 1 mana (id:43) to position 4 in PLAY
+INFO:STATE:Update card Argent Squire (1/1) - 1 mana (id:62) to position 5 in PLAY
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:4) has 20 DAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has 21 DAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Argent Squire (1/1) - 1 mana (id:62) has 2 DAMAGE
+INFO:STATE:Argent Squire (1/1) - 1 mana (id:62) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Spectral Spider (1/1) - 1 mana (id:79) has 2 DAMAGE
+INFO:STATE:Spectral Spider (1/1) - 1 mana (id:79) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Spectral Spider (1/1) - 1 mana (id:80) has 2 DAMAGE
+INFO:STATE:Spectral Spider (1/1) - 1 mana (id:80) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Young Priestess (2/1) - 1 mana (id:43) has 2 DAMAGE
+INFO:STATE:Young Priestess (2/1) - 1 mana (id:43) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Faerie Dragon (3/2) - 2 mana (id:40) has 2 DAMAGE
+INFO:STATE:Faerie Dragon (3/2) - 2 mana (id:40) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Molten Giant (8/8) - 20 mana (id:18) has 2 DAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Argent Squire (1/1) - 1 mana (id:62) to zone GRAVEYARD
+INFO:STATE:Argent Squire (1/1) - 1 mana (id:62) has been moved to graveyard
+INFO:STATE:Update Spectral Spider (1/1) - 1 mana (id:79) to zone GRAVEYARD
+INFO:STATE:Spectral Spider (1/1) - 1 mana (id:79) has been moved to graveyard
+INFO:STATE:Update Spectral Spider (1/1) - 1 mana (id:80) to zone GRAVEYARD
+INFO:STATE:Spectral Spider (1/1) - 1 mana (id:80) has been moved to graveyard
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Young Priestess (2/1) - 1 mana (id:43) to zone GRAVEYARD
+INFO:STATE:Young Priestess (2/1) - 1 mana (id:43) has been moved to graveyard
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Faerie Dragon (3/2) - 2 mana (id:40) to zone GRAVEYARD
+INFO:STATE:Faerie Dragon (3/2) - 2 mana (id:40) has been moved to graveyard
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 9 mana
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:DRAW CARD: Hogger (4/4) - 6 mana (id:41)
+INFO:STATE:Adding Hogger (4/4) - 6 mana (id:41) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'16': Argent Squire (1/1) - 1 mana (id:16),
+ '18': Molten Giant (8/8) - 20 mana (id:18),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '41': Hogger (4/4) - 6 mana (id:41),
+ '68': The Coin - 0 mana (id:68),
+ '8': Baron Geddon (7/5) - 7 mana (id:8)}
+INFO:STATE:Cards in HAND:
+[The Coin - 0 mana (id:68), Hogger (4/4) - 6 mana (id:41)]
+INFO:STATE:Update card Hogger (4/4) - 6 mana (id:41) to position 2 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 9
+DEBUG:BOT:Candidates: [Hogger (4/4) - 6 mana (id:41)]
+DEBUG:BOT:Possible combination with cost 6: (Hogger (4/4) - 6 mana (id:41),)
+DEBUG:BOT:Going to play (Hogger (4/4) - 6 mana (id:41),) with 6 mana
+DEBUG:CONTROL:Clicking on hand card index 1 with 2 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Hogger (4/4) - 6 mana (id:41)
+INFO:STATE:Spending 6 mana. Total spent = 6
+INFO:STATE:Update card Hogger (4/4) - 6 mana (id:41) to position 1 in PLAY
+INFO:STATE:Update Hogger (4/4) - 6 mana (id:41) to zone PLAY
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:CONTROL:Clicking hero power
+INFO:STATE:Spending 2 mana. Total spent = 8
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has 23 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:DRAW CARD: Annoy-o-Tron (1/2) - 2 mana (id:49)
+INFO:STATE:Adding Annoy-o-Tron (1/2) - 2 mana (id:49) to active cards in zone HAND
+DEBUG:STATE:Cards in play:
+{'16': Argent Squire (1/1) - 1 mana (id:16),
+ '18': Molten Giant (8/8) - 20 mana (id:18),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '41': Hogger (4/4) - 6 mana (id:41),
+ '49': Annoy-o-Tron (1/2) - 2 mana (id:49),
+ '68': The Coin - 0 mana (id:68),
+ '8': Baron Geddon (7/5) - 7 mana (id:8)}
+INFO:STATE:Cards in HAND:
+[The Coin - 0 mana (id:68), Annoy-o-Tron (1/2) - 2 mana (id:49)]
+INFO:STATE:Update card Annoy-o-Tron (1/2) - 2 mana (id:49) to position 2 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 1
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions to attack = []
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Playing a minion that was not in our hand!
+INFO:STATE:Adding Gnoll (2/2) - 2 mana (id:82) to active cards in zone PLAY
+DEBUG:STATE:Cards in play:
+{'16': Argent Squire (1/1) - 1 mana (id:16),
+ '18': Molten Giant (8/8) - 20 mana (id:18),
+ '36': Gul'dan (0/30) - (id:36),
+ '4': Gul'dan (0/30) - (id:4),
+ '41': Hogger (4/4) - 6 mana (id:41),
+ '49': Annoy-o-Tron (1/2) - 2 mana (id:49),
+ '68': The Coin - 0 mana (id:68),
+ '8': Baron Geddon (7/5) - 7 mana (id:8),
+ '82': Gnoll (2/2) - 2 mana (id:82)}
+INFO:STATE:TINGLE plays: Gnoll (2/2) - 2 mana (id:82)
+INFO:STATE:TINGLE's minions:
+[Hogger (4/4) - 6 mana (id:41), Gnoll (2/2) - 2 mana (id:82)]
+INFO:STATE:Update card Gnoll (2/2) - 2 mana (id:82) to position 2 in PLAY
+INFO:STATE:ATTACK: Molten Giant (8/8) - 20 mana (id:18) -> Gnoll (2/2) - 2 mana (id:82)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gnoll (2/2) - 2 mana (id:82) has 8 DAMAGE
+INFO:STATE:Gnoll (2/2) - 2 mana (id:82) has fatal damage
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Molten Giant (8/8) - 20 mana (id:18) has 4 DAMAGE
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag EXHAUSTED
+INFO:STATE:Update Gnoll (2/2) - 2 mana (id:82) to zone GRAVEYARD
+INFO:STATE:Gnoll (2/2) - 2 mana (id:82) has been moved to graveyard
+INFO:BOT:Waiting for our turn...
+INFO:BOT:Waiting for our turn...
+INFO:STATE:ATTACK: Baron Geddon (7/5) - 7 mana (id:8) -> Gul'dan (0/30) - (id:36)
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+DEBUG:STATE:Unused tag PREDAMAGE
+DEBUG:STATE:Unused tag PREDAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has 30 DAMAGE
+INFO:STATE:Gul'dan (0/30) - (id:36) has fatal damage
+DEBUG:STATE:Unused tag EXHAUSTED
+DEBUG:STATE:Unused tag ATTACKING
+DEBUG:STATE:Unused tag DEFENDING
+INFO:STATE:Update Gul'dan (0/30) - (id:36) to zone GRAVEYARD
+INFO:STATE:Gul'dan (0/30) - (id:36) has been moved to graveyard
+INFO:STATE:TINGLE lost!
+INFO:BOT:Waiting for our turn...
+^CTraceback (most recent call last):
+  File "bot.py", line 314, in <module>
+    main()
+  File "bot.py", line 282, in main
+    time.sleep(10)
+KeyboardInterrupt
+mawadah-base:hearthbot mawadah$ 

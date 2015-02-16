@@ -1,0 +1,421 @@
+mawadah-base:hearthbot mawadah$ python bot.py
+INFO:BOT:STARTING IN 5 SECONDS
+INFO:BOT:Tingle Tingle! Kooloo limpah!
+INFO:root:Skipping to end of log file
+INFO:BOT:Waiting for game state to start: GameState: started: False
+INFO:BOT:Waiting for game state to start: GameState: started: False
+INFO:BOT:Waiting for game state to start: GameState: started: False
+INFO:STATE:**************************
+INFO:STATE:***** STARTING GAME *****
+INFO:STATE:**************************
+INFO:STATE:Adding opponent hero to play: Thrall (0/30) - (id:4)
+INFO:STATE:Adding Thrall (0/30) - (id:4) to active cards in zone PLAY
+INFO:STATE:Moving Hero Power/Weapon to play but not as minion: Totemic Call - (id:5)
+INFO:STATE:Adding Totemic Call - (id:5) to active cards in zone PLAY
+INFO:STATE:TINGLE is player 2
+INFO:STATE:OPPONENT is player 2
+INFO:STATE:Adding our hero to play: Gul'dan (0/30) - (id:36)
+INFO:STATE:Adding Gul'dan (0/30) - (id:36) to active cards in zone PLAY
+INFO:STATE:Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:37)
+INFO:STATE:Adding Life Tap - (id:37) to active cards in zone PLAY
+INFO:STATE:DRAW CARD: Amani Berserker (2/3) - 2 mana (id:39)
+INFO:STATE:Adding Amani Berserker (2/3) - 2 mana (id:39) to active cards in zone HAND
+INFO:STATE:Cards in HAND:
+[Amani Berserker (2/3) - 2 mana (id:39)]
+INFO:STATE:Update card Amani Berserker (2/3) - 2 mana (id:39) to position 4 in HAND
+INFO:STATE:DRAW CARD: Frostwolf Grunt (2/2) - 2 mana (id:45)
+INFO:STATE:Adding Frostwolf Grunt (2/2) - 2 mana (id:45) to active cards in zone HAND
+INFO:STATE:Cards in HAND:
+[Amani Berserker (2/3) - 2 mana (id:39),
+ Frostwolf Grunt (2/2) - 2 mana (id:45)]
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:45) to position 3 in HAND
+INFO:STATE:DRAW CARD: Mistress of Pain (1/4) - 2 mana (id:50)
+INFO:STATE:Adding Mistress of Pain (1/4) - 2 mana (id:50) to active cards in zone HAND
+INFO:STATE:Cards in HAND:
+[Amani Berserker (2/3) - 2 mana (id:39),
+ Frostwolf Grunt (2/2) - 2 mana (id:45),
+ Mistress of Pain (1/4) - 2 mana (id:50)]
+INFO:STATE:Update card Mistress of Pain (1/4) - 2 mana (id:50) to position 2 in HAND
+INFO:STATE:DRAW CARD: Raid Leader (2/2) - 3 mana (id:62)
+INFO:STATE:Adding Raid Leader (2/2) - 3 mana (id:62) to active cards in zone HAND
+INFO:STATE:Cards in HAND:
+[Amani Berserker (2/3) - 2 mana (id:39),
+ Frostwolf Grunt (2/2) - 2 mana (id:45),
+ Mistress of Pain (1/4) - 2 mana (id:50),
+ Raid Leader (2/2) - 3 mana (id:62)]
+INFO:STATE:Update card Raid Leader (2/2) - 3 mana (id:62) to position 1 in HAND
+INFO:STATE:DRAW CARD: The Coin - 0 mana (id:68)
+INFO:STATE:Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+INFO:STATE:Cards in HAND:
+[Amani Berserker (2/3) - 2 mana (id:39),
+ Frostwolf Grunt (2/2) - 2 mana (id:45),
+ Mistress of Pain (1/4) - 2 mana (id:50),
+ Raid Leader (2/2) - 3 mana (id:62),
+ The Coin - 0 mana (id:68)]
+INFO:STATE:Update card The Coin - 0 mana (id:68) to position 5 in HAND
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 1 mana
+INFO:STATE:**********
+INFO:STATE:DRAW CARD: Flame Imp (3/2) - 1 mana (id:65)
+INFO:STATE:Adding Flame Imp (3/2) - 1 mana (id:65) to active cards in zone HAND
+INFO:STATE:Cards in HAND:
+[Amani Berserker (2/3) - 2 mana (id:39),
+ Frostwolf Grunt (2/2) - 2 mana (id:45),
+ Mistress of Pain (1/4) - 2 mana (id:50),
+ Raid Leader (2/2) - 3 mana (id:62),
+ The Coin - 0 mana (id:68),
+ Flame Imp (3/2) - 1 mana (id:65)]
+INFO:STATE:Update card Flame Imp (3/2) - 1 mana (id:65) to position 6 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 1
+DEBUG:BOT:Candidates: [Flame Imp (3/2) - 1 mana (id:65)]
+DEBUG:BOT:Possible combination with cost 1: (Flame Imp (3/2) - 1 mana (id:65),)
+DEBUG:BOT:Going to play (Flame Imp (3/2) - 1 mana (id:65),) with 1 mana
+DEBUG:CONTROL:Clicking on hand card index 5 with 6 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Flame Imp (3/2) - 1 mana (id:65)
+INFO:STATE:Spending 1 mana. Total spent = 1
+INFO:STATE:Update card Flame Imp (3/2) - 1 mana (id:65) to position 1 in PLAY
+INFO:STATE:Update Flame Imp (3/2) - 1 mana (id:65) to zone PLAY
+INFO:STATE:Gul'dan (0/30) - (id:36) has 3 DAMAGE
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 0
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions available to attack = []
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 2 mana
+INFO:STATE:**********
+INFO:STATE:Adding Searing Totem (1/1) - 1 mana (id:69) to active cards in zone PLAY
+INFO:STATE:OPPONENT plays: Searing Totem (1/1) - 1 mana (id:69)
+INFO:STATE:OPPONENT's minions:
+[Searing Totem (1/1) - 1 mana (id:69)]
+INFO:STATE:Update card Searing Totem (1/1) - 1 mana (id:69) to position 1 in PLAY
+INFO:STATE:DRAW CARD: Acidic Swamp Ooze (3/2) - 2 mana (id:58)
+INFO:STATE:Adding Acidic Swamp Ooze (3/2) - 2 mana (id:58) to active cards in zone HAND
+INFO:STATE:Cards in HAND:
+[Amani Berserker (2/3) - 2 mana (id:39),
+ Frostwolf Grunt (2/2) - 2 mana (id:45),
+ Mistress of Pain (1/4) - 2 mana (id:50),
+ Raid Leader (2/2) - 3 mana (id:62),
+ The Coin - 0 mana (id:68),
+ Acidic Swamp Ooze (3/2) - 2 mana (id:58)]
+INFO:STATE:Update card Acidic Swamp Ooze (3/2) - 2 mana (id:58) to position 6 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 2
+DEBUG:BOT:Candidates: [Amani Berserker (2/3) - 2 mana (id:39), Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58)]
+DEBUG:BOT:Possible combination with cost 8: (Amani Berserker (2/3) - 2 mana (id:39), Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 6: (Amani Berserker (2/3) - 2 mana (id:39), Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 6: (Amani Berserker (2/3) - 2 mana (id:39), Frostwolf Grunt (2/2) - 2 mana (id:45), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 6: (Amani Berserker (2/3) - 2 mana (id:39), Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 6: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 4: (Amani Berserker (2/3) - 2 mana (id:39), Frostwolf Grunt (2/2) - 2 mana (id:45))
+DEBUG:BOT:Possible combination with cost 4: (Amani Berserker (2/3) - 2 mana (id:39), Mistress of Pain (1/4) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 4: (Amani Berserker (2/3) - 2 mana (id:39), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 4: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 4: (Frostwolf Grunt (2/2) - 2 mana (id:45), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 4: (Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 2: (Amani Berserker (2/3) - 2 mana (id:39),)
+DEBUG:BOT:Possible combination with cost 2: (Frostwolf Grunt (2/2) - 2 mana (id:45),)
+DEBUG:BOT:Possible combination with cost 2: (Mistress of Pain (1/4) - 2 mana (id:50),)
+DEBUG:BOT:Possible combination with cost 2: (Acidic Swamp Ooze (3/2) - 2 mana (id:58),)
+DEBUG:BOT:Going to play (Amani Berserker (2/3) - 2 mana (id:39),) with 2 mana
+DEBUG:CONTROL:Clicking on hand card index 3 with 6 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Amani Berserker (2/3) - 2 mana (id:39)
+INFO:STATE:Spending 2 mana. Total spent = 2
+INFO:STATE:Update card Amani Berserker (2/3) - 2 mana (id:39) to position 2 in PLAY
+INFO:STATE:Update card The Coin - 0 mana (id:68) to position 4 in HAND
+INFO:STATE:Update card Acidic Swamp Ooze (3/2) - 2 mana (id:58) to position 5 in HAND
+INFO:STATE:Update Amani Berserker (2/3) - 2 mana (id:39) to zone PLAY
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 0
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions available to attack = [Flame Imp (3/2) - 1 mana (id:65)]
+DEBUG:BOT:Performing attack Flame Imp (3/2) - 1 mana (id:65) -> Searing Totem (1/1) - 1 mana (id:69)
+DEBUG:CONTROL:Clicking on minion at position 1
+DEBUG:CONTROL:Clicking on opponent minion at position 1
+INFO:STATE:ATTACK: Flame Imp (3/2) - 1 mana (id:65) -> Searing Totem (1/1) - 1 mana (id:69)
+INFO:STATE:Searing Totem (1/1) - 1 mana (id:69) has 3 DAMAGE
+INFO:STATE:Searing Totem (1/1) - 1 mana (id:69) has fatal damage
+INFO:STATE:Flame Imp (3/2) - 1 mana (id:65) has 1 DAMAGE
+INFO:STATE:Update Searing Totem (1/1) - 1 mana (id:69) to zone GRAVEYARD
+INFO:STATE:Searing Totem (1/1) - 1 mana (id:69) has been moved to graveyard
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+INFO:STATE:Adding Searing Totem (1/1) - 1 mana (id:70) to active cards in zone PLAY
+INFO:STATE:OPPONENT plays: Searing Totem (1/1) - 1 mana (id:70)
+INFO:STATE:OPPONENT's minions:
+[Searing Totem (1/1) - 1 mana (id:70)]
+INFO:STATE:Update card Searing Totem (1/1) - 1 mana (id:70) to position 1 in PLAY
+INFO:BOT:Waiting for our turn...
+INFO:BOT:Waiting for our turn...
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 3 mana
+INFO:STATE:**********
+INFO:STATE:DRAW CARD: Bloodfen Raptor (3/2) - 2 mana (id:38)
+INFO:STATE:Adding Bloodfen Raptor (3/2) - 2 mana (id:38) to active cards in zone HAND
+INFO:STATE:Cards in HAND:
+[Frostwolf Grunt (2/2) - 2 mana (id:45),
+ Mistress of Pain (1/4) - 2 mana (id:50),
+ Raid Leader (2/2) - 3 mana (id:62),
+ The Coin - 0 mana (id:68),
+ Acidic Swamp Ooze (3/2) - 2 mana (id:58),
+ Bloodfen Raptor (3/2) - 2 mana (id:38)]
+INFO:STATE:Update card Bloodfen Raptor (3/2) - 2 mana (id:38) to position 6 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 3
+DEBUG:BOT:Candidates: [Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Raid Leader (2/2) - 3 mana (id:62), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38)]
+DEBUG:BOT:Possible combination with cost 11: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Raid Leader (2/2) - 3 mana (id:62), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 9: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Raid Leader (2/2) - 3 mana (id:62), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 9: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Raid Leader (2/2) - 3 mana (id:62), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 8: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 9: (Frostwolf Grunt (2/2) - 2 mana (id:45), Raid Leader (2/2) - 3 mana (id:62), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 9: (Mistress of Pain (1/4) - 2 mana (id:50), Raid Leader (2/2) - 3 mana (id:62), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 7: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Raid Leader (2/2) - 3 mana (id:62))
+DEBUG:BOT:Possible combination with cost 6: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 6: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 7: (Frostwolf Grunt (2/2) - 2 mana (id:45), Raid Leader (2/2) - 3 mana (id:62), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 7: (Frostwolf Grunt (2/2) - 2 mana (id:45), Raid Leader (2/2) - 3 mana (id:62), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 6: (Frostwolf Grunt (2/2) - 2 mana (id:45), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 7: (Mistress of Pain (1/4) - 2 mana (id:50), Raid Leader (2/2) - 3 mana (id:62), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 7: (Mistress of Pain (1/4) - 2 mana (id:50), Raid Leader (2/2) - 3 mana (id:62), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 6: (Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 7: (Raid Leader (2/2) - 3 mana (id:62), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 4: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 5: (Frostwolf Grunt (2/2) - 2 mana (id:45), Raid Leader (2/2) - 3 mana (id:62))
+DEBUG:BOT:Possible combination with cost 4: (Frostwolf Grunt (2/2) - 2 mana (id:45), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 4: (Frostwolf Grunt (2/2) - 2 mana (id:45), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 5: (Mistress of Pain (1/4) - 2 mana (id:50), Raid Leader (2/2) - 3 mana (id:62))
+DEBUG:BOT:Possible combination with cost 4: (Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 4: (Mistress of Pain (1/4) - 2 mana (id:50), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 5: (Raid Leader (2/2) - 3 mana (id:62), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 5: (Raid Leader (2/2) - 3 mana (id:62), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 4: (Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 2: (Frostwolf Grunt (2/2) - 2 mana (id:45),)
+DEBUG:BOT:Possible combination with cost 2: (Mistress of Pain (1/4) - 2 mana (id:50),)
+DEBUG:BOT:Possible combination with cost 3: (Raid Leader (2/2) - 3 mana (id:62),)
+DEBUG:BOT:Possible combination with cost 2: (Acidic Swamp Ooze (3/2) - 2 mana (id:58),)
+DEBUG:BOT:Possible combination with cost 2: (Bloodfen Raptor (3/2) - 2 mana (id:38),)
+DEBUG:BOT:Going to play (Raid Leader (2/2) - 3 mana (id:62),) with 3 mana
+DEBUG:CONTROL:Clicking on hand card index 0 with 6 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Raid Leader (2/2) - 3 mana (id:62)
+INFO:STATE:Spending 3 mana. Total spent = 3
+INFO:STATE:Update card Raid Leader (2/2) - 3 mana (id:62) to position 2 in PLAY
+INFO:STATE:Update card Mistress of Pain (1/4) - 2 mana (id:50) to position 1 in HAND
+INFO:STATE:Update card Frostwolf Grunt (2/2) - 2 mana (id:45) to position 2 in HAND
+INFO:STATE:Update card The Coin - 0 mana (id:68) to position 3 in HAND
+INFO:STATE:Update card Acidic Swamp Ooze (3/2) - 2 mana (id:58) to position 4 in HAND
+INFO:STATE:Update card Bloodfen Raptor (3/2) - 2 mana (id:38) to position 5 in HAND
+INFO:STATE:Update card Amani Berserker (2/3) - 2 mana (id:39) to position 3 in PLAY
+INFO:STATE:Update Raid Leader (2/2) - 3 mana (id:62) to zone PLAY
+INFO:STATE:Flame Imp (4/2) - 1 mana (id:65) has 4 ATTACK
+INFO:STATE:Amani Berserker (3/3) - 2 mana (id:39) has 3 ATTACK
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 0
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions available to attack = [Flame Imp (4/2) - 1 mana (id:65), Amani Berserker (3/3) - 2 mana (id:39)]
+DEBUG:BOT:Performing attack Flame Imp (4/2) - 1 mana (id:65) -> Searing Totem (1/1) - 1 mana (id:70)
+DEBUG:CONTROL:Clicking on minion at position 1
+DEBUG:CONTROL:Clicking on opponent minion at position 1
+INFO:STATE:ATTACK: Flame Imp (4/2) - 1 mana (id:65) -> Searing Totem (1/1) - 1 mana (id:70)
+INFO:STATE:Searing Totem (1/1) - 1 mana (id:70) has 4 DAMAGE
+INFO:STATE:Searing Totem (1/1) - 1 mana (id:70) has fatal damage
+INFO:STATE:Flame Imp (4/2) - 1 mana (id:65) has 2 DAMAGE
+INFO:STATE:Flame Imp (4/2) - 1 mana (id:65) has fatal damage
+INFO:STATE:Update Flame Imp (4/2) - 1 mana (id:65) to zone GRAVEYARD
+INFO:STATE:Flame Imp (4/2) - 1 mana (id:65) has been moved to graveyard
+WARNING:STATE:No id 72 found to perform tag update for ATTACHED = 0
+INFO:STATE:Update Searing Totem (1/1) - 1 mana (id:70) to zone GRAVEYARD
+INFO:STATE:Searing Totem (1/1) - 1 mana (id:70) has been moved to graveyard
+INFO:STATE:Update card Raid Leader (2/2) - 3 mana (id:62) to position 1 in PLAY
+INFO:STATE:Update card Amani Berserker (3/3) - 2 mana (id:39) to position 2 in PLAY
+DEBUG:CONTROL:Clicking on minion at position 2
+INFO:STATE:ATTACK: Amani Berserker (3/3) - 2 mana (id:39) -> Thrall (0/30) - (id:4)
+INFO:STATE:Thrall (0/30) - (id:4) has 3 DAMAGE
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+WARNING:STATE:No id 71 found to perform tag update for ATTACHED = 0
+INFO:STATE:Update Amani Berserker (3/3) - 2 mana (id:39) to zone SETASIDE
+INFO:STATE:Amani Berserker (2/3) - 2 mana (id:39) has 2 ATTACK
+INFO:STATE:OPPONENT plays: Hex - 3 mana (id:32)
+INFO:STATE:Adding Hex - 3 mana (id:32) to active cards in zone PLAY
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 4 mana
+INFO:STATE:**********
+WARNING:STATE:No id 73 found to perform tag update for EXHAUSTED = 0
+INFO:STATE:Playing a minion that was not in our hand!
+INFO:STATE:Adding Frog (0/1) - 0 mana (id:73) to active cards in zone PLAY
+INFO:STATE:TINGLE plays: Frog (0/1) - 0 mana (id:73)
+INFO:STATE:TINGLE's minions:
+[Amani Berserker (2/3) - 2 mana (id:39),
+ Raid Leader (2/2) - 3 mana (id:62),
+ Frog (0/1) - 0 mana (id:73)]
+INFO:STATE:Update card Frog (0/1) - 0 mana (id:73) to position 2 in PLAY
+INFO:STATE:Hex - 3 mana (id:32) has been moved to graveyard
+INFO:STATE:DRAW CARD: Flame Imp (3/2) - 1 mana (id:59)
+INFO:STATE:Adding Flame Imp (3/2) - 1 mana (id:59) to active cards in zone HAND
+INFO:STATE:Cards in HAND:
+[Frostwolf Grunt (2/2) - 2 mana (id:45),
+ Mistress of Pain (1/4) - 2 mana (id:50),
+ The Coin - 0 mana (id:68),
+ Acidic Swamp Ooze (3/2) - 2 mana (id:58),
+ Bloodfen Raptor (3/2) - 2 mana (id:38),
+ Flame Imp (3/2) - 1 mana (id:59)]
+INFO:STATE:Update card Flame Imp (3/2) - 1 mana (id:59) to position 6 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 4
+DEBUG:BOT:Candidates: [Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59)]
+DEBUG:BOT:Possible combination with cost 9: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 8: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 7: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 7: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 7: (Frostwolf Grunt (2/2) - 2 mana (id:45), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 7: (Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 6: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 6: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 5: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 6: (Frostwolf Grunt (2/2) - 2 mana (id:45), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 5: (Frostwolf Grunt (2/2) - 2 mana (id:45), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 5: (Frostwolf Grunt (2/2) - 2 mana (id:45), Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 6: (Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 5: (Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 5: (Mistress of Pain (1/4) - 2 mana (id:50), Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 5: (Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 4: (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50))
+DEBUG:BOT:Possible combination with cost 4: (Frostwolf Grunt (2/2) - 2 mana (id:45), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 4: (Frostwolf Grunt (2/2) - 2 mana (id:45), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 3: (Frostwolf Grunt (2/2) - 2 mana (id:45), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 4: (Mistress of Pain (1/4) - 2 mana (id:50), Acidic Swamp Ooze (3/2) - 2 mana (id:58))
+DEBUG:BOT:Possible combination with cost 4: (Mistress of Pain (1/4) - 2 mana (id:50), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 3: (Mistress of Pain (1/4) - 2 mana (id:50), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 4: (Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38))
+DEBUG:BOT:Possible combination with cost 3: (Acidic Swamp Ooze (3/2) - 2 mana (id:58), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 3: (Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Going to play (Frostwolf Grunt (2/2) - 2 mana (id:45), Mistress of Pain (1/4) - 2 mana (id:50)) with 4 mana
+DEBUG:CONTROL:Clicking on hand card index 1 with 6 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Frostwolf Grunt (2/2) - 2 mana (id:45)
+INFO:STATE:Spending 2 mana. Total spent = 2
+INFO:STATE:Update card The Coin - 0 mana (id:68) to position 2 in HAND
+INFO:STATE:Update card Acidic Swamp Ooze (3/2) - 2 mana (id:58) to position 3 in HAND
+INFO:STATE:Update card Bloodfen Raptor (3/2) - 2 mana (id:38) to position 4 in HAND
+INFO:STATE:Update card Flame Imp (3/2) - 1 mana (id:59) to position 5 in HAND
+INFO:STATE:Update card Frog (0/1) - 0 mana (id:73) to position 3 in PLAY
+INFO:STATE:Update Frostwolf Grunt (2/2) - 2 mana (id:45) to zone PLAY
+INFO:STATE:Frostwolf Grunt (3/2) - 2 mana (id:45) has 3 ATTACK
+DEBUG:CONTROL:Clicking on hand card index 0 with 5 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Mistress of Pain (1/4) - 2 mana (id:50)
+INFO:STATE:Spending 2 mana. Total spent = 4
+INFO:STATE:Update card Mistress of Pain (1/4) - 2 mana (id:50) to position 3 in PLAY
+INFO:STATE:Update card The Coin - 0 mana (id:68) to position 1 in HAND
+INFO:STATE:Update card Acidic Swamp Ooze (3/2) - 2 mana (id:58) to position 2 in HAND
+INFO:STATE:Update card Bloodfen Raptor (3/2) - 2 mana (id:38) to position 3 in HAND
+INFO:STATE:Update card Flame Imp (3/2) - 1 mana (id:59) to position 4 in HAND
+INFO:STATE:Update card Frog (0/1) - 0 mana (id:73) to position 4 in PLAY
+INFO:STATE:Update Mistress of Pain (1/4) - 2 mana (id:50) to zone PLAY
+INFO:STATE:Mistress of Pain (2/4) - 2 mana (id:50) has 2 ATTACK
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 0
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions available to attack = [Amani Berserker (2/3) - 2 mana (id:39), Raid Leader (2/2) - 3 mana (id:62)]
+DEBUG:CONTROL:Clicking on minion at position 2
+DEBUG:CONTROL:Clicking on minion at position 1
+INFO:STATE:**********
+INFO:STATE:OPPONENT TURN
+INFO:STATE:**********
+WARNING:STATE:No id 10 found to perform tag update for EXHAUSTED = 1
+INFO:STATE:Adding Nat Pagle (0/4) - 2 mana (id:10) to active cards in zone PLAY
+INFO:STATE:OPPONENT plays: Nat Pagle (0/4) - 2 mana (id:10)
+INFO:STATE:OPPONENT's minions:
+[Nat Pagle (0/4) - 2 mana (id:10)]
+INFO:STATE:Update card Nat Pagle (0/4) - 2 mana (id:10) to position 1 in PLAY
+WARNING:STATE:No id 18 found to perform tag update for EXHAUSTED = 1
+INFO:STATE:Adding Master Swordsmith (1/3) - 2 mana (id:18) to active cards in zone PLAY
+INFO:STATE:OPPONENT plays: Master Swordsmith (1/3) - 2 mana (id:18)
+INFO:STATE:OPPONENT's minions:
+[Nat Pagle (0/4) - 2 mana (id:10), Master Swordsmith (1/3) - 2 mana (id:18)]
+INFO:STATE:Update card Master Swordsmith (1/3) - 2 mana (id:18) to position 2 in PLAY
+INFO:STATE:Nat Pagle (1/4) - 2 mana (id:10) has 1 ATTACK
+INFO:STATE:**********
+INFO:STATE:TINGLE's TURN - 5 mana
+INFO:STATE:**********
+INFO:STATE:DRAW CARD: Annoy-o-Tron (1/2) - 2 mana (id:66)
+INFO:STATE:Adding Annoy-o-Tron (1/2) - 2 mana (id:66) to active cards in zone HAND
+INFO:STATE:Cards in HAND:
+[The Coin - 0 mana (id:68),
+ Acidic Swamp Ooze (3/2) - 2 mana (id:58),
+ Bloodfen Raptor (3/2) - 2 mana (id:38),
+ Flame Imp (3/2) - 1 mana (id:59),
+ Annoy-o-Tron (1/2) - 2 mana (id:66)]
+INFO:STATE:Update card Annoy-o-Tron (1/2) - 2 mana (id:66) to position 5 in HAND
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 5
+DEBUG:BOT:Candidates: [Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59), Annoy-o-Tron (1/2) - 2 mana (id:66)]
+DEBUG:BOT:Possible combination with cost 7: (Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59), Annoy-o-Tron (1/2) - 2 mana (id:66))
+DEBUG:BOT:Possible combination with cost 5: (Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59))
+DEBUG:BOT:Possible combination with cost 6: (Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38), Annoy-o-Tron (1/2) - 2 mana (id:66))
+DEBUG:BOT:Possible combination with cost 5: (Acidic Swamp Ooze (3/2) - 2 mana (id:58), Flame Imp (3/2) - 1 mana (id:59), Annoy-o-Tron (1/2) - 2 mana (id:66))
+DEBUG:BOT:Possible combination with cost 5: (Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59), Annoy-o-Tron (1/2) - 2 mana (id:66))
+DEBUG:BOT:Going to play (Acidic Swamp Ooze (3/2) - 2 mana (id:58), Bloodfen Raptor (3/2) - 2 mana (id:38), Flame Imp (3/2) - 1 mana (id:59)) with 5 mana
+DEBUG:CONTROL:Clicking on hand card index 1 with 5 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Acidic Swamp Ooze (3/2) - 2 mana (id:58)
+INFO:STATE:Spending 2 mana. Total spent = 2
+INFO:STATE:Update card Acidic Swamp Ooze (3/2) - 2 mana (id:58) to position 3 in PLAY
+INFO:STATE:Update card Bloodfen Raptor (3/2) - 2 mana (id:38) to position 2 in HAND
+INFO:STATE:Update card Flame Imp (3/2) - 1 mana (id:59) to position 3 in HAND
+INFO:STATE:Update card Annoy-o-Tron (1/2) - 2 mana (id:66) to position 4 in HAND
+INFO:STATE:Update card Mistress of Pain (2/4) - 2 mana (id:50) to position 4 in PLAY
+INFO:STATE:Update card Frog (0/1) - 0 mana (id:73) to position 5 in PLAY
+INFO:STATE:Update Acidic Swamp Ooze (3/2) - 2 mana (id:58) to zone PLAY
+INFO:STATE:Acidic Swamp Ooze (4/2) - 2 mana (id:58) has 4 ATTACK
+DEBUG:CONTROL:Clicking on hand card index 1 with 4 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Bloodfen Raptor (3/2) - 2 mana (id:38)
+INFO:STATE:Spending 2 mana. Total spent = 4
+INFO:STATE:Update card Bloodfen Raptor (3/2) - 2 mana (id:38) to position 4 in PLAY
+INFO:STATE:Update card Flame Imp (3/2) - 1 mana (id:59) to position 2 in HAND
+INFO:STATE:Update card Annoy-o-Tron (1/2) - 2 mana (id:66) to position 3 in HAND
+INFO:STATE:Update card Mistress of Pain (2/4) - 2 mana (id:50) to position 5 in PLAY
+INFO:STATE:Update card Frog (0/1) - 0 mana (id:73) to position 6 in PLAY
+INFO:STATE:Update Bloodfen Raptor (3/2) - 2 mana (id:38) to zone PLAY
+INFO:STATE:Bloodfen Raptor (4/2) - 2 mana (id:38) has 4 ATTACK
+DEBUG:CONTROL:Clicking on hand card index 1 with 3 cards in hand
+INFO:STATE:TINGLE plays minion from hand: Flame Imp (3/2) - 1 mana (id:59)
+INFO:STATE:Spending 1 mana. Total spent = 5
+INFO:STATE:Update card Flame Imp (3/2) - 1 mana (id:59) to position 4 in PLAY
+INFO:STATE:Update card Annoy-o-Tron (1/2) - 2 mana (id:66) to position 2 in HAND
+INFO:STATE:Update card Bloodfen Raptor (4/2) - 2 mana (id:38) to position 5 in PLAY
+INFO:STATE:Update card Mistress of Pain (2/4) - 2 mana (id:50) to position 6 in PLAY
+INFO:STATE:Update card Frog (0/1) - 0 mana (id:73) to position 7 in PLAY
+INFO:STATE:Update Flame Imp (3/2) - 1 mana (id:59) to zone PLAY
+INFO:STATE:Flame Imp (4/2) - 1 mana (id:59) has 4 ATTACK
+INFO:STATE:Gul'dan (0/30) - (id:36) has 6 DAMAGE
+DEBUG:BOT:Play phase
+DEBUG:BOT:Spend max mana. Available: 0
+DEBUG:BOT:Candidates: []
+DEBUG:BOT:Going to play () with 0 mana
+DEBUG:BOT:Attack phase
+DEBUG:BOT:Minions available to attack = [Amani Berserker (2/3) - 2 mana (id:39), Raid Leader (2/2) - 3 mana (id:62), Frostwolf Grunt (3/2) - 2 mana (id:45), Mistress of Pain (2/4) - 2 mana (id:50)]
+DEBUG:BOT:Performing attack Amani Berserker (2/3) - 2 mana (id:39) -> Nat Pagle (1/4) - 2 mana (id:10)
+DEBUG:CONTROL:Clicking on minion at position 2
+Traceback (most recent call last):
+  File "bot.py", line 324, in <module>
+    main()
+  File "bot.py", line 312, in main
+    attack_phase(parser)
+  File "bot.py", line 140, in attack_phase
+    attack_minion(m, enemy)
+  File "bot.py", line 167, in attack_minion
+    control.my_click_on_minion(my_num_minions, int(attacker.pos))
+  File "/Users/mawadah/Documents/hearthbot/control.py", line 128, in my_click_on_minion
+    game_click(my_minion_coords[my_num_minions][minion_idx-1])
+KeyError: 8
