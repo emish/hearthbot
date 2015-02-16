@@ -17,7 +17,9 @@ import logging
 
 import state
 
-logging.basicConfig(level=logging.INFO)
+# The parser's debug file logger
+logger = logging.getLogger('parser')
+logger.setLevel(logging.DEBUG)
 
 player_name = "bish3al"
 
@@ -36,7 +38,7 @@ class Parser(object):
         # try:
         #     self.logstream = nbstreamreader.NonBlockingStreamReader(self.logfile)
         # except nbstreamreader.UnexpectedEndOfStream:
-        #     logging.warn("The log file is closed")
+        #     logger.warn("The log file is closed")
             
         #assert self.logstream, "Can't do shit without a log"
 
@@ -44,7 +46,7 @@ class Parser(object):
         """Read until the end of the log, not processing any of 
         the events to the game state.
         """
-        logging.info("Skipping to end of log file")
+        logger.info("Skipping to end of log file")
         self.logfile.seek(self.pos)
         self.logfile.readlines()
         self.pos = self.logfile.tell()
@@ -105,7 +107,7 @@ class Parser(object):
                 self.gstate.set_lost()
             else:
                 pass
-                #logging.error("Unknown tag for win state: {}".format(win_value))
+                #logger.error("Unknown tag for win state: {}".format(win_value))
 
         # Set current player (and as such, the start of their turn)
         # [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=bish3al tag=CURRENT_PLAYER value=0
@@ -119,7 +121,7 @@ class Parser(object):
             elif playing == '1':
                 self.gstate.set_our_turn()
             else:
-                logging.fatal("UNKNOWN CURRENT_PLAYER VALUE")
+                logger.fatal("UNKNOWN CURRENT_PLAYER VALUE")
                 sys.exit(1)
             return True
 
@@ -139,7 +141,7 @@ class Parser(object):
         opposing_play = re.compile(r'.*id=([0-9]+).*zonePos=([0-9]).*cardId=([a-zA-Z0-9_]+) .* -> OPPOSING PLAY')
         match = opposing_play.match(line)
         if match:
-            logging.debug(line)
+            logger.debug(line)
             card_id = match.group(1)
             pos = match.group(2)
             cardId = match.group(3)
@@ -152,7 +154,7 @@ class Parser(object):
         our_play = re.compile(r'.*id=([0-9]+).*cardId=([a-zA-Z0-9_]+) .* -> FRIENDLY PLAY')
         match = our_play.match(line)
         if match:
-            logging.debug(line)
+            logger.debug(line)
             card_id = match.group(1)
             cardId = match.group(2)
             self.gstate.play_minion(cardId, card_id)
@@ -163,7 +165,7 @@ class Parser(object):
         grave_re = re.compile(r'.*id=([0-9]+).* -> OPPOSING GRAVEYARD')
         match = grave_re.match(line)
         if match:
-            logging.debug(line)
+            logger.debug(line)
             card_id = match.group(1)
             self.gstate.send_to_graveyard(card_id)
             return True
@@ -174,7 +176,7 @@ class Parser(object):
         zone_re = re.compile(r'.* TAG_CHANGE .*id=([0-9]+).*player=(1|2)] tag=ZONE value=(.*)')
         match = zone_re.match(line)
         if match:
-            #logging.debug(line)
+            #logger.debug(line)
             card_id = match.group(1)
             player = match.group(2)
             zone = match.group(3)
@@ -197,7 +199,7 @@ class Parser(object):
         attacking_play = re.compile(r'.*name=(.*)id=([0-9]+).*zonePos=([0-9]).*ATTACK.*name=(.*)id=([0-9]+).*zonePos=([0-9])')
         match = attacking_play.match(line)
         if match:
-            logging.debug(line)
+            logger.debug(line)
             att_id = match.group(2)
             def_id = match.group(5)
             self.gstate.perform_attack(att_id, def_id)
@@ -209,7 +211,7 @@ class Parser(object):
         tag_re = re.compile(r'.*TAG_CHANGE.*id=([0-9]+).*tag=([A-Z]+) value=([0-9]+)$')
         match = tag_re.match(line)
         if match:
-            logging.debug(line)
+            logger.debug(line)
             card_id = match.group(1)
             tag = match.group(2)
             value = match.group(3)
@@ -232,7 +234,7 @@ class Parser(object):
         opposing_spell_target = re.compile(r'[Zone].*TAG_CHANGE.*id=([0-9]+).*CARD_TARGET value=([0-9]+).*')
         match = opposing_spell_target.match(line)
         if match:
-            logging.debug(line)
+            logger.debug(line)
             card_id = match.group(1)
             target = match.group(2)
             self.gstate.add_target_to_card(card_id, target)
