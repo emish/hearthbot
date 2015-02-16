@@ -97,7 +97,7 @@ def attack_them(us, minions, parser):
 
 def attack_phase(parser):
     logger.debug("Attack phase")
-    # Make shallow copies so we can get updated locations of minions
+    # Make shallow copies so we can get updated locations of minions when others die
     us = gstate.tingle.minions[:]
     them = gstate.opponent.minions[:]
 
@@ -145,6 +145,12 @@ def attack_phase(parser):
         attack_hero(m)
         parser.process_log()
 
+    # Here lies a bug: we may think we are attacking with a minion, but we click
+    # on the wrong one
+    active_minions = [m for m in gstate.tingle.minions[:] if m.active]
+    assert not active_minions , \
+        "Attack phase complete, but some minions did not attack {}".format(active_minions)
+
 def attack_hero(attacker):
     """Attack the defending hero. Don't wait for animation here
     because no status updates will occur.
@@ -166,7 +172,8 @@ def attack_minion(attacker, defender):
     assert defender.zone == "PLAY"
     control.my_click_on_minion(my_num_minions, int(attacker.pos))
     control.opponent_click_on_minion(their_num_minions, int(defender.pos))
-    time.sleep(1)
+    attacker.deactivate()       # Can't attack anymore
+    time.sleep(2)
 
 def cost_to_play_cards(cards):
     """Given a list of cards, return the cost to play them all.
