@@ -19,9 +19,8 @@ import state
 
 # The parser's debug file logger
 logger = logging.getLogger('parser')
-logger.setLevel(logging.DEBUG)
 
-player_name = "bish3al"
+player_name = "tingle"
 
 class Parser(object):
     def __init__(self, filepath):

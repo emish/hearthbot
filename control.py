@@ -8,7 +8,6 @@ import time
 import logging
 
 logger = logging.getLogger('CONTROL')
-logger.setLevel(logging.DEBUG)
 
 # Positions of menu items
 coords_init = (0,100)
@@ -49,6 +48,7 @@ def confirm_start_cards():
     game_click(confirm_button)
 
 def end_turn():
+    logger.info("Ending turn")
     game_click(end_turn_button)
 
 # Heros and hero abilities
@@ -96,6 +96,7 @@ def click_on_card(num_in_hand, card_idx):
 
 def play_minion(num_cards_in_hand, card_idx):
     """Clicks in the center of the screen to play a minion.
+    Can also be used to play spells without a target.
     """
     click_on_card(num_cards_in_hand, card_idx)
     mouseclick(510, 472)
