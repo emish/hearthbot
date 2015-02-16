@@ -414,7 +414,7 @@ class Card(object):
         self.pos = None
         # The amount of damage a card has taken
         self.damage = 0
-        # Whether or not a card can be used (minion summoning sickness)
+        # Whether or not a card can be used (minion summoning sickness or having attacked)
         self.active = False
         # Any card can have mechanics. They are strings.
         self.mechanics = []
@@ -422,7 +422,7 @@ class Card(object):
     def activate(self):
         self.active = True
 
-    def destroy(self):
+    def deactivate(self):
         """Put in graveyard."""
         self.active = False
 
