@@ -33,13 +33,6 @@ class Parser(object):
         self.pos = 0
         # The state of the game
         self.gstate = state.GameState()
-        # The stream reader for the log file
-        # try:
-        #     self.logstream = nbstreamreader.NonBlockingStreamReader(self.logfile)
-        # except nbstreamreader.UnexpectedEndOfStream:
-        #     logger.warn("The log file is closed")
-            
-        #assert self.logstream, "Can't do shit without a log"
 
     def reset_log(self):
         """Read until the end of the log, not processing any of 
