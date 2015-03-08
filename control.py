@@ -51,6 +51,11 @@ def end_turn():
     logger.info("Ending turn")
     game_click(end_turn_button)
 
+mulligan_coords = {
+    3: [],
+    4: [(247, 350), (422, 350), (594, 350), (788, 352)],
+}
+
 # Heros and hero abilities
 hero_coord = (508, 588)
 opp_hero_coord = (510, 139)
@@ -125,9 +130,9 @@ opponent_minion_coords = {
 
 # Subtract one from minion_idx b/c the game tracks position from 1
 def my_click_on_minion(my_num_minions, minion_idx):
-    logger.debug("Clicking on minion at position {}".format(minion_idx))
+    logger.debug("Clicking on minion at position {} of {}".format(minion_idx, my_num_minions))
     game_click(my_minion_coords[my_num_minions][minion_idx-1])
 
 def opponent_click_on_minion(opp_num_minions, minion_idx):
-    logger.debug("Clicking on opponent minion at position {}".format(minion_idx))
+    logger.debug("Clicking on opponent minion at position {} of {}".format(minion_idx, opp_num_minions))
     game_click(opponent_minion_coords[opp_num_minions][minion_idx-1])

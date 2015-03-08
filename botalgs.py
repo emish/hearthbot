@@ -35,7 +35,7 @@ def can_kill_minion(min_list, minion):
         min_list - List of state.Minion
         minion - A state.Minion to kill
     """
-    logger.debug("can_kill_minion start")
+    logger.debug("can_kill_minion start - {}\nTo Kill:{}".format(min_list, minion))
     for i in range(1, len(min_list)+1):
         candidates = itertools.combinations(min_list, i)
         best_candidate = None   # use later
@@ -48,9 +48,10 @@ def can_kill_minion(min_list, minion):
 
             # this candidate list kills the minion
             if minion_health <= 0:
+                logger.debug("can_kill_minion end - {}".format(c))
                 return c
 
-    logger.debug("can_kill_minion end")
+    logger.debug("can_kill_minion end - no candidates")
     return None
 
 ###
@@ -89,21 +90,43 @@ def spend_max_mana(player):
     """
     avail_mana = player.mana_available()
     coin = player.has_card("The Coin")
-    if coin:
-        avail_mana += 1
     
-    logger.debug("Spend max mana. Available: {}".format(avail_mana))
+    logger.info("Spend max mana. Available: {}".format(avail_mana))
     hand = player.hand[:] # shallow copy (so we still get updates to contents)
 
-    # Remove any cards that cost more than the mana we can spend
-    hand = [c for c in hand if c.cost <= avail_mana]
     # Remove any cards that are not minions
     hand = [c for c in hand if isinstance(c, state.Minion)]
+    # Remove any cards that cost more than the mana we can spend
+    coin_hand = [c for c in hand if c.cost <= (avail_mana + 1)]
+    hand = [c for c in hand if c.cost <= avail_mana]
 
-    logger.debug("Candidates: {}".format(hand))
+    logger.info("Candidates: {}".format(hand))
+    play = play_with_max_mana(hand, avail_mana)
 
+    logger.info("Play is: {}".format(play))
+    if coin and play[0] < avail_mana:
+        # Calculate a second play if the first one doesn't work
+        logger.info("Coin detected and play is sub-optimal. Looking for better play...")
+        play_coin = play_with_max_mana(coin_hand, avail_mana+1)
+        play_coin[1].insert(0, coin)
+        logger.info("Coin play is: {}".format(play_coin))
+        # Judge based on efficiency
+        play_eff = avail_mana - play[0]
+        play_coin_eff = avail_mana+1 - play[0]
+        if (play_coin_eff < play_eff):
+            logger.info("Coin play is chosen due to higher efficiency: {} remaining (vs. {} without coin)".\
+                        format(play_eff, play_coin_eff))
+            play = play_coin
+        else:
+            logger.info("Non-coin play is chosen: wasted mana: {} non-coin vs. {} coin".\
+                        format(play_eff, play_coin_eff))
+            
+    return play
+
+
+def play_with_max_mana(hand, avail_mana):
     ultimate_play = (0, [])
-
+    
     # Try to play as many cards as possible, so consider more first
     for i in reversed(range(1, len(hand)+1)):
         if ultimate_play[0] > 0:       # Already have a play
@@ -128,13 +151,7 @@ def spend_max_mana(player):
         # If we have one, play it. Otherwise, keep looking
         if pot_play:
             assert pot_mana_spent
-            ultimate_play = (pot_mana_spent, pot_play)
+            ultimate_play = (pot_mana_spent, list(pot_play))
             break
 
-    if coin:
-        mana_to_spend = ultimate_play[0]
-        if mana_to_spend == avail_mana:
-            # play the coin first
-            ultimate_play[1].insert(0, coin)
-            
     return ultimate_play

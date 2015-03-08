@@ -297,6 +297,9 @@ class GameState(object):
             if zone == "PLAY":
                 if card in self.tingle.hand:
                     self.tingle.hand.remove(card)
+                    card.zone = "PLAY"
+            if zone == "SETASIDE":
+                self.send_to_graveyard(card_id)
             # if zone == "PLAY":
             #     if player == "1":
             #         logger.info("TINGLE puts minion into play: {}".format(card))
@@ -439,8 +442,7 @@ class Card(object):
 class Hero(Card):
     def __init__(self, data, card_id):
         Card.__init__(self, data, card_id)
-        self.attack = data['attack']
-        self.health = data['health']
+        self.attack = data.get('attack', 0)
         self.damage = 0
 
     def __repr__(self):
@@ -449,6 +451,10 @@ class Hero(Card):
 
     def remaining_health(self):
         return int(self.health) - int(self.damage)
+
+    def performs_attack(self):
+        self._has_attacked = True
+        self.deactivate()       # Can't attack anymore
 
 class HeroPower(Card):
     def __init__(self, data, card_id):
@@ -472,8 +478,8 @@ class Minion(Card):
             self.activate()
 
     def __repr__(self):
-        return "{} ({}/{}) - {} mana (id:{})".format(self.name, self.attack,
-                                                     self.health, self.cost, self.id)
+        return "{} ({}:{}/{}) (id:{}) (pos:{})".format(self.name, self.cost,
+                                                       self.attack, self.health, self.id, self.pos)
             
     def has_charge(self):
         return 'Charge' in self.mechanics

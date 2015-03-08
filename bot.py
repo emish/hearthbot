@@ -13,6 +13,7 @@ This is Tingle's brain.
 import logging, time, os
 import itertools
 import copy # for deep copies with copy.deepcopy
+import pprint
 
 import control, cardlogger, state
 import kooloolimpah
@@ -28,30 +29,32 @@ gstate = None
 # Since this is where main is, we set up the main logging here
 # The root logger (everything) logs to the log file at debug level
 logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s %(name)-12s - %(levelname)-8s %(message)s',
-                    datefmt='%H:%M:%S',
-                    filename='tingle_logs/tingle_{}.log'.format(int(time.time())),
+                    format='%(asctime)s %(name)-8s - %(levelname)-8s %(message)s',
+                    datefmt='%mm:%dd - %H:%M:%S',
+                    filename='tingle_logs/tingle_active.log',
                     filemode='w')
 # And logs to the console at info level
 console = logging.StreamHandler()
 console.setLevel(logging.INFO)
 # Simple console format
-formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
+formatter = logging.Formatter('%(name)-8s: %(levelname)-8s %(message)s')
 console.setFormatter(formatter)
 logging.getLogger('').addHandler(console)
 
 logger = logging.getLogger('BOT')
 
-def attack_them(us, minions, parser):
+def attack_them(us, minions, minions_attacked, parser):
     """Attack the list of minions provided.
     The minions are guaranteed to be attacked.
     Returns:
         A list of friendly minions that have not yet attacked.
     """
+    logger.info("Focus firing on minions: {}".format(minions))
     us_remain = us[:]
     them = minions[:]
     them.sort(cmp=highest_attack_cmp)
     for enemy in them:
+        logger.info("Focus firing on {}".format(enemy))
         # If we can kill this minion, do it
         attackers = can_kill_minion(us_remain, enemy)
         if attackers:
@@ -60,6 +63,7 @@ def attack_them(us, minions, parser):
                 us_remain.remove(m)
             # Perform the attack
                 attack_minion(m, enemy)
+                minions_attacked.append(m)
                 parser.process_log()
             # Remove the enemy from our temporary calculation
             them.remove(enemy)
@@ -75,8 +79,12 @@ def attack_them(us, minions, parser):
                     break
                 us_remain.remove(m)
                 attack_minion(m, enemy)
+                minions_attacked.append(m)
                 parser.process_log()
 
+    assert (not [enemy for enemy in them if enemy.remaining_health() > 0]) or \
+        (not us_remain), \
+        "Enemies remain that have not been killed despite us having minions available to attack"
     return us_remain
 
 def attack_phase(parser):
@@ -84,6 +92,7 @@ def attack_phase(parser):
     # Make shallow copies so we can get updated locations of minions when others die
     us = gstate.tingle.minions[:]
     them = gstate.opponent.minions[:]
+    minions_attacked = []
 
     # Can't attack if we have none
     if not us:
@@ -94,11 +103,15 @@ def attack_phase(parser):
     # They must have attack value to attack
     us_remain = [m for m in us_remain if int(m.attack) > 0]
 
-    logger.debug("Minions available to attack = {}".format(us_remain))
+    logger.debug("Minions available to attack:\n{}".\
+                 format(pprint.pformat(us_remain)))
 
     # Attack any minions with taunt first
     taunters = [m for m in them if 'Taunt' in m.mechanics]
-    us_remain = attack_them(us_remain, taunters, parser)
+    us_remain = attack_them(us_remain, taunters, minions_attacked, parser)
+
+    logger.debug("Minions remaining after taking out taunters:\n{}".\
+                 format(pprint.pformat(us_remain)))
 
     # If we don't have any remaining, continue with attack
     if not us_remain:
@@ -106,6 +119,9 @@ def attack_phase(parser):
 
     # Recalculate minions after attacking taunters
     them = gstate.opponent.minions[:]
+
+    logger.debug("Enemy minions remaining to take out:\n{}".\
+                 format(pprint.pformat(them)))
     
     # Order them by highest attacks
     them.sort(cmp=highest_attack_cmp)
@@ -122,20 +138,22 @@ def attack_phase(parser):
                 us_remain.remove(m)
                 # Perform the attack
                 attack_minion(m, enemy)
+                minions_attacked.append(m)
                 parser.process_log()
 
     # If we have any minions left over, attack the hero
     for m in us_remain:
         attack_hero(m)
+        minions_attacked.append(m)
         parser.process_log()
 
     # Here lies a bug: we may think we are attacking with a minion, but we click
     # on the wrong one
     time.sleep(1)
     parser.process_log()
-    active_minions = [m for m in gstate.tingle.minions[:] if m.active]
+    active_minions = [m for m in gstate.tingle.minions[:] if m.active and int(m.attack) > 0]
     assert not active_minions , \
-        "Attack phase complete, but some minions did not attack {}".format(active_minions)
+        "Attack phase complete, but some minions did not attack: {}\nThought I attacked with {}".format(active_minions, minions_attacked)
 
 def attack_hero(attacker):
     """Attack the defending hero. Don't wait for animation here
@@ -152,7 +170,7 @@ def attack_minion(attacker, defender):
     """Use the attacking minion to attack the defending one.
     Wait for kill animation to end, as gstate needs to update minion count.
     """
-    logger.debug("Performing attack {} -> {}".format(attacker, defender))
+    logger.info("Attack {} -> {}".format(attacker, defender))
     my_num_minions = len(gstate.tingle.minions)
     their_num_minions = len(gstate.opponent.minions)
     assert my_num_minions
@@ -171,16 +189,30 @@ def play_phase(parser):
     (total, cards) = spend_max_mana(gstate.tingle)
     logger.debug("Going to play {} with {} mana".format(cards, total))
 
-    if total == gstate.tingle.mana_available - 2:
+    if total == gstate.tingle.mana_available() - 2:
         # We should play the draw ability first and recalculate
         play_hero_ability()
         parser.process_log()
         (total, cards) = spend_max_mana(gstate.tingle)
+
+    num_in_field = len(gstate.tingle.minions)
+    if num_in_field == 9:
+        # play the most expensive card
+        cards.sort(cmp=lambda x,y: int(x.cost) > int(y.cost))
+        logger.info("Sorted cards: {}".format(cards))
+        card = cards[0]
+        num_in_hand = len(gstate.tingle.hand)
+        control.play_minion(num_in_hand, int(card.pos))
+        time.sleep(2)
+        parser.process_log()
+
+    num_in_field = len(gstate.tingle.minions)
+    if num_in_field >= 10:
+        return
     
     for card in cards:
         num_in_hand = len(gstate.tingle.hand)
         control.play_minion(num_in_hand, int(card.pos))
-        #gstate.tingle.spend_mana(int(card.cost))
         # We need this to get the new position of cards
         time.sleep(2)
         parser.process_log()
@@ -207,7 +239,7 @@ def main():
     kooloolimpah.kooloo_limpah()
     
     parser = cardlogger.Parser(hearthstone_log)
-    parser.reset_log()
+    #parser.reset_log()
     gstate = parser.gstate
     
     control.start_game()
@@ -228,6 +260,7 @@ def main():
     parser.process_log()
     
     # Click on confirm button
+    
     control.confirm_start_cards()
 
     # Wait for animation
@@ -247,6 +280,11 @@ def main():
         parser.process_log()
         
         # Play minions
+        logger.info("*"*10)
+        logger.info("Play Phase")
+        logger.info("*"*10)
+        logger.info("Tingle's Hand: ")
+        logger.info("{}".format(pprint.pformat(gstate.tingle.hand)))
         play_phase(parser)
         parser.process_log()
 
@@ -260,6 +298,10 @@ def main():
         # parser.process_log()
 
         # If any minions on the board, figure out if we should attack
+        logger.info("*"*10)
+        logger.info("Attack Phase")
+        logger.info("*"*10)
+        logger.info("{}".format(pprint.pformat(gstate.tingle.minions)))
         attack_phase(parser)
         parser.process_log()
 
