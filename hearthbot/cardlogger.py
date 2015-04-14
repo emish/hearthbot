@@ -23,19 +23,26 @@ logger = logging.getLogger('parser')
 player_name = "tingle"
 
 class Parser(object):
-    def __init__(self, filepath):
+    def __init__(self, hs_filepath, output_filepath):
         """Create a new game parser.
+        
+        Args:
+            - hs_filepath: The source of the Hearthstone logs
+            - output_filepath: A destination filepath to store lines that are parsed
         """
-        # The full path of the logfile
-        self.filepath = filepath
-        # The logfile object
-        self.logfile = file(self.filepath, 'r')
+        self.hs_filepath = hs_filepath
+        self.logfile = file(self.hs_filepath, 'r')
+        
+        self.output_filepath = output_filepath
+        self.outfile = file(self.output_filepath, 'w')
+
+        # Position in the HS log
         self.pos = 0
         # The state of the game
         self.gstate = state.GameState()
 
     def reset_log(self):
-        """Read until the end of the log, not processing any of 
+        """Read until the end of the log, not processing any of
         the events to the game state.
         """
         logger.info("Skipping to end of log file")
@@ -74,6 +81,9 @@ class Parser(object):
         if not self.gstate.game_started:
             return True
 
+        # If we get past this line, we have started the game
+        self.outfile.write(line)
+        
         # Figure out if we are player 1 or 2: we see 'friendly play'
         #    2535:[Zone] ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Jaina Proudmoore id=4 zone=PLAY zonePos=0 cardId=HERO_08 player=1] to FRIENDLY PLAY (Hero)
         pl_re = re.compile(r'.*TRANSITIONING.*player=(1|2)] to FRIENDLY PLAY \(Hero\)')
@@ -260,7 +270,7 @@ def main():
     """Just read the log and output the state changes. 
     Used for testing.
     """
-    parser = Parser(filename)
+    parser = Parser(filename, '/tmp/output_hs.log')
     while True:
         parser.process_log()
         time.sleep(2)               # So we don't read the file too often

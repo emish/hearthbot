@@ -4,12 +4,12 @@ Strategies and functions for doing attacks and trading minions.
 Try to keep this module state and control free.
 """
 
-import logging, time, os
+import logging
 import itertools
-import copy # for deep copies with copy.deepcopy
+#import copy # for deep copies with copy.deepcopy
 from pprint import pformat
 
-import state
+from hearthbot import state
 
 logger = logging.getLogger('ALGS')
 
@@ -39,7 +39,7 @@ def can_kill_minion(min_list, minion):
     logger.debug("can_kill_minion start - {}\nTo Kill:{}".format(min_list, minion))
     for i in range(1, len(min_list)+1):
         candidates = itertools.combinations(min_list, i)
-        best_candidate = None   # use later
+        #best_candidate = None   # use later
         for c in candidates:
             # Evaluate this candidate list
             minion_health = int(minion.remaining_health())
@@ -164,3 +164,36 @@ def play_with_max_mana(hand, avail_mana):
     #END for all play combs of size i
 
     return ultimate_play
+
+def cards_to_play(player):
+    """Given a player, decide which cards should be played from the players hand
+    incorporating the current minions the player has already played.
+    
+    Args: 
+        A state.Player
+    Returns:
+        (total_mana, cards): (Int, [carddata.Card]) - The mana required and list of cards to play
+    """
+    num_in_field = len(player.minions)
+    
+    if num_in_field >= 7:
+        logger.info("Maximum minions on the field, cannot play anymore.")
+        (total, cards) = (0, [])
+        
+    elif num_in_field == 6:
+        # play the most expensive card (This is an optimization over spend_max_mana)
+        logger.info("I can only play one minion, so I'm going to play the most expensive one.")
+        cards = player.hand[:] # Shallow
+        cards = [c for c in cards if c.cost <= player.mana_available()]
+        logger.info("The cards I can play with {} mana are:\n{}".\
+                    format(player.mana_available(), pformat(cards)))
+        cards.sort(cmp=lambda x,y: int(x.cost) > int(y.cost))
+        logger.info("Sorted cards: {}".format(cards))
+        card = cards[0]
+        # Rewrite cards with the one expensive card
+        (total, cards) = (card.cost, [card])
+        
+    else:
+        (total, cards) = spend_max_mana(player)
+
+    return (total, cards)

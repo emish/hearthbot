@@ -22,6 +22,7 @@ def click_on_hero():
 def start_game():
     """Starts a new game with our required hero.
     """
+    logger.info("Clicking play button")
     mouseclick(coords_play_final_button[0], coords_play_final_button[1])
 
 def go_to_play_mode_from_start():
@@ -45,6 +46,7 @@ confirm_button = (511, 606)
 end_turn_button = (933, 342)
 
 def confirm_start_cards():
+    logger.debug("Click: Confirm start cards")
     game_click(confirm_button)
 
 def end_turn():

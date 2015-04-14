@@ -10,35 +10,18 @@ This is Tingle's brain.
 """
 
 import logging, time, os
-import itertools
-import copy # for deep copies with copy.deepcopy
+#import itertools
+#import copy # for deep copies with copy.deepcopy
 from pprint import pformat
 
-import control, cardlogger, state
-import kooloolimpah
+from hearthbot import control, cardlogger, kooloolimpah, botalgs
 from hearthbot import TINGLE_LOGS
-from botalgs import *
 
 # The file for the hearthstone log
 hearthstone_log = os.path.expanduser("~/Library/Logs/Unity/Player.log")
 
 # The global state of the game, used to make decisions about things.
 gstate = None
-
-# Since this is where main is, we set up the main logging here
-# The root logger (everything) logs to the log file at debug level
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s %(name)-8s - %(levelname)-8s %(message)s',
-                    datefmt='%mm:%dd - %H:%M:%S',
-                    filename=TINGLE_LOGS+'/tingle_active.log',
-                    filemode='w')
-# And logs to the console at info level
-console = logging.StreamHandler()
-console.setLevel(logging.INFO)
-# Simple console format
-formatter = logging.Formatter('%(name)-8s: %(levelname)-8s %(message)s')
-console.setFormatter(formatter)
-logging.getLogger('').addHandler(console)
 
 logger = logging.getLogger('BOT')
 
@@ -51,11 +34,11 @@ def attack_them(us, minions, minions_attacked, parser):
     logger.info("Focus firing on minions: {}".format(minions))
     us_remain = us[:]
     them = minions[:]
-    them.sort(cmp=highest_attack_cmp)
+    them.sort(cmp=botalgs.highest_attack_cmp)
     for enemy in them:
         logger.info("Focus firing on {}".format(enemy))
         # If we can kill this minion, do it
-        attackers = can_kill_minion(us_remain, enemy)
+        attackers = botalgs.can_kill_minion(us_remain, enemy)
         if attackers:
             # Since we are attacking with these, remove them from future calculations
             for m in attackers:
@@ -123,10 +106,10 @@ def attack_phase(parser):
                  format(pformat(them)))
     
     # Order them by highest attacks
-    them.sort(cmp=highest_attack_cmp)
+    them.sort(cmp=botalgs.highest_attack_cmp)
     for enemy in them:
         # If we can kill this minion, do it
-        attackers = can_kill_minion(us_remain, enemy)
+        attackers = botalgs.can_kill_minion(us_remain, enemy)
         if attackers:
             # Since we are attacking with these, remove them from future calculations
             for m in attackers:
@@ -186,42 +169,23 @@ def play_phase(parser):
     Don't play anything if there are 7 minions on the field.
     """
     logger.debug("Play phase start")
-    num_in_field = len(gstate.tingle.minions)
-    
-    if num_in_field >= 7:
-        logger.info("Maximum minions on the field, cannot play anymore.")
-        (total, cards) = (0, [])
-        
-    elif num_in_field == 6:
-        # play the most expensive card
-        logger.info("I can only play one minion, so I'm going to play the most expensive one.")
-        cards = gstate.tingle.hand[:] # Shallow
-        cards = [c for c in cards if c.cost <= gstate.tingle.mana_available()]
-        logger.info("The cards I can play with {} mana are:\n{}".\
-                    format(gstate.tingle.mana_available(), pformat(cards)))
-        cards.sort(cmp=lambda x,y: int(x.cost) > int(y.cost))
-        logger.info("Sorted cards: {}".format(cards))
-        card = cards[0]
-        num_in_hand = len(gstate.tingle.hand)
-        control.play_minion(num_in_hand, int(card.pos))
-        time.sleep(2)
-        parser.process_log()
-        
-    else:
-        (total, cards) = spend_max_mana(gstate.tingle)
-    
+
+    (total, cards) = botalgs.cards_to_play(gstate.tingle)
     logger.debug("Going to play {} with {} mana".format(cards, total))
 
     if total + 2 <= gstate.tingle.mana_available():
         # We should play the draw ability first and recalculate
+        logger.info("Avail mana is greater than what we can spend; using hero power and recalculating")
         play_hero_ability()
         parser.process_log()
-        (total, cards) = spend_max_mana(gstate.tingle)
+        (total, cards) = botalgs.cards_to_play(gstate.tingle)
     
     for card in cards:
         num_in_hand = len(gstate.tingle.hand)
         control.play_minion(num_in_hand, int(card.pos))
         # We need this to get the new position of cards
+        # TODO: With a built-in cache we could predict the future positions of minions that die
+        # (assuming they don't have side-effects)
         time.sleep(2)
         parser.process_log()
 
@@ -237,17 +201,45 @@ def hero_power_phase():
         control.use_hero_ability()
         gstate.tingle.spend_mana(2)
 
+def config_main_logging(game_dir):
+    """Set up logging parameters and locations.
+    """
+    global logger
+    os.mkdir(game_dir)
+    # The root logger (everything) logs to the log file at debug level
+    logging.basicConfig(level=logging.DEBUG,
+                        format='%(asctime)s [%(name)-8s] - <%(levelname)-5s> %(message)s',
+                        datefmt='%mm:%dd-%H:%M:%S',
+                        filename=os.path.join(game_dir, 'tingle.log'),
+                        filemode='w')
+    # And logs to the console at info level
+    console = logging.StreamHandler()
+    console.setLevel(logging.INFO)
+    # Simple console format
+    formatter = logging.Formatter('%(name)-8s: <%(levelname)-5s> %(message)s')
+    console.setFormatter(formatter)
+    logging.getLogger('').addHandler(console)
+
+    logger = logging.getLogger('BOT')
+    logger.debug("Logging configured for Tingle")
+        
 def main():
-    global gstate
     # Right now, we just play a game. later, we'll add the ability to keep playing games
     # You must have hearthstone synced with coordinates and at the start game screen
+    
+    # TODO: Append the name of the heroes after the game is played
+    game_dir = os.path.join(TINGLE_LOGS, time.strftime('%Y_%m_%d__%H_%M__'))
+    config_main_logging(game_dir)
+    hs_log_copy = os.path.join(game_dir, 'hearthstone.log')
+
+    global gstate
     logger.info("STARTING IN 5 SECONDS")
     time.sleep(5)
     logger.info("Tingle Tingle! Kooloo limpah!")
     kooloolimpah.kooloo_limpah()
     
-    parser = cardlogger.Parser(hearthstone_log)
-    #parser.reset_log()
+    parser = cardlogger.Parser(hearthstone_log, hs_log_copy)
+    parser.reset_log()
     gstate = parser.gstate
     
     control.start_game()
@@ -255,16 +247,19 @@ def main():
     # Wait for game to load (we have cards in hand)
     while not gstate.game_started:
         logger.info("Waiting for game state to start: {}".format(gstate))
+        time.sleep(2)
         parser.process_log()
-        time.sleep(15)
 
+    logger.info("Game started. Waiting for setup animation to complete (20s)")
+    time.sleep(20)
     parser.process_log()
-    
+        
     # Click on confirm button
     control.confirm_start_cards()
 
     # Wait for animation
-    time.sleep(7)
+    logger.info("Waiting for start cards animation...")
+    time.sleep(10)
 
     while not gstate.game_ended:
         parser.process_log()
@@ -288,8 +283,8 @@ def main():
         while current_log_position != parser.pos:
             logger.info("Log is still printing, waiting for it to queisce...")
             current_log_position = parser.pos
-            parser.process_log()
             time.sleep(2)
+            parser.process_log()
             
         # Play minions
         logger.info("*"*10)

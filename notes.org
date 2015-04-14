@@ -1,11 +1,13 @@
 * P0 Bugs
-** TODO Create test suite for synthesized game states to test various bot behaviors
+** DONE Create test suite for synthesized game states to test various bot behaviors
+   CLOSED: [2015-04-13 Mon 22:12]
    Instead of playing tingle against the inkeeper and waiting for crashers, 
    modularize the bot code so it can be called on a game state object and create
    fake game state objects to test what the bot should do.
 ** TODO Collect game and tingle logs and put them in a folder for every game played
    Name the folder after the games heroes, and date it.
 * P1 Bugs
+** TODO Add global exception handler that flushes all logs and exports backtrace
 ** TODO CRASHER: Tingle doesn't understand when a minion is returned to hand
    We need to remove it from play and add it to hand, separately from drawing a card
    from the deck. If we know where a card used to be before (play or unknown [which would mean
