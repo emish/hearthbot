@@ -1,23 +1,25 @@
-* Bugs
-** TODO Flame imp didn't give opponent damage
-   Logfile: 
-** TODO Add a minion location cache (state)
-   Have a cache handy with minion locations. This will help with the
-   game logs being buggy.  This will also help speed up attack phases.
-   Whenever an event happes with minions (we can isolate these into a
-   function) apply those changes to the cache as they would normally
-   happen.  The cache loses accuracy over time as more minions are
-   played, but should remain valid as minions are destroyed (there was
-   already an ordering) This is basically just updating the positions
-   of minions prematurely, rather than storing all the info somewhere.
+* P0 Bugs
+** TODO Create test suite for synthesized game states to test various bot behaviors
+   Instead of playing tingle against the inkeeper and waiting for crashers, 
+   modularize the bot code so it can be called on a game state object and create
+   fake game state objects to test what the bot should do.
+** TODO Collect game and tingle logs and put them in a folder for every game played
+   Name the folder after the games heroes, and date it.
+* P1 Bugs
+** TODO CRASHER: Tingle doesn't understand when a minion is returned to hand
+   We need to remove it from play and add it to hand, separately from drawing a card
+   from the deck. If we know where a card used to be before (play or unknown [which would mean
+   deck]) then we can make this kind of distinction when the card is added to hand.
+** TODO Wait for opponent updates to complete before starting a turn :VERIFY:
+   Look at log line and wait until its static for a few seconds.
+** TODO CRASHER: Frozen minions are not registered as inactive
+   Cause tingle to crash
+** TODO Dont play minions if there is no room			     :VERIFY:
+   This is preventing us from using mana efficiently
 ** TODO Status changes to minions from log
    When a minion is granted a state update, we need to know. This can only be garnered from the
    log.
 ** TODO Hero powers are not getting registered
-** TODO Special handling of minion control change
-   after opponent takes control of a minion, it might die before we
-   record that the opponent PLAYs it.
-
 ** TODO Minion buffs can take place before spells are played (wtf)
    - idea: queue tag changes if the id can't be found right now, and
      try again next time we perform a tag update.
@@ -33,25 +35,10 @@
 ** TODO zone updates to play or deck don't always take place?
    If the log is flat out missing some game updates, it will be hard, 
    if not impossible, to work around this.
-** TODO Heroes as separate entities
-   Instead of being anothe minion in play.
-** TODO Weapon mechanics: gives hero attack, but takes damage itself.
-** TODO Use coin primitively to increase mana usage
-   For starters, teach tingle to use the coin whenever he can.
-   In the future, we can add better heuristics to using the coin by looking at
-   the play that would be done next turn given the current hand.
-
-** TODO Tingle shouldn't play more than 10 minions on the field
-** TODO Use life tap before playing cards
-   If spend max mana results in life tap being necessary, play life tap first, then
-   recalculate spending max mana again.
-** TODO Minions cannot be left active after a turn ends
-   Heavy assertion in place.
-
-** TODO Special deathrattle attack case
-   When a minion with deathrattle is destroyed, wait for animation, and recalculate 
-   attack phase. The deathrattle might have dramatically changed the arena.
 ** TODO Tingle wins shouldn't cause assertions
+** TODO Tingle exit strategy
+   If tingle crashes while playing a match, catch the assertion and
+   resign. Log the stacktrace so it can be analyzed later.
 ** TODO Tingle didn't use hero power and passed with 2 mana
    02m:21d - 19:55:26 BOT      - INFO     STARTING IN 5 SECONDS
 02m:21d - 19:55:31 BOT      - INFO     Tingle Tingle! Kooloo limpah!
@@ -2756,10 +2743,44 @@ To Kill:Gurubashi Berserker (5:2/7) (id:43) (pos:1)
 02m:21d - 20:03:07 CONTROL  - DEBUG    Clicking on minion at position 4 of 5
 02m:21d - 20:03:09 CONTROL  - DEBUG    Clicking on minion at position 2 of 5
 
+* P2 Bugs
+** TODO Improve coin heuristics
+   In the future, we can add better heuristics to using the coin by looking at
+   the play that would be done next turn given the current hand.
+
 ** TODO Tingle didn't use 9 mana with hero ability
    He used 8 mana on cards and wasted 1 instead.
-** TODO Frozen minions are not registered as inactive
-   Cause tingle to crash
+** TODO Flame imp didn't give opponent damage
+   Logfile: Need one.
+   This can just be a logging issue from Hearthstone.
+** TODO Destroy enemy minions by keeping as many minions alive as possible
+** TODO Special deathrattle attack case
+   When a minion with deathrattle is destroyed, wait for animation, and recalculate 
+   attack phase. The deathrattle might have dramatically changed the arena.
+** TODO Minions cannot be left active after a turn ends
+   Heavy assertion in place.
+** TODO Use life tap before playing cards
+   If spend max mana results in life tap being necessary, play life tap first, then
+   recalculate spending max mana again.
+** TODO Implement weapon mechanics: gives hero attack, but takes damage itself.
+** TODO Use coin primitively to increase mana usage
+   Teach tingle to use the coin whenever he can.
+** TODO Special handling of minion control change
+   after opponent takes control of a minion, it might die before we
+   record that the opponent PLAYs it.
+* P3 Bugs
+** TODO Heroes as separate entities
+   Instead of being another minion in play.
+   They are already separate classes.
+** TODO Add a minion location cache (state)
+   Have a cache handy with minion locations. This will help with the
+   game logs being buggy.  This will also help speed up attack phases.
+   Whenever an event happes with minions (we can isolate these into a
+   function) apply those changes to the cache as they would normally
+   happen.  The cache loses accuracy over time as more minions are
+   played, but should remain valid as minions are destroyed (there was
+   already an ordering) This is basically just updating the positions
+   of minions prematurely, rather than storing all the info somewhere.
 * Notes
   - I don't need to apply cards' effects to the game for every card.
     I just need to know minions, their stats, and hero stats.
@@ -2769,7 +2790,18 @@ To Kill:Gurubashi Berserker (5:2/7) (id:43) (pos:1)
 * Ref
   - http://www.pcgamer.com/interview-with-a-hearthstone-botter-im-not-scared-of-getting-caught/
 ** Hearthstone logs
-   http://www.reddit.com/r/hearthstone/comments/268fkk/simple_hearthstone_logging_see_your_complete_play/
+   Reference for logging options available:
+    - http://www.reddit.com/r/hearthstone/comments/268fkk/simple_hearthstone_logging_see_your_complete_play/
+   Actual directions:
+   Copy log.config from hearthbot dir to ~/Library/Preferences/Blizzard/Hearthstone/.
+   Configuration of file as follows for each logging option.
+   #+BEGIN_EXAMPLE
+   [Zone]
+   LogLevel=1
+   FilePrinting=false
+   ConsolePrinting=true
+   ScreenPrinting=false
+   #+END_EXAMPLE
 ** Python Tutorial
    http://code.tutsplus.com/tutorials/how-to-build-a-python-bot-that-can-play-web-games--active-11117
 ** Mouse clicking osx 

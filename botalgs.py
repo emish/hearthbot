@@ -7,6 +7,7 @@ Try to keep this module state and control free.
 import logging, time, os
 import itertools
 import copy # for deep copies with copy.deepcopy
+from pprint import pformat
 
 import state
 
@@ -91,7 +92,7 @@ def spend_max_mana(player):
     avail_mana = player.mana_available()
     coin = player.has_card("The Coin")
     
-    logger.info("Spend max mana. Available: {}".format(avail_mana))
+    logger.info("Spend max mana. Available mana to spend: {}".format(avail_mana))
     hand = player.hand[:] # shallow copy (so we still get updates to contents)
 
     # Remove any cards that are not minions
@@ -100,19 +101,22 @@ def spend_max_mana(player):
     coin_hand = [c for c in hand if c.cost <= (avail_mana + 1)]
     hand = [c for c in hand if c.cost <= avail_mana]
 
-    logger.info("Candidates: {}".format(hand))
+    logger.info("Cards that cost less than {}:\n{}".format(avail_mana, pformat(hand)))
     play = play_with_max_mana(hand, avail_mana)
 
-    logger.info("Play is: {}".format(play))
-    if coin and play[0] < avail_mana:
-        # Calculate a second play if the first one doesn't work
+    logger.info("Potential play is: {} Mana\n{}".format(play[0], pformat(play[1])))
+    # If the play found without using the coin does not use the maximum amount of mana
+    if coin and (play[0] < avail_mana):
+        # Calculate a second play with the coin involved
         logger.info("Coin detected and play is sub-optimal. Looking for better play...")
         play_coin = play_with_max_mana(coin_hand, avail_mana+1)
         play_coin[1].insert(0, coin)
-        logger.info("Coin play is: {}".format(play_coin))
+        logger.info("Coin play is: {} Mana\n{}".format(play_coin[0], pformat(play_coin[1])))
         # Judge based on efficiency
         play_eff = avail_mana - play[0]
-        play_coin_eff = avail_mana+1 - play[0]
+        logger.debug("Play without coin wastes {} mana.".format(play_eff))
+        play_coin_eff = avail_mana+1 - play_coin[0]
+        logger.debug("Play with coin wastes {} mana.".format(play_coin_eff))
         if (play_coin_eff < play_eff):
             logger.info("Coin play is chosen due to higher efficiency: {} remaining (vs. {} without coin)".\
                         format(play_eff, play_coin_eff))
@@ -125,6 +129,9 @@ def spend_max_mana(player):
 
 
 def play_with_max_mana(hand, avail_mana):
+    """Returns a (mana cost, list of cards) tuple describing the play in this hand
+    that costs the most mana under avail_mana.
+    """
     ultimate_play = (0, [])
     
     # Try to play as many cards as possible, so consider more first
@@ -146,12 +153,14 @@ def play_with_max_mana(hand, avail_mana):
             if mana_spent > pot_mana_spent:
                 pot_mana_spent = mana_spent
                 pot_play = play
-                
+        #END play_combs of size i
+
         # This is the end of all plays of size i
         # If we have one, play it. Otherwise, keep looking
         if pot_play:
             assert pot_mana_spent
             ultimate_play = (pot_mana_spent, list(pot_play))
             break
+    #END for all play combs of size i
 
     return ultimate_play

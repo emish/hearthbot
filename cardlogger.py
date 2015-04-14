@@ -62,11 +62,6 @@ class Parser(object):
         Returns:
             True if a line was read and parsed, false otherwise.
         """
-        # # Get the next line, allow 0.1 seconds to timeout if none available
-        # line = self.logstream.readline(0.1)
-        # if not line:
-        #     return False
-        
         # This is the start of the game
         # [Power] GameState.DebugPrintPower() - CREATE_GAME
         gamestart_re = re.compile(r'.*CREATE_GAME')

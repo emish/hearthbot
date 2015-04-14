@@ -13,12 +13,11 @@ This is Tingle's brain.
 import logging, time, os
 import itertools
 import copy # for deep copies with copy.deepcopy
-import pprint
+from pprint import pformat
 
 import control, cardlogger, state
 import kooloolimpah
-
-from botattack import *
+from botalgs import *
 
 # The file for the hearthstone log
 hearthstone_log = os.path.expanduser("~/Library/Logs/Unity/Player.log")
@@ -104,14 +103,14 @@ def attack_phase(parser):
     us_remain = [m for m in us_remain if int(m.attack) > 0]
 
     logger.debug("Minions available to attack:\n{}".\
-                 format(pprint.pformat(us_remain)))
+                 format(pformat(us_remain)))
 
     # Attack any minions with taunt first
     taunters = [m for m in them if 'Taunt' in m.mechanics]
     us_remain = attack_them(us_remain, taunters, minions_attacked, parser)
 
     logger.debug("Minions remaining after taking out taunters:\n{}".\
-                 format(pprint.pformat(us_remain)))
+                 format(pformat(us_remain)))
 
     # If we don't have any remaining, continue with attack
     if not us_remain:
@@ -121,7 +120,7 @@ def attack_phase(parser):
     them = gstate.opponent.minions[:]
 
     logger.debug("Enemy minions remaining to take out:\n{}".\
-                 format(pprint.pformat(them)))
+                 format(pformat(them)))
     
     # Order them by highest attacks
     them.sort(cmp=highest_attack_cmp)
@@ -184,20 +183,22 @@ def attack_minion(attacker, defender):
 def play_phase(parser):
     """Decide which cards to play and play them.
     When making a decision, incorporate the coin primitively.
+    Don't play anything if there are 7 minions on the field.
     """
     logger.debug("Play phase start")
-    (total, cards) = spend_max_mana(gstate.tingle)
-    logger.debug("Going to play {} with {} mana".format(cards, total))
-
-    if total == gstate.tingle.mana_available() - 2:
-        # We should play the draw ability first and recalculate
-        play_hero_ability()
-        parser.process_log()
-        (total, cards) = spend_max_mana(gstate.tingle)
-
     num_in_field = len(gstate.tingle.minions)
-    if num_in_field == 9:
+    
+    if num_in_field >= 7:
+        logger.info("Maximum minions on the field, cannot play anymore.")
+        (total, cards) = (0, [])
+        
+    elif num_in_field == 6:
         # play the most expensive card
+        logger.info("I can only play one minion, so I'm going to play the most expensive one.")
+        cards = gstate.tingle.hand[:] # Shallow
+        cards = [c for c in cards if c.cost <= gstate.tingle.mana_available()]
+        logger.info("The cards I can play with {} mana are:\n{}".\
+                    format(gstate.tingle.mana_available(), pformat(cards)))
         cards.sort(cmp=lambda x,y: int(x.cost) > int(y.cost))
         logger.info("Sorted cards: {}".format(cards))
         card = cards[0]
@@ -205,10 +206,17 @@ def play_phase(parser):
         control.play_minion(num_in_hand, int(card.pos))
         time.sleep(2)
         parser.process_log()
+        
+    else:
+        (total, cards) = spend_max_mana(gstate.tingle)
+    
+    logger.debug("Going to play {} with {} mana".format(cards, total))
 
-    num_in_field = len(gstate.tingle.minions)
-    if num_in_field >= 10:
-        return
+    if total + 2 <= gstate.tingle.mana_available():
+        # We should play the draw ability first and recalculate
+        play_hero_ability()
+        parser.process_log()
+        (total, cards) = spend_max_mana(gstate.tingle)
     
     for card in cards:
         num_in_hand = len(gstate.tingle.hand)
@@ -250,17 +258,9 @@ def main():
         parser.process_log()
         time.sleep(15)
 
-    # while len(gstate.tingle.hand) < 3:
-    #     logger.info("Waiting for cards to be drawn (only {} cards in hand right now)".\
-    #                  format(len(gstate.tingle.hand)))
-    #     parser.process_log()
-    #     time.sleep(2)
-    # time.sleep(2)
-
     parser.process_log()
     
     # Click on confirm button
-    
     control.confirm_start_cards()
 
     # Wait for animation
@@ -275,16 +275,28 @@ def main():
             parser.process_log()
             time.sleep(5)
 
-        # When the logs say it's our turn, animation might still be taking place
-        time.sleep(10)
+        # Wait to draw a card
+        while not gstate.drew_card_this_turn:
+            logger.info("Waiting to draw a card...")
+            time.sleep(4)
+            parser.process_log()
+
+        # Animations may still be moving around
+        current_log_position = parser.pos
+        time.sleep(2)
         parser.process_log()
-        
+        while current_log_position != parser.pos:
+            logger.info("Log is still printing, waiting for it to queisce...")
+            current_log_position = parser.pos
+            parser.process_log()
+            time.sleep(2)
+            
         # Play minions
         logger.info("*"*10)
         logger.info("Play Phase")
         logger.info("*"*10)
         logger.info("Tingle's Hand: ")
-        logger.info("{}".format(pprint.pformat(gstate.tingle.hand)))
+        logger.info("{}".format(pformat(gstate.tingle.hand)))
         play_phase(parser)
         parser.process_log()
 
@@ -301,7 +313,7 @@ def main():
         logger.info("*"*10)
         logger.info("Attack Phase")
         logger.info("*"*10)
-        logger.info("{}".format(pprint.pformat(gstate.tingle.minions)))
+        logger.info("{}".format(pformat(gstate.tingle.minions)))
         attack_phase(parser)
         parser.process_log()
 

@@ -82,6 +82,7 @@ class GameState(object):
         self.game_ended = False
         self.num = None
         self.opp_num = None
+        self.drew_card_this_turn = False
 
     def __repr__(self):
         return "GameState: started: {}".format(self.game_started)
@@ -105,6 +106,7 @@ class GameState(object):
         self.game_ended = False
         self.num = None
         self.opp_num = None
+        self.drew_card_this_turn = False        
         
     def start_game(self):
         self.init()
@@ -116,6 +118,7 @@ class GameState(object):
     def set_our_turn(self):
         self.turn = "OURS"
         self.tingle.prepare_for_new_turn()
+        self.drew_card_this_turn = False
         logger.info("*"*10)
         logger.info("TINGLE's TURN - {} mana".format(self.tingle.mana_available()))
         logger.info("*"*10)
@@ -187,6 +190,7 @@ class GameState(object):
             card.zone = "HAND"
             self.add_card_to_game(card)
             self.tingle.hand.append(card)
+            self.drew_card_this_turn = True
         else:
             logger.error("Trying to add card {} (card_id={}) to HAND but no card with that name found".\
                           format(cardId, card_id))
@@ -400,7 +404,7 @@ class GameState(object):
             # we don't care
             return
         card.pos = pos
-        logger.info("Update card {} to position {} in {}".\
+        logger.debug("Update card {} to position {} in {}".\
                      format(card, card.pos, card.zone))
 
     def set_won(self):
