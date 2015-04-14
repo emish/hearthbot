@@ -5,8 +5,7 @@ This is Tingle's brain.
 
 - Minions spawned by special abilities aren't used to attack with:
     - Turns out hoggers gnoll wasn't introduced into the logs until after our turn started. 
-      which means tingle though it was still inactive. 
-- Tingle doesn't know that there's a max minion limit in play
+      which means tingle thought it was still inactive. 
 - Minions with divine shield screw up attack calculation. (todo)
 """
 
