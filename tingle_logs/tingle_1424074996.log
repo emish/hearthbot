@@ -1,0 +1,2275 @@
+00:23:16 BOT      - INFO     STARTING IN 5 SECONDS
+00:23:21 BOT      - INFO     Tingle Tingle! Kooloo limpah!
+00:23:25 BOT      - INFO     Waiting for game state to start: GameState: started: False
+00:23:25 STATE    - INFO     **************************
+00:23:25 STATE    - INFO     ***** STARTING GAME *****
+00:23:25 STATE    - INFO     **************************
+00:23:25 STATE    - INFO     TINGLE is player 1
+00:23:25 STATE    - INFO     OPPONENT is player 2
+00:23:25 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+00:23:25 STATE    - INFO     Adding our hero to play: Gul'dan (0/30) - (id:4)
+00:23:25 STATE    - INFO     Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+00:23:25 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+00:23:25 STATE    - INFO     Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+00:23:25 STATE    - INFO     Adding Life Tap - (id:5) to active cards in zone PLAY
+00:23:25 STATE    - INFO     DRAW CARD: Chillwind Yeti (4:4/5) (id:7) (pos:None)
+00:23:25 STATE    - INFO     Adding Chillwind Yeti (4:4/5) (id:7) (pos:None) to active cards in zone HAND
+00:23:25 STATE    - INFO     Cards in HAND:
+[Chillwind Yeti (4:4/5) (id:7) (pos:None)]
+00:23:25 STATE    - INFO     Update card Chillwind Yeti (4:4/5) (id:7) (pos:1) to position 1 in HAND
+00:23:25 STATE    - INFO     DRAW CARD: Bloodfen Raptor (2:3/2) (id:15) (pos:None)
+00:23:25 STATE    - INFO     Adding Bloodfen Raptor (2:3/2) (id:15) (pos:None) to active cards in zone HAND
+00:23:25 STATE    - INFO     Cards in HAND:
+[Chillwind Yeti (4:4/5) (id:7) (pos:1),
+ Bloodfen Raptor (2:3/2) (id:15) (pos:None)]
+00:23:25 STATE    - INFO     Update card Bloodfen Raptor (2:3/2) (id:15) (pos:4) to position 4 in HAND
+00:23:25 STATE    - INFO     DRAW CARD: Stormwind Champion (7:6/6) (id:32) (pos:None)
+00:23:25 STATE    - INFO     Adding Stormwind Champion (7:6/6) (id:32) (pos:None) to active cards in zone HAND
+00:23:25 STATE    - INFO     Cards in HAND:
+[Chillwind Yeti (4:4/5) (id:7) (pos:1),
+ Bloodfen Raptor (2:3/2) (id:15) (pos:4),
+ Stormwind Champion (7:6/6) (id:32) (pos:None)]
+00:23:25 STATE    - INFO     Update card Stormwind Champion (7:6/6) (id:32) (pos:2) to position 2 in HAND
+00:23:25 STATE    - INFO     DRAW CARD: Gnomish Inventor (4:2/4) (id:34) (pos:None)
+00:23:25 STATE    - INFO     Adding Gnomish Inventor (4:2/4) (id:34) (pos:None) to active cards in zone HAND
+00:23:25 STATE    - INFO     Cards in HAND:
+[Chillwind Yeti (4:4/5) (id:7) (pos:1),
+ Bloodfen Raptor (2:3/2) (id:15) (pos:4),
+ Stormwind Champion (7:6/6) (id:32) (pos:2),
+ Gnomish Inventor (4:2/4) (id:34) (pos:None)]
+00:23:25 STATE    - INFO     Update card Gnomish Inventor (4:2/4) (id:34) (pos:3) to position 3 in HAND
+00:23:25 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+00:23:25 STATE    - INFO     Adding opponent hero to play: Thrall (0/30) - (id:36)
+00:23:25 STATE    - INFO     Adding Thrall (0/30) - (id:36) to active cards in zone PLAY
+00:23:25 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+00:23:25 STATE    - INFO     Moving Hero Power/Weapon to play but not as minion: Totemic Call - (id:37)
+00:23:25 STATE    - INFO     Adding Totemic Call - (id:37) to active cards in zone PLAY
+00:23:25 STATE    - INFO     DRAW CARD: The Coin - 0 mana (id:68)
+00:23:25 STATE    - INFO     Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+00:23:25 STATE    - INFO     Cards in HAND:
+[Chillwind Yeti (4:4/5) (id:7) (pos:1),
+ Bloodfen Raptor (2:3/2) (id:15) (pos:4),
+ Stormwind Champion (7:6/6) (id:32) (pos:2),
+ Gnomish Inventor (4:2/4) (id:34) (pos:3),
+ The Coin - 0 mana (id:68)]
+00:23:25 STATE    - INFO     Update card The Coin - 0 mana (id:68) to position 5 in HAND
+00:23:25 STATE    - INFO     **********
+00:23:25 STATE    - INFO     TINGLE's TURN - 1 mana
+00:23:25 STATE    - INFO     **********
+00:23:25 STATE    - INFO     DRAW CARD: Voidwalker (1:1/3) (id:23) (pos:None)
+00:23:25 STATE    - INFO     Adding Voidwalker (1:1/3) (id:23) (pos:None) to active cards in zone HAND
+00:23:25 STATE    - INFO     Cards in HAND:
+[Chillwind Yeti (4:4/5) (id:7) (pos:1),
+ Bloodfen Raptor (2:3/2) (id:15) (pos:4),
+ Stormwind Champion (7:6/6) (id:32) (pos:2),
+ Gnomish Inventor (4:2/4) (id:34) (pos:3),
+ The Coin - 0 mana (id:68),
+ Voidwalker (1:1/3) (id:23) (pos:None)]
+00:23:25 STATE    - INFO     Update card Voidwalker (1:1/3) (id:23) (pos:6) to position 6 in HAND
+00:23:25 STATE    - INFO     TINGLE lost!
+00:23:26 STATE    - INFO     **************************
+00:23:26 STATE    - INFO     ***** STARTING GAME *****
+00:23:26 STATE    - INFO     **************************
+00:23:26 STATE    - INFO     TINGLE is player 1
+00:23:26 STATE    - INFO     OPPONENT is player 2
+00:23:26 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+00:23:26 STATE    - INFO     Adding our hero to play: Gul'dan (0/30) - (id:4)
+00:23:26 STATE    - INFO     Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+00:23:26 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+00:23:26 STATE    - INFO     Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+00:23:26 STATE    - INFO     Adding Life Tap - (id:5) to active cards in zone PLAY
+00:23:26 STATE    - INFO     DRAW CARD: Bluegill Warrior (2:2/1) (id:7) (pos:None)
+00:23:26 STATE    - INFO     Adding Bluegill Warrior (2:2/1) (id:7) (pos:None) to active cards in zone HAND
+00:23:26 STATE    - INFO     Cards in HAND:
+[Bluegill Warrior (2:2/1) (id:7) (pos:None)]
+00:23:26 STATE    - INFO     Update card Bluegill Warrior (2:2/1) (id:7) (pos:1) to position 1 in HAND
+00:23:26 STATE    - INFO     DRAW CARD: Voidwalker (1:1/3) (id:27) (pos:None)
+00:23:26 STATE    - INFO     Adding Voidwalker (1:1/3) (id:27) (pos:None) to active cards in zone HAND
+00:23:26 STATE    - INFO     Cards in HAND:
+[Bluegill Warrior (2:2/1) (id:7) (pos:1),
+ Voidwalker (1:1/3) (id:27) (pos:None)]
+00:23:26 STATE    - INFO     Update card Voidwalker (1:1/3) (id:27) (pos:4) to position 4 in HAND
+00:23:26 STATE    - INFO     DRAW CARD: Lord of the Arena (6:6/5) (id:28) (pos:None)
+00:23:26 STATE    - INFO     Adding Lord of the Arena (6:6/5) (id:28) (pos:None) to active cards in zone HAND
+00:23:26 STATE    - INFO     Cards in HAND:
+[Bluegill Warrior (2:2/1) (id:7) (pos:1),
+ Voidwalker (1:1/3) (id:27) (pos:4),
+ Lord of the Arena (6:6/5) (id:28) (pos:None)]
+00:23:26 STATE    - INFO     Update card Lord of the Arena (6:6/5) (id:28) (pos:3) to position 3 in HAND
+00:23:26 STATE    - INFO     DRAW CARD: River Crocolisk (2:2/3) (id:29) (pos:None)
+00:23:26 STATE    - INFO     Adding River Crocolisk (2:2/3) (id:29) (pos:None) to active cards in zone HAND
+00:23:26 STATE    - INFO     Cards in HAND:
+[Bluegill Warrior (2:2/1) (id:7) (pos:1),
+ Voidwalker (1:1/3) (id:27) (pos:4),
+ Lord of the Arena (6:6/5) (id:28) (pos:3),
+ River Crocolisk (2:2/3) (id:29) (pos:None)]
+00:23:26 STATE    - INFO     Update card River Crocolisk (2:2/3) (id:29) (pos:2) to position 2 in HAND
+00:23:26 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Malfurion Stormrage id=36 zone=PLAY zonePos=0 cardId=HERO_06 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+00:23:26 STATE    - INFO     Adding opponent hero to play: Malfurion Stormrage (0/30) - (id:36)
+00:23:26 STATE    - INFO     Adding Malfurion Stormrage (0/30) - (id:36) to active cards in zone PLAY
+00:23:26 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Shapeshift id=37 zone=PLAY zonePos=0 cardId=CS2_017 player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+00:23:26 STATE    - INFO     Moving Hero Power/Weapon to play but not as minion: Shapeshift - (id:37)
+00:23:26 STATE    - INFO     Adding Shapeshift - (id:37) to active cards in zone PLAY
+00:23:26 STATE    - INFO     DRAW CARD: The Coin - 0 mana (id:68)
+00:23:26 STATE    - INFO     Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+00:23:26 STATE    - INFO     Cards in HAND:
+[Bluegill Warrior (2:2/1) (id:7) (pos:1),
+ Voidwalker (1:1/3) (id:27) (pos:4),
+ Lord of the Arena (6:6/5) (id:28) (pos:3),
+ River Crocolisk (2:2/3) (id:29) (pos:2),
+ The Coin - 0 mana (id:68)]
+00:23:26 STATE    - INFO     Update card The Coin - 0 mana (id:68) to position 5 in HAND
+00:23:26 STATE    - INFO     Update Lord of the Arena (6:6/5) (id:28) (pos:3) to zone DECK
+00:23:26 STATE    - INFO     DRAW CARD: Dragonling Mechanic (4:2/4) (id:20) (pos:None)
+00:23:26 STATE    - INFO     Adding Dragonling Mechanic (4:2/4) (id:20) (pos:None) to active cards in zone HAND
+00:23:26 STATE    - INFO     Cards in HAND:
+[Bluegill Warrior (2:2/1) (id:7) (pos:1),
+ Voidwalker (1:1/3) (id:27) (pos:4),
+ River Crocolisk (2:2/3) (id:29) (pos:2),
+ The Coin - 0 mana (id:68),
+ Dragonling Mechanic (4:2/4) (id:20) (pos:None)]
+00:23:26 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:20) (pos:3) to position 3 in HAND
+00:23:26 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=47 cardId= type=INVALID zone=HAND zonePos=2 player=2] tag=EXHAUSTED value=1
+
+00:23:26 STATE    - WARNING  No id 47 found to perform tag update for EXHAUSTED = 1
+00:23:26 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=1
+
+00:23:26 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=0
+
+00:23:26 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DAMAGE value=1
+
+00:23:26 STATE    - INFO     Gul'dan (0/30) - (id:4) has 1 DAMAGE
+00:23:26 STATE    - INFO     **********
+00:23:26 STATE    - INFO     TINGLE's TURN - 1 mana
+00:23:26 STATE    - INFO     **********
+00:23:26 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=4 local=False [name=Elven Archer id=47 zone=PLAY zonePos=2 cardId=CS2_189 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+00:23:26 STATE    - INFO     Adding Elven Archer (1:1/1) (id:47) (pos:2) to active cards in zone PLAY
+00:23:26 STATE    - INFO     OPPONENT plays: Elven Archer (1:1/1) (id:47) (pos:2)
+00:23:26 STATE    - INFO     OPPONENT's minions:
+[Elven Archer (1:1/1) (id:47) (pos:2)]
+00:23:26 STATE    - INFO     Update card Elven Archer (1:1/1) (id:47) (pos:1) to position 1 in PLAY
+00:23:26 STATE    - INFO     DRAW CARD: Raid Leader (3:2/2) (id:16) (pos:None)
+00:23:26 STATE    - INFO     Adding Raid Leader (3:2/2) (id:16) (pos:None) to active cards in zone HAND
+00:23:26 STATE    - INFO     Cards in HAND:
+[Bluegill Warrior (2:2/1) (id:7) (pos:1),
+ Voidwalker (1:1/3) (id:27) (pos:4),
+ River Crocolisk (2:2/3) (id:29) (pos:2),
+ The Coin - 0 mana (id:68),
+ Dragonling Mechanic (4:2/4) (id:20) (pos:3),
+ Raid Leader (3:2/2) (id:16) (pos:None)]
+00:23:26 STATE    - INFO     Update card Raid Leader (3:2/2) (id:16) (pos:6) to position 6 in HAND
+00:23:26 STATE    - INFO     TINGLE lost!
+00:23:28 STATE    - INFO     **************************
+00:23:28 STATE    - INFO     ***** STARTING GAME *****
+00:23:28 STATE    - INFO     **************************
+00:23:28 STATE    - INFO     TINGLE is player 1
+00:23:28 STATE    - INFO     OPPONENT is player 2
+00:23:28 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+00:23:28 STATE    - INFO     Adding our hero to play: Gul'dan (0/30) - (id:4)
+00:23:28 STATE    - INFO     Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+00:23:28 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+00:23:28 STATE    - INFO     Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+00:23:28 STATE    - INFO     Adding Life Tap - (id:5) to active cards in zone PLAY
+00:23:28 STATE    - INFO     DRAW CARD: Voidwalker (1:1/3) (id:8) (pos:None)
+00:23:28 STATE    - INFO     Adding Voidwalker (1:1/3) (id:8) (pos:None) to active cards in zone HAND
+00:23:28 STATE    - INFO     Cards in HAND:
+[Voidwalker (1:1/3) (id:8) (pos:None)]
+00:23:28 STATE    - INFO     Update card Voidwalker (1:1/3) (id:8) (pos:3) to position 3 in HAND
+00:23:28 STATE    - INFO     DRAW CARD: Raid Leader (3:2/2) (id:25) (pos:None)
+00:23:28 STATE    - INFO     Adding Raid Leader (3:2/2) (id:25) (pos:None) to active cards in zone HAND
+00:23:28 STATE    - INFO     Cards in HAND:
+[Voidwalker (1:1/3) (id:8) (pos:3), Raid Leader (3:2/2) (id:25) (pos:None)]
+00:23:28 STATE    - INFO     Update card Raid Leader (3:2/2) (id:25) (pos:4) to position 4 in HAND
+00:23:28 STATE    - INFO     DRAW CARD: Chillwind Yeti (4:4/5) (id:30) (pos:None)
+00:23:28 STATE    - INFO     Adding Chillwind Yeti (4:4/5) (id:30) (pos:None) to active cards in zone HAND
+00:23:28 STATE    - INFO     Cards in HAND:
+[Voidwalker (1:1/3) (id:8) (pos:3),
+ Raid Leader (3:2/2) (id:25) (pos:4),
+ Chillwind Yeti (4:4/5) (id:30) (pos:None)]
+00:23:28 STATE    - INFO     Update card Chillwind Yeti (4:4/5) (id:30) (pos:1) to position 1 in HAND
+00:23:28 STATE    - INFO     DRAW CARD: Razorfen Hunter (3:2/3) (id:31) (pos:None)
+00:23:28 STATE    - INFO     Adding Razorfen Hunter (3:2/3) (id:31) (pos:None) to active cards in zone HAND
+00:23:28 STATE    - INFO     Cards in HAND:
+[Voidwalker (1:1/3) (id:8) (pos:3),
+ Raid Leader (3:2/2) (id:25) (pos:4),
+ Chillwind Yeti (4:4/5) (id:30) (pos:1),
+ Razorfen Hunter (3:2/3) (id:31) (pos:None)]
+00:23:28 STATE    - INFO     Update card Razorfen Hunter (3:2/3) (id:31) (pos:2) to position 2 in HAND
+00:23:28 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+00:23:28 STATE    - INFO     Adding opponent hero to play: Thrall (0/30) - (id:36)
+00:23:28 STATE    - INFO     Adding Thrall (0/30) - (id:36) to active cards in zone PLAY
+00:23:28 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+00:23:28 STATE    - INFO     Moving Hero Power/Weapon to play but not as minion: Totemic Call - (id:37)
+00:23:28 STATE    - INFO     Adding Totemic Call - (id:37) to active cards in zone PLAY
+00:23:28 STATE    - INFO     DRAW CARD: The Coin - 0 mana (id:68)
+00:23:28 STATE    - INFO     Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+00:23:28 STATE    - INFO     Cards in HAND:
+[Voidwalker (1:1/3) (id:8) (pos:3),
+ Raid Leader (3:2/2) (id:25) (pos:4),
+ Chillwind Yeti (4:4/5) (id:30) (pos:1),
+ Razorfen Hunter (3:2/3) (id:31) (pos:2),
+ The Coin - 0 mana (id:68)]
+00:23:28 STATE    - INFO     Update card The Coin - 0 mana (id:68) to position 5 in HAND
+00:23:28 STATE    - INFO     **********
+00:23:28 STATE    - INFO     TINGLE's TURN - 1 mana
+00:23:28 STATE    - INFO     **********
+00:23:28 STATE    - INFO     DRAW CARD: Bloodfen Raptor (2:3/2) (id:7) (pos:None)
+00:23:28 STATE    - INFO     Adding Bloodfen Raptor (2:3/2) (id:7) (pos:None) to active cards in zone HAND
+00:23:28 STATE    - INFO     Cards in HAND:
+[Voidwalker (1:1/3) (id:8) (pos:3),
+ Raid Leader (3:2/2) (id:25) (pos:4),
+ Chillwind Yeti (4:4/5) (id:30) (pos:1),
+ Razorfen Hunter (3:2/3) (id:31) (pos:2),
+ The Coin - 0 mana (id:68),
+ Bloodfen Raptor (2:3/2) (id:7) (pos:None)]
+00:23:28 STATE    - INFO     Update card Bloodfen Raptor (2:3/2) (id:7) (pos:6) to position 6 in HAND
+00:23:28 STATE    - INFO     TINGLE lost!
+00:23:29 STATE    - INFO     **************************
+00:23:29 STATE    - INFO     ***** STARTING GAME *****
+00:23:29 STATE    - INFO     **************************
+00:23:29 STATE    - INFO     TINGLE is player 1
+00:23:29 STATE    - INFO     OPPONENT is player 2
+00:23:29 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+00:23:29 STATE    - INFO     Adding our hero to play: Gul'dan (0/30) - (id:4)
+00:23:29 STATE    - INFO     Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+00:23:29 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+00:23:29 STATE    - INFO     Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+00:23:29 STATE    - INFO     Adding Life Tap - (id:5) to active cards in zone PLAY
+00:23:29 STATE    - INFO     DRAW CARD: Boulderfist Ogre (6:6/7) (id:6) (pos:None)
+00:23:29 STATE    - INFO     Adding Boulderfist Ogre (6:6/7) (id:6) (pos:None) to active cards in zone HAND
+00:23:29 STATE    - INFO     Cards in HAND:
+[Boulderfist Ogre (6:6/7) (id:6) (pos:None)]
+00:23:29 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:6) (pos:2) to position 2 in HAND
+00:23:29 STATE    - INFO     DRAW CARD: Acidic Swamp Ooze (2:3/2) (id:7) (pos:None)
+00:23:29 STATE    - INFO     Adding Acidic Swamp Ooze (2:3/2) (id:7) (pos:None) to active cards in zone HAND
+00:23:29 STATE    - INFO     Cards in HAND:
+[Boulderfist Ogre (6:6/7) (id:6) (pos:2),
+ Acidic Swamp Ooze (2:3/2) (id:7) (pos:None)]
+00:23:29 STATE    - INFO     Update card Acidic Swamp Ooze (2:3/2) (id:7) (pos:3) to position 3 in HAND
+00:23:29 STATE    - INFO     DRAW CARD: Bloodfen Raptor (2:3/2) (id:17) (pos:None)
+00:23:29 STATE    - INFO     Adding Bloodfen Raptor (2:3/2) (id:17) (pos:None) to active cards in zone HAND
+00:23:29 STATE    - INFO     Cards in HAND:
+[Boulderfist Ogre (6:6/7) (id:6) (pos:2),
+ Acidic Swamp Ooze (2:3/2) (id:7) (pos:3),
+ Bloodfen Raptor (2:3/2) (id:17) (pos:None)]
+00:23:29 STATE    - INFO     Update card Bloodfen Raptor (2:3/2) (id:17) (pos:1) to position 1 in HAND
+00:23:29 STATE    - INFO     DRAW CARD: Razorfen Hunter (3:2/3) (id:20) (pos:None)
+00:23:29 STATE    - INFO     Adding Razorfen Hunter (3:2/3) (id:20) (pos:None) to active cards in zone HAND
+00:23:29 STATE    - INFO     Cards in HAND:
+[Boulderfist Ogre (6:6/7) (id:6) (pos:2),
+ Acidic Swamp Ooze (2:3/2) (id:7) (pos:3),
+ Bloodfen Raptor (2:3/2) (id:17) (pos:1),
+ Razorfen Hunter (3:2/3) (id:20) (pos:None)]
+00:23:29 STATE    - INFO     Update card Razorfen Hunter (3:2/3) (id:20) (pos:4) to position 4 in HAND
+00:23:29 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+00:23:29 STATE    - INFO     Adding opponent hero to play: Thrall (0/30) - (id:36)
+00:23:29 STATE    - INFO     Adding Thrall (0/30) - (id:36) to active cards in zone PLAY
+00:23:29 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+00:23:29 STATE    - INFO     Moving Hero Power/Weapon to play but not as minion: Totemic Call - (id:37)
+00:23:29 STATE    - INFO     Adding Totemic Call - (id:37) to active cards in zone PLAY
+00:23:29 STATE    - INFO     DRAW CARD: The Coin - 0 mana (id:68)
+00:23:29 STATE    - INFO     Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+00:23:29 STATE    - INFO     Cards in HAND:
+[Boulderfist Ogre (6:6/7) (id:6) (pos:2),
+ Acidic Swamp Ooze (2:3/2) (id:7) (pos:3),
+ Bloodfen Raptor (2:3/2) (id:17) (pos:1),
+ Razorfen Hunter (3:2/3) (id:20) (pos:4),
+ The Coin - 0 mana (id:68)]
+00:23:29 STATE    - INFO     Update card The Coin - 0 mana (id:68) to position 5 in HAND
+00:23:29 STATE    - INFO     **********
+00:23:29 STATE    - INFO     TINGLE's TURN - 1 mana
+00:23:29 STATE    - INFO     **********
+00:23:29 STATE    - INFO     DRAW CARD: Chillwind Yeti (4:4/5) (id:25) (pos:None)
+00:23:29 STATE    - INFO     Adding Chillwind Yeti (4:4/5) (id:25) (pos:None) to active cards in zone HAND
+00:23:29 STATE    - INFO     Cards in HAND:
+[Boulderfist Ogre (6:6/7) (id:6) (pos:2),
+ Acidic Swamp Ooze (2:3/2) (id:7) (pos:3),
+ Bloodfen Raptor (2:3/2) (id:17) (pos:1),
+ Razorfen Hunter (3:2/3) (id:20) (pos:4),
+ The Coin - 0 mana (id:68),
+ Chillwind Yeti (4:4/5) (id:25) (pos:None)]
+00:23:29 STATE    - INFO     Update card Chillwind Yeti (4:4/5) (id:25) (pos:6) to position 6 in HAND
+00:23:29 STATE    - INFO     TINGLE lost!
+00:23:31 STATE    - INFO     **************************
+00:23:31 STATE    - INFO     ***** STARTING GAME *****
+00:23:31 STATE    - INFO     **************************
+00:23:31 STATE    - INFO     TINGLE is player 1
+00:23:31 STATE    - INFO     OPPONENT is player 2
+00:23:31 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+00:23:31 STATE    - INFO     Adding our hero to play: Gul'dan (0/30) - (id:4)
+00:23:31 STATE    - INFO     Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+00:23:31 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+00:23:31 STATE    - INFO     Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+00:23:31 STATE    - INFO     Adding Life Tap - (id:5) to active cards in zone PLAY
+00:23:31 STATE    - INFO     DRAW CARD: Raid Leader (3:2/2) (id:12) (pos:None)
+00:23:31 STATE    - INFO     Adding Raid Leader (3:2/2) (id:12) (pos:None) to active cards in zone HAND
+00:23:31 STATE    - INFO     Cards in HAND:
+[Raid Leader (3:2/2) (id:12) (pos:None)]
+00:23:31 STATE    - INFO     Update card Raid Leader (3:2/2) (id:12) (pos:3) to position 3 in HAND
+00:23:31 STATE    - INFO     DRAW CARD: Razorfen Hunter (3:2/3) (id:26) (pos:None)
+00:23:31 STATE    - INFO     Adding Razorfen Hunter (3:2/3) (id:26) (pos:None) to active cards in zone HAND
+00:23:31 STATE    - INFO     Cards in HAND:
+[Raid Leader (3:2/2) (id:12) (pos:3),
+ Razorfen Hunter (3:2/3) (id:26) (pos:None)]
+00:23:31 STATE    - INFO     Update card Razorfen Hunter (3:2/3) (id:26) (pos:4) to position 4 in HAND
+00:23:31 STATE    - INFO     DRAW CARD: Raid Leader (3:2/2) (id:27) (pos:None)
+00:23:31 STATE    - INFO     Adding Raid Leader (3:2/2) (id:27) (pos:None) to active cards in zone HAND
+00:23:31 STATE    - INFO     Cards in HAND:
+[Raid Leader (3:2/2) (id:12) (pos:3),
+ Razorfen Hunter (3:2/3) (id:26) (pos:4),
+ Raid Leader (3:2/2) (id:27) (pos:None)]
+00:23:31 STATE    - INFO     Update card Raid Leader (3:2/2) (id:27) (pos:1) to position 1 in HAND
+00:23:31 STATE    - INFO     DRAW CARD: Bloodfen Raptor (2:3/2) (id:29) (pos:None)
+00:23:31 STATE    - INFO     Adding Bloodfen Raptor (2:3/2) (id:29) (pos:None) to active cards in zone HAND
+00:23:31 STATE    - INFO     Cards in HAND:
+[Raid Leader (3:2/2) (id:12) (pos:3),
+ Razorfen Hunter (3:2/3) (id:26) (pos:4),
+ Raid Leader (3:2/2) (id:27) (pos:1),
+ Bloodfen Raptor (2:3/2) (id:29) (pos:None)]
+00:23:31 STATE    - INFO     Update card Bloodfen Raptor (2:3/2) (id:29) (pos:2) to position 2 in HAND
+00:23:31 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+00:23:31 STATE    - INFO     Adding opponent hero to play: Thrall (0/30) - (id:36)
+00:23:31 STATE    - INFO     Adding Thrall (0/30) - (id:36) to active cards in zone PLAY
+00:23:31 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+00:23:31 STATE    - INFO     Moving Hero Power/Weapon to play but not as minion: Totemic Call - (id:37)
+00:23:31 STATE    - INFO     Adding Totemic Call - (id:37) to active cards in zone PLAY
+00:23:31 STATE    - INFO     DRAW CARD: The Coin - 0 mana (id:68)
+00:23:31 STATE    - INFO     Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+00:23:31 STATE    - INFO     Cards in HAND:
+[Raid Leader (3:2/2) (id:12) (pos:3),
+ Razorfen Hunter (3:2/3) (id:26) (pos:4),
+ Raid Leader (3:2/2) (id:27) (pos:1),
+ Bloodfen Raptor (2:3/2) (id:29) (pos:2),
+ The Coin - 0 mana (id:68)]
+00:23:31 STATE    - INFO     Update card The Coin - 0 mana (id:68) to position 5 in HAND
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=DECK zonePos=0 player=2] tag=ATTACKING value=1
+
+00:23:31 STATE    - WARNING  No id 64 found to perform tag update for ATTACKING = 1
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DEFENDING value=1
+
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=1
+
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=0
+
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DAMAGE value=1
+
+00:23:31 STATE    - INFO     Gul'dan (0/30) - (id:4) has 1 DAMAGE
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=DECK zonePos=0 player=2] tag=EXHAUSTED value=1
+
+00:23:31 STATE    - WARNING  No id 64 found to perform tag update for EXHAUSTED = 1
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=DECK zonePos=0 player=2] tag=ATTACKING value=0
+
+00:23:31 STATE    - WARNING  No id 64 found to perform tag update for ATTACKING = 0
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DEFENDING value=0
+
+00:23:31 STATE    - INFO     **********
+00:23:31 STATE    - INFO     TINGLE's TURN - 1 mana
+00:23:31 STATE    - INFO     **********
+00:23:31 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=3 local=False [name=Stonetusk Boar id=64 zone=PLAY zonePos=4 cardId=CS2_171 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+00:23:31 STATE    - INFO     Adding Stonetusk Boar (1:1/1) (id:64) (pos:4) to active cards in zone PLAY
+00:23:31 STATE    - INFO     OPPONENT plays: Stonetusk Boar (1:1/1) (id:64) (pos:4)
+00:23:31 STATE    - INFO     OPPONENT's minions:
+[Stonetusk Boar (1:1/1) (id:64) (pos:4)]
+00:23:31 STATE    - INFO     Update card Stonetusk Boar (1:1/1) (id:64) (pos:1) to position 1 in PLAY
+00:23:31 STATE    - INFO     DRAW CARD: Ironfur Grizzly (3:3/3) (id:6) (pos:None)
+00:23:31 STATE    - INFO     Adding Ironfur Grizzly (3:3/3) (id:6) (pos:None) to active cards in zone HAND
+00:23:31 STATE    - INFO     Cards in HAND:
+[Raid Leader (3:2/2) (id:12) (pos:3),
+ Razorfen Hunter (3:2/3) (id:26) (pos:4),
+ Raid Leader (3:2/2) (id:27) (pos:1),
+ Bloodfen Raptor (2:3/2) (id:29) (pos:2),
+ The Coin - 0 mana (id:68),
+ Ironfur Grizzly (3:3/3) (id:6) (pos:None)]
+00:23:31 STATE    - INFO     Update card Ironfur Grizzly (3:3/3) (id:6) (pos:6) to position 6 in HAND
+00:23:31 STATE    - INFO     Update card Ironfur Grizzly (3:3/3) (id:6) (pos:5) to position 5 in HAND
+00:23:31 STATE    - INFO     Update The Coin - 0 mana (id:68) to zone PLAY
+00:23:31 STATE    - INFO     Update The Coin - 0 mana (id:68) to zone GRAVEYARD
+00:23:31 STATE    - INFO     The Coin - 0 mana (id:68) has been moved to graveyard
+00:23:31 STATE    - INFO     **********
+00:23:31 STATE    - INFO     OPPONENT TURN
+00:23:31 STATE    - INFO     **********
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stonetusk Boar id=64 zone=PLAY zonePos=1 cardId=CS2_171 player=2] tag=EXHAUSTED value=0
+
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=53 cardId= type=INVALID zone=HAND zonePos=1 player=2] tag=EXHAUSTED value=1
+
+00:23:31 STATE    - WARNING  No id 53 found to perform tag update for EXHAUSTED = 1
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Stonetusk Boar id=64 zone=PLAY zonePos=1 cardId=CS2_171 player=2] SubType=ATTACK Index=-1 Target=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1]
+
+00:23:31 STATE    - INFO     ATTACK: Stonetusk Boar (1:1/1) (id:64) (pos:1) -> Gul'dan (0/30) - (id:4)
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stonetusk Boar id=64 zone=PLAY zonePos=1 cardId=CS2_171 player=2] tag=ATTACKING value=1
+
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DEFENDING value=1
+
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=1
+
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=0
+
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DAMAGE value=2
+
+00:23:31 STATE    - INFO     Gul'dan (0/30) - (id:4) has 2 DAMAGE
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stonetusk Boar id=64 zone=PLAY zonePos=1 cardId=CS2_171 player=2] tag=EXHAUSTED value=1
+
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stonetusk Boar id=64 zone=PLAY zonePos=1 cardId=CS2_171 player=2] tag=ATTACKING value=0
+
+00:23:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DEFENDING value=0
+
+00:23:31 STATE    - INFO     **********
+00:23:31 STATE    - INFO     TINGLE's TURN - 2 mana
+00:23:31 STATE    - INFO     **********
+00:23:31 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=8 local=False [name=Frostwolf Grunt id=53 zone=PLAY zonePos=1 cardId=CS2_121 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+00:23:31 STATE    - INFO     Adding Frostwolf Grunt (2:2/2) (id:53) (pos:1) to active cards in zone PLAY
+00:23:31 STATE    - INFO     OPPONENT plays: Frostwolf Grunt (2:2/2) (id:53) (pos:1)
+00:23:31 STATE    - INFO     OPPONENT's minions:
+[Stonetusk Boar (1:1/1) (id:64) (pos:1),
+ Frostwolf Grunt (2:2/2) (id:53) (pos:1)]
+00:23:31 STATE    - INFO     Update card Stonetusk Boar (1:1/1) (id:64) (pos:2) to position 2 in PLAY
+00:23:31 STATE    - INFO     DRAW CARD: Sen'jin Shieldmasta (4:3/5) (id:28) (pos:None)
+00:23:31 STATE    - INFO     Adding Sen'jin Shieldmasta (4:3/5) (id:28) (pos:None) to active cards in zone HAND
+00:23:31 STATE    - INFO     Cards in HAND:
+[Raid Leader (3:2/2) (id:12) (pos:3),
+ Razorfen Hunter (3:2/3) (id:26) (pos:4),
+ Raid Leader (3:2/2) (id:27) (pos:1),
+ Bloodfen Raptor (2:3/2) (id:29) (pos:2),
+ Ironfur Grizzly (3:3/3) (id:6) (pos:5),
+ Sen'jin Shieldmasta (4:3/5) (id:28) (pos:None)]
+00:23:31 STATE    - INFO     Update card Sen'jin Shieldmasta (4:3/5) (id:28) (pos:6) to position 6 in HAND
+00:23:31 STATE    - INFO     TINGLE lost!
+00:23:32 STATE    - INFO     **************************
+00:23:32 STATE    - INFO     ***** STARTING GAME *****
+00:23:32 STATE    - INFO     **************************
+00:23:32 STATE    - INFO     TINGLE is player 1
+00:23:32 STATE    - INFO     OPPONENT is player 2
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+00:23:32 STATE    - INFO     Adding our hero to play: Gul'dan (0/30) - (id:4)
+00:23:32 STATE    - INFO     Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+00:23:32 STATE    - INFO     Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+00:23:32 STATE    - INFO     Adding Life Tap - (id:5) to active cards in zone PLAY
+00:23:32 STATE    - INFO     DRAW CARD: Sen'jin Shieldmasta (4:3/5) (id:8) (pos:None)
+00:23:32 STATE    - INFO     Adding Sen'jin Shieldmasta (4:3/5) (id:8) (pos:None) to active cards in zone HAND
+00:23:32 STATE    - INFO     Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:8) (pos:None)]
+00:23:32 STATE    - INFO     Update card Sen'jin Shieldmasta (4:3/5) (id:8) (pos:4) to position 4 in HAND
+00:23:32 STATE    - INFO     DRAW CARD: Ironfur Grizzly (3:3/3) (id:17) (pos:None)
+00:23:32 STATE    - INFO     Adding Ironfur Grizzly (3:3/3) (id:17) (pos:None) to active cards in zone HAND
+00:23:32 STATE    - INFO     Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:8) (pos:4),
+ Ironfur Grizzly (3:3/3) (id:17) (pos:None)]
+00:23:32 STATE    - INFO     Update card Ironfur Grizzly (3:3/3) (id:17) (pos:3) to position 3 in HAND
+00:23:32 STATE    - INFO     DRAW CARD: Boulderfist Ogre (6:6/7) (id:26) (pos:None)
+00:23:32 STATE    - INFO     Adding Boulderfist Ogre (6:6/7) (id:26) (pos:None) to active cards in zone HAND
+00:23:32 STATE    - INFO     Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:8) (pos:4),
+ Ironfur Grizzly (3:3/3) (id:17) (pos:3),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:None)]
+00:23:32 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:26) (pos:2) to position 2 in HAND
+00:23:32 STATE    - INFO     DRAW CARD: Dragonling Mechanic (4:2/4) (id:33) (pos:None)
+00:23:32 STATE    - INFO     Adding Dragonling Mechanic (4:2/4) (id:33) (pos:None) to active cards in zone HAND
+00:23:32 STATE    - INFO     Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:8) (pos:4),
+ Ironfur Grizzly (3:3/3) (id:17) (pos:3),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:2),
+ Dragonling Mechanic (4:2/4) (id:33) (pos:None)]
+00:23:32 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:33) (pos:1) to position 1 in HAND
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+00:23:32 STATE    - INFO     Adding opponent hero to play: Thrall (0/30) - (id:36)
+00:23:32 STATE    - INFO     Adding Thrall (0/30) - (id:36) to active cards in zone PLAY
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+00:23:32 STATE    - INFO     Moving Hero Power/Weapon to play but not as minion: Totemic Call - (id:37)
+00:23:32 STATE    - INFO     Adding Totemic Call - (id:37) to active cards in zone PLAY
+00:23:32 STATE    - INFO     DRAW CARD: The Coin - 0 mana (id:68)
+00:23:32 STATE    - INFO     Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+00:23:32 STATE    - INFO     Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:8) (pos:4),
+ Ironfur Grizzly (3:3/3) (id:17) (pos:3),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:2),
+ Dragonling Mechanic (4:2/4) (id:33) (pos:1),
+ The Coin - 0 mana (id:68)]
+00:23:32 STATE    - INFO     Update card The Coin - 0 mana (id:68) to position 5 in HAND
+00:23:32 STATE    - INFO     **********
+00:23:32 STATE    - INFO     TINGLE's TURN - 1 mana
+00:23:32 STATE    - INFO     **********
+00:23:32 STATE    - INFO     DRAW CARD: Acidic Swamp Ooze (2:3/2) (id:7) (pos:None)
+00:23:32 STATE    - INFO     Adding Acidic Swamp Ooze (2:3/2) (id:7) (pos:None) to active cards in zone HAND
+00:23:32 STATE    - INFO     Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:8) (pos:4),
+ Ironfur Grizzly (3:3/3) (id:17) (pos:3),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:2),
+ Dragonling Mechanic (4:2/4) (id:33) (pos:1),
+ The Coin - 0 mana (id:68),
+ Acidic Swamp Ooze (2:3/2) (id:7) (pos:None)]
+00:23:32 STATE    - INFO     Update card Acidic Swamp Ooze (2:3/2) (id:7) (pos:6) to position 6 in HAND
+00:23:32 STATE    - INFO     **********
+00:23:32 STATE    - INFO     OPPONENT TURN
+00:23:32 STATE    - INFO     **********
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] tag=EXHAUSTED value=1
+
+00:23:32 STATE    - INFO     **********
+00:23:32 STATE    - INFO     TINGLE's TURN - 2 mana
+00:23:32 STATE    - INFO     **********
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=5 local=False [name=Healing Totem id=69 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] zone from  -> OPPOSING PLAY
+
+00:23:32 STATE    - INFO     Adding Healing Totem (1:0/2) (id:69) (pos:1) to active cards in zone PLAY
+00:23:32 STATE    - INFO     OPPONENT plays: Healing Totem (1:0/2) (id:69) (pos:1)
+00:23:32 STATE    - INFO     OPPONENT's minions:
+[Healing Totem (1:0/2) (id:69) (pos:1)]
+00:23:32 STATE    - INFO     Update card Healing Totem (1:0/2) (id:69) (pos:1) to position 1 in PLAY
+00:23:32 STATE    - INFO     DRAW CARD: River Crocolisk (2:2/3) (id:27) (pos:None)
+00:23:32 STATE    - INFO     Adding River Crocolisk (2:2/3) (id:27) (pos:None) to active cards in zone HAND
+00:23:32 STATE    - INFO     Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:8) (pos:4),
+ Ironfur Grizzly (3:3/3) (id:17) (pos:3),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:2),
+ Dragonling Mechanic (4:2/4) (id:33) (pos:1),
+ The Coin - 0 mana (id:68),
+ Acidic Swamp Ooze (2:3/2) (id:7) (pos:6),
+ River Crocolisk (2:2/3) (id:27) (pos:None)]
+00:23:32 STATE    - INFO     Update card River Crocolisk (2:2/3) (id:27) (pos:7) to position 7 in HAND
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=True [name=Acidic Swamp Ooze id=7 zone=HAND zonePos=6 cardId=EX1_066 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+
+00:23:32 STATE    - INFO     TINGLE plays minion from hand: Acidic Swamp Ooze (2:3/2) (id:7) (pos:6)
+00:23:32 STATE    - INFO     Spending 2 mana. Total spent = 2
+00:23:32 STATE    - INFO     Update card Acidic Swamp Ooze (2:3/2) (id:7) (pos:1) to position 1 in PLAY
+00:23:32 STATE    - INFO     Update card River Crocolisk (2:2/3) (id:27) (pos:6) to position 6 in HAND
+00:23:32 STATE    - INFO     Update Acidic Swamp Ooze (2:3/2) (id:7) (pos:1) to zone PLAY
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=HAND zonePos=6 cardId=EX1_066 player=1] tag=EXHAUSTED value=1
+
+00:23:32 STATE    - INFO     **********
+00:23:32 STATE    - INFO     OPPONENT TURN
+00:23:32 STATE    - INFO     **********
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] tag=EXHAUSTED value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=EXHAUSTED value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=51 cardId= type=INVALID zone=HAND zonePos=3 player=2] tag=EXHAUSTED value=1
+
+00:23:32 STATE    - WARNING  No id 51 found to perform tag update for EXHAUSTED = 1
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=ATK value=1
+
+00:23:32 STATE    - INFO     Healing Totem (1:1/2) (id:69) (pos:1) has 1 ATTACK
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Healing Totem id=69 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] SubType=ATTACK Index=-1 Target=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1]
+
+00:23:32 STATE    - INFO     ATTACK: Healing Totem (1:1/2) (id:69) (pos:1) -> Gul'dan (0/30) - (id:4)
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=ATTACKING value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DEFENDING value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DAMAGE value=1
+
+00:23:32 STATE    - INFO     Gul'dan (0/30) - (id:4) has 1 DAMAGE
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=EXHAUSTED value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=ATTACKING value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DEFENDING value=0
+
+00:23:32 STATE    - INFO     **********
+00:23:32 STATE    - INFO     TINGLE's TURN - 3 mana
+00:23:32 STATE    - INFO     **********
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=EXHAUSTED value=0
+
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=9 local=False [name=Raid Leader id=51 zone=PLAY zonePos=3 cardId=CS2_122 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+00:23:32 STATE    - INFO     Adding Raid Leader (3:2/2) (id:51) (pos:3) to active cards in zone PLAY
+00:23:32 STATE    - INFO     OPPONENT plays: Raid Leader (3:2/2) (id:51) (pos:3)
+00:23:32 STATE    - INFO     OPPONENT's minions:
+[Healing Totem (1:1/2) (id:69) (pos:1), Raid Leader (3:2/2) (id:51) (pos:3)]
+00:23:32 STATE    - INFO     Update card Raid Leader (3:2/2) (id:51) (pos:1) to position 1 in PLAY
+00:23:32 STATE    - INFO     Update card Healing Totem (1:1/2) (id:69) (pos:2) to position 2 in PLAY
+00:23:32 STATE    - INFO     DRAW CARD: Dragonling Mechanic (4:2/4) (id:22) (pos:None)
+00:23:32 STATE    - INFO     Adding Dragonling Mechanic (4:2/4) (id:22) (pos:None) to active cards in zone HAND
+00:23:32 STATE    - INFO     Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:8) (pos:4),
+ Ironfur Grizzly (3:3/3) (id:17) (pos:3),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:2),
+ Dragonling Mechanic (4:2/4) (id:33) (pos:1),
+ The Coin - 0 mana (id:68),
+ River Crocolisk (2:2/3) (id:27) (pos:6),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:None)]
+00:23:32 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:22) (pos:7) to position 7 in HAND
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=2 local=True [name=Ironfur Grizzly id=17 zone=HAND zonePos=3 cardId=CS2_125 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+
+00:23:32 STATE    - INFO     TINGLE plays minion from hand: Ironfur Grizzly (3:3/3) (id:17) (pos:3)
+00:23:32 STATE    - INFO     Spending 3 mana. Total spent = 3
+00:23:32 STATE    - INFO     Update card Ironfur Grizzly (3:3/3) (id:17) (pos:2) to position 2 in PLAY
+00:23:32 STATE    - INFO     Update card Sen'jin Shieldmasta (4:3/5) (id:8) (pos:3) to position 3 in HAND
+00:23:32 STATE    - INFO     Update card The Coin - 0 mana (id:68) to position 4 in HAND
+00:23:32 STATE    - INFO     Update card River Crocolisk (2:2/3) (id:27) (pos:5) to position 5 in HAND
+00:23:32 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:22) (pos:6) to position 6 in HAND
+00:23:32 STATE    - INFO     Update Ironfur Grizzly (3:3/3) (id:17) (pos:2) to zone PLAY
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=HAND zonePos=3 cardId=CS2_125 player=1] tag=EXHAUSTED value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] SubType=ATTACK Index=-1 Target=[name=Healing Totem id=69 zone=PLAY zonePos=2 cardId=NEW1_009 player=2]
+
+00:23:32 STATE    - INFO     ATTACK: Acidic Swamp Ooze (2:3/2) (id:7) (pos:1) -> Healing Totem (1:1/2) (id:69) (pos:2)
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=ATTACKING value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=2 cardId=NEW1_009 player=2] tag=DEFENDING value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=2 cardId=NEW1_009 player=2] tag=PREDAMAGE value=3
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=2 cardId=NEW1_009 player=2] tag=PREDAMAGE value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=2 cardId=NEW1_009 player=2] tag=DAMAGE value=3
+
+00:23:32 STATE    - INFO     Healing Totem (1:1/2) (id:69) (pos:2) has 3 DAMAGE
+00:23:32 STATE    - INFO     Healing Totem (1:1/2) (id:69) (pos:2) has fatal damage
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=PREDAMAGE value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=PREDAMAGE value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=DAMAGE value=1
+
+00:23:32 STATE    - INFO     Acidic Swamp Ooze (2:3/2) (id:7) (pos:1) has 1 DAMAGE
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=EXHAUSTED value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=ATTACKING value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=2 cardId=NEW1_009 player=2] tag=DEFENDING value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=2 cardId=NEW1_009 player=2] tag=EXHAUSTED value=0
+
+00:23:32 STATE    - INFO     Update Healing Totem (1:1/2) (id:69) (pos:2) to zone GRAVEYARD
+00:23:32 STATE    - INFO     Healing Totem (1:1/2) (id:69) (pos:2) has been moved to graveyard
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Enhanced id=70 zone=PLAY zonePos=0 cardId=CS2_122e player=2] tag=ATTACHED value=0
+
+00:23:32 STATE    - WARNING  No id 70 found to perform tag update for ATTACHED = 0
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=2 cardId=NEW1_009 player=2] tag=DAMAGE value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Healing Totem id=69 zone=PLAY zonePos=2 cardId=NEW1_009 player=2] tag=ATK value=0
+
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=12 local=False [name=Healing Totem id=69 zone=GRAVEYARD zonePos=2 cardId=NEW1_009 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+
+00:23:32 STATE    - INFO     **********
+00:23:32 STATE    - INFO     OPPONENT TURN
+00:23:32 STATE    - INFO     **********
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Raid Leader id=51 zone=PLAY zonePos=1 cardId=CS2_122 player=2] tag=EXHAUSTED value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Raid Leader id=51 zone=PLAY zonePos=1 cardId=CS2_122 player=2] tag=WINDFURY value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Raid Leader id=51 zone=PLAY zonePos=1 cardId=CS2_122 player=2] SubType=ATTACK Index=-1 Target=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1]
+
+00:23:32 STATE    - INFO     ATTACK: Raid Leader (3:2/2) (id:51) (pos:1) -> Ironfur Grizzly (3:3/3) (id:17) (pos:2)
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Raid Leader id=51 zone=PLAY zonePos=1 cardId=CS2_122 player=2] tag=ATTACKING value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1] tag=DEFENDING value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1] tag=PREDAMAGE value=2
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1] tag=PREDAMAGE value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1] tag=DAMAGE value=2
+
+00:23:32 STATE    - INFO     Ironfur Grizzly (3:3/3) (id:17) (pos:2) has 2 DAMAGE
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Raid Leader id=51 zone=PLAY zonePos=1 cardId=CS2_122 player=2] tag=PREDAMAGE value=3
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Raid Leader id=51 zone=PLAY zonePos=1 cardId=CS2_122 player=2] tag=PREDAMAGE value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Raid Leader id=51 zone=PLAY zonePos=1 cardId=CS2_122 player=2] tag=DAMAGE value=3
+
+00:23:32 STATE    - INFO     Raid Leader (3:2/2) (id:51) (pos:1) has 3 DAMAGE
+00:23:32 STATE    - INFO     Raid Leader (3:2/2) (id:51) (pos:1) has fatal damage
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Raid Leader id=51 zone=PLAY zonePos=1 cardId=CS2_122 player=2] tag=ATTACKING value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1] tag=DEFENDING value=0
+
+00:23:32 STATE    - INFO     Update Raid Leader (3:2/2) (id:51) (pos:1) to zone GRAVEYARD
+00:23:32 STATE    - INFO     Raid Leader (3:2/2) (id:51) (pos:1) has been moved to graveyard
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Raid Leader id=51 zone=PLAY zonePos=1 cardId=CS2_122 player=2] tag=DAMAGE value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Raid Leader id=51 zone=PLAY zonePos=1 cardId=CS2_122 player=2] tag=WINDFURY value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=HAND zonePos=6 player=2] tag=ATTACKING value=1
+
+00:23:32 STATE    - WARNING  No id 64 found to perform tag update for ATTACKING = 1
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1] tag=DEFENDING value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1] tag=PREDAMAGE value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1] tag=PREDAMAGE value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1] tag=DAMAGE value=3
+
+00:23:32 STATE    - INFO     Ironfur Grizzly (3:3/3) (id:17) (pos:2) has 3 DAMAGE
+00:23:32 STATE    - INFO     Ironfur Grizzly (3:3/3) (id:17) (pos:2) has fatal damage
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=HAND zonePos=6 player=2] tag=PREDAMAGE value=3
+
+00:23:32 STATE    - WARNING  No id 64 found to perform tag update for PREDAMAGE = 3
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=HAND zonePos=6 player=2] tag=PREDAMAGE value=0
+
+00:23:32 STATE    - WARNING  No id 64 found to perform tag update for PREDAMAGE = 0
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=HAND zonePos=6 player=2] tag=DAMAGE value=3
+
+00:23:32 STATE    - WARNING  No id 64 found to perform tag update for DAMAGE = 3
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=HAND zonePos=6 player=2] tag=EXHAUSTED value=1
+
+00:23:32 STATE    - WARNING  No id 64 found to perform tag update for EXHAUSTED = 1
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=HAND zonePos=6 player=2] tag=ATTACKING value=0
+
+00:23:32 STATE    - WARNING  No id 64 found to perform tag update for ATTACKING = 0
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1] tag=DEFENDING value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1] tag=EXHAUSTED value=0
+
+00:23:32 STATE    - INFO     Update Ironfur Grizzly (3:3/3) (id:17) (pos:2) to zone GRAVEYARD
+00:23:32 STATE    - INFO     Ironfur Grizzly (3:3/3) (id:17) (pos:2) has been moved to graveyard
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Ironfur Grizzly id=17 zone=PLAY zonePos=2 cardId=CS2_125 player=1] tag=DAMAGE value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=HAND zonePos=6 player=2] tag=EXHAUSTED value=0
+
+00:23:32 STATE    - WARNING  No id 64 found to perform tag update for EXHAUSTED = 0
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=HAND zonePos=6 player=2] tag=DAMAGE value=0
+
+00:23:32 STATE    - WARNING  No id 64 found to perform tag update for DAMAGE = 0
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=PREDAMAGE value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=PREDAMAGE value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=DAMAGE value=2
+
+00:23:32 STATE    - INFO     Acidic Swamp Ooze (2:3/2) (id:7) (pos:1) has 2 DAMAGE
+00:23:32 STATE    - INFO     Acidic Swamp Ooze (2:3/2) (id:7) (pos:1) has fatal damage
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=FROZEN value=1
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=EXHAUSTED value=0
+
+00:23:32 STATE    - INFO     Update Acidic Swamp Ooze (2:3/2) (id:7) (pos:1) to zone GRAVEYARD
+00:23:32 STATE    - INFO     Acidic Swamp Ooze (2:3/2) (id:7) (pos:1) has been moved to graveyard
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=DAMAGE value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Acidic Swamp Ooze id=7 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=FROZEN value=0
+
+00:23:32 STATE    - INFO     **********
+00:23:32 STATE    - INFO     TINGLE's TURN - 4 mana
+00:23:32 STATE    - INFO     **********
+00:23:32 STATE    - INFO     OPPONENT plays: Windfury - 2 mana (id:62)
+00:23:32 STATE    - INFO     Adding Windfury - 2 mana (id:62) to active cards in zone PLAY
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=16 local=False [name=Windfury id=62 zone=GRAVEYARD zonePos=0 cardId=CS2_039 player=2] zone from  -> OPPOSING GRAVEYARD
+
+00:23:32 STATE    - INFO     Windfury - 2 mana (id:62) has been moved to graveyard
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=17 local=False [name=Raid Leader id=51 zone=GRAVEYARD zonePos=1 cardId=CS2_122 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=18 local=False [name=Stonetusk Boar id=64 zone=PLAY zonePos=5 cardId=CS2_171 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+00:23:32 STATE    - INFO     Adding Stonetusk Boar (1:1/1) (id:64) (pos:5) to active cards in zone PLAY
+00:23:32 STATE    - INFO     OPPONENT plays: Stonetusk Boar (1:1/1) (id:64) (pos:5)
+00:23:32 STATE    - INFO     OPPONENT's minions:
+[Stonetusk Boar (1:1/1) (id:64) (pos:5)]
+00:23:32 STATE    - INFO     Update card Stonetusk Boar (1:1/1) (id:64) (pos:1) to position 1 in PLAY
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=19 local=False [name=Stonetusk Boar id=64 zone=GRAVEYARD zonePos=1 cardId=CS2_171 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+
+00:23:32 STATE    - INFO     Stonetusk Boar (1:1/1) (id:64) (pos:1) has been moved to graveyard
+00:23:32 STATE    - INFO     OPPONENT plays: Frost Shock - 1 mana (id:58)
+00:23:32 STATE    - INFO     Adding Frost Shock - 1 mana (id:58) to active cards in zone PLAY
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=21 local=False [name=Frost Shock id=58 zone=GRAVEYARD zonePos=0 cardId=CS2_037 player=2] zone from  -> OPPOSING GRAVEYARD
+
+00:23:32 STATE    - INFO     Frost Shock - 1 mana (id:58) has been moved to graveyard
+00:23:32 STATE    - INFO     DRAW CARD: Bloodfen Raptor (2:3/2) (id:30) (pos:None)
+00:23:32 STATE    - INFO     Adding Bloodfen Raptor (2:3/2) (id:30) (pos:None) to active cards in zone HAND
+00:23:32 STATE    - INFO     Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:8) (pos:3),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:2),
+ Dragonling Mechanic (4:2/4) (id:33) (pos:1),
+ The Coin - 0 mana (id:68),
+ River Crocolisk (2:2/3) (id:27) (pos:5),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:6),
+ Bloodfen Raptor (2:3/2) (id:30) (pos:None)]
+00:23:32 STATE    - INFO     Update card Bloodfen Raptor (2:3/2) (id:30) (pos:7) to position 7 in HAND
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=3 local=True [name=River Crocolisk id=27 zone=HAND zonePos=5 cardId=CS2_120 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+
+00:23:32 STATE    - INFO     TINGLE plays minion from hand: River Crocolisk (2:2/3) (id:27) (pos:5)
+00:23:32 STATE    - INFO     Spending 2 mana. Total spent = 2
+00:23:32 STATE    - INFO     Update card River Crocolisk (2:2/3) (id:27) (pos:1) to position 1 in PLAY
+00:23:32 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:22) (pos:5) to position 5 in HAND
+00:23:32 STATE    - INFO     Update card Bloodfen Raptor (2:3/2) (id:30) (pos:6) to position 6 in HAND
+00:23:32 STATE    - INFO     Update River Crocolisk (2:2/3) (id:27) (pos:1) to zone PLAY
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=HAND zonePos=5 cardId=CS2_120 player=1] tag=EXHAUSTED value=1
+
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=4 local=True [name=Bloodfen Raptor id=30 zone=HAND zonePos=6 cardId=CS2_172 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+
+00:23:32 STATE    - INFO     TINGLE plays minion from hand: Bloodfen Raptor (2:3/2) (id:30) (pos:6)
+00:23:32 STATE    - INFO     Spending 2 mana. Total spent = 4
+00:23:32 STATE    - INFO     Update card Bloodfen Raptor (2:3/2) (id:30) (pos:2) to position 2 in PLAY
+00:23:32 STATE    - INFO     Update Bloodfen Raptor (2:3/2) (id:30) (pos:2) to zone PLAY
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Bloodfen Raptor id=30 zone=HAND zonePos=6 cardId=CS2_172 player=1] tag=EXHAUSTED value=1
+
+00:23:32 STATE    - INFO     **********
+00:23:32 STATE    - INFO     OPPONENT TURN
+00:23:32 STATE    - INFO     **********
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Bloodfen Raptor id=30 zone=PLAY zonePos=2 cardId=CS2_172 player=1] tag=LINKEDCARD value=71
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Bloodfen Raptor id=30 zone=PLAY zonePos=2 cardId=CS2_172 player=1] tag=EXHAUSTED value=0
+
+00:23:32 STATE    - INFO     Update Bloodfen Raptor (2:3/2) (id:30) (pos:2) to zone SETASIDE
+00:23:32 STATE    - INFO     Bloodfen Raptor (2:3/2) (id:30) (pos:2) has been moved to graveyard
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] tag=EXHAUSTED value=1
+
+00:23:32 STATE    - INFO     **********
+00:23:32 STATE    - INFO     TINGLE's TURN - 5 mana
+00:23:32 STATE    - INFO     **********
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=EXHAUSTED value=0
+
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=UNKNOWN ENTITY [id=71 type=MINION zone=SETASIDE zonePos=0] tag=EXHAUSTED value=0
+
+00:23:32 STATE    - WARNING  No id 71 found to perform tag update for EXHAUSTED = 0
+00:23:32 STATE    - INFO     OPPONENT plays: Hex - 3 mana (id:56)
+00:23:32 STATE    - INFO     Adding Hex - 3 mana (id:56) to active cards in zone PLAY
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=28 local=False [name=Frog id=71 zone=PLAY zonePos=0 cardId=hexfrog player=1] zone from  -> FRIENDLY PLAY
+
+00:23:32 STATE    - INFO     Playing a minion that was not in our hand!
+00:23:32 STATE    - INFO     Adding Frog (0:0/1) (id:71) (pos:None) to active cards in zone PLAY
+00:23:32 STATE    - INFO     TINGLE plays: Frog (0:0/1) (id:71) (pos:None)
+00:23:32 STATE    - INFO     TINGLE's minions:
+[River Crocolisk (2:2/3) (id:27) (pos:1), Frog (0:0/1) (id:71) (pos:None)]
+00:23:32 STATE    - INFO     Update card Frog (0:0/1) (id:71) (pos:2) to position 2 in PLAY
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=29 local=False [name=Hex id=56 zone=GRAVEYARD zonePos=0 cardId=EX1_246 player=2] zone from  -> OPPOSING GRAVEYARD
+
+00:23:32 STATE    - INFO     Hex - 3 mana (id:56) has been moved to graveyard
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=30 local=False [name=Healing Totem id=72 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] zone from  -> OPPOSING PLAY
+
+00:23:32 STATE    - INFO     Adding Healing Totem (1:0/2) (id:72) (pos:1) to active cards in zone PLAY
+00:23:32 STATE    - INFO     OPPONENT plays: Healing Totem (1:0/2) (id:72) (pos:1)
+00:23:32 STATE    - INFO     OPPONENT's minions:
+[Healing Totem (1:0/2) (id:72) (pos:1)]
+00:23:32 STATE    - INFO     Update card Healing Totem (1:0/2) (id:72) (pos:1) to position 1 in PLAY
+00:23:32 STATE    - INFO     DRAW CARD: Stormwind Champion (7:6/6) (id:11) (pos:None)
+00:23:32 STATE    - INFO     Adding Stormwind Champion (7:6/6) (id:11) (pos:None) to active cards in zone HAND
+00:23:32 STATE    - INFO     Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:8) (pos:3),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:2),
+ Dragonling Mechanic (4:2/4) (id:33) (pos:1),
+ The Coin - 0 mana (id:68),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:5),
+ Stormwind Champion (7:6/6) (id:11) (pos:None)]
+00:23:32 STATE    - INFO     Update card Stormwind Champion (7:6/6) (id:11) (pos:6) to position 6 in HAND
+00:23:32 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=5 local=True [name=Sen'jin Shieldmasta id=8 zone=HAND zonePos=3 cardId=CS2_179 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+
+00:23:32 STATE    - INFO     TINGLE plays minion from hand: Sen'jin Shieldmasta (4:3/5) (id:8) (pos:3)
+00:23:32 STATE    - INFO     Spending 4 mana. Total spent = 4
+00:23:32 STATE    - INFO     Update card Sen'jin Shieldmasta (4:3/5) (id:8) (pos:2) to position 2 in PLAY
+00:23:32 STATE    - INFO     Update card The Coin - 0 mana (id:68) to position 3 in HAND
+00:23:32 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:22) (pos:4) to position 4 in HAND
+00:23:32 STATE    - INFO     Update card Stormwind Champion (7:6/6) (id:11) (pos:5) to position 5 in HAND
+00:23:32 STATE    - INFO     Update card Frog (0:0/1) (id:71) (pos:3) to position 3 in PLAY
+00:23:32 STATE    - INFO     Update Sen'jin Shieldmasta (4:3/5) (id:8) (pos:2) to zone PLAY
+00:23:32 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Sen'jin Shieldmasta id=8 zone=HAND zonePos=3 cardId=CS2_179 player=1] tag=EXHAUSTED value=1
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] SubType=ATTACK Index=-1 Target=[name=Healing Totem id=72 zone=PLAY zonePos=1 cardId=NEW1_009 player=2]
+
+00:23:33 STATE    - INFO     ATTACK: River Crocolisk (2:2/3) (id:27) (pos:1) -> Healing Totem (1:0/2) (id:72) (pos:1)
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=ATTACKING value=1
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=72 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=DEFENDING value=1
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=72 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=PREDAMAGE value=2
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=72 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=PREDAMAGE value=0
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=72 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=DAMAGE value=2
+
+00:23:33 STATE    - INFO     Healing Totem (1:0/2) (id:72) (pos:1) has 2 DAMAGE
+00:23:33 STATE    - INFO     Healing Totem (1:0/2) (id:72) (pos:1) has fatal damage
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=EXHAUSTED value=1
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=ATTACKING value=0
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=72 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=DEFENDING value=0
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=72 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=EXHAUSTED value=0
+
+00:23:33 STATE    - INFO     Update Healing Totem (1:0/2) (id:72) (pos:1) to zone GRAVEYARD
+00:23:33 STATE    - INFO     Healing Totem (1:0/2) (id:72) (pos:1) has been moved to graveyard
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=72 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=DAMAGE value=0
+
+00:23:33 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=33 local=False [name=Healing Totem id=72 zone=GRAVEYARD zonePos=1 cardId=NEW1_009 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+
+00:23:33 STATE    - INFO     **********
+00:23:33 STATE    - INFO     OPPONENT TURN
+00:23:33 STATE    - INFO     **********
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] tag=EXHAUSTED value=0
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=39 cardId= type=INVALID zone=HAND zonePos=3 player=2] tag=EXHAUSTED value=1
+
+00:23:33 STATE    - WARNING  No id 39 found to perform tag update for EXHAUSTED = 1
+00:23:33 STATE    - INFO     **********
+00:23:33 STATE    - INFO     TINGLE's TURN - 6 mana
+00:23:33 STATE    - INFO     **********
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=EXHAUSTED value=0
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1] tag=EXHAUSTED value=0
+
+00:23:33 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=35 local=False [name=Boulderfist Ogre id=39 zone=PLAY zonePos=3 cardId=CS2_200 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+00:23:33 STATE    - INFO     Adding Boulderfist Ogre (6:6/7) (id:39) (pos:3) to active cards in zone PLAY
+00:23:33 STATE    - INFO     OPPONENT plays: Boulderfist Ogre (6:6/7) (id:39) (pos:3)
+00:23:33 STATE    - INFO     OPPONENT's minions:
+[Boulderfist Ogre (6:6/7) (id:39) (pos:3)]
+00:23:33 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:39) (pos:1) to position 1 in PLAY
+00:23:33 STATE    - INFO     DRAW CARD: Gnomish Inventor (4:2/4) (id:18) (pos:None)
+00:23:33 STATE    - INFO     Adding Gnomish Inventor (4:2/4) (id:18) (pos:None) to active cards in zone HAND
+00:23:33 STATE    - INFO     Cards in HAND:
+[Boulderfist Ogre (6:6/7) (id:26) (pos:2),
+ Dragonling Mechanic (4:2/4) (id:33) (pos:1),
+ The Coin - 0 mana (id:68),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:4),
+ Stormwind Champion (7:6/6) (id:11) (pos:5),
+ Gnomish Inventor (4:2/4) (id:18) (pos:None)]
+00:23:33 STATE    - INFO     Update card Gnomish Inventor (4:2/4) (id:18) (pos:6) to position 6 in HAND
+00:23:33 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=6 local=True [name=Boulderfist Ogre id=26 zone=HAND zonePos=2 cardId=CS2_200 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+
+00:23:33 STATE    - INFO     TINGLE plays minion from hand: Boulderfist Ogre (6:6/7) (id:26) (pos:2)
+00:23:33 STATE    - INFO     Spending 6 mana. Total spent = 6
+00:23:33 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:26) (pos:3) to position 3 in PLAY
+00:23:33 STATE    - INFO     Update card The Coin - 0 mana (id:68) to position 2 in HAND
+00:23:33 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:22) (pos:3) to position 3 in HAND
+00:23:33 STATE    - INFO     Update card Stormwind Champion (7:6/6) (id:11) (pos:4) to position 4 in HAND
+00:23:33 STATE    - INFO     Update card Gnomish Inventor (4:2/4) (id:18) (pos:5) to position 5 in HAND
+00:23:33 STATE    - INFO     Update card Frog (0:0/1) (id:71) (pos:4) to position 4 in PLAY
+00:23:33 STATE    - INFO     Update Boulderfist Ogre (6:6/7) (id:26) (pos:3) to zone PLAY
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=HAND zonePos=2 cardId=CS2_200 player=1] tag=EXHAUSTED value=1
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] SubType=ATTACK Index=-1 Target=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2]
+
+00:23:33 STATE    - INFO     ATTACK: River Crocolisk (2:2/3) (id:27) (pos:1) -> Thrall (0/30) - (id:36)
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=ATTACKING value=1
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=1
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=2
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=0
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DAMAGE value=2
+
+00:23:33 STATE    - INFO     Thrall (0/30) - (id:36) has 2 DAMAGE
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=EXHAUSTED value=1
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=ATTACKING value=0
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=0
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1] SubType=ATTACK Index=-1 Target=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2]
+
+00:23:33 STATE    - INFO     ATTACK: Sen'jin Shieldmasta (4:3/5) (id:8) (pos:2) -> Thrall (0/30) - (id:36)
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1] tag=ATTACKING value=1
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=1
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=3
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=0
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DAMAGE value=5
+
+00:23:33 STATE    - INFO     Thrall (0/30) - (id:36) has 5 DAMAGE
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1] tag=EXHAUSTED value=1
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1] tag=ATTACKING value=0
+
+00:23:33 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=0
+
+00:24:06 BOT      - INFO     **********
+00:24:06 BOT      - INFO     Play Phase
+00:24:06 BOT      - INFO     **********
+00:24:06 BOT      - INFO     Tingle's Hand: 
+00:24:06 BOT      - INFO     [Dragonling Mechanic (4:2/4) (id:33) (pos:1),
+ The Coin - 0 mana (id:68),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:3),
+ Stormwind Champion (7:6/6) (id:11) (pos:4),
+ Gnomish Inventor (4:2/4) (id:18) (pos:5)]
+00:24:06 BOT      - DEBUG    Play phase start
+00:24:06 ALGS     - INFO     Spend max mana. Available: 0
+00:24:06 ALGS     - INFO     Candidates: []
+00:24:06 ALGS     - INFO     Play is: (0, [])
+00:24:06 BOT      - DEBUG    Going to play [] with 0 mana
+00:24:06 BOT      - INFO     **********
+00:24:06 BOT      - INFO     Attack Phase
+00:24:06 BOT      - INFO     **********
+00:24:06 BOT      - INFO     [River Crocolisk (2:2/3) (id:27) (pos:1),
+ Frog (0:0/1) (id:71) (pos:4),
+ Sen'jin Shieldmasta (4:3/5) (id:8) (pos:2),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:3)]
+00:24:06 BOT      - DEBUG    Attack phase
+00:24:06 BOT      - DEBUG    Minions available to attack = []
+00:24:06 CONTROL  - INFO     Ending turn
+00:24:17 STATE    - INFO     **********
+00:24:17 STATE    - INFO     OPPONENT TURN
+00:24:17 STATE    - INFO     **********
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=EXHAUSTED value=0
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=WINDFURY value=1
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=41 cardId= type=INVALID zone=HAND zonePos=3 player=2] tag=EXHAUSTED value=1
+
+00:24:17 STATE    - WARNING  No id 41 found to perform tag update for EXHAUSTED = 1
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] SubType=ATTACK Index=-1 Target=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1]
+
+00:24:17 STATE    - INFO     ATTACK: Boulderfist Ogre (6:6/7) (id:39) (pos:1) -> Sen'jin Shieldmasta (4:3/5) (id:8) (pos:2)
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=ATTACKING value=1
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1] tag=DEFENDING value=1
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1] tag=PREDAMAGE value=6
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1] tag=PREDAMAGE value=0
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1] tag=DAMAGE value=6
+
+00:24:17 STATE    - INFO     Sen'jin Shieldmasta (4:3/5) (id:8) (pos:2) has 6 DAMAGE
+00:24:17 STATE    - INFO     Sen'jin Shieldmasta (4:3/5) (id:8) (pos:2) has fatal damage
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=PREDAMAGE value=3
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=PREDAMAGE value=0
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=DAMAGE value=3
+
+00:24:17 STATE    - INFO     Boulderfist Ogre (6:6/7) (id:39) (pos:1) has 3 DAMAGE
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=ATTACKING value=0
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1] tag=DEFENDING value=0
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1] tag=EXHAUSTED value=0
+
+00:24:17 STATE    - INFO     Update Sen'jin Shieldmasta (4:3/5) (id:8) (pos:2) to zone GRAVEYARD
+00:24:17 STATE    - INFO     Sen'jin Shieldmasta (4:3/5) (id:8) (pos:2) has been moved to graveyard
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Sen'jin Shieldmasta id=8 zone=PLAY zonePos=2 cardId=CS2_179 player=1] tag=DAMAGE value=0
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] SubType=ATTACK Index=-1 Target=[name=Frog id=71 zone=PLAY zonePos=4 cardId=hexfrog player=1]
+
+00:24:17 STATE    - INFO     ATTACK: Boulderfist Ogre (6:6/7) (id:39) (pos:1) -> Frog (0:0/1) (id:71) (pos:4)
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=ATTACKING value=1
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frog id=71 zone=PLAY zonePos=4 cardId=hexfrog player=1] tag=DEFENDING value=1
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frog id=71 zone=PLAY zonePos=4 cardId=hexfrog player=1] tag=PREDAMAGE value=6
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frog id=71 zone=PLAY zonePos=4 cardId=hexfrog player=1] tag=PREDAMAGE value=0
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frog id=71 zone=PLAY zonePos=4 cardId=hexfrog player=1] tag=DAMAGE value=6
+
+00:24:17 STATE    - INFO     Frog (0:0/1) (id:71) (pos:4) has 6 DAMAGE
+00:24:17 STATE    - INFO     Frog (0:0/1) (id:71) (pos:4) has fatal damage
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=EXHAUSTED value=1
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=ATTACKING value=0
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frog id=71 zone=PLAY zonePos=4 cardId=hexfrog player=1] tag=DEFENDING value=0
+
+00:24:17 STATE    - INFO     Update Frog (0:0/1) (id:71) (pos:4) to zone GRAVEYARD
+00:24:17 STATE    - INFO     Frog (0:0/1) (id:71) (pos:4) has been moved to graveyard
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frog id=71 zone=PLAY zonePos=4 cardId=hexfrog player=1] tag=DAMAGE value=0
+
+00:24:17 STATE    - INFO     **********
+00:24:17 STATE    - INFO     TINGLE's TURN - 7 mana
+00:24:17 STATE    - INFO     **********
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=EXHAUSTED value=0
+
+00:24:17 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=3 cardId=CS2_200 player=1] tag=EXHAUSTED value=0
+
+00:24:17 STATE    - INFO     OPPONENT plays: Windfury - 2 mana (id:63)
+00:24:17 STATE    - INFO     Adding Windfury - 2 mana (id:63) to active cards in zone PLAY
+00:24:17 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=40 local=False [name=Windfury id=63 zone=GRAVEYARD zonePos=0 cardId=CS2_039 player=2] zone from  -> OPPOSING GRAVEYARD
+
+00:24:17 STATE    - INFO     Windfury - 2 mana (id:63) has been moved to graveyard
+00:24:17 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=41 local=False [name=Chillwind Yeti id=41 zone=PLAY zonePos=2 cardId=CS2_182 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+00:24:17 STATE    - INFO     Adding Chillwind Yeti (4:4/5) (id:41) (pos:2) to active cards in zone PLAY
+00:24:17 STATE    - INFO     OPPONENT plays: Chillwind Yeti (4:4/5) (id:41) (pos:2)
+00:24:17 STATE    - INFO     OPPONENT's minions:
+[Boulderfist Ogre (6:6/7) (id:39) (pos:1),
+ Chillwind Yeti (4:4/5) (id:41) (pos:2)]
+00:24:17 STATE    - INFO     Update card Chillwind Yeti (4:4/5) (id:41) (pos:1) to position 1 in PLAY
+00:24:17 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:39) (pos:2) to position 2 in PLAY
+00:24:27 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:26) (pos:2) to position 2 in PLAY
+00:24:27 STATE    - INFO     DRAW CARD: Razorfen Hunter (3:2/3) (id:13) (pos:None)
+00:24:27 STATE    - INFO     Adding Razorfen Hunter (3:2/3) (id:13) (pos:None) to active cards in zone HAND
+00:24:27 STATE    - INFO     Cards in HAND:
+[Dragonling Mechanic (4:2/4) (id:33) (pos:1),
+ The Coin - 0 mana (id:68),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:3),
+ Stormwind Champion (7:6/6) (id:11) (pos:4),
+ Gnomish Inventor (4:2/4) (id:18) (pos:5),
+ Razorfen Hunter (3:2/3) (id:13) (pos:None)]
+00:24:27 STATE    - INFO     Update card Razorfen Hunter (3:2/3) (id:13) (pos:6) to position 6 in HAND
+00:24:27 BOT      - INFO     **********
+00:24:27 BOT      - INFO     Play Phase
+00:24:27 BOT      - INFO     **********
+00:24:27 BOT      - INFO     Tingle's Hand: 
+00:24:27 BOT      - INFO     [Dragonling Mechanic (4:2/4) (id:33) (pos:1),
+ The Coin - 0 mana (id:68),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:3),
+ Stormwind Champion (7:6/6) (id:11) (pos:4),
+ Gnomish Inventor (4:2/4) (id:18) (pos:5),
+ Razorfen Hunter (3:2/3) (id:13) (pos:6)]
+00:24:27 BOT      - DEBUG    Play phase start
+00:24:27 ALGS     - INFO     Spend max mana. Available: 7
+00:24:27 ALGS     - INFO     Candidates: [Dragonling Mechanic (4:2/4) (id:33) (pos:1), Dragonling Mechanic (4:2/4) (id:22) (pos:3), Stormwind Champion (7:6/6) (id:11) (pos:4), Gnomish Inventor (4:2/4) (id:18) (pos:5), Razorfen Hunter (3:2/3) (id:13) (pos:6)]
+00:24:27 ALGS     - DEBUG    Possible combination with cost 22: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Dragonling Mechanic (4:2/4) (id:22) (pos:3), Stormwind Champion (7:6/6) (id:11) (pos:4), Gnomish Inventor (4:2/4) (id:18) (pos:5), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 19: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Dragonling Mechanic (4:2/4) (id:22) (pos:3), Stormwind Champion (7:6/6) (id:11) (pos:4), Gnomish Inventor (4:2/4) (id:18) (pos:5))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 18: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Dragonling Mechanic (4:2/4) (id:22) (pos:3), Stormwind Champion (7:6/6) (id:11) (pos:4), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 15: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Dragonling Mechanic (4:2/4) (id:22) (pos:3), Gnomish Inventor (4:2/4) (id:18) (pos:5), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 18: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Stormwind Champion (7:6/6) (id:11) (pos:4), Gnomish Inventor (4:2/4) (id:18) (pos:5), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 18: (Dragonling Mechanic (4:2/4) (id:22) (pos:3), Stormwind Champion (7:6/6) (id:11) (pos:4), Gnomish Inventor (4:2/4) (id:18) (pos:5), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 15: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Dragonling Mechanic (4:2/4) (id:22) (pos:3), Stormwind Champion (7:6/6) (id:11) (pos:4))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 12: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Dragonling Mechanic (4:2/4) (id:22) (pos:3), Gnomish Inventor (4:2/4) (id:18) (pos:5))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 11: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Dragonling Mechanic (4:2/4) (id:22) (pos:3), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 15: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Stormwind Champion (7:6/6) (id:11) (pos:4), Gnomish Inventor (4:2/4) (id:18) (pos:5))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 14: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Stormwind Champion (7:6/6) (id:11) (pos:4), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 11: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Gnomish Inventor (4:2/4) (id:18) (pos:5), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 15: (Dragonling Mechanic (4:2/4) (id:22) (pos:3), Stormwind Champion (7:6/6) (id:11) (pos:4), Gnomish Inventor (4:2/4) (id:18) (pos:5))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 14: (Dragonling Mechanic (4:2/4) (id:22) (pos:3), Stormwind Champion (7:6/6) (id:11) (pos:4), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 11: (Dragonling Mechanic (4:2/4) (id:22) (pos:3), Gnomish Inventor (4:2/4) (id:18) (pos:5), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 14: (Stormwind Champion (7:6/6) (id:11) (pos:4), Gnomish Inventor (4:2/4) (id:18) (pos:5), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 8: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Dragonling Mechanic (4:2/4) (id:22) (pos:3))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 11: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Stormwind Champion (7:6/6) (id:11) (pos:4))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 8: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Gnomish Inventor (4:2/4) (id:18) (pos:5))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 7: (Dragonling Mechanic (4:2/4) (id:33) (pos:1), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 11: (Dragonling Mechanic (4:2/4) (id:22) (pos:3), Stormwind Champion (7:6/6) (id:11) (pos:4))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 8: (Dragonling Mechanic (4:2/4) (id:22) (pos:3), Gnomish Inventor (4:2/4) (id:18) (pos:5))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 7: (Dragonling Mechanic (4:2/4) (id:22) (pos:3), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 11: (Stormwind Champion (7:6/6) (id:11) (pos:4), Gnomish Inventor (4:2/4) (id:18) (pos:5))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 10: (Stormwind Champion (7:6/6) (id:11) (pos:4), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - DEBUG    Possible combination with cost 7: (Gnomish Inventor (4:2/4) (id:18) (pos:5), Razorfen Hunter (3:2/3) (id:13) (pos:6))
+00:24:27 ALGS     - INFO     Play is: (7, [Dragonling Mechanic (4:2/4) (id:33) (pos:1), Razorfen Hunter (3:2/3) (id:13) (pos:6)])
+00:24:27 BOT      - DEBUG    Going to play [Dragonling Mechanic (4:2/4) (id:33) (pos:1), Razorfen Hunter (3:2/3) (id:13) (pos:6)] with 7 mana
+00:24:27 CONTROL  - DEBUG    Clicking on hand card index 0 with 6 cards in hand
+00:24:31 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=7 local=True [name=Dragonling Mechanic id=33 zone=HAND zonePos=1 cardId=EX1_025 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+
+00:24:31 STATE    - INFO     TINGLE plays minion from hand: Dragonling Mechanic (4:2/4) (id:33) (pos:1)
+00:24:31 STATE    - INFO     Spending 4 mana. Total spent = 4
+00:24:31 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:33) (pos:2) to position 2 in PLAY
+00:24:31 STATE    - INFO     Update card The Coin - 0 mana (id:68) to position 1 in HAND
+00:24:31 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:22) (pos:2) to position 2 in HAND
+00:24:31 STATE    - INFO     Update card Stormwind Champion (7:6/6) (id:11) (pos:3) to position 3 in HAND
+00:24:31 STATE    - INFO     Update card Gnomish Inventor (4:2/4) (id:18) (pos:4) to position 4 in HAND
+00:24:31 STATE    - INFO     Update card Razorfen Hunter (3:2/3) (id:13) (pos:5) to position 5 in HAND
+00:24:31 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:26) (pos:3) to position 3 in PLAY
+00:24:31 STATE    - INFO     Update Dragonling Mechanic (4:2/4) (id:33) (pos:2) to zone PLAY
+00:24:31 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=33 zone=HAND zonePos=1 cardId=EX1_025 player=1] tag=EXHAUSTED value=1
+
+00:24:31 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:26) (pos:4) to position 4 in PLAY
+00:24:31 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=46 local=False [name=Mechanical Dragonling id=73 zone=PLAY zonePos=3 cardId=EX1_025t player=1] zone from  -> FRIENDLY PLAY
+
+00:24:31 STATE    - INFO     Playing a minion that was not in our hand!
+00:24:31 STATE    - INFO     Adding Mechanical Dragonling (1:2/1) (id:73) (pos:None) to active cards in zone PLAY
+00:24:31 STATE    - INFO     TINGLE plays: Mechanical Dragonling (1:2/1) (id:73) (pos:None)
+00:24:31 STATE    - INFO     TINGLE's minions:
+[River Crocolisk (2:2/3) (id:27) (pos:1),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:4),
+ Dragonling Mechanic (4:2/4) (id:33) (pos:2),
+ Mechanical Dragonling (1:2/1) (id:73) (pos:None)]
+00:24:31 STATE    - INFO     Update card Mechanical Dragonling (1:2/1) (id:73) (pos:3) to position 3 in PLAY
+00:24:31 CONTROL  - DEBUG    Clicking on hand card index 4 with 5 cards in hand
+00:24:34 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=8 local=True [name=Razorfen Hunter id=13 zone=HAND zonePos=5 cardId=CS2_196 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+
+00:24:34 STATE    - INFO     TINGLE plays minion from hand: Razorfen Hunter (3:2/3) (id:13) (pos:5)
+00:24:34 STATE    - INFO     Spending 3 mana. Total spent = 7
+00:24:34 STATE    - INFO     Update card Razorfen Hunter (3:2/3) (id:13) (pos:3) to position 3 in PLAY
+00:24:34 STATE    - INFO     Update card Mechanical Dragonling (1:2/1) (id:73) (pos:4) to position 4 in PLAY
+00:24:34 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:26) (pos:5) to position 5 in PLAY
+00:24:34 STATE    - INFO     Update Razorfen Hunter (3:2/3) (id:13) (pos:3) to zone PLAY
+00:24:34 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=HAND zonePos=5 cardId=CS2_196 player=1] tag=EXHAUSTED value=1
+
+00:24:34 STATE    - INFO     Update card Mechanical Dragonling (1:2/1) (id:73) (pos:5) to position 5 in PLAY
+00:24:34 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:26) (pos:6) to position 6 in PLAY
+00:24:34 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=48 local=False [name=Boar id=74 zone=PLAY zonePos=4 cardId=CS2_boar player=1] zone from  -> FRIENDLY PLAY
+
+00:24:34 STATE    - INFO     Playing a minion that was not in our hand!
+00:24:34 STATE    - INFO     Adding Boar (1:1/1) (id:74) (pos:None) to active cards in zone PLAY
+00:24:34 STATE    - INFO     TINGLE plays: Boar (1:1/1) (id:74) (pos:None)
+00:24:34 STATE    - INFO     TINGLE's minions:
+[River Crocolisk (2:2/3) (id:27) (pos:1),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:6),
+ Dragonling Mechanic (4:2/4) (id:33) (pos:2),
+ Mechanical Dragonling (1:2/1) (id:73) (pos:5),
+ Razorfen Hunter (3:2/3) (id:13) (pos:3),
+ Boar (1:1/1) (id:74) (pos:None)]
+00:24:34 STATE    - INFO     Update card Boar (1:1/1) (id:74) (pos:4) to position 4 in PLAY
+00:24:34 BOT      - INFO     **********
+00:24:34 BOT      - INFO     Attack Phase
+00:24:34 BOT      - INFO     **********
+00:24:34 BOT      - INFO     [River Crocolisk (2:2/3) (id:27) (pos:1),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:6),
+ Dragonling Mechanic (4:2/4) (id:33) (pos:2),
+ Mechanical Dragonling (1:2/1) (id:73) (pos:5),
+ Razorfen Hunter (3:2/3) (id:13) (pos:3),
+ Boar (1:1/1) (id:74) (pos:4)]
+00:24:34 BOT      - DEBUG    Attack phase
+00:24:34 BOT      - DEBUG    Minions available to attack = [River Crocolisk (2:2/3) (id:27) (pos:1), Boulderfist Ogre (6:6/7) (id:26) (pos:6)]
+00:24:34 ALGS     - DEBUG    can_kill_minion start
+00:24:34 BOT      - DEBUG    Performing attack Boulderfist Ogre (6:6/7) (id:26) (pos:6) -> Chillwind Yeti (4:4/5) (id:41) (pos:1)
+00:24:34 CONTROL  - DEBUG    Clicking on minion at position 6 of 6
+00:24:35 CONTROL  - DEBUG    Clicking on opponent minion at position 1 of 2
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=6 cardId=CS2_200 player=1] SubType=ATTACK Index=-1 Target=[name=Chillwind Yeti id=41 zone=PLAY zonePos=1 cardId=CS2_182 player=2]
+
+00:24:39 STATE    - INFO     ATTACK: Boulderfist Ogre (6:6/7) (id:26) (pos:6) -> Chillwind Yeti (4:4/5) (id:41) (pos:1)
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=6 cardId=CS2_200 player=1] tag=ATTACKING value=1
+
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Chillwind Yeti id=41 zone=PLAY zonePos=1 cardId=CS2_182 player=2] tag=DEFENDING value=1
+
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Chillwind Yeti id=41 zone=PLAY zonePos=1 cardId=CS2_182 player=2] tag=PREDAMAGE value=6
+
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Chillwind Yeti id=41 zone=PLAY zonePos=1 cardId=CS2_182 player=2] tag=PREDAMAGE value=0
+
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Chillwind Yeti id=41 zone=PLAY zonePos=1 cardId=CS2_182 player=2] tag=DAMAGE value=6
+
+00:24:39 STATE    - INFO     Chillwind Yeti (4:4/5) (id:41) (pos:1) has 6 DAMAGE
+00:24:39 STATE    - INFO     Chillwind Yeti (4:4/5) (id:41) (pos:1) has fatal damage
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=6 cardId=CS2_200 player=1] tag=PREDAMAGE value=4
+
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=6 cardId=CS2_200 player=1] tag=PREDAMAGE value=0
+
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=6 cardId=CS2_200 player=1] tag=DAMAGE value=4
+
+00:24:39 STATE    - INFO     Boulderfist Ogre (6:6/7) (id:26) (pos:6) has 4 DAMAGE
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=6 cardId=CS2_200 player=1] tag=EXHAUSTED value=1
+
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=6 cardId=CS2_200 player=1] tag=ATTACKING value=0
+
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Chillwind Yeti id=41 zone=PLAY zonePos=1 cardId=CS2_182 player=2] tag=DEFENDING value=0
+
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Chillwind Yeti id=41 zone=PLAY zonePos=1 cardId=CS2_182 player=2] tag=EXHAUSTED value=0
+
+00:24:39 STATE    - INFO     Update Chillwind Yeti (4:4/5) (id:41) (pos:1) to zone GRAVEYARD
+00:24:39 STATE    - INFO     Chillwind Yeti (4:4/5) (id:41) (pos:1) has been moved to graveyard
+00:24:39 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Chillwind Yeti id=41 zone=PLAY zonePos=1 cardId=CS2_182 player=2] tag=DAMAGE value=0
+
+00:24:39 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:39) (pos:1) to position 1 in PLAY
+00:24:39 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=49 local=False [name=Chillwind Yeti id=41 zone=GRAVEYARD zonePos=1 cardId=CS2_182 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+
+00:24:39 ALGS     - DEBUG    can_kill_minion start
+00:24:39 ALGS     - DEBUG    can_kill_minion end
+00:24:39 CONTROL  - DEBUG    Clicking on minion at position 1 of 6
+00:24:41 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] SubType=ATTACK Index=-1 Target=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2]
+
+00:24:41 STATE    - INFO     ATTACK: River Crocolisk (2:2/3) (id:27) (pos:1) -> Thrall (0/30) - (id:36)
+00:24:41 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=ATTACKING value=1
+
+00:24:41 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=1
+
+00:24:41 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=2
+
+00:24:41 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=0
+
+00:24:41 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DAMAGE value=7
+
+00:24:41 STATE    - INFO     Thrall (0/30) - (id:36) has 7 DAMAGE
+00:24:41 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=EXHAUSTED value=1
+
+00:24:41 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=ATTACKING value=0
+
+00:24:41 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=0
+
+00:24:42 CONTROL  - INFO     Ending turn
+00:24:53 STATE    - INFO     **********
+00:24:53 STATE    - INFO     OPPONENT TURN
+00:24:53 STATE    - INFO     **********
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=EXHAUSTED value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] SubType=ATTACK Index=-1 Target=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1]
+
+00:24:53 STATE    - INFO     ATTACK: Boulderfist Ogre (6:6/7) (id:39) (pos:1) -> Gul'dan (0/30) - (id:4)
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=ATTACKING value=1
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DEFENDING value=1
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=6
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DAMAGE value=7
+
+00:24:53 STATE    - INFO     Gul'dan (0/30) - (id:4) has 7 DAMAGE
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=ATTACKING value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DEFENDING value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=44 cardId= type=INVALID zone=HAND zonePos=2 player=2] tag=EXHAUSTED value=1
+
+00:24:53 STATE    - WARNING  No id 44 found to perform tag update for EXHAUSTED = 1
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=44 cardId= type=INVALID zone=HAND zonePos=2 player=2] tag=HEALTH value=5
+
+00:24:53 STATE    - WARNING  No id 44 found to perform tag update for HEALTH = 5
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=44 cardId= type=INVALID zone=HAND zonePos=2 player=2] tag=ATK value=5
+
+00:24:53 STATE    - WARNING  No id 44 found to perform tag update for ATK = 5
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] SubType=ATTACK Index=-1 Target=[name=Dragonling Mechanic id=33 zone=PLAY zonePos=2 cardId=EX1_025 player=1]
+
+00:24:53 STATE    - INFO     ATTACK: Boulderfist Ogre (6:6/7) (id:39) (pos:1) -> Dragonling Mechanic (4:2/4) (id:33) (pos:2)
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=ATTACKING value=1
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=33 zone=PLAY zonePos=2 cardId=EX1_025 player=1] tag=DEFENDING value=1
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=33 zone=PLAY zonePos=2 cardId=EX1_025 player=1] tag=PREDAMAGE value=6
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=33 zone=PLAY zonePos=2 cardId=EX1_025 player=1] tag=PREDAMAGE value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=33 zone=PLAY zonePos=2 cardId=EX1_025 player=1] tag=DAMAGE value=6
+
+00:24:53 STATE    - INFO     Dragonling Mechanic (4:2/4) (id:33) (pos:2) has 6 DAMAGE
+00:24:53 STATE    - INFO     Dragonling Mechanic (4:2/4) (id:33) (pos:2) has fatal damage
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=PREDAMAGE value=2
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=PREDAMAGE value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=DAMAGE value=5
+
+00:24:53 STATE    - INFO     Boulderfist Ogre (6:6/7) (id:39) (pos:1) has 5 DAMAGE
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=EXHAUSTED value=1
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=ATTACKING value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=33 zone=PLAY zonePos=2 cardId=EX1_025 player=1] tag=DEFENDING value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=33 zone=PLAY zonePos=2 cardId=EX1_025 player=1] tag=EXHAUSTED value=0
+
+00:24:53 STATE    - INFO     Update Dragonling Mechanic (4:2/4) (id:33) (pos:2) to zone GRAVEYARD
+00:24:53 STATE    - INFO     Dragonling Mechanic (4:2/4) (id:33) (pos:2) has been moved to graveyard
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=33 zone=PLAY zonePos=2 cardId=EX1_025 player=1] tag=DAMAGE value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] tag=EXHAUSTED value=1
+
+00:24:53 STATE    - INFO     **********
+00:24:53 STATE    - INFO     TINGLE's TURN - 8 mana
+00:24:53 STATE    - INFO     **********
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=EXHAUSTED value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=6 cardId=CS2_200 player=1] tag=EXHAUSTED value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=73 zone=PLAY zonePos=5 cardId=EX1_025t player=1] tag=EXHAUSTED value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=3 cardId=CS2_196 player=1] tag=EXHAUSTED value=0
+
+00:24:53 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boar id=74 zone=PLAY zonePos=4 cardId=CS2_boar player=1] tag=EXHAUSTED value=0
+
+00:24:53 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=51 local=False [name=Frostwolf Warlord id=44 zone=PLAY zonePos=2 cardId=CS2_226 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+00:24:53 STATE    - INFO     Adding Frostwolf Warlord (5:4/4) (id:44) (pos:2) to active cards in zone PLAY
+00:24:53 STATE    - INFO     OPPONENT plays: Frostwolf Warlord (5:4/4) (id:44) (pos:2)
+00:24:53 STATE    - INFO     OPPONENT's minions:
+[Boulderfist Ogre (6:6/7) (id:39) (pos:1),
+ Frostwolf Warlord (5:4/4) (id:44) (pos:2)]
+00:24:53 STATE    - INFO     Update card Frostwolf Warlord (5:4/4) (id:44) (pos:1) to position 1 in PLAY
+00:24:53 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:39) (pos:2) to position 2 in PLAY
+00:24:53 STATE    - INFO     Update card Boar (1:1/1) (id:74) (pos:3) to position 3 in PLAY
+00:24:53 STATE    - INFO     Update card Razorfen Hunter (3:2/3) (id:13) (pos:2) to position 2 in PLAY
+00:24:53 STATE    - INFO     Update card Mechanical Dragonling (1:2/1) (id:73) (pos:4) to position 4 in PLAY
+00:24:53 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:26) (pos:5) to position 5 in PLAY
+00:24:53 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=54 local=False [name=Stoneclaw Totem id=76 zone=PLAY zonePos=3 cardId=CS2_051 player=2] zone from  -> OPPOSING PLAY
+
+00:24:53 STATE    - INFO     Adding Stoneclaw Totem (1:0/2) (id:76) (pos:3) to active cards in zone PLAY
+00:24:53 STATE    - INFO     OPPONENT plays: Stoneclaw Totem (1:0/2) (id:76) (pos:3)
+00:24:53 STATE    - INFO     OPPONENT's minions:
+[Boulderfist Ogre (6:6/7) (id:39) (pos:2),
+ Frostwolf Warlord (5:4/4) (id:44) (pos:1),
+ Stoneclaw Totem (1:0/2) (id:76) (pos:3)]
+00:24:53 STATE    - INFO     Update card Stoneclaw Totem (1:0/2) (id:76) (pos:3) to position 3 in PLAY
+00:25:03 STATE    - INFO     DRAW CARD: Stormwind Knight (4:2/5) (id:31) (pos:None)
+00:25:03 STATE    - INFO     Adding Stormwind Knight (4:2/5) (id:31) (pos:None) to active cards in zone HAND
+00:25:03 STATE    - INFO     Cards in HAND:
+[The Coin - 0 mana (id:68),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:2),
+ Stormwind Champion (7:6/6) (id:11) (pos:3),
+ Gnomish Inventor (4:2/4) (id:18) (pos:4),
+ Stormwind Knight (4:2/5) (id:31) (pos:None)]
+00:25:03 STATE    - INFO     Update card Stormwind Knight (4:2/5) (id:31) (pos:5) to position 5 in HAND
+00:25:03 BOT      - INFO     **********
+00:25:03 BOT      - INFO     Play Phase
+00:25:03 BOT      - INFO     **********
+00:25:03 BOT      - INFO     Tingle's Hand: 
+00:25:03 BOT      - INFO     [The Coin - 0 mana (id:68),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:2),
+ Stormwind Champion (7:6/6) (id:11) (pos:3),
+ Gnomish Inventor (4:2/4) (id:18) (pos:4),
+ Stormwind Knight (4:2/5) (id:31) (pos:5)]
+00:25:03 BOT      - DEBUG    Play phase start
+00:25:03 ALGS     - INFO     Spend max mana. Available: 8
+00:25:03 ALGS     - INFO     Candidates: [Dragonling Mechanic (4:2/4) (id:22) (pos:2), Stormwind Champion (7:6/6) (id:11) (pos:3), Gnomish Inventor (4:2/4) (id:18) (pos:4), Stormwind Knight (4:2/5) (id:31) (pos:5)]
+00:25:03 ALGS     - DEBUG    Possible combination with cost 19: (Dragonling Mechanic (4:2/4) (id:22) (pos:2), Stormwind Champion (7:6/6) (id:11) (pos:3), Gnomish Inventor (4:2/4) (id:18) (pos:4), Stormwind Knight (4:2/5) (id:31) (pos:5))
+00:25:03 ALGS     - DEBUG    Possible combination with cost 15: (Dragonling Mechanic (4:2/4) (id:22) (pos:2), Stormwind Champion (7:6/6) (id:11) (pos:3), Gnomish Inventor (4:2/4) (id:18) (pos:4))
+00:25:03 ALGS     - DEBUG    Possible combination with cost 15: (Dragonling Mechanic (4:2/4) (id:22) (pos:2), Stormwind Champion (7:6/6) (id:11) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:5))
+00:25:03 ALGS     - DEBUG    Possible combination with cost 12: (Dragonling Mechanic (4:2/4) (id:22) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:4), Stormwind Knight (4:2/5) (id:31) (pos:5))
+00:25:03 ALGS     - DEBUG    Possible combination with cost 15: (Stormwind Champion (7:6/6) (id:11) (pos:3), Gnomish Inventor (4:2/4) (id:18) (pos:4), Stormwind Knight (4:2/5) (id:31) (pos:5))
+00:25:03 ALGS     - DEBUG    Possible combination with cost 11: (Dragonling Mechanic (4:2/4) (id:22) (pos:2), Stormwind Champion (7:6/6) (id:11) (pos:3))
+00:25:03 ALGS     - DEBUG    Possible combination with cost 8: (Dragonling Mechanic (4:2/4) (id:22) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:4))
+00:25:03 ALGS     - DEBUG    Possible combination with cost 8: (Dragonling Mechanic (4:2/4) (id:22) (pos:2), Stormwind Knight (4:2/5) (id:31) (pos:5))
+00:25:03 ALGS     - DEBUG    Possible combination with cost 11: (Stormwind Champion (7:6/6) (id:11) (pos:3), Gnomish Inventor (4:2/4) (id:18) (pos:4))
+00:25:03 ALGS     - DEBUG    Possible combination with cost 11: (Stormwind Champion (7:6/6) (id:11) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:5))
+00:25:03 ALGS     - DEBUG    Possible combination with cost 8: (Gnomish Inventor (4:2/4) (id:18) (pos:4), Stormwind Knight (4:2/5) (id:31) (pos:5))
+00:25:03 ALGS     - INFO     Play is: (8, [Dragonling Mechanic (4:2/4) (id:22) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:4)])
+00:25:03 BOT      - DEBUG    Going to play [Dragonling Mechanic (4:2/4) (id:22) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:4)] with 8 mana
+00:25:03 CONTROL  - DEBUG    Clicking on hand card index 1 with 5 cards in hand
+00:25:07 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=9 local=True [name=Dragonling Mechanic id=22 zone=HAND zonePos=2 cardId=EX1_025 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+
+00:25:07 STATE    - INFO     TINGLE plays minion from hand: Dragonling Mechanic (4:2/4) (id:22) (pos:2)
+00:25:07 STATE    - INFO     Spending 4 mana. Total spent = 4
+00:25:07 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:22) (pos:4) to position 4 in PLAY
+00:25:07 STATE    - INFO     Update card Stormwind Champion (7:6/6) (id:11) (pos:2) to position 2 in HAND
+00:25:07 STATE    - INFO     Update card Gnomish Inventor (4:2/4) (id:18) (pos:3) to position 3 in HAND
+00:25:07 STATE    - INFO     Update card Stormwind Knight (4:2/5) (id:31) (pos:4) to position 4 in HAND
+00:25:07 STATE    - INFO     Update card Mechanical Dragonling (1:2/1) (id:73) (pos:5) to position 5 in PLAY
+00:25:07 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:26) (pos:6) to position 6 in PLAY
+00:25:07 STATE    - INFO     Update Dragonling Mechanic (4:2/4) (id:22) (pos:4) to zone PLAY
+00:25:07 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=22 zone=HAND zonePos=2 cardId=EX1_025 player=1] tag=EXHAUSTED value=1
+
+00:25:07 STATE    - INFO     Update card Mechanical Dragonling (1:2/1) (id:73) (pos:6) to position 6 in PLAY
+00:25:07 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:26) (pos:7) to position 7 in PLAY
+00:25:07 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=57 local=False [name=Mechanical Dragonling id=77 zone=PLAY zonePos=5 cardId=EX1_025t player=1] zone from  -> FRIENDLY PLAY
+
+00:25:07 STATE    - INFO     Playing a minion that was not in our hand!
+00:25:07 STATE    - INFO     Adding Mechanical Dragonling (1:2/1) (id:77) (pos:None) to active cards in zone PLAY
+00:25:07 STATE    - INFO     TINGLE plays: Mechanical Dragonling (1:2/1) (id:77) (pos:None)
+00:25:07 STATE    - INFO     TINGLE's minions:
+[River Crocolisk (2:2/3) (id:27) (pos:1),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:7),
+ Mechanical Dragonling (1:2/1) (id:73) (pos:6),
+ Razorfen Hunter (3:2/3) (id:13) (pos:2),
+ Boar (1:1/1) (id:74) (pos:3),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:4),
+ Mechanical Dragonling (1:2/1) (id:77) (pos:None)]
+00:25:07 STATE    - INFO     Update card Mechanical Dragonling (1:2/1) (id:77) (pos:5) to position 5 in PLAY
+00:25:07 CONTROL  - DEBUG    Clicking on hand card index 2 with 4 cards in hand
+00:25:10 BOT      - INFO     **********
+00:25:10 BOT      - INFO     Attack Phase
+00:25:10 BOT      - INFO     **********
+00:25:10 BOT      - INFO     [River Crocolisk (2:2/3) (id:27) (pos:1),
+ Boulderfist Ogre (6:6/7) (id:26) (pos:7),
+ Mechanical Dragonling (1:2/1) (id:73) (pos:6),
+ Razorfen Hunter (3:2/3) (id:13) (pos:2),
+ Boar (1:1/1) (id:74) (pos:3),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:4),
+ Mechanical Dragonling (1:2/1) (id:77) (pos:5)]
+00:25:10 BOT      - DEBUG    Attack phase
+00:25:10 BOT      - DEBUG    Minions available to attack = [River Crocolisk (2:2/3) (id:27) (pos:1), Boulderfist Ogre (6:6/7) (id:26) (pos:7), Mechanical Dragonling (1:2/1) (id:73) (pos:6), Razorfen Hunter (3:2/3) (id:13) (pos:2), Boar (1:1/1) (id:74) (pos:3)]
+00:25:10 ALGS     - DEBUG    can_kill_minion start
+00:25:10 BOT      - DEBUG    Performing attack River Crocolisk (2:2/3) (id:27) (pos:1) -> Stoneclaw Totem (1:0/2) (id:76) (pos:3)
+00:25:10 CONTROL  - DEBUG    Clicking on minion at position 1 of 7
+00:25:12 CONTROL  - DEBUG    Clicking on opponent minion at position 3 of 3
+00:25:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] SubType=ATTACK Index=-1 Target=[name=Stoneclaw Totem id=76 zone=PLAY zonePos=3 cardId=CS2_051 player=2]
+
+00:25:15 STATE    - INFO     ATTACK: River Crocolisk (2:2/3) (id:27) (pos:1) -> Stoneclaw Totem (1:0/2) (id:76) (pos:3)
+00:25:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=ATTACKING value=1
+
+00:25:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stoneclaw Totem id=76 zone=PLAY zonePos=3 cardId=CS2_051 player=2] tag=DEFENDING value=1
+
+00:25:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stoneclaw Totem id=76 zone=PLAY zonePos=3 cardId=CS2_051 player=2] tag=PREDAMAGE value=2
+
+00:25:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stoneclaw Totem id=76 zone=PLAY zonePos=3 cardId=CS2_051 player=2] tag=PREDAMAGE value=0
+
+00:25:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stoneclaw Totem id=76 zone=PLAY zonePos=3 cardId=CS2_051 player=2] tag=DAMAGE value=2
+
+00:25:15 STATE    - INFO     Stoneclaw Totem (1:0/2) (id:76) (pos:3) has 2 DAMAGE
+00:25:15 STATE    - INFO     Stoneclaw Totem (1:0/2) (id:76) (pos:3) has fatal damage
+00:25:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=EXHAUSTED value=1
+
+00:25:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=ATTACKING value=0
+
+00:25:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stoneclaw Totem id=76 zone=PLAY zonePos=3 cardId=CS2_051 player=2] tag=DEFENDING value=0
+
+00:25:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stoneclaw Totem id=76 zone=PLAY zonePos=3 cardId=CS2_051 player=2] tag=EXHAUSTED value=0
+
+00:25:15 STATE    - INFO     Update Stoneclaw Totem (1:0/2) (id:76) (pos:3) to zone GRAVEYARD
+00:25:15 STATE    - INFO     Stoneclaw Totem (1:0/2) (id:76) (pos:3) has been moved to graveyard
+00:25:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stoneclaw Totem id=76 zone=PLAY zonePos=3 cardId=CS2_051 player=2] tag=DAMAGE value=0
+
+00:25:15 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=58 local=False [name=Stoneclaw Totem id=76 zone=GRAVEYARD zonePos=3 cardId=CS2_051 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+
+00:25:15 ALGS     - DEBUG    can_kill_minion start
+00:25:15 BOT      - DEBUG    Performing attack Boulderfist Ogre (6:6/7) (id:26) (pos:7) -> Frostwolf Warlord (5:4/4) (id:44) (pos:1)
+00:25:15 CONTROL  - DEBUG    Clicking on minion at position 7 of 7
+00:25:16 CONTROL  - DEBUG    Clicking on opponent minion at position 1 of 2
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=7 cardId=CS2_200 player=1] SubType=ATTACK Index=-1 Target=[name=Frostwolf Warlord id=44 zone=PLAY zonePos=1 cardId=CS2_226 player=2]
+
+00:25:19 STATE    - INFO     ATTACK: Boulderfist Ogre (6:6/7) (id:26) (pos:7) -> Frostwolf Warlord (5:4/4) (id:44) (pos:1)
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=7 cardId=CS2_200 player=1] tag=ATTACKING value=1
+
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Warlord id=44 zone=PLAY zonePos=1 cardId=CS2_226 player=2] tag=DEFENDING value=1
+
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Warlord id=44 zone=PLAY zonePos=1 cardId=CS2_226 player=2] tag=PREDAMAGE value=6
+
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Warlord id=44 zone=PLAY zonePos=1 cardId=CS2_226 player=2] tag=PREDAMAGE value=0
+
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Warlord id=44 zone=PLAY zonePos=1 cardId=CS2_226 player=2] tag=DAMAGE value=6
+
+00:25:19 STATE    - INFO     Frostwolf Warlord (5:4/4) (id:44) (pos:1) has 6 DAMAGE
+00:25:19 STATE    - INFO     Frostwolf Warlord (5:4/4) (id:44) (pos:1) has fatal damage
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=7 cardId=CS2_200 player=1] tag=PREDAMAGE value=5
+
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=7 cardId=CS2_200 player=1] tag=PREDAMAGE value=0
+
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=7 cardId=CS2_200 player=1] tag=DAMAGE value=9
+
+00:25:19 STATE    - INFO     Boulderfist Ogre (6:6/7) (id:26) (pos:7) has 9 DAMAGE
+00:25:19 STATE    - INFO     Boulderfist Ogre (6:6/7) (id:26) (pos:7) has fatal damage
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=7 cardId=CS2_200 player=1] tag=EXHAUSTED value=1
+
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=7 cardId=CS2_200 player=1] tag=ATTACKING value=0
+
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Warlord id=44 zone=PLAY zonePos=1 cardId=CS2_226 player=2] tag=DEFENDING value=0
+
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=7 cardId=CS2_200 player=1] tag=EXHAUSTED value=0
+
+00:25:19 STATE    - INFO     Update Boulderfist Ogre (6:6/7) (id:26) (pos:7) to zone GRAVEYARD
+00:25:19 STATE    - INFO     Boulderfist Ogre (6:6/7) (id:26) (pos:7) has been moved to graveyard
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=26 zone=PLAY zonePos=7 cardId=CS2_200 player=1] tag=DAMAGE value=0
+
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Warlord id=44 zone=PLAY zonePos=1 cardId=CS2_226 player=2] tag=EXHAUSTED value=0
+
+00:25:19 STATE    - INFO     Update Frostwolf Warlord (5:4/4) (id:44) (pos:1) to zone GRAVEYARD
+00:25:19 STATE    - INFO     Frostwolf Warlord (5:4/4) (id:44) (pos:1) has been moved to graveyard
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Banner id=75 zone=PLAY zonePos=0 cardId=CS2_226e player=2] tag=ATTACHED value=0
+
+00:25:19 STATE    - WARNING  No id 75 found to perform tag update for ATTACHED = 0
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Warlord id=44 zone=PLAY zonePos=1 cardId=CS2_226 player=2] tag=DAMAGE value=0
+
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Warlord id=44 zone=PLAY zonePos=1 cardId=CS2_226 player=2] tag=ATK value=4
+
+00:25:19 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Warlord id=44 zone=PLAY zonePos=1 cardId=CS2_226 player=2] tag=HEALTH value=4
+
+00:25:19 STATE    - INFO     Update card Boulderfist Ogre (6:6/7) (id:39) (pos:1) to position 1 in PLAY
+00:25:19 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=59 local=False [name=Frostwolf Warlord id=44 zone=GRAVEYARD zonePos=1 cardId=CS2_226 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+
+00:25:19 ALGS     - DEBUG    can_kill_minion start
+00:25:19 BOT      - DEBUG    Performing attack Mechanical Dragonling (1:2/1) (id:73) (pos:6) -> Boulderfist Ogre (6:6/7) (id:39) (pos:1)
+00:25:19 CONTROL  - DEBUG    Clicking on minion at position 6 of 6
+00:25:20 CONTROL  - DEBUG    Clicking on opponent minion at position 1 of 1
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Mechanical Dragonling id=73 zone=PLAY zonePos=6 cardId=EX1_025t player=1] SubType=ATTACK Index=-1 Target=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2]
+
+00:25:23 STATE    - INFO     ATTACK: Mechanical Dragonling (1:2/1) (id:73) (pos:6) -> Boulderfist Ogre (6:6/7) (id:39) (pos:1)
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=73 zone=PLAY zonePos=6 cardId=EX1_025t player=1] tag=ATTACKING value=1
+
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=DEFENDING value=1
+
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=PREDAMAGE value=2
+
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=PREDAMAGE value=0
+
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=DAMAGE value=7
+
+00:25:23 STATE    - INFO     Boulderfist Ogre (6:6/7) (id:39) (pos:1) has 7 DAMAGE
+00:25:23 STATE    - INFO     Boulderfist Ogre (6:6/7) (id:39) (pos:1) has fatal damage
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=73 zone=PLAY zonePos=6 cardId=EX1_025t player=1] tag=PREDAMAGE value=6
+
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=73 zone=PLAY zonePos=6 cardId=EX1_025t player=1] tag=PREDAMAGE value=0
+
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=73 zone=PLAY zonePos=6 cardId=EX1_025t player=1] tag=DAMAGE value=6
+
+00:25:23 STATE    - INFO     Mechanical Dragonling (1:2/1) (id:73) (pos:6) has 6 DAMAGE
+00:25:23 STATE    - INFO     Mechanical Dragonling (1:2/1) (id:73) (pos:6) has fatal damage
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=73 zone=PLAY zonePos=6 cardId=EX1_025t player=1] tag=EXHAUSTED value=1
+
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=73 zone=PLAY zonePos=6 cardId=EX1_025t player=1] tag=ATTACKING value=0
+
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=DEFENDING value=0
+
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=EXHAUSTED value=0
+
+00:25:23 STATE    - INFO     Update Boulderfist Ogre (6:6/7) (id:39) (pos:1) to zone GRAVEYARD
+00:25:23 STATE    - INFO     Boulderfist Ogre (6:6/7) (id:39) (pos:1) has been moved to graveyard
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=DAMAGE value=0
+
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boulderfist Ogre id=39 zone=PLAY zonePos=1 cardId=CS2_200 player=2] tag=WINDFURY value=0
+
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=73 zone=PLAY zonePos=6 cardId=EX1_025t player=1] tag=EXHAUSTED value=0
+
+00:25:23 STATE    - INFO     Update Mechanical Dragonling (1:2/1) (id:73) (pos:6) to zone GRAVEYARD
+00:25:23 STATE    - INFO     Mechanical Dragonling (1:2/1) (id:73) (pos:6) has been moved to graveyard
+00:25:23 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=73 zone=PLAY zonePos=6 cardId=EX1_025t player=1] tag=DAMAGE value=0
+
+00:25:23 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=60 local=False [name=Boulderfist Ogre id=39 zone=GRAVEYARD zonePos=1 cardId=CS2_200 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+
+00:25:23 CONTROL  - DEBUG    Clicking on minion at position 2 of 5
+00:25:25 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] SubType=ATTACK Index=-1 Target=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2]
+
+00:25:25 STATE    - INFO     ATTACK: Razorfen Hunter (3:2/3) (id:13) (pos:2) -> Thrall (0/30) - (id:36)
+00:25:25 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=ATTACKING value=1
+
+00:25:25 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=1
+
+00:25:25 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=2
+
+00:25:25 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=0
+
+00:25:25 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DAMAGE value=9
+
+00:25:25 STATE    - INFO     Thrall (0/30) - (id:36) has 9 DAMAGE
+00:25:25 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=EXHAUSTED value=1
+
+00:25:25 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=ATTACKING value=0
+
+00:25:25 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=0
+
+00:25:25 CONTROL  - DEBUG    Clicking on minion at position 3 of 5
+00:25:28 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Boar id=74 zone=PLAY zonePos=3 cardId=CS2_boar player=1] SubType=ATTACK Index=-1 Target=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2]
+
+00:25:28 STATE    - INFO     ATTACK: Boar (1:1/1) (id:74) (pos:3) -> Thrall (0/30) - (id:36)
+00:25:28 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boar id=74 zone=PLAY zonePos=3 cardId=CS2_boar player=1] tag=ATTACKING value=1
+
+00:25:28 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=1
+
+00:25:28 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=1
+
+00:25:28 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=0
+
+00:25:28 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DAMAGE value=10
+
+00:25:28 STATE    - INFO     Thrall (0/30) - (id:36) has 10 DAMAGE
+00:25:28 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boar id=74 zone=PLAY zonePos=3 cardId=CS2_boar player=1] tag=EXHAUSTED value=1
+
+00:25:28 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boar id=74 zone=PLAY zonePos=3 cardId=CS2_boar player=1] tag=ATTACKING value=0
+
+00:25:28 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=0
+
+00:25:29 CONTROL  - INFO     Ending turn
+00:25:40 STATE    - INFO     **********
+00:25:40 STATE    - INFO     OPPONENT TURN
+00:25:40 STATE    - INFO     **********
+00:25:40 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] tag=EXHAUSTED value=0
+
+00:25:40 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=52 cardId= type=INVALID zone=HAND zonePos=2 player=2] tag=EXHAUSTED value=1
+
+00:25:40 STATE    - WARNING  No id 52 found to perform tag update for EXHAUSTED = 1
+00:25:40 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] tag=EXHAUSTED value=1
+
+00:25:40 STATE    - INFO     **********
+00:25:40 STATE    - INFO     TINGLE's TURN - 9 mana
+00:25:40 STATE    - INFO     **********
+00:25:40 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=EXHAUSTED value=0
+
+00:25:40 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=EXHAUSTED value=0
+
+00:25:40 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boar id=74 zone=PLAY zonePos=3 cardId=CS2_boar player=1] tag=EXHAUSTED value=0
+
+00:25:40 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=22 zone=PLAY zonePos=4 cardId=EX1_025 player=1] tag=EXHAUSTED value=0
+
+00:25:40 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=77 zone=PLAY zonePos=5 cardId=EX1_025t player=1] tag=EXHAUSTED value=0
+
+00:25:40 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=62 local=False [name=Frostwolf Grunt id=52 zone=PLAY zonePos=2 cardId=CS2_121 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+00:25:40 STATE    - INFO     Adding Frostwolf Grunt (2:2/2) (id:52) (pos:2) to active cards in zone PLAY
+00:25:40 STATE    - INFO     OPPONENT plays: Frostwolf Grunt (2:2/2) (id:52) (pos:2)
+00:25:40 STATE    - INFO     OPPONENT's minions:
+[Frostwolf Grunt (2:2/2) (id:52) (pos:2)]
+00:25:40 STATE    - INFO     Update card Frostwolf Grunt (2:2/2) (id:52) (pos:1) to position 1 in PLAY
+00:25:40 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=63 local=False [name=Searing Totem id=78 zone=PLAY zonePos=2 cardId=CS2_050 player=2] zone from  -> OPPOSING PLAY
+
+00:25:40 STATE    - INFO     Adding Searing Totem (1:1/1) (id:78) (pos:2) to active cards in zone PLAY
+00:25:40 STATE    - INFO     OPPONENT plays: Searing Totem (1:1/1) (id:78) (pos:2)
+00:25:40 STATE    - INFO     OPPONENT's minions:
+[Frostwolf Grunt (2:2/2) (id:52) (pos:1),
+ Searing Totem (1:1/1) (id:78) (pos:2)]
+00:25:40 STATE    - INFO     Update card Searing Totem (1:1/1) (id:78) (pos:2) to position 2 in PLAY
+00:25:40 STATE    - INFO     DRAW CARD: Ironfur Grizzly (3:3/3) (id:19) (pos:None)
+00:25:40 STATE    - INFO     Adding Ironfur Grizzly (3:3/3) (id:19) (pos:None) to active cards in zone HAND
+00:25:40 STATE    - INFO     Cards in HAND:
+[The Coin - 0 mana (id:68),
+ Stormwind Champion (7:6/6) (id:11) (pos:2),
+ Gnomish Inventor (4:2/4) (id:18) (pos:3),
+ Stormwind Knight (4:2/5) (id:31) (pos:4),
+ Ironfur Grizzly (3:3/3) (id:19) (pos:None)]
+00:25:40 STATE    - INFO     Update card Ironfur Grizzly (3:3/3) (id:19) (pos:5) to position 5 in HAND
+00:25:50 BOT      - INFO     **********
+00:25:50 BOT      - INFO     Play Phase
+00:25:50 BOT      - INFO     **********
+00:25:50 BOT      - INFO     Tingle's Hand: 
+00:25:50 BOT      - INFO     [The Coin - 0 mana (id:68),
+ Stormwind Champion (7:6/6) (id:11) (pos:2),
+ Gnomish Inventor (4:2/4) (id:18) (pos:3),
+ Stormwind Knight (4:2/5) (id:31) (pos:4),
+ Ironfur Grizzly (3:3/3) (id:19) (pos:5)]
+00:25:50 BOT      - DEBUG    Play phase start
+00:25:50 ALGS     - INFO     Spend max mana. Available: 9
+00:25:50 ALGS     - INFO     Candidates: [Stormwind Champion (7:6/6) (id:11) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:4), Ironfur Grizzly (3:3/3) (id:19) (pos:5)]
+00:25:50 ALGS     - DEBUG    Possible combination with cost 18: (Stormwind Champion (7:6/6) (id:11) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:4), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 15: (Stormwind Champion (7:6/6) (id:11) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:4))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 14: (Stormwind Champion (7:6/6) (id:11) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:3), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 14: (Stormwind Champion (7:6/6) (id:11) (pos:2), Stormwind Knight (4:2/5) (id:31) (pos:4), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 11: (Gnomish Inventor (4:2/4) (id:18) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:4), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 11: (Stormwind Champion (7:6/6) (id:11) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:3))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 11: (Stormwind Champion (7:6/6) (id:11) (pos:2), Stormwind Knight (4:2/5) (id:31) (pos:4))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 10: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 8: (Gnomish Inventor (4:2/4) (id:18) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:4))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 7: (Gnomish Inventor (4:2/4) (id:18) (pos:3), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 7: (Stormwind Knight (4:2/5) (id:31) (pos:4), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - INFO     Play is: (8, [Gnomish Inventor (4:2/4) (id:18) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:4)])
+00:25:50 ALGS     - INFO     Coin detected and play is sub-optimal. Looking for better play...
+00:25:50 ALGS     - DEBUG    Possible combination with cost 18: (Stormwind Champion (7:6/6) (id:11) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:4), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 15: (Stormwind Champion (7:6/6) (id:11) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:4))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 14: (Stormwind Champion (7:6/6) (id:11) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:3), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 14: (Stormwind Champion (7:6/6) (id:11) (pos:2), Stormwind Knight (4:2/5) (id:31) (pos:4), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 11: (Gnomish Inventor (4:2/4) (id:18) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:4), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 11: (Stormwind Champion (7:6/6) (id:11) (pos:2), Gnomish Inventor (4:2/4) (id:18) (pos:3))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 11: (Stormwind Champion (7:6/6) (id:11) (pos:2), Stormwind Knight (4:2/5) (id:31) (pos:4))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 10: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 8: (Gnomish Inventor (4:2/4) (id:18) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:4))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 7: (Gnomish Inventor (4:2/4) (id:18) (pos:3), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - DEBUG    Possible combination with cost 7: (Stormwind Knight (4:2/5) (id:31) (pos:4), Ironfur Grizzly (3:3/3) (id:19) (pos:5))
+00:25:50 ALGS     - INFO     Coin play is: (10, [The Coin - 0 mana (id:68), Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:5)])
+00:25:50 ALGS     - INFO     Non-coin play is chosen: wasted mana: 1 non-coin vs. 2 coin
+00:25:50 BOT      - DEBUG    Going to play [Gnomish Inventor (4:2/4) (id:18) (pos:3), Stormwind Knight (4:2/5) (id:31) (pos:4)] with 8 mana
+00:25:50 CONTROL  - DEBUG    Clicking on hand card index 2 with 5 cards in hand
+00:25:54 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=10 local=True [name=Gnomish Inventor id=18 zone=HAND zonePos=3 cardId=CS2_147 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+
+00:25:54 STATE    - INFO     TINGLE plays minion from hand: Gnomish Inventor (4:2/4) (id:18) (pos:3)
+00:25:54 STATE    - INFO     Spending 4 mana. Total spent = 4
+00:25:54 STATE    - INFO     Update card Gnomish Inventor (4:2/4) (id:18) (pos:4) to position 4 in PLAY
+00:25:54 STATE    - INFO     Update card Stormwind Knight (4:2/5) (id:31) (pos:3) to position 3 in HAND
+00:25:54 STATE    - INFO     Update card Ironfur Grizzly (3:3/3) (id:19) (pos:4) to position 4 in HAND
+00:25:54 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:22) (pos:5) to position 5 in PLAY
+00:25:54 STATE    - INFO     Update card Mechanical Dragonling (1:2/1) (id:77) (pos:6) to position 6 in PLAY
+00:25:54 STATE    - INFO     Update Gnomish Inventor (4:2/4) (id:18) (pos:4) to zone PLAY
+00:25:54 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gnomish Inventor id=18 zone=HAND zonePos=3 cardId=CS2_147 player=1] tag=EXHAUSTED value=1
+
+00:25:54 STATE    - INFO     DRAW CARD: Bloodfen Raptor (2:3/2) (id:14) (pos:None)
+00:25:54 STATE    - INFO     Adding Bloodfen Raptor (2:3/2) (id:14) (pos:None) to active cards in zone HAND
+00:25:54 STATE    - INFO     Cards in HAND:
+[The Coin - 0 mana (id:68),
+ Stormwind Champion (7:6/6) (id:11) (pos:2),
+ Stormwind Knight (4:2/5) (id:31) (pos:3),
+ Ironfur Grizzly (3:3/3) (id:19) (pos:4),
+ Bloodfen Raptor (2:3/2) (id:14) (pos:None)]
+00:25:54 STATE    - INFO     Update card Bloodfen Raptor (2:3/2) (id:14) (pos:5) to position 5 in HAND
+00:25:54 CONTROL  - DEBUG    Clicking on hand card index 2 with 5 cards in hand
+00:25:57 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=11 local=True [name=Stormwind Knight id=31 zone=HAND zonePos=3 cardId=CS2_131 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+
+00:25:57 STATE    - INFO     TINGLE plays minion from hand: Stormwind Knight (4:2/5) (id:31) (pos:3)
+00:25:57 STATE    - INFO     Spending 4 mana. Total spent = 8
+00:25:57 STATE    - INFO     Update card Stormwind Knight (4:2/5) (id:31) (pos:4) to position 4 in PLAY
+00:25:57 STATE    - INFO     Update card Ironfur Grizzly (3:3/3) (id:19) (pos:3) to position 3 in HAND
+00:25:57 STATE    - INFO     Update card Bloodfen Raptor (2:3/2) (id:14) (pos:4) to position 4 in HAND
+00:25:57 STATE    - INFO     Update card Gnomish Inventor (4:2/4) (id:18) (pos:5) to position 5 in PLAY
+00:25:57 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:22) (pos:6) to position 6 in PLAY
+00:25:57 STATE    - INFO     Update card Mechanical Dragonling (1:2/1) (id:77) (pos:7) to position 7 in PLAY
+00:25:57 STATE    - INFO     Update Stormwind Knight (4:2/5) (id:31) (pos:4) to zone PLAY
+00:25:57 BOT      - INFO     **********
+00:25:57 BOT      - INFO     Attack Phase
+00:25:57 BOT      - INFO     **********
+00:25:57 BOT      - INFO     [River Crocolisk (2:2/3) (id:27) (pos:1),
+ Razorfen Hunter (3:2/3) (id:13) (pos:2),
+ Boar (1:1/1) (id:74) (pos:3),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:6),
+ Mechanical Dragonling (1:2/1) (id:77) (pos:7),
+ Gnomish Inventor (4:2/4) (id:18) (pos:5),
+ Stormwind Knight (4:2/5) (id:31) (pos:4)]
+00:25:57 BOT      - DEBUG    Attack phase
+00:25:57 BOT      - DEBUG    Minions available to attack = [River Crocolisk (2:2/3) (id:27) (pos:1), Razorfen Hunter (3:2/3) (id:13) (pos:2), Boar (1:1/1) (id:74) (pos:3), Dragonling Mechanic (4:2/4) (id:22) (pos:6), Mechanical Dragonling (1:2/1) (id:77) (pos:7), Stormwind Knight (4:2/5) (id:31) (pos:4)]
+00:25:57 ALGS     - DEBUG    can_kill_minion start
+00:25:57 BOT      - DEBUG    Performing attack River Crocolisk (2:2/3) (id:27) (pos:1) -> Frostwolf Grunt (2:2/2) (id:52) (pos:1)
+00:25:57 CONTROL  - DEBUG    Clicking on minion at position 1 of 7
+00:25:58 CONTROL  - DEBUG    Clicking on opponent minion at position 1 of 2
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] SubType=ATTACK Index=-1 Target=[name=Frostwolf Grunt id=52 zone=PLAY zonePos=1 cardId=CS2_121 player=2]
+
+00:26:02 STATE    - INFO     ATTACK: River Crocolisk (2:2/3) (id:27) (pos:1) -> Frostwolf Grunt (2:2/2) (id:52) (pos:1)
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=ATTACKING value=1
+
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Grunt id=52 zone=PLAY zonePos=1 cardId=CS2_121 player=2] tag=DEFENDING value=1
+
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Grunt id=52 zone=PLAY zonePos=1 cardId=CS2_121 player=2] tag=PREDAMAGE value=2
+
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Grunt id=52 zone=PLAY zonePos=1 cardId=CS2_121 player=2] tag=PREDAMAGE value=0
+
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Grunt id=52 zone=PLAY zonePos=1 cardId=CS2_121 player=2] tag=DAMAGE value=2
+
+00:26:02 STATE    - INFO     Frostwolf Grunt (2:2/2) (id:52) (pos:1) has 2 DAMAGE
+00:26:02 STATE    - INFO     Frostwolf Grunt (2:2/2) (id:52) (pos:1) has fatal damage
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=PREDAMAGE value=2
+
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=PREDAMAGE value=0
+
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=DAMAGE value=2
+
+00:26:02 STATE    - INFO     River Crocolisk (2:2/3) (id:27) (pos:1) has 2 DAMAGE
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=EXHAUSTED value=1
+
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=ATTACKING value=0
+
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Grunt id=52 zone=PLAY zonePos=1 cardId=CS2_121 player=2] tag=DEFENDING value=0
+
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Grunt id=52 zone=PLAY zonePos=1 cardId=CS2_121 player=2] tag=EXHAUSTED value=0
+
+00:26:02 STATE    - INFO     Update Frostwolf Grunt (2:2/2) (id:52) (pos:1) to zone GRAVEYARD
+00:26:02 STATE    - INFO     Frostwolf Grunt (2:2/2) (id:52) (pos:1) has been moved to graveyard
+00:26:02 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Frostwolf Grunt id=52 zone=PLAY zonePos=1 cardId=CS2_121 player=2] tag=DAMAGE value=0
+
+00:26:02 STATE    - INFO     Update card Searing Totem (1:1/1) (id:78) (pos:1) to position 1 in PLAY
+00:26:02 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=68 local=False [name=Frostwolf Grunt id=52 zone=GRAVEYARD zonePos=1 cardId=CS2_121 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+
+00:26:02 ALGS     - DEBUG    can_kill_minion start
+00:26:02 BOT      - DEBUG    Performing attack Razorfen Hunter (3:2/3) (id:13) (pos:2) -> Searing Totem (1:1/1) (id:78) (pos:1)
+00:26:02 CONTROL  - DEBUG    Clicking on minion at position 2 of 7
+00:26:03 CONTROL  - DEBUG    Clicking on opponent minion at position 1 of 1
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] SubType=ATTACK Index=-1 Target=[name=Searing Totem id=78 zone=PLAY zonePos=1 cardId=CS2_050 player=2]
+
+00:26:06 STATE    - INFO     ATTACK: Razorfen Hunter (3:2/3) (id:13) (pos:2) -> Searing Totem (1:1/1) (id:78) (pos:1)
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=ATTACKING value=1
+
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Searing Totem id=78 zone=PLAY zonePos=1 cardId=CS2_050 player=2] tag=DEFENDING value=1
+
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Searing Totem id=78 zone=PLAY zonePos=1 cardId=CS2_050 player=2] tag=PREDAMAGE value=2
+
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Searing Totem id=78 zone=PLAY zonePos=1 cardId=CS2_050 player=2] tag=PREDAMAGE value=0
+
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Searing Totem id=78 zone=PLAY zonePos=1 cardId=CS2_050 player=2] tag=DAMAGE value=2
+
+00:26:06 STATE    - INFO     Searing Totem (1:1/1) (id:78) (pos:1) has 2 DAMAGE
+00:26:06 STATE    - INFO     Searing Totem (1:1/1) (id:78) (pos:1) has fatal damage
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=PREDAMAGE value=1
+
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=PREDAMAGE value=0
+
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=DAMAGE value=1
+
+00:26:06 STATE    - INFO     Razorfen Hunter (3:2/3) (id:13) (pos:2) has 1 DAMAGE
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=EXHAUSTED value=1
+
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=ATTACKING value=0
+
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Searing Totem id=78 zone=PLAY zonePos=1 cardId=CS2_050 player=2] tag=DEFENDING value=0
+
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Searing Totem id=78 zone=PLAY zonePos=1 cardId=CS2_050 player=2] tag=EXHAUSTED value=0
+
+00:26:06 STATE    - INFO     Update Searing Totem (1:1/1) (id:78) (pos:1) to zone GRAVEYARD
+00:26:06 STATE    - INFO     Searing Totem (1:1/1) (id:78) (pos:1) has been moved to graveyard
+00:26:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Searing Totem id=78 zone=PLAY zonePos=1 cardId=CS2_050 player=2] tag=DAMAGE value=0
+
+00:26:06 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=69 local=False [name=Searing Totem id=78 zone=GRAVEYARD zonePos=1 cardId=CS2_050 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+
+00:26:06 CONTROL  - DEBUG    Clicking on minion at position 3 of 7
+00:26:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Boar id=74 zone=PLAY zonePos=3 cardId=CS2_boar player=1] SubType=ATTACK Index=-1 Target=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2]
+
+00:26:08 STATE    - INFO     ATTACK: Boar (1:1/1) (id:74) (pos:3) -> Thrall (0/30) - (id:36)
+00:26:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boar id=74 zone=PLAY zonePos=3 cardId=CS2_boar player=1] tag=ATTACKING value=1
+
+00:26:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=1
+
+00:26:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=1
+
+00:26:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=0
+
+00:26:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DAMAGE value=11
+
+00:26:08 STATE    - INFO     Thrall (0/30) - (id:36) has 11 DAMAGE
+00:26:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boar id=74 zone=PLAY zonePos=3 cardId=CS2_boar player=1] tag=EXHAUSTED value=1
+
+00:26:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boar id=74 zone=PLAY zonePos=3 cardId=CS2_boar player=1] tag=ATTACKING value=0
+
+00:26:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=0
+
+00:26:08 CONTROL  - DEBUG    Clicking on minion at position 6 of 7
+00:26:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Dragonling Mechanic id=22 zone=PLAY zonePos=6 cardId=EX1_025 player=1] SubType=ATTACK Index=-1 Target=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2]
+
+00:26:10 STATE    - INFO     ATTACK: Dragonling Mechanic (4:2/4) (id:22) (pos:6) -> Thrall (0/30) - (id:36)
+00:26:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=22 zone=PLAY zonePos=6 cardId=EX1_025 player=1] tag=ATTACKING value=1
+
+00:26:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=1
+
+00:26:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=2
+
+00:26:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=0
+
+00:26:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DAMAGE value=13
+
+00:26:10 STATE    - INFO     Thrall (0/30) - (id:36) has 13 DAMAGE
+00:26:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=22 zone=PLAY zonePos=6 cardId=EX1_025 player=1] tag=EXHAUSTED value=1
+
+00:26:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=22 zone=PLAY zonePos=6 cardId=EX1_025 player=1] tag=ATTACKING value=0
+
+00:26:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=0
+
+00:26:10 CONTROL  - DEBUG    Clicking on minion at position 7 of 7
+00:26:12 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Mechanical Dragonling id=77 zone=PLAY zonePos=7 cardId=EX1_025t player=1] SubType=ATTACK Index=-1 Target=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2]
+
+00:26:12 STATE    - INFO     ATTACK: Mechanical Dragonling (1:2/1) (id:77) (pos:7) -> Thrall (0/30) - (id:36)
+00:26:12 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=77 zone=PLAY zonePos=7 cardId=EX1_025t player=1] tag=ATTACKING value=1
+
+00:26:12 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=1
+
+00:26:12 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=2
+
+00:26:12 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=0
+
+00:26:12 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DAMAGE value=15
+
+00:26:12 STATE    - INFO     Thrall (0/30) - (id:36) has 15 DAMAGE
+00:26:12 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=77 zone=PLAY zonePos=7 cardId=EX1_025t player=1] tag=EXHAUSTED value=1
+
+00:26:12 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=77 zone=PLAY zonePos=7 cardId=EX1_025t player=1] tag=ATTACKING value=0
+
+00:26:12 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=0
+
+00:26:12 CONTROL  - DEBUG    Clicking on minion at position 4 of 7
+00:26:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] SubType=ATTACK Index=-1 Target=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2]
+
+00:26:15 STATE    - INFO     ATTACK: Stormwind Knight (4:2/5) (id:31) (pos:4) -> Thrall (0/30) - (id:36)
+00:26:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] tag=ATTACKING value=1
+
+00:26:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=1
+
+00:26:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=2
+
+00:26:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=0
+
+00:26:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DAMAGE value=17
+
+00:26:15 STATE    - INFO     Thrall (0/30) - (id:36) has 17 DAMAGE
+00:26:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] tag=EXHAUSTED value=1
+
+00:26:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] tag=ATTACKING value=0
+
+00:26:15 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=0
+
+00:26:16 CONTROL  - INFO     Ending turn
+00:26:27 STATE    - INFO     **********
+00:26:27 STATE    - INFO     OPPONENT TURN
+00:26:27 STATE    - INFO     **********
+00:26:27 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] tag=EXHAUSTED value=0
+
+00:26:27 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] tag=EXHAUSTED value=1
+
+00:26:27 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=47 cardId= type=INVALID zone=HAND zonePos=3 player=2] tag=EXHAUSTED value=1
+
+00:26:27 STATE    - WARNING  No id 47 found to perform tag update for EXHAUSTED = 1
+00:26:27 STATE    - INFO     **********
+00:26:27 STATE    - INFO     TINGLE's TURN - 10 mana
+00:26:27 STATE    - INFO     **********
+00:26:27 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=River Crocolisk id=27 zone=PLAY zonePos=1 cardId=CS2_120 player=1] tag=EXHAUSTED value=0
+
+00:26:27 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=EXHAUSTED value=0
+
+00:26:27 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boar id=74 zone=PLAY zonePos=3 cardId=CS2_boar player=1] tag=EXHAUSTED value=0
+
+00:26:27 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=22 zone=PLAY zonePos=6 cardId=EX1_025 player=1] tag=EXHAUSTED value=0
+
+00:26:27 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=77 zone=PLAY zonePos=7 cardId=EX1_025t player=1] tag=EXHAUSTED value=0
+
+00:26:27 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gnomish Inventor id=18 zone=PLAY zonePos=5 cardId=CS2_147 player=1] tag=EXHAUSTED value=0
+
+00:26:27 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] tag=EXHAUSTED value=0
+
+00:26:27 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=71 local=False [name=Healing Totem id=79 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] zone from  -> OPPOSING PLAY
+
+00:26:27 STATE    - INFO     Adding Healing Totem (1:0/2) (id:79) (pos:1) to active cards in zone PLAY
+00:26:27 STATE    - INFO     OPPONENT plays: Healing Totem (1:0/2) (id:79) (pos:1)
+00:26:27 STATE    - INFO     OPPONENT's minions:
+[Healing Totem (1:0/2) (id:79) (pos:1)]
+00:26:27 STATE    - INFO     Update card Healing Totem (1:0/2) (id:79) (pos:1) to position 1 in PLAY
+00:26:27 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=72 local=False [name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=3 cardId=CS2_187 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+00:26:27 STATE    - INFO     Adding Booty Bay Bodyguard (5:5/4) (id:47) (pos:3) to active cards in zone PLAY
+00:26:27 STATE    - INFO     OPPONENT plays: Booty Bay Bodyguard (5:5/4) (id:47) (pos:3)
+00:26:27 STATE    - INFO     OPPONENT's minions:
+[Healing Totem (1:0/2) (id:79) (pos:1),
+ Booty Bay Bodyguard (5:5/4) (id:47) (pos:3)]
+00:26:27 STATE    - INFO     Update card Booty Bay Bodyguard (5:5/4) (id:47) (pos:1) to position 1 in PLAY
+00:26:27 STATE    - INFO     Update card Healing Totem (1:0/2) (id:79) (pos:2) to position 2 in PLAY
+00:26:37 STATE    - INFO     DRAW CARD: Raid Leader (3:2/2) (id:24) (pos:None)
+00:26:37 STATE    - INFO     Adding Raid Leader (3:2/2) (id:24) (pos:None) to active cards in zone HAND
+00:26:37 STATE    - INFO     Cards in HAND:
+[The Coin - 0 mana (id:68),
+ Stormwind Champion (7:6/6) (id:11) (pos:2),
+ Ironfur Grizzly (3:3/3) (id:19) (pos:3),
+ Bloodfen Raptor (2:3/2) (id:14) (pos:4),
+ Raid Leader (3:2/2) (id:24) (pos:None)]
+00:26:37 STATE    - INFO     Update card Raid Leader (3:2/2) (id:24) (pos:5) to position 5 in HAND
+00:26:37 BOT      - INFO     **********
+00:26:37 BOT      - INFO     Play Phase
+00:26:37 BOT      - INFO     **********
+00:26:37 BOT      - INFO     Tingle's Hand: 
+00:26:37 BOT      - INFO     [The Coin - 0 mana (id:68),
+ Stormwind Champion (7:6/6) (id:11) (pos:2),
+ Ironfur Grizzly (3:3/3) (id:19) (pos:3),
+ Bloodfen Raptor (2:3/2) (id:14) (pos:4),
+ Raid Leader (3:2/2) (id:24) (pos:5)]
+00:26:37 BOT      - DEBUG    Play phase start
+00:26:37 ALGS     - INFO     Spend max mana. Available: 10
+00:26:37 ALGS     - INFO     Candidates: [Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5)]
+00:26:37 ALGS     - DEBUG    Possible combination with cost 15: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5))
+00:26:37 ALGS     - DEBUG    Possible combination with cost 12: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4))
+00:26:37 ALGS     - DEBUG    Possible combination with cost 13: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Raid Leader (3:2/2) (id:24) (pos:5))
+00:26:37 ALGS     - DEBUG    Possible combination with cost 12: (Stormwind Champion (7:6/6) (id:11) (pos:2), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5))
+00:26:37 ALGS     - DEBUG    Possible combination with cost 8: (Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5))
+00:26:37 ALGS     - INFO     Play is: (8, [Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5)])
+00:26:37 ALGS     - INFO     Coin detected and play is sub-optimal. Looking for better play...
+00:26:37 ALGS     - DEBUG    Possible combination with cost 15: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5))
+00:26:37 ALGS     - DEBUG    Possible combination with cost 12: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4))
+00:26:37 ALGS     - DEBUG    Possible combination with cost 13: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Raid Leader (3:2/2) (id:24) (pos:5))
+00:26:37 ALGS     - DEBUG    Possible combination with cost 12: (Stormwind Champion (7:6/6) (id:11) (pos:2), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5))
+00:26:37 ALGS     - DEBUG    Possible combination with cost 8: (Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5))
+00:26:37 ALGS     - INFO     Coin play is: (8, [The Coin - 0 mana (id:68), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5)])
+00:26:37 ALGS     - INFO     Non-coin play is chosen: wasted mana: 2 non-coin vs. 3 coin
+00:26:37 BOT      - DEBUG    Going to play [Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5)] with 8 mana
+00:26:37 CONTROL  - DEBUG    Clicking hero power
+00:26:38 STATE    - INFO     Spending 2 mana. Total spent = 2
+00:26:40 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=2
+
+00:26:40 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=0
+
+00:26:40 parser   - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DAMAGE value=9
+
+00:26:40 STATE    - INFO     Gul'dan (0/30) - (id:4) has 9 DAMAGE
+00:26:40 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] tag=EXHAUSTED value=1
+
+00:26:40 STATE    - INFO     DRAW CARD: Lord of the Arena (6:6/5) (id:20) (pos:None)
+00:26:40 STATE    - INFO     Adding Lord of the Arena (6:6/5) (id:20) (pos:None) to active cards in zone HAND
+00:26:40 STATE    - INFO     Cards in HAND:
+[The Coin - 0 mana (id:68),
+ Stormwind Champion (7:6/6) (id:11) (pos:2),
+ Ironfur Grizzly (3:3/3) (id:19) (pos:3),
+ Bloodfen Raptor (2:3/2) (id:14) (pos:4),
+ Raid Leader (3:2/2) (id:24) (pos:5),
+ Lord of the Arena (6:6/5) (id:20) (pos:None)]
+00:26:40 STATE    - INFO     Update card Lord of the Arena (6:6/5) (id:20) (pos:6) to position 6 in HAND
+00:26:40 ALGS     - INFO     Spend max mana. Available: 8
+00:26:40 ALGS     - INFO     Candidates: [Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5), Lord of the Arena (6:6/5) (id:20) (pos:6)]
+00:26:40 ALGS     - DEBUG    Possible combination with cost 21: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5), Lord of the Arena (6:6/5) (id:20) (pos:6))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 15: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 18: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Lord of the Arena (6:6/5) (id:20) (pos:6))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 19: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Raid Leader (3:2/2) (id:24) (pos:5), Lord of the Arena (6:6/5) (id:20) (pos:6))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 18: (Stormwind Champion (7:6/6) (id:11) (pos:2), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5), Lord of the Arena (6:6/5) (id:20) (pos:6))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 14: (Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5), Lord of the Arena (6:6/5) (id:20) (pos:6))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 12: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 13: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Raid Leader (3:2/2) (id:24) (pos:5))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 16: (Stormwind Champion (7:6/6) (id:11) (pos:2), Ironfur Grizzly (3:3/3) (id:19) (pos:3), Lord of the Arena (6:6/5) (id:20) (pos:6))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 12: (Stormwind Champion (7:6/6) (id:11) (pos:2), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 15: (Stormwind Champion (7:6/6) (id:11) (pos:2), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Lord of the Arena (6:6/5) (id:20) (pos:6))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 16: (Stormwind Champion (7:6/6) (id:11) (pos:2), Raid Leader (3:2/2) (id:24) (pos:5), Lord of the Arena (6:6/5) (id:20) (pos:6))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 8: (Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 11: (Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Lord of the Arena (6:6/5) (id:20) (pos:6))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 12: (Ironfur Grizzly (3:3/3) (id:19) (pos:3), Raid Leader (3:2/2) (id:24) (pos:5), Lord of the Arena (6:6/5) (id:20) (pos:6))
+00:26:40 ALGS     - DEBUG    Possible combination with cost 11: (Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5), Lord of the Arena (6:6/5) (id:20) (pos:6))
+00:26:40 ALGS     - INFO     Play is: (8, [Ironfur Grizzly (3:3/3) (id:19) (pos:3), Bloodfen Raptor (2:3/2) (id:14) (pos:4), Raid Leader (3:2/2) (id:24) (pos:5)])
+00:26:40 CONTROL  - DEBUG    Clicking on hand card index 2 with 6 cards in hand
+00:26:44 CONTROL  - DEBUG    Clicking on hand card index 3 with 6 cards in hand
+00:26:47 CONTROL  - DEBUG    Clicking on hand card index 4 with 6 cards in hand
+00:26:51 BOT      - INFO     **********
+00:26:51 BOT      - INFO     Attack Phase
+00:26:51 BOT      - INFO     **********
+00:26:51 BOT      - INFO     [River Crocolisk (2:2/3) (id:27) (pos:1),
+ Razorfen Hunter (3:2/3) (id:13) (pos:2),
+ Boar (1:1/1) (id:74) (pos:3),
+ Dragonling Mechanic (4:2/4) (id:22) (pos:6),
+ Mechanical Dragonling (1:2/1) (id:77) (pos:7),
+ Gnomish Inventor (4:2/4) (id:18) (pos:5),
+ Stormwind Knight (4:2/5) (id:31) (pos:4)]
+00:26:51 BOT      - DEBUG    Attack phase
+00:26:51 BOT      - DEBUG    Minions available to attack = [River Crocolisk (2:2/3) (id:27) (pos:1), Razorfen Hunter (3:2/3) (id:13) (pos:2), Boar (1:1/1) (id:74) (pos:3), Dragonling Mechanic (4:2/4) (id:22) (pos:6), Mechanical Dragonling (1:2/1) (id:77) (pos:7), Gnomish Inventor (4:2/4) (id:18) (pos:5), Stormwind Knight (4:2/5) (id:31) (pos:4)]
+00:26:51 ALGS     - DEBUG    can_kill_minion start
+00:26:51 BOT      - DEBUG    Performing attack River Crocolisk (2:2/3) (id:27) (pos:1) -> Booty Bay Bodyguard (5:5/4) (id:47) (pos:1)
+00:26:51 CONTROL  - DEBUG    Clicking on minion at position 1 of 7
+00:26:52 CONTROL  - DEBUG    Clicking on opponent minion at position 1 of 2
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] SubType=ATTACK Index=-1 Target=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2]
+
+00:26:55 STATE    - INFO     ATTACK: Stormwind Knight (4:2/5) (id:31) (pos:4) -> Booty Bay Bodyguard (5:5/4) (id:47) (pos:1)
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] tag=ATTACKING value=1
+
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2] tag=DEFENDING value=1
+
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2] tag=PREDAMAGE value=2
+
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2] tag=PREDAMAGE value=0
+
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2] tag=DAMAGE value=2
+
+00:26:55 STATE    - INFO     Booty Bay Bodyguard (5:5/4) (id:47) (pos:1) has 2 DAMAGE
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] tag=PREDAMAGE value=5
+
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] tag=PREDAMAGE value=0
+
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] tag=DAMAGE value=5
+
+00:26:55 STATE    - INFO     Stormwind Knight (4:2/5) (id:31) (pos:4) has 5 DAMAGE
+00:26:55 STATE    - INFO     Stormwind Knight (4:2/5) (id:31) (pos:4) has fatal damage
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] tag=EXHAUSTED value=1
+
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] tag=ATTACKING value=0
+
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2] tag=DEFENDING value=0
+
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] tag=EXHAUSTED value=0
+
+00:26:55 STATE    - INFO     Update Stormwind Knight (4:2/5) (id:31) (pos:4) to zone GRAVEYARD
+00:26:55 STATE    - INFO     Stormwind Knight (4:2/5) (id:31) (pos:4) has been moved to graveyard
+00:26:55 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stormwind Knight id=31 zone=PLAY zonePos=4 cardId=CS2_131 player=1] tag=DAMAGE value=0
+
+00:26:55 STATE    - INFO     Update card Gnomish Inventor (4:2/4) (id:18) (pos:4) to position 4 in PLAY
+00:26:55 STATE    - INFO     Update card Mechanical Dragonling (1:2/1) (id:77) (pos:6) to position 6 in PLAY
+00:26:55 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:22) (pos:5) to position 5 in PLAY
+00:26:55 BOT      - DEBUG    Performing attack Razorfen Hunter (3:2/3) (id:13) (pos:2) -> Booty Bay Bodyguard (5:5/4) (id:47) (pos:1)
+00:26:55 CONTROL  - DEBUG    Clicking on minion at position 2 of 6
+00:26:56 CONTROL  - DEBUG    Clicking on opponent minion at position 1 of 2
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] SubType=ATTACK Index=-1 Target=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2]
+
+00:27:00 STATE    - INFO     ATTACK: Razorfen Hunter (3:2/3) (id:13) (pos:2) -> Booty Bay Bodyguard (5:5/4) (id:47) (pos:1)
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=ATTACKING value=1
+
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2] tag=DEFENDING value=1
+
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2] tag=PREDAMAGE value=2
+
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2] tag=PREDAMAGE value=0
+
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2] tag=DAMAGE value=4
+
+00:27:00 STATE    - INFO     Booty Bay Bodyguard (5:5/4) (id:47) (pos:1) has 4 DAMAGE
+00:27:00 STATE    - INFO     Booty Bay Bodyguard (5:5/4) (id:47) (pos:1) has fatal damage
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=PREDAMAGE value=5
+
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=PREDAMAGE value=0
+
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=DAMAGE value=6
+
+00:27:00 STATE    - INFO     Razorfen Hunter (3:2/3) (id:13) (pos:2) has 6 DAMAGE
+00:27:00 STATE    - INFO     Razorfen Hunter (3:2/3) (id:13) (pos:2) has fatal damage
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=EXHAUSTED value=1
+
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=ATTACKING value=0
+
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2] tag=DEFENDING value=0
+
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=EXHAUSTED value=0
+
+00:27:00 STATE    - INFO     Update Razorfen Hunter (3:2/3) (id:13) (pos:2) to zone GRAVEYARD
+00:27:00 STATE    - INFO     Razorfen Hunter (3:2/3) (id:13) (pos:2) has been moved to graveyard
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Razorfen Hunter id=13 zone=PLAY zonePos=2 cardId=CS2_196 player=1] tag=DAMAGE value=0
+
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2] tag=EXHAUSTED value=0
+
+00:27:00 STATE    - INFO     Update Booty Bay Bodyguard (5:5/4) (id:47) (pos:1) to zone GRAVEYARD
+00:27:00 STATE    - INFO     Booty Bay Bodyguard (5:5/4) (id:47) (pos:1) has been moved to graveyard
+00:27:00 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Booty Bay Bodyguard id=47 zone=PLAY zonePos=1 cardId=CS2_187 player=2] tag=DAMAGE value=0
+
+00:27:00 STATE    - INFO     Update card Gnomish Inventor (4:2/4) (id:18) (pos:3) to position 3 in PLAY
+00:27:00 STATE    - INFO     Update card Mechanical Dragonling (1:2/1) (id:77) (pos:5) to position 5 in PLAY
+00:27:00 STATE    - INFO     Update card Dragonling Mechanic (4:2/4) (id:22) (pos:4) to position 4 in PLAY
+00:27:00 STATE    - INFO     Update card Boar (1:1/1) (id:74) (pos:2) to position 2 in PLAY
+00:27:00 STATE    - INFO     Update card Healing Totem (1:0/2) (id:79) (pos:1) to position 1 in PLAY
+00:27:00 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=76 local=False [name=Booty Bay Bodyguard id=47 zone=GRAVEYARD zonePos=1 cardId=CS2_187 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+
+00:27:00 ALGS     - DEBUG    can_kill_minion start
+00:27:00 BOT      - DEBUG    Performing attack Dragonling Mechanic (4:2/4) (id:22) (pos:4) -> Healing Totem (1:0/2) (id:79) (pos:1)
+00:27:00 CONTROL  - DEBUG    Clicking on minion at position 4 of 5
+00:27:01 CONTROL  - DEBUG    Clicking on opponent minion at position 1 of 1
+00:27:04 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Dragonling Mechanic id=22 zone=PLAY zonePos=4 cardId=EX1_025 player=1] SubType=ATTACK Index=-1 Target=[name=Healing Totem id=79 zone=PLAY zonePos=1 cardId=NEW1_009 player=2]
+
+00:27:04 STATE    - INFO     ATTACK: Dragonling Mechanic (4:2/4) (id:22) (pos:4) -> Healing Totem (1:0/2) (id:79) (pos:1)
+00:27:04 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=22 zone=PLAY zonePos=4 cardId=EX1_025 player=1] tag=ATTACKING value=1
+
+00:27:04 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=79 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=DEFENDING value=1
+
+00:27:04 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=79 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=PREDAMAGE value=2
+
+00:27:04 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=79 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=PREDAMAGE value=0
+
+00:27:04 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=79 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=DAMAGE value=2
+
+00:27:04 STATE    - INFO     Healing Totem (1:0/2) (id:79) (pos:1) has 2 DAMAGE
+00:27:04 STATE    - INFO     Healing Totem (1:0/2) (id:79) (pos:1) has fatal damage
+00:27:04 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=22 zone=PLAY zonePos=4 cardId=EX1_025 player=1] tag=EXHAUSTED value=1
+
+00:27:04 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Dragonling Mechanic id=22 zone=PLAY zonePos=4 cardId=EX1_025 player=1] tag=ATTACKING value=0
+
+00:27:04 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=79 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=DEFENDING value=0
+
+00:27:04 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=79 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=EXHAUSTED value=0
+
+00:27:04 STATE    - INFO     Update Healing Totem (1:0/2) (id:79) (pos:1) to zone GRAVEYARD
+00:27:04 STATE    - INFO     Healing Totem (1:0/2) (id:79) (pos:1) has been moved to graveyard
+00:27:04 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Healing Totem id=79 zone=PLAY zonePos=1 cardId=NEW1_009 player=2] tag=DAMAGE value=0
+
+00:27:04 parser   - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=77 local=False [name=Healing Totem id=79 zone=GRAVEYARD zonePos=1 cardId=NEW1_009 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+
+00:27:04 CONTROL  - DEBUG    Clicking on minion at position 2 of 5
+00:27:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Boar id=74 zone=PLAY zonePos=2 cardId=CS2_boar player=1] SubType=ATTACK Index=-1 Target=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2]
+
+00:27:06 STATE    - INFO     ATTACK: Boar (1:1/1) (id:74) (pos:2) -> Thrall (0/30) - (id:36)
+00:27:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boar id=74 zone=PLAY zonePos=2 cardId=CS2_boar player=1] tag=ATTACKING value=1
+
+00:27:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=1
+
+00:27:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=1
+
+00:27:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=0
+
+00:27:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DAMAGE value=18
+
+00:27:06 STATE    - INFO     Thrall (0/30) - (id:36) has 18 DAMAGE
+00:27:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boar id=74 zone=PLAY zonePos=2 cardId=CS2_boar player=1] tag=EXHAUSTED value=1
+
+00:27:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Boar id=74 zone=PLAY zonePos=2 cardId=CS2_boar player=1] tag=ATTACKING value=0
+
+00:27:06 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=0
+
+00:27:06 CONTROL  - DEBUG    Clicking on minion at position 5 of 5
+00:27:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Mechanical Dragonling id=77 zone=PLAY zonePos=5 cardId=EX1_025t player=1] SubType=ATTACK Index=-1 Target=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2]
+
+00:27:08 STATE    - INFO     ATTACK: Mechanical Dragonling (1:2/1) (id:77) (pos:5) -> Thrall (0/30) - (id:36)
+00:27:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=77 zone=PLAY zonePos=5 cardId=EX1_025t player=1] tag=ATTACKING value=1
+
+00:27:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=1
+
+00:27:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=2
+
+00:27:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=0
+
+00:27:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DAMAGE value=20
+
+00:27:08 STATE    - INFO     Thrall (0/30) - (id:36) has 20 DAMAGE
+00:27:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=77 zone=PLAY zonePos=5 cardId=EX1_025t player=1] tag=EXHAUSTED value=1
+
+00:27:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Mechanical Dragonling id=77 zone=PLAY zonePos=5 cardId=EX1_025t player=1] tag=ATTACKING value=0
+
+00:27:08 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=0
+
+00:27:08 CONTROL  - DEBUG    Clicking on minion at position 3 of 5
+00:27:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Gnomish Inventor id=18 zone=PLAY zonePos=3 cardId=CS2_147 player=1] SubType=ATTACK Index=-1 Target=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2]
+
+00:27:10 STATE    - INFO     ATTACK: Gnomish Inventor (4:2/4) (id:18) (pos:3) -> Thrall (0/30) - (id:36)
+00:27:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gnomish Inventor id=18 zone=PLAY zonePos=3 cardId=CS2_147 player=1] tag=ATTACKING value=1
+
+00:27:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=1
+
+00:27:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=2
+
+00:27:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=PREDAMAGE value=0
+
+00:27:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DAMAGE value=22
+
+00:27:10 STATE    - INFO     Thrall (0/30) - (id:36) has 22 DAMAGE
+00:27:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gnomish Inventor id=18 zone=PLAY zonePos=3 cardId=CS2_147 player=1] tag=EXHAUSTED value=1
+
+00:27:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gnomish Inventor id=18 zone=PLAY zonePos=3 cardId=CS2_147 player=1] tag=ATTACKING value=0
+
+00:27:10 parser   - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] tag=DEFENDING value=0
+
+00:27:10 CONTROL  - DEBUG    Clicking on minion at position 4 of 5

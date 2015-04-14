@@ -1,0 +1,12 @@
+23:29:57 BOT          - INFO     STARTING IN 5 SECONDS
+23:30:02 BOT          - INFO     Tingle Tingle! Kooloo limpah!
+23:30:05 parser       - INFO     Skipping to end of log file
+23:30:06 BOT          - INFO     Waiting for game state to start: GameState: started: False
+23:30:21 BOT          - INFO     Waiting for game state to start: GameState: started: False
+23:30:21 STATE        - INFO     **************************
+23:30:21 STATE        - INFO     ***** STARTING GAME *****
+23:30:21 STATE        - INFO     **************************
+23:30:21 STATE        - INFO     TINGLE is player 1
+23:30:21 STATE        - INFO     OPPONENT is player 2
+23:30:21 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+

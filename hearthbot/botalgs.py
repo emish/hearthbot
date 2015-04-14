@@ -77,7 +77,7 @@ def spend_max_mana(player):
         The player to play with.
     
     Returns:
-        (mana, cards) - where mana is an int and cards is a tuple of state.Card's
+        (mana, cards) : (Int, [state.Card])
         Returns (0, []) if no play is possible.
     
     Limitations:

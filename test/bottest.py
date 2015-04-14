@@ -1,5 +1,11 @@
 import unittest
-import bot, state
+import os, sys
+
+# Add hearthbot to the path for testing
+hearthbot_home = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(hearthbot_home)
+
+from hearthbot import bot, state
 
 class TestBot(unittest.TestCase):
     def test_spend_max_mana(self):
@@ -9,7 +15,7 @@ class TestBot(unittest.TestCase):
         gstate.add_card_to_hand('CS2_065', '01')
         bot.gstate = gstate
         voidwalker = gstate.tingle.hand[0]
-        self.assertEqual((1, (voidwalker,)), bot.spend_max_mana())
+        self.assertEqual((1, [voidwalker]), bot.spend_max_mana(gstate.tingle))
 
 if __name__ == '__main__':
     unittest.main()

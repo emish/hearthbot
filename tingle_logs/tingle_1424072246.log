@@ -1,0 +1,79 @@
+23:37:26 BOT          - INFO     STARTING IN 5 SECONDS
+23:37:31 BOT          - INFO     Tingle Tingle! Kooloo limpah!
+23:37:34 parser       - INFO     Skipping to end of log file
+23:37:35 BOT          - INFO     Waiting for game state to start: GameState: started: False
+23:37:50 BOT          - INFO     Waiting for game state to start: GameState: started: False
+23:37:50 STATE        - INFO     **************************
+23:37:50 STATE        - INFO     ***** STARTING GAME *****
+23:37:50 STATE        - INFO     **************************
+23:37:50 STATE        - INFO     TINGLE is player 1
+23:37:50 STATE        - INFO     OPPONENT is player 2
+23:37:50 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+23:37:50 STATE        - INFO     Adding our hero to play: Gul'dan (0/30) - (id:4)
+23:37:50 STATE        - INFO     Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+23:37:50 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+23:37:50 STATE        - INFO     Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+23:37:50 STATE        - INFO     Adding Life Tap - (id:5) to active cards in zone PLAY
+23:37:50 STATE        - INFO     DRAW CARD: Voidwalker (1/3) - 1 mana (id:8)
+23:37:50 STATE        - INFO     Adding Voidwalker (1/3) - 1 mana (id:8) to active cards in zone HAND
+23:37:50 STATE        - INFO     Cards in HAND:
+[Voidwalker (1/3) - 1 mana (id:8)]
+23:37:50 STATE        - INFO     Update card Voidwalker (1/3) - 1 mana (id:8) to position 3 in HAND
+23:37:50 STATE        - INFO     DRAW CARD: Raid Leader (2/2) - 3 mana (id:25)
+23:37:50 STATE        - INFO     Adding Raid Leader (2/2) - 3 mana (id:25) to active cards in zone HAND
+23:37:50 STATE        - INFO     Cards in HAND:
+[Voidwalker (1/3) - 1 mana (id:8), Raid Leader (2/2) - 3 mana (id:25)]
+23:37:50 STATE        - INFO     Update card Raid Leader (2/2) - 3 mana (id:25) to position 4 in HAND
+23:37:50 STATE        - INFO     DRAW CARD: Chillwind Yeti (4/5) - 4 mana (id:30)
+23:37:50 STATE        - INFO     Adding Chillwind Yeti (4/5) - 4 mana (id:30) to active cards in zone HAND
+23:37:50 STATE        - INFO     Cards in HAND:
+[Voidwalker (1/3) - 1 mana (id:8),
+ Raid Leader (2/2) - 3 mana (id:25),
+ Chillwind Yeti (4/5) - 4 mana (id:30)]
+23:37:50 STATE        - INFO     Update card Chillwind Yeti (4/5) - 4 mana (id:30) to position 1 in HAND
+23:37:50 STATE        - INFO     DRAW CARD: Razorfen Hunter (2/3) - 3 mana (id:31)
+23:37:50 STATE        - INFO     Adding Razorfen Hunter (2/3) - 3 mana (id:31) to active cards in zone HAND
+23:37:50 STATE        - INFO     Cards in HAND:
+[Voidwalker (1/3) - 1 mana (id:8),
+ Raid Leader (2/2) - 3 mana (id:25),
+ Chillwind Yeti (4/5) - 4 mana (id:30),
+ Razorfen Hunter (2/3) - 3 mana (id:31)]
+23:37:50 STATE        - INFO     Update card Razorfen Hunter (2/3) - 3 mana (id:31) to position 2 in HAND
+23:37:50 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+23:37:50 STATE        - INFO     Adding opponent hero to play: Thrall (0/30) - (id:36)
+23:37:50 STATE        - INFO     Adding Thrall (0/30) - (id:36) to active cards in zone PLAY
+23:37:50 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+23:37:50 STATE        - INFO     Moving Hero Power/Weapon to play but not as minion: Totemic Call - (id:37)
+23:37:50 STATE        - INFO     Adding Totemic Call - (id:37) to active cards in zone PLAY
+23:37:50 STATE        - INFO     DRAW CARD: The Coin - 0 mana (id:68)
+23:37:50 STATE        - INFO     Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+23:37:50 STATE        - INFO     Cards in HAND:
+[Voidwalker (1/3) - 1 mana (id:8),
+ Raid Leader (2/2) - 3 mana (id:25),
+ Chillwind Yeti (4/5) - 4 mana (id:30),
+ Razorfen Hunter (2/3) - 3 mana (id:31),
+ The Coin - 0 mana (id:68)]
+23:37:50 STATE        - INFO     Update card The Coin - 0 mana (id:68) to position 5 in HAND
+23:38:13 STATE        - INFO     **********
+23:38:13 STATE        - INFO     TINGLE's TURN - 1 mana
+23:38:13 STATE        - INFO     **********
+23:38:23 STATE        - INFO     DRAW CARD: Bloodfen Raptor (3/2) - 2 mana (id:7)
+23:38:23 STATE        - INFO     Adding Bloodfen Raptor (3/2) - 2 mana (id:7) to active cards in zone HAND
+23:38:23 STATE        - INFO     Cards in HAND:
+[Voidwalker (1/3) - 1 mana (id:8),
+ Raid Leader (2/2) - 3 mana (id:25),
+ Chillwind Yeti (4/5) - 4 mana (id:30),
+ Razorfen Hunter (2/3) - 3 mana (id:31),
+ The Coin - 0 mana (id:68),
+ Bloodfen Raptor (3/2) - 2 mana (id:7)]
+23:38:23 STATE        - INFO     Update card Bloodfen Raptor (3/2) - 2 mana (id:7) to position 6 in HAND
+23:38:23 BOT          - DEBUG    Play phase start
+23:38:23 ALGS         - DEBUG    Spend max mana. Available: 2
+23:38:23 ALGS         - DEBUG    Candidates: [Voidwalker (1/3) - 1 mana (id:8), Bloodfen Raptor (3/2) - 2 mana (id:7)]
+23:38:23 ALGS         - DEBUG    Possible combination with cost 3: (Voidwalker (1/3) - 1 mana (id:8), Bloodfen Raptor (3/2) - 2 mana (id:7))
+23:38:23 ALGS         - DEBUG    Possible combination with cost 1: (Voidwalker (1/3) - 1 mana (id:8),)
+23:38:23 ALGS         - DEBUG    Possible combination with cost 2: (Bloodfen Raptor (3/2) - 2 mana (id:7),)

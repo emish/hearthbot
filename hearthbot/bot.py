@@ -16,6 +16,7 @@ from pprint import pformat
 
 import control, cardlogger, state
 import kooloolimpah
+from hearthbot import TINGLE_LOGS
 from botalgs import *
 
 # The file for the hearthstone log
@@ -29,7 +30,7 @@ gstate = None
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(name)-8s - %(levelname)-8s %(message)s',
                     datefmt='%mm:%dd - %H:%M:%S',
-                    filename='tingle_logs/tingle_active.log',
+                    filename=TINGLE_LOGS+'/tingle_active.log',
                     filemode='w')
 # And logs to the console at info level
 console = logging.StreamHandler()

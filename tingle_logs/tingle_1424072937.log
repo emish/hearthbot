@@ -1,0 +1,461 @@
+23:48:57 BOT          - INFO     STARTING IN 5 SECONDS
+23:49:02 BOT          - INFO     Tingle Tingle! Kooloo limpah!
+23:49:06 BOT          - INFO     Waiting for game state to start: GameState: started: False
+23:49:06 STATE        - INFO     **************************
+23:49:06 STATE        - INFO     ***** STARTING GAME *****
+23:49:06 STATE        - INFO     **************************
+23:49:06 STATE        - INFO     TINGLE is player 1
+23:49:06 STATE        - INFO     OPPONENT is player 2
+23:49:06 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+23:49:06 STATE        - INFO     Adding our hero to play: Gul'dan (0/30) - (id:4)
+23:49:06 STATE        - INFO     Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+23:49:06 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+23:49:06 STATE        - INFO     Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+23:49:06 STATE        - INFO     Adding Life Tap - (id:5) to active cards in zone PLAY
+23:49:06 STATE        - INFO     DRAW CARD: Chillwind Yeti (4/5) - 4 mana (id:7)
+23:49:06 STATE        - INFO     Adding Chillwind Yeti (4/5) - 4 mana (id:7) to active cards in zone HAND
+23:49:06 STATE        - INFO     Cards in HAND:
+[Chillwind Yeti (4/5) - 4 mana (id:7)]
+23:49:06 STATE        - INFO     Update card Chillwind Yeti (4/5) - 4 mana (id:7) to position 1 in HAND
+23:49:06 STATE        - INFO     DRAW CARD: Bloodfen Raptor (3/2) - 2 mana (id:15)
+23:49:06 STATE        - INFO     Adding Bloodfen Raptor (3/2) - 2 mana (id:15) to active cards in zone HAND
+23:49:06 STATE        - INFO     Cards in HAND:
+[Chillwind Yeti (4/5) - 4 mana (id:7), Bloodfen Raptor (3/2) - 2 mana (id:15)]
+23:49:06 STATE        - INFO     Update card Bloodfen Raptor (3/2) - 2 mana (id:15) to position 4 in HAND
+23:49:06 STATE        - INFO     DRAW CARD: Stormwind Champion (6/6) - 7 mana (id:32)
+23:49:06 STATE        - INFO     Adding Stormwind Champion (6/6) - 7 mana (id:32) to active cards in zone HAND
+23:49:06 STATE        - INFO     Cards in HAND:
+[Chillwind Yeti (4/5) - 4 mana (id:7),
+ Bloodfen Raptor (3/2) - 2 mana (id:15),
+ Stormwind Champion (6/6) - 7 mana (id:32)]
+23:49:06 STATE        - INFO     Update card Stormwind Champion (6/6) - 7 mana (id:32) to position 2 in HAND
+23:49:06 STATE        - INFO     DRAW CARD: Gnomish Inventor (2/4) - 4 mana (id:34)
+23:49:06 STATE        - INFO     Adding Gnomish Inventor (2/4) - 4 mana (id:34) to active cards in zone HAND
+23:49:06 STATE        - INFO     Cards in HAND:
+[Chillwind Yeti (4/5) - 4 mana (id:7),
+ Bloodfen Raptor (3/2) - 2 mana (id:15),
+ Stormwind Champion (6/6) - 7 mana (id:32),
+ Gnomish Inventor (2/4) - 4 mana (id:34)]
+23:49:06 STATE        - INFO     Update card Gnomish Inventor (2/4) - 4 mana (id:34) to position 3 in HAND
+23:49:06 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+23:49:06 STATE        - INFO     Adding opponent hero to play: Thrall (0/30) - (id:36)
+23:49:06 STATE        - INFO     Adding Thrall (0/30) - (id:36) to active cards in zone PLAY
+23:49:06 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+23:49:06 STATE        - INFO     Moving Hero Power/Weapon to play but not as minion: Totemic Call - (id:37)
+23:49:06 STATE        - INFO     Adding Totemic Call - (id:37) to active cards in zone PLAY
+23:49:06 STATE        - INFO     DRAW CARD: The Coin - 0 mana (id:68)
+23:49:06 STATE        - INFO     Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+23:49:06 STATE        - INFO     Cards in HAND:
+[Chillwind Yeti (4/5) - 4 mana (id:7),
+ Bloodfen Raptor (3/2) - 2 mana (id:15),
+ Stormwind Champion (6/6) - 7 mana (id:32),
+ Gnomish Inventor (2/4) - 4 mana (id:34),
+ The Coin - 0 mana (id:68)]
+23:49:06 STATE        - INFO     Update card The Coin - 0 mana (id:68) to position 5 in HAND
+23:49:06 STATE        - INFO     **********
+23:49:06 STATE        - INFO     TINGLE's TURN - 1 mana
+23:49:06 STATE        - INFO     **********
+23:49:06 STATE        - INFO     DRAW CARD: Voidwalker (1/3) - 1 mana (id:23)
+23:49:06 STATE        - INFO     Adding Voidwalker (1/3) - 1 mana (id:23) to active cards in zone HAND
+23:49:06 STATE        - INFO     Cards in HAND:
+[Chillwind Yeti (4/5) - 4 mana (id:7),
+ Bloodfen Raptor (3/2) - 2 mana (id:15),
+ Stormwind Champion (6/6) - 7 mana (id:32),
+ Gnomish Inventor (2/4) - 4 mana (id:34),
+ The Coin - 0 mana (id:68),
+ Voidwalker (1/3) - 1 mana (id:23)]
+23:49:06 STATE        - INFO     Update card Voidwalker (1/3) - 1 mana (id:23) to position 6 in HAND
+23:49:06 STATE        - INFO     TINGLE lost!
+23:49:07 STATE        - INFO     **************************
+23:49:07 STATE        - INFO     ***** STARTING GAME *****
+23:49:07 STATE        - INFO     **************************
+23:49:07 STATE        - INFO     TINGLE is player 1
+23:49:07 STATE        - INFO     OPPONENT is player 2
+23:49:07 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+23:49:07 STATE        - INFO     Adding our hero to play: Gul'dan (0/30) - (id:4)
+23:49:07 STATE        - INFO     Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+23:49:07 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+23:49:07 STATE        - INFO     Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+23:49:07 STATE        - INFO     Adding Life Tap - (id:5) to active cards in zone PLAY
+23:49:07 STATE        - INFO     DRAW CARD: Bluegill Warrior (2/1) - 2 mana (id:7)
+23:49:07 STATE        - INFO     Adding Bluegill Warrior (2/1) - 2 mana (id:7) to active cards in zone HAND
+23:49:07 STATE        - INFO     Cards in HAND:
+[Bluegill Warrior (2/1) - 2 mana (id:7)]
+23:49:07 STATE        - INFO     Update card Bluegill Warrior (2/1) - 2 mana (id:7) to position 1 in HAND
+23:49:07 STATE        - INFO     DRAW CARD: Voidwalker (1/3) - 1 mana (id:27)
+23:49:07 STATE        - INFO     Adding Voidwalker (1/3) - 1 mana (id:27) to active cards in zone HAND
+23:49:07 STATE        - INFO     Cards in HAND:
+[Bluegill Warrior (2/1) - 2 mana (id:7), Voidwalker (1/3) - 1 mana (id:27)]
+23:49:07 STATE        - INFO     Update card Voidwalker (1/3) - 1 mana (id:27) to position 4 in HAND
+23:49:07 STATE        - INFO     DRAW CARD: Lord of the Arena (6/5) - 6 mana (id:28)
+23:49:07 STATE        - INFO     Adding Lord of the Arena (6/5) - 6 mana (id:28) to active cards in zone HAND
+23:49:07 STATE        - INFO     Cards in HAND:
+[Bluegill Warrior (2/1) - 2 mana (id:7),
+ Voidwalker (1/3) - 1 mana (id:27),
+ Lord of the Arena (6/5) - 6 mana (id:28)]
+23:49:07 STATE        - INFO     Update card Lord of the Arena (6/5) - 6 mana (id:28) to position 3 in HAND
+23:49:07 STATE        - INFO     DRAW CARD: River Crocolisk (2/3) - 2 mana (id:29)
+23:49:07 STATE        - INFO     Adding River Crocolisk (2/3) - 2 mana (id:29) to active cards in zone HAND
+23:49:07 STATE        - INFO     Cards in HAND:
+[Bluegill Warrior (2/1) - 2 mana (id:7),
+ Voidwalker (1/3) - 1 mana (id:27),
+ Lord of the Arena (6/5) - 6 mana (id:28),
+ River Crocolisk (2/3) - 2 mana (id:29)]
+23:49:07 STATE        - INFO     Update card River Crocolisk (2/3) - 2 mana (id:29) to position 2 in HAND
+23:49:07 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Malfurion Stormrage id=36 zone=PLAY zonePos=0 cardId=HERO_06 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+23:49:07 STATE        - INFO     Adding opponent hero to play: Malfurion Stormrage (0/30) - (id:36)
+23:49:07 STATE        - INFO     Adding Malfurion Stormrage (0/30) - (id:36) to active cards in zone PLAY
+23:49:07 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Shapeshift id=37 zone=PLAY zonePos=0 cardId=CS2_017 player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+23:49:07 STATE        - INFO     Moving Hero Power/Weapon to play but not as minion: Shapeshift - (id:37)
+23:49:07 STATE        - INFO     Adding Shapeshift - (id:37) to active cards in zone PLAY
+23:49:07 STATE        - INFO     DRAW CARD: The Coin - 0 mana (id:68)
+23:49:07 STATE        - INFO     Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+23:49:07 STATE        - INFO     Cards in HAND:
+[Bluegill Warrior (2/1) - 2 mana (id:7),
+ Voidwalker (1/3) - 1 mana (id:27),
+ Lord of the Arena (6/5) - 6 mana (id:28),
+ River Crocolisk (2/3) - 2 mana (id:29),
+ The Coin - 0 mana (id:68)]
+23:49:07 STATE        - INFO     Update card The Coin - 0 mana (id:68) to position 5 in HAND
+23:49:07 STATE        - INFO     Update Lord of the Arena (6/5) - 6 mana (id:28) to zone DECK
+23:49:07 STATE        - INFO     DRAW CARD: Dragonling Mechanic (2/4) - 4 mana (id:20)
+23:49:07 STATE        - INFO     Adding Dragonling Mechanic (2/4) - 4 mana (id:20) to active cards in zone HAND
+23:49:07 STATE        - INFO     Cards in HAND:
+[Bluegill Warrior (2/1) - 2 mana (id:7),
+ Voidwalker (1/3) - 1 mana (id:27),
+ River Crocolisk (2/3) - 2 mana (id:29),
+ The Coin - 0 mana (id:68),
+ Dragonling Mechanic (2/4) - 4 mana (id:20)]
+23:49:07 STATE        - INFO     Update card Dragonling Mechanic (2/4) - 4 mana (id:20) to position 3 in HAND
+23:49:07 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=47 cardId= type=INVALID zone=HAND zonePos=2 player=2] tag=EXHAUSTED value=1
+
+23:49:07 STATE        - WARNING  No id 47 found to perform tag update for EXHAUSTED = 1
+23:49:07 parser       - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=1
+
+23:49:07 parser       - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=0
+
+23:49:07 parser       - DEBUG    [Power] GameState.DebugPrintPower() -         TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DAMAGE value=1
+
+23:49:07 STATE        - INFO     Gul'dan (0/30) - (id:4) has 1 DAMAGE
+23:49:07 STATE        - INFO     **********
+23:49:07 STATE        - INFO     TINGLE's TURN - 1 mana
+23:49:07 STATE        - INFO     **********
+23:49:08 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=4 local=False [name=Elven Archer id=47 zone=PLAY zonePos=2 cardId=CS2_189 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+23:49:08 STATE        - INFO     Adding Elven Archer (1/1) - 1 mana (id:47) to active cards in zone PLAY
+23:49:08 STATE        - INFO     OPPONENT plays: Elven Archer (1/1) - 1 mana (id:47)
+23:49:08 STATE        - INFO     OPPONENT's minions:
+[Elven Archer (1/1) - 1 mana (id:47)]
+23:49:08 STATE        - INFO     Update card Elven Archer (1/1) - 1 mana (id:47) to position 1 in PLAY
+23:49:08 STATE        - INFO     DRAW CARD: Raid Leader (2/2) - 3 mana (id:16)
+23:49:08 STATE        - INFO     Adding Raid Leader (2/2) - 3 mana (id:16) to active cards in zone HAND
+23:49:08 STATE        - INFO     Cards in HAND:
+[Bluegill Warrior (2/1) - 2 mana (id:7),
+ Voidwalker (1/3) - 1 mana (id:27),
+ River Crocolisk (2/3) - 2 mana (id:29),
+ The Coin - 0 mana (id:68),
+ Dragonling Mechanic (2/4) - 4 mana (id:20),
+ Raid Leader (2/2) - 3 mana (id:16)]
+23:49:08 STATE        - INFO     Update card Raid Leader (2/2) - 3 mana (id:16) to position 6 in HAND
+23:49:08 STATE        - INFO     TINGLE lost!
+23:49:09 STATE        - INFO     **************************
+23:49:09 STATE        - INFO     ***** STARTING GAME *****
+23:49:09 STATE        - INFO     **************************
+23:49:09 STATE        - INFO     TINGLE is player 1
+23:49:09 STATE        - INFO     OPPONENT is player 2
+23:49:09 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+23:49:09 STATE        - INFO     Adding our hero to play: Gul'dan (0/30) - (id:4)
+23:49:09 STATE        - INFO     Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+23:49:09 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+23:49:09 STATE        - INFO     Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+23:49:09 STATE        - INFO     Adding Life Tap - (id:5) to active cards in zone PLAY
+23:49:09 STATE        - INFO     DRAW CARD: Voidwalker (1/3) - 1 mana (id:8)
+23:49:09 STATE        - INFO     Adding Voidwalker (1/3) - 1 mana (id:8) to active cards in zone HAND
+23:49:09 STATE        - INFO     Cards in HAND:
+[Voidwalker (1/3) - 1 mana (id:8)]
+23:49:09 STATE        - INFO     Update card Voidwalker (1/3) - 1 mana (id:8) to position 3 in HAND
+23:49:09 STATE        - INFO     DRAW CARD: Raid Leader (2/2) - 3 mana (id:25)
+23:49:09 STATE        - INFO     Adding Raid Leader (2/2) - 3 mana (id:25) to active cards in zone HAND
+23:49:09 STATE        - INFO     Cards in HAND:
+[Voidwalker (1/3) - 1 mana (id:8), Raid Leader (2/2) - 3 mana (id:25)]
+23:49:09 STATE        - INFO     Update card Raid Leader (2/2) - 3 mana (id:25) to position 4 in HAND
+23:49:09 STATE        - INFO     DRAW CARD: Chillwind Yeti (4/5) - 4 mana (id:30)
+23:49:09 STATE        - INFO     Adding Chillwind Yeti (4/5) - 4 mana (id:30) to active cards in zone HAND
+23:49:09 STATE        - INFO     Cards in HAND:
+[Voidwalker (1/3) - 1 mana (id:8),
+ Raid Leader (2/2) - 3 mana (id:25),
+ Chillwind Yeti (4/5) - 4 mana (id:30)]
+23:49:09 STATE        - INFO     Update card Chillwind Yeti (4/5) - 4 mana (id:30) to position 1 in HAND
+23:49:09 STATE        - INFO     DRAW CARD: Razorfen Hunter (2/3) - 3 mana (id:31)
+23:49:09 STATE        - INFO     Adding Razorfen Hunter (2/3) - 3 mana (id:31) to active cards in zone HAND
+23:49:09 STATE        - INFO     Cards in HAND:
+[Voidwalker (1/3) - 1 mana (id:8),
+ Raid Leader (2/2) - 3 mana (id:25),
+ Chillwind Yeti (4/5) - 4 mana (id:30),
+ Razorfen Hunter (2/3) - 3 mana (id:31)]
+23:49:09 STATE        - INFO     Update card Razorfen Hunter (2/3) - 3 mana (id:31) to position 2 in HAND
+23:49:09 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+23:49:09 STATE        - INFO     Adding opponent hero to play: Thrall (0/30) - (id:36)
+23:49:09 STATE        - INFO     Adding Thrall (0/30) - (id:36) to active cards in zone PLAY
+23:49:09 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+23:49:09 STATE        - INFO     Moving Hero Power/Weapon to play but not as minion: Totemic Call - (id:37)
+23:49:09 STATE        - INFO     Adding Totemic Call - (id:37) to active cards in zone PLAY
+23:49:09 STATE        - INFO     DRAW CARD: The Coin - 0 mana (id:68)
+23:49:09 STATE        - INFO     Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+23:49:09 STATE        - INFO     Cards in HAND:
+[Voidwalker (1/3) - 1 mana (id:8),
+ Raid Leader (2/2) - 3 mana (id:25),
+ Chillwind Yeti (4/5) - 4 mana (id:30),
+ Razorfen Hunter (2/3) - 3 mana (id:31),
+ The Coin - 0 mana (id:68)]
+23:49:09 STATE        - INFO     Update card The Coin - 0 mana (id:68) to position 5 in HAND
+23:49:09 STATE        - INFO     **********
+23:49:09 STATE        - INFO     TINGLE's TURN - 1 mana
+23:49:09 STATE        - INFO     **********
+23:49:09 STATE        - INFO     DRAW CARD: Bloodfen Raptor (3/2) - 2 mana (id:7)
+23:49:09 STATE        - INFO     Adding Bloodfen Raptor (3/2) - 2 mana (id:7) to active cards in zone HAND
+23:49:09 STATE        - INFO     Cards in HAND:
+[Voidwalker (1/3) - 1 mana (id:8),
+ Raid Leader (2/2) - 3 mana (id:25),
+ Chillwind Yeti (4/5) - 4 mana (id:30),
+ Razorfen Hunter (2/3) - 3 mana (id:31),
+ The Coin - 0 mana (id:68),
+ Bloodfen Raptor (3/2) - 2 mana (id:7)]
+23:49:09 STATE        - INFO     Update card Bloodfen Raptor (3/2) - 2 mana (id:7) to position 6 in HAND
+23:49:09 STATE        - INFO     TINGLE lost!
+23:49:10 STATE        - INFO     **************************
+23:49:10 STATE        - INFO     ***** STARTING GAME *****
+23:49:10 STATE        - INFO     **************************
+23:49:10 STATE        - INFO     TINGLE is player 1
+23:49:10 STATE        - INFO     OPPONENT is player 2
+23:49:10 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+23:49:10 STATE        - INFO     Adding our hero to play: Gul'dan (0/30) - (id:4)
+23:49:10 STATE        - INFO     Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+23:49:10 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+23:49:10 STATE        - INFO     Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+23:49:10 STATE        - INFO     Adding Life Tap - (id:5) to active cards in zone PLAY
+23:49:10 STATE        - INFO     DRAW CARD: Boulderfist Ogre (6/7) - 6 mana (id:6)
+23:49:10 STATE        - INFO     Adding Boulderfist Ogre (6/7) - 6 mana (id:6) to active cards in zone HAND
+23:49:10 STATE        - INFO     Cards in HAND:
+[Boulderfist Ogre (6/7) - 6 mana (id:6)]
+23:49:10 STATE        - INFO     Update card Boulderfist Ogre (6/7) - 6 mana (id:6) to position 2 in HAND
+23:49:10 STATE        - INFO     DRAW CARD: Acidic Swamp Ooze (3/2) - 2 mana (id:7)
+23:49:10 STATE        - INFO     Adding Acidic Swamp Ooze (3/2) - 2 mana (id:7) to active cards in zone HAND
+23:49:10 STATE        - INFO     Cards in HAND:
+[Boulderfist Ogre (6/7) - 6 mana (id:6),
+ Acidic Swamp Ooze (3/2) - 2 mana (id:7)]
+23:49:10 STATE        - INFO     Update card Acidic Swamp Ooze (3/2) - 2 mana (id:7) to position 3 in HAND
+23:49:10 STATE        - INFO     DRAW CARD: Bloodfen Raptor (3/2) - 2 mana (id:17)
+23:49:10 STATE        - INFO     Adding Bloodfen Raptor (3/2) - 2 mana (id:17) to active cards in zone HAND
+23:49:10 STATE        - INFO     Cards in HAND:
+[Boulderfist Ogre (6/7) - 6 mana (id:6),
+ Acidic Swamp Ooze (3/2) - 2 mana (id:7),
+ Bloodfen Raptor (3/2) - 2 mana (id:17)]
+23:49:10 STATE        - INFO     Update card Bloodfen Raptor (3/2) - 2 mana (id:17) to position 1 in HAND
+23:49:10 STATE        - INFO     DRAW CARD: Razorfen Hunter (2/3) - 3 mana (id:20)
+23:49:10 STATE        - INFO     Adding Razorfen Hunter (2/3) - 3 mana (id:20) to active cards in zone HAND
+23:49:10 STATE        - INFO     Cards in HAND:
+[Boulderfist Ogre (6/7) - 6 mana (id:6),
+ Acidic Swamp Ooze (3/2) - 2 mana (id:7),
+ Bloodfen Raptor (3/2) - 2 mana (id:17),
+ Razorfen Hunter (2/3) - 3 mana (id:20)]
+23:49:10 STATE        - INFO     Update card Razorfen Hunter (2/3) - 3 mana (id:20) to position 4 in HAND
+23:49:10 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+23:49:10 STATE        - INFO     Adding opponent hero to play: Thrall (0/30) - (id:36)
+23:49:10 STATE        - INFO     Adding Thrall (0/30) - (id:36) to active cards in zone PLAY
+23:49:10 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+23:49:10 STATE        - INFO     Moving Hero Power/Weapon to play but not as minion: Totemic Call - (id:37)
+23:49:10 STATE        - INFO     Adding Totemic Call - (id:37) to active cards in zone PLAY
+23:49:10 STATE        - INFO     DRAW CARD: The Coin - 0 mana (id:68)
+23:49:10 STATE        - INFO     Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+23:49:10 STATE        - INFO     Cards in HAND:
+[Boulderfist Ogre (6/7) - 6 mana (id:6),
+ Acidic Swamp Ooze (3/2) - 2 mana (id:7),
+ Bloodfen Raptor (3/2) - 2 mana (id:17),
+ Razorfen Hunter (2/3) - 3 mana (id:20),
+ The Coin - 0 mana (id:68)]
+23:49:10 STATE        - INFO     Update card The Coin - 0 mana (id:68) to position 5 in HAND
+23:49:10 STATE        - INFO     **********
+23:49:10 STATE        - INFO     TINGLE's TURN - 1 mana
+23:49:10 STATE        - INFO     **********
+23:49:10 STATE        - INFO     DRAW CARD: Chillwind Yeti (4/5) - 4 mana (id:25)
+23:49:10 STATE        - INFO     Adding Chillwind Yeti (4/5) - 4 mana (id:25) to active cards in zone HAND
+23:49:10 STATE        - INFO     Cards in HAND:
+[Boulderfist Ogre (6/7) - 6 mana (id:6),
+ Acidic Swamp Ooze (3/2) - 2 mana (id:7),
+ Bloodfen Raptor (3/2) - 2 mana (id:17),
+ Razorfen Hunter (2/3) - 3 mana (id:20),
+ The Coin - 0 mana (id:68),
+ Chillwind Yeti (4/5) - 4 mana (id:25)]
+23:49:10 STATE        - INFO     Update card Chillwind Yeti (4/5) - 4 mana (id:25) to position 6 in HAND
+23:49:10 STATE        - INFO     TINGLE lost!
+23:49:12 STATE        - INFO     **************************
+23:49:12 STATE        - INFO     ***** STARTING GAME *****
+23:49:12 STATE        - INFO     **************************
+23:49:12 STATE        - INFO     TINGLE is player 1
+23:49:12 STATE        - INFO     OPPONENT is player 2
+23:49:12 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+23:49:12 STATE        - INFO     Adding our hero to play: Gul'dan (0/30) - (id:4)
+23:49:12 STATE        - INFO     Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+23:49:12 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+23:49:12 STATE        - INFO     Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+23:49:12 STATE        - INFO     Adding Life Tap - (id:5) to active cards in zone PLAY
+23:49:12 STATE        - INFO     DRAW CARD: Raid Leader (2/2) - 3 mana (id:12)
+23:49:12 STATE        - INFO     Adding Raid Leader (2/2) - 3 mana (id:12) to active cards in zone HAND
+23:49:12 STATE        - INFO     Cards in HAND:
+[Raid Leader (2/2) - 3 mana (id:12)]
+23:49:12 STATE        - INFO     Update card Raid Leader (2/2) - 3 mana (id:12) to position 3 in HAND
+23:49:12 STATE        - INFO     DRAW CARD: Razorfen Hunter (2/3) - 3 mana (id:26)
+23:49:12 STATE        - INFO     Adding Razorfen Hunter (2/3) - 3 mana (id:26) to active cards in zone HAND
+23:49:12 STATE        - INFO     Cards in HAND:
+[Raid Leader (2/2) - 3 mana (id:12), Razorfen Hunter (2/3) - 3 mana (id:26)]
+23:49:12 STATE        - INFO     Update card Razorfen Hunter (2/3) - 3 mana (id:26) to position 4 in HAND
+23:49:12 STATE        - INFO     DRAW CARD: Raid Leader (2/2) - 3 mana (id:27)
+23:49:12 STATE        - INFO     Adding Raid Leader (2/2) - 3 mana (id:27) to active cards in zone HAND
+23:49:12 STATE        - INFO     Cards in HAND:
+[Raid Leader (2/2) - 3 mana (id:12),
+ Razorfen Hunter (2/3) - 3 mana (id:26),
+ Raid Leader (2/2) - 3 mana (id:27)]
+23:49:12 STATE        - INFO     Update card Raid Leader (2/2) - 3 mana (id:27) to position 1 in HAND
+23:49:12 STATE        - INFO     DRAW CARD: Bloodfen Raptor (3/2) - 2 mana (id:29)
+23:49:12 STATE        - INFO     Adding Bloodfen Raptor (3/2) - 2 mana (id:29) to active cards in zone HAND
+23:49:12 STATE        - INFO     Cards in HAND:
+[Raid Leader (2/2) - 3 mana (id:12),
+ Razorfen Hunter (2/3) - 3 mana (id:26),
+ Raid Leader (2/2) - 3 mana (id:27),
+ Bloodfen Raptor (3/2) - 2 mana (id:29)]
+23:49:12 STATE        - INFO     Update card Bloodfen Raptor (3/2) - 2 mana (id:29) to position 2 in HAND
+23:49:12 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Thrall id=36 zone=PLAY zonePos=0 cardId=HERO_02 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+23:49:12 STATE        - INFO     Adding opponent hero to play: Thrall (0/30) - (id:36)
+23:49:12 STATE        - INFO     Adding Thrall (0/30) - (id:36) to active cards in zone PLAY
+23:49:12 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Totemic Call id=37 zone=PLAY zonePos=0 cardId=CS2_049 player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+23:49:12 STATE        - INFO     Moving Hero Power/Weapon to play but not as minion: Totemic Call - (id:37)
+23:49:12 STATE        - INFO     Adding Totemic Call - (id:37) to active cards in zone PLAY
+23:49:12 STATE        - INFO     DRAW CARD: The Coin - 0 mana (id:68)
+23:49:12 STATE        - INFO     Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+23:49:12 STATE        - INFO     Cards in HAND:
+[Raid Leader (2/2) - 3 mana (id:12),
+ Razorfen Hunter (2/3) - 3 mana (id:26),
+ Raid Leader (2/2) - 3 mana (id:27),
+ Bloodfen Raptor (3/2) - 2 mana (id:29),
+ The Coin - 0 mana (id:68)]
+23:49:12 STATE        - INFO     Update card The Coin - 0 mana (id:68) to position 5 in HAND
+23:49:12 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=DECK zonePos=0 player=2] tag=ATTACKING value=1
+
+23:49:12 STATE        - WARNING  No id 64 found to perform tag update for ATTACKING = 1
+23:49:12 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DEFENDING value=1
+
+23:49:12 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=1
+
+23:49:12 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=0
+
+23:49:12 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DAMAGE value=1
+
+23:49:12 STATE        - INFO     Gul'dan (0/30) - (id:4) has 1 DAMAGE
+23:49:12 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=DECK zonePos=0 player=2] tag=EXHAUSTED value=1
+
+23:49:12 STATE        - WARNING  No id 64 found to perform tag update for EXHAUSTED = 1
+23:49:12 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=64 cardId= type=INVALID zone=DECK zonePos=0 player=2] tag=ATTACKING value=0
+
+23:49:12 STATE        - WARNING  No id 64 found to perform tag update for ATTACKING = 0
+23:49:12 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DEFENDING value=0
+
+23:49:12 STATE        - INFO     **********
+23:49:12 STATE        - INFO     TINGLE's TURN - 1 mana
+23:49:12 STATE        - INFO     **********
+23:49:12 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=3 local=False [name=Stonetusk Boar id=64 zone=PLAY zonePos=4 cardId=CS2_171 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+23:49:12 STATE        - INFO     Adding Stonetusk Boar (1/1) - 1 mana (id:64) to active cards in zone PLAY
+23:49:12 STATE        - INFO     OPPONENT plays: Stonetusk Boar (1/1) - 1 mana (id:64)
+23:49:12 STATE        - INFO     OPPONENT's minions:
+[Stonetusk Boar (1/1) - 1 mana (id:64)]
+23:49:12 STATE        - INFO     Update card Stonetusk Boar (1/1) - 1 mana (id:64) to position 1 in PLAY
+23:49:12 STATE        - INFO     DRAW CARD: Ironfur Grizzly (3/3) - 3 mana (id:6)
+23:49:12 STATE        - INFO     Adding Ironfur Grizzly (3/3) - 3 mana (id:6) to active cards in zone HAND
+23:49:12 STATE        - INFO     Cards in HAND:
+[Raid Leader (2/2) - 3 mana (id:12),
+ Razorfen Hunter (2/3) - 3 mana (id:26),
+ Raid Leader (2/2) - 3 mana (id:27),
+ Bloodfen Raptor (3/2) - 2 mana (id:29),
+ The Coin - 0 mana (id:68),
+ Ironfur Grizzly (3/3) - 3 mana (id:6)]
+23:49:12 STATE        - INFO     Update card Ironfur Grizzly (3/3) - 3 mana (id:6) to position 6 in HAND
+23:49:45 BOT          - DEBUG    Play phase start
+23:49:45 ALGS         - DEBUG    Spend max mana. Available: 1
+23:49:45 ALGS         - DEBUG    Candidates: []
+23:49:45 BOT          - DEBUG    Going to play [The Coin - 0 mana (id:68)] with 0 mana
+23:49:45 CONTROL      - DEBUG    Clicking on hand card index 4 with 6 cards in hand
+23:49:49 STATE        - INFO     Update card Ironfur Grizzly (3/3) - 3 mana (id:6) to position 5 in HAND
+23:49:49 STATE        - INFO     Update The Coin - 0 mana (id:68) to zone PLAY
+23:49:49 STATE        - INFO     Update The Coin - 0 mana (id:68) to zone GRAVEYARD
+23:49:49 STATE        - INFO     The Coin - 0 mana (id:68) has been moved to graveyard
+23:49:49 BOT          - DEBUG    Attack phase
+23:49:49 CONTROL      - INFO     Ending turn
+23:50:00 STATE        - INFO     **********
+23:50:00 STATE        - INFO     OPPONENT TURN
+23:50:00 STATE        - INFO     **********
+23:50:00 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stonetusk Boar id=64 zone=PLAY zonePos=1 cardId=CS2_171 player=2] tag=EXHAUSTED value=0
+
+23:50:00 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[id=53 cardId= type=INVALID zone=HAND zonePos=1 player=2] tag=EXHAUSTED value=1
+
+23:50:00 STATE        - WARNING  No id 53 found to perform tag update for EXHAUSTED = 1
+23:50:00 parser       - DEBUG    [Power] GameState.DebugPrintPower() - ACTION_START Entity=[name=Stonetusk Boar id=64 zone=PLAY zonePos=1 cardId=CS2_171 player=2] SubType=ATTACK Index=-1 Target=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1]
+
+23:50:00 STATE        - INFO     ATTACK: Stonetusk Boar (1/1) - 1 mana (id:64) -> Gul'dan (0/30) - (id:4)
+23:50:00 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stonetusk Boar id=64 zone=PLAY zonePos=1 cardId=CS2_171 player=2] tag=ATTACKING value=1
+
+23:50:00 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DEFENDING value=1
+
+23:50:00 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=1
+
+23:50:00 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=PREDAMAGE value=0
+
+23:50:00 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DAMAGE value=2
+
+23:50:00 STATE        - INFO     Gul'dan (0/30) - (id:4) has 2 DAMAGE
+23:50:00 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stonetusk Boar id=64 zone=PLAY zonePos=1 cardId=CS2_171 player=2] tag=EXHAUSTED value=1
+
+23:50:00 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Stonetusk Boar id=64 zone=PLAY zonePos=1 cardId=CS2_171 player=2] tag=ATTACKING value=0
+
+23:50:00 parser       - DEBUG    [Power] GameState.DebugPrintPower() -     TAG_CHANGE Entity=[name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] tag=DEFENDING value=0
+
+23:50:00 STATE        - INFO     **********
+23:50:00 STATE        - INFO     TINGLE's TURN - 2 mana
+23:50:00 STATE        - INFO     **********
+23:50:00 parser       - DEBUG    [Zone] ZoneChangeList.ProcessChanges() - id=8 local=False [name=Frostwolf Grunt id=53 zone=PLAY zonePos=1 cardId=CS2_121 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+
+23:50:00 STATE        - INFO     Adding Frostwolf Grunt (2/2) - 2 mana (id:53) to active cards in zone PLAY
+23:50:00 STATE        - INFO     OPPONENT plays: Frostwolf Grunt (2/2) - 2 mana (id:53)
+23:50:00 STATE        - INFO     OPPONENT's minions:
+[Stonetusk Boar (1/1) - 1 mana (id:64), Frostwolf Grunt (2/2) - 2 mana (id:53)]
+23:50:00 STATE        - INFO     Update card Stonetusk Boar (1/1) - 1 mana (id:64) to position 2 in PLAY
+23:50:00 STATE        - INFO     DRAW CARD: Sen'jin Shieldmasta (3/5) - 4 mana (id:28)
+23:50:00 STATE        - INFO     Adding Sen'jin Shieldmasta (3/5) - 4 mana (id:28) to active cards in zone HAND
+23:50:00 STATE        - INFO     Cards in HAND:
+[Raid Leader (2/2) - 3 mana (id:12),
+ Razorfen Hunter (2/3) - 3 mana (id:26),
+ Raid Leader (2/2) - 3 mana (id:27),
+ Bloodfen Raptor (3/2) - 2 mana (id:29),
+ Ironfur Grizzly (3/3) - 3 mana (id:6),
+ Sen'jin Shieldmasta (3/5) - 4 mana (id:28)]
+23:50:00 STATE        - INFO     Update card Sen'jin Shieldmasta (3/5) - 4 mana (id:28) to position 6 in HAND
