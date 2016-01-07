@@ -1,0 +1,273 @@
+04m:13d-23:39:22 [BOT     ] - <DEBUG> Logging configured for Tingle
+04m:13d-23:39:22 [BOT     ] - <INFO > STARTING IN 5 SECONDS
+04m:13d-23:39:27 [BOT     ] - <INFO > Tingle Tingle! Kooloo limpah!
+04m:13d-23:39:30 [parser  ] - <INFO > Skipping to end of log file
+04m:13d-23:39:30 [CONTROL ] - <INFO > Clicking play button
+04m:13d-23:39:31 [BOT     ] - <INFO > Waiting for game state to start: GameState: started: False
+04m:13d-23:39:33 [BOT     ] - <INFO > Waiting for game state to start: GameState: started: False
+04m:13d-23:39:35 [BOT     ] - <INFO > Waiting for game state to start: GameState: started: False
+04m:13d-23:39:37 [STATE   ] - <INFO > **************************
+04m:13d-23:39:37 [STATE   ] - <INFO > ***** STARTING GAME *****
+04m:13d-23:39:37 [STATE   ] - <INFO > **************************
+04m:13d-23:39:37 [STATE   ] - <INFO > **********
+04m:13d-23:39:37 [STATE   ] - <INFO > TINGLE's TURN - 1 mana
+04m:13d-23:39:37 [STATE   ] - <INFO > **********
+04m:13d-23:39:37 [STATE   ] - <INFO > TINGLE is player 1
+04m:13d-23:39:37 [STATE   ] - <INFO > OPPONENT is player 2
+04m:13d-23:39:37 [parser  ] - <DEBUG> [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+04m:13d-23:39:37 [STATE   ] - <INFO > Adding our hero to play: Gul'dan (0/30) - (id:4)
+04m:13d-23:39:37 [STATE   ] - <INFO > Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+04m:13d-23:39:37 [parser  ] - <DEBUG> [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+04m:13d-23:39:37 [STATE   ] - <INFO > Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+04m:13d-23:39:37 [STATE   ] - <INFO > Adding Life Tap - (id:5) to active cards in zone PLAY
+04m:13d-23:39:37 [STATE   ] - <INFO > DRAW CARD: Boulderfist Ogre (6:6/7) (id:24) (pos:None)
+04m:13d-23:39:37 [STATE   ] - <INFO > Adding Boulderfist Ogre (6:6/7) (id:24) (pos:None) to active cards in zone HAND
+04m:13d-23:39:37 [STATE   ] - <INFO > Cards in HAND:
+[Boulderfist Ogre (6:6/7) (id:24) (pos:None)]
+04m:13d-23:39:37 [STATE   ] - <DEBUG> Update card Boulderfist Ogre (6:6/7) (id:24) (pos:1) to position 1 in HAND
+04m:13d-23:39:37 [STATE   ] - <INFO > DRAW CARD: Dragonling Mechanic (4:2/4) (id:30) (pos:None)
+04m:13d-23:39:37 [STATE   ] - <INFO > Adding Dragonling Mechanic (4:2/4) (id:30) (pos:None) to active cards in zone HAND
+04m:13d-23:39:37 [STATE   ] - <INFO > Cards in HAND:
+[Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:None)]
+04m:13d-23:39:37 [STATE   ] - <DEBUG> Update card Dragonling Mechanic (4:2/4) (id:30) (pos:2) to position 2 in HAND
+04m:13d-23:39:37 [STATE   ] - <INFO > DRAW CARD: Sen'jin Shieldmasta (4:3/5) (id:32) (pos:None)
+04m:13d-23:39:37 [STATE   ] - <INFO > Adding Sen'jin Shieldmasta (4:3/5) (id:32) (pos:None) to active cards in zone HAND
+04m:13d-23:39:37 [STATE   ] - <INFO > Cards in HAND:
+[Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:2),
+ Sen'jin Shieldmasta (4:3/5) (id:32) (pos:None)]
+04m:13d-23:39:37 [STATE   ] - <DEBUG> Update card Sen'jin Shieldmasta (4:3/5) (id:32) (pos:3) to position 3 in HAND
+04m:13d-23:39:37 [BOT     ] - <INFO > Game started. Waiting for setup animation to complete (10s)
+04m:13d-23:39:47 [parser  ] - <DEBUG> [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Valeera Sanguinar id=36 zone=PLAY zonePos=0 cardId=HERO_03 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+04m:13d-23:39:47 [STATE   ] - <INFO > Adding opponent hero to play: Valeera Sanguinar (0/30) - (id:36)
+04m:13d-23:39:47 [STATE   ] - <INFO > Adding Valeera Sanguinar (0/30) - (id:36) to active cards in zone PLAY
+04m:13d-23:39:47 [parser  ] - <DEBUG> [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Dagger Mastery id=37 zone=PLAY zonePos=0 cardId=CS2_083b player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+04m:13d-23:39:47 [STATE   ] - <INFO > Moving Hero Power/Weapon to play but not as minion: Dagger Mastery - (id:37)
+04m:13d-23:39:47 [STATE   ] - <INFO > Adding Dagger Mastery - (id:37) to active cards in zone PLAY
+04m:13d-23:39:47 [CONTROL ] - <DEBUG> Click: Confirm start cards
+04m:13d-23:39:48 [BOT     ] - <INFO > Waiting for start cards animation...
+04m:13d-23:40:00 [BOT     ] - <INFO > **********
+04m:13d-23:40:00 [BOT     ] - <INFO > Play Phase
+04m:13d-23:40:00 [BOT     ] - <INFO > **********
+04m:13d-23:40:00 [BOT     ] - <INFO > Tingle's Hand: 
+04m:13d-23:40:00 [BOT     ] - <INFO > [Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:2),
+ Sen'jin Shieldmasta (4:3/5) (id:32) (pos:3)]
+04m:13d-23:40:00 [BOT     ] - <DEBUG> Play phase start
+04m:13d-23:40:00 [ALGS    ] - <INFO > Spend max mana. Available mana to spend: 1
+04m:13d-23:40:00 [ALGS    ] - <INFO > Cards that cost less than 1:
+[]
+04m:13d-23:40:00 [ALGS    ] - <INFO > Potential play is: 0 Mana
+[]
+04m:13d-23:40:00 [BOT     ] - <DEBUG> Going to play [] with 0 mana
+04m:13d-23:40:00 [BOT     ] - <INFO > **********
+04m:13d-23:40:00 [BOT     ] - <INFO > Attack Phase
+04m:13d-23:40:00 [BOT     ] - <INFO > **********
+04m:13d-23:40:00 [BOT     ] - <INFO > []
+04m:13d-23:40:00 [BOT     ] - <DEBUG> Attack phase
+04m:13d-23:40:00 [CONTROL ] - <INFO > Ending turn
+04m:13d-23:40:13 [BOT     ] - <INFO > **********
+04m:13d-23:40:13 [BOT     ] - <INFO > Play Phase
+04m:13d-23:40:13 [BOT     ] - <INFO > **********
+04m:13d-23:40:13 [BOT     ] - <INFO > Tingle's Hand: 
+04m:13d-23:40:13 [BOT     ] - <INFO > [Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:2),
+ Sen'jin Shieldmasta (4:3/5) (id:32) (pos:3)]
+04m:13d-23:40:13 [BOT     ] - <DEBUG> Play phase start
+04m:13d-23:40:13 [ALGS    ] - <INFO > Spend max mana. Available mana to spend: 1
+04m:13d-23:40:13 [ALGS    ] - <INFO > Cards that cost less than 1:
+[]
+04m:13d-23:40:13 [ALGS    ] - <INFO > Potential play is: 0 Mana
+[]
+04m:13d-23:40:13 [BOT     ] - <DEBUG> Going to play [] with 0 mana
+04m:13d-23:40:13 [BOT     ] - <INFO > **********
+04m:13d-23:40:13 [BOT     ] - <INFO > Attack Phase
+04m:13d-23:40:13 [BOT     ] - <INFO > **********
+04m:13d-23:40:13 [BOT     ] - <INFO > []
+04m:13d-23:40:13 [BOT     ] - <DEBUG> Attack phase
+04m:13d-23:40:13 [CONTROL ] - <INFO > Ending turn
+04m:13d-23:40:26 [BOT     ] - <INFO > **********
+04m:13d-23:40:26 [BOT     ] - <INFO > Play Phase
+04m:13d-23:40:26 [BOT     ] - <INFO > **********
+04m:13d-23:40:26 [BOT     ] - <INFO > Tingle's Hand: 
+04m:13d-23:40:26 [BOT     ] - <INFO > [Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:2),
+ Sen'jin Shieldmasta (4:3/5) (id:32) (pos:3)]
+04m:13d-23:40:26 [BOT     ] - <DEBUG> Play phase start
+04m:13d-23:40:26 [ALGS    ] - <INFO > Spend max mana. Available mana to spend: 1
+04m:13d-23:40:26 [ALGS    ] - <INFO > Cards that cost less than 1:
+[]
+04m:13d-23:40:26 [ALGS    ] - <INFO > Potential play is: 0 Mana
+[]
+04m:13d-23:40:26 [BOT     ] - <DEBUG> Going to play [] with 0 mana
+04m:13d-23:40:26 [BOT     ] - <INFO > **********
+04m:13d-23:40:26 [BOT     ] - <INFO > Attack Phase
+04m:13d-23:40:26 [BOT     ] - <INFO > **********
+04m:13d-23:40:26 [BOT     ] - <INFO > []
+04m:13d-23:40:26 [BOT     ] - <DEBUG> Attack phase
+04m:13d-23:40:26 [CONTROL ] - <INFO > Ending turn
+04m:13d-23:40:39 [BOT     ] - <INFO > **********
+04m:13d-23:40:39 [BOT     ] - <INFO > Play Phase
+04m:13d-23:40:39 [BOT     ] - <INFO > **********
+04m:13d-23:40:39 [BOT     ] - <INFO > Tingle's Hand: 
+04m:13d-23:40:39 [BOT     ] - <INFO > [Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:2),
+ Sen'jin Shieldmasta (4:3/5) (id:32) (pos:3)]
+04m:13d-23:40:39 [BOT     ] - <DEBUG> Play phase start
+04m:13d-23:40:39 [ALGS    ] - <INFO > Spend max mana. Available mana to spend: 1
+04m:13d-23:40:39 [ALGS    ] - <INFO > Cards that cost less than 1:
+[]
+04m:13d-23:40:39 [ALGS    ] - <INFO > Potential play is: 0 Mana
+[]
+04m:13d-23:40:39 [BOT     ] - <DEBUG> Going to play [] with 0 mana
+04m:13d-23:40:39 [BOT     ] - <INFO > **********
+04m:13d-23:40:39 [BOT     ] - <INFO > Attack Phase
+04m:13d-23:40:39 [BOT     ] - <INFO > **********
+04m:13d-23:40:39 [BOT     ] - <INFO > []
+04m:13d-23:40:39 [BOT     ] - <DEBUG> Attack phase
+04m:13d-23:40:39 [CONTROL ] - <INFO > Ending turn
+04m:13d-23:40:52 [BOT     ] - <INFO > **********
+04m:13d-23:40:52 [BOT     ] - <INFO > Play Phase
+04m:13d-23:40:52 [BOT     ] - <INFO > **********
+04m:13d-23:40:52 [BOT     ] - <INFO > Tingle's Hand: 
+04m:13d-23:40:52 [BOT     ] - <INFO > [Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:2),
+ Sen'jin Shieldmasta (4:3/5) (id:32) (pos:3)]
+04m:13d-23:40:52 [BOT     ] - <DEBUG> Play phase start
+04m:13d-23:40:52 [ALGS    ] - <INFO > Spend max mana. Available mana to spend: 1
+04m:13d-23:40:52 [ALGS    ] - <INFO > Cards that cost less than 1:
+[]
+04m:13d-23:40:52 [ALGS    ] - <INFO > Potential play is: 0 Mana
+[]
+04m:13d-23:40:52 [BOT     ] - <DEBUG> Going to play [] with 0 mana
+04m:13d-23:40:52 [BOT     ] - <INFO > **********
+04m:13d-23:40:52 [BOT     ] - <INFO > Attack Phase
+04m:13d-23:40:52 [BOT     ] - <INFO > **********
+04m:13d-23:40:52 [BOT     ] - <INFO > []
+04m:13d-23:40:52 [BOT     ] - <DEBUG> Attack phase
+04m:13d-23:40:52 [CONTROL ] - <INFO > Ending turn
+04m:13d-23:41:05 [BOT     ] - <INFO > **********
+04m:13d-23:41:05 [BOT     ] - <INFO > Play Phase
+04m:13d-23:41:05 [BOT     ] - <INFO > **********
+04m:13d-23:41:05 [BOT     ] - <INFO > Tingle's Hand: 
+04m:13d-23:41:05 [BOT     ] - <INFO > [Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:2),
+ Sen'jin Shieldmasta (4:3/5) (id:32) (pos:3)]
+04m:13d-23:41:05 [BOT     ] - <DEBUG> Play phase start
+04m:13d-23:41:05 [ALGS    ] - <INFO > Spend max mana. Available mana to spend: 1
+04m:13d-23:41:05 [ALGS    ] - <INFO > Cards that cost less than 1:
+[]
+04m:13d-23:41:05 [ALGS    ] - <INFO > Potential play is: 0 Mana
+[]
+04m:13d-23:41:05 [BOT     ] - <DEBUG> Going to play [] with 0 mana
+04m:13d-23:41:05 [BOT     ] - <INFO > **********
+04m:13d-23:41:05 [BOT     ] - <INFO > Attack Phase
+04m:13d-23:41:05 [BOT     ] - <INFO > **********
+04m:13d-23:41:05 [BOT     ] - <INFO > []
+04m:13d-23:41:05 [BOT     ] - <DEBUG> Attack phase
+04m:13d-23:41:05 [CONTROL ] - <INFO > Ending turn
+04m:13d-23:41:19 [BOT     ] - <INFO > **********
+04m:13d-23:41:19 [BOT     ] - <INFO > Play Phase
+04m:13d-23:41:19 [BOT     ] - <INFO > **********
+04m:13d-23:41:19 [BOT     ] - <INFO > Tingle's Hand: 
+04m:13d-23:41:19 [BOT     ] - <INFO > [Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:2),
+ Sen'jin Shieldmasta (4:3/5) (id:32) (pos:3)]
+04m:13d-23:41:19 [BOT     ] - <DEBUG> Play phase start
+04m:13d-23:41:19 [ALGS    ] - <INFO > Spend max mana. Available mana to spend: 1
+04m:13d-23:41:19 [ALGS    ] - <INFO > Cards that cost less than 1:
+[]
+04m:13d-23:41:19 [ALGS    ] - <INFO > Potential play is: 0 Mana
+[]
+04m:13d-23:41:19 [BOT     ] - <DEBUG> Going to play [] with 0 mana
+04m:13d-23:41:19 [BOT     ] - <INFO > **********
+04m:13d-23:41:19 [BOT     ] - <INFO > Attack Phase
+04m:13d-23:41:19 [BOT     ] - <INFO > **********
+04m:13d-23:41:19 [BOT     ] - <INFO > []
+04m:13d-23:41:19 [BOT     ] - <DEBUG> Attack phase
+04m:13d-23:41:19 [CONTROL ] - <INFO > Ending turn
+04m:13d-23:41:32 [BOT     ] - <INFO > **********
+04m:13d-23:41:32 [BOT     ] - <INFO > Play Phase
+04m:13d-23:41:32 [BOT     ] - <INFO > **********
+04m:13d-23:41:32 [BOT     ] - <INFO > Tingle's Hand: 
+04m:13d-23:41:32 [BOT     ] - <INFO > [Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:2),
+ Sen'jin Shieldmasta (4:3/5) (id:32) (pos:3)]
+04m:13d-23:41:32 [BOT     ] - <DEBUG> Play phase start
+04m:13d-23:41:32 [ALGS    ] - <INFO > Spend max mana. Available mana to spend: 1
+04m:13d-23:41:32 [ALGS    ] - <INFO > Cards that cost less than 1:
+[]
+04m:13d-23:41:32 [ALGS    ] - <INFO > Potential play is: 0 Mana
+[]
+04m:13d-23:41:32 [BOT     ] - <DEBUG> Going to play [] with 0 mana
+04m:13d-23:41:32 [BOT     ] - <INFO > **********
+04m:13d-23:41:32 [BOT     ] - <INFO > Attack Phase
+04m:13d-23:41:32 [BOT     ] - <INFO > **********
+04m:13d-23:41:32 [BOT     ] - <INFO > []
+04m:13d-23:41:32 [BOT     ] - <DEBUG> Attack phase
+04m:13d-23:41:32 [CONTROL ] - <INFO > Ending turn
+04m:13d-23:41:45 [BOT     ] - <INFO > **********
+04m:13d-23:41:45 [BOT     ] - <INFO > Play Phase
+04m:13d-23:41:45 [BOT     ] - <INFO > **********
+04m:13d-23:41:45 [BOT     ] - <INFO > Tingle's Hand: 
+04m:13d-23:41:45 [BOT     ] - <INFO > [Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:2),
+ Sen'jin Shieldmasta (4:3/5) (id:32) (pos:3)]
+04m:13d-23:41:45 [BOT     ] - <DEBUG> Play phase start
+04m:13d-23:41:45 [ALGS    ] - <INFO > Spend max mana. Available mana to spend: 1
+04m:13d-23:41:45 [ALGS    ] - <INFO > Cards that cost less than 1:
+[]
+04m:13d-23:41:45 [ALGS    ] - <INFO > Potential play is: 0 Mana
+[]
+04m:13d-23:41:45 [BOT     ] - <DEBUG> Going to play [] with 0 mana
+04m:13d-23:41:45 [BOT     ] - <INFO > **********
+04m:13d-23:41:45 [BOT     ] - <INFO > Attack Phase
+04m:13d-23:41:45 [BOT     ] - <INFO > **********
+04m:13d-23:41:45 [BOT     ] - <INFO > []
+04m:13d-23:41:45 [BOT     ] - <DEBUG> Attack phase
+04m:13d-23:41:45 [CONTROL ] - <INFO > Ending turn
+04m:13d-23:41:58 [BOT     ] - <INFO > **********
+04m:13d-23:41:58 [BOT     ] - <INFO > Play Phase
+04m:13d-23:41:58 [BOT     ] - <INFO > **********
+04m:13d-23:41:58 [BOT     ] - <INFO > Tingle's Hand: 
+04m:13d-23:41:58 [BOT     ] - <INFO > [Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:2),
+ Sen'jin Shieldmasta (4:3/5) (id:32) (pos:3)]
+04m:13d-23:41:58 [BOT     ] - <DEBUG> Play phase start
+04m:13d-23:41:58 [ALGS    ] - <INFO > Spend max mana. Available mana to spend: 1
+04m:13d-23:41:58 [ALGS    ] - <INFO > Cards that cost less than 1:
+[]
+04m:13d-23:41:58 [ALGS    ] - <INFO > Potential play is: 0 Mana
+[]
+04m:13d-23:41:58 [BOT     ] - <DEBUG> Going to play [] with 0 mana
+04m:13d-23:41:58 [BOT     ] - <INFO > **********
+04m:13d-23:41:58 [BOT     ] - <INFO > Attack Phase
+04m:13d-23:41:58 [BOT     ] - <INFO > **********
+04m:13d-23:41:58 [BOT     ] - <INFO > []
+04m:13d-23:41:58 [BOT     ] - <DEBUG> Attack phase
+04m:13d-23:41:58 [CONTROL ] - <INFO > Ending turn
+04m:13d-23:42:11 [BOT     ] - <INFO > **********
+04m:13d-23:42:11 [BOT     ] - <INFO > Play Phase
+04m:13d-23:42:11 [BOT     ] - <INFO > **********
+04m:13d-23:42:11 [BOT     ] - <INFO > Tingle's Hand: 
+04m:13d-23:42:11 [BOT     ] - <INFO > [Boulderfist Ogre (6:6/7) (id:24) (pos:1),
+ Dragonling Mechanic (4:2/4) (id:30) (pos:2),
+ Sen'jin Shieldmasta (4:3/5) (id:32) (pos:3)]
+04m:13d-23:42:11 [BOT     ] - <DEBUG> Play phase start
+04m:13d-23:42:11 [ALGS    ] - <INFO > Spend max mana. Available mana to spend: 1
+04m:13d-23:42:11 [ALGS    ] - <INFO > Cards that cost less than 1:
+[]
+04m:13d-23:42:11 [ALGS    ] - <INFO > Potential play is: 0 Mana
+[]
+04m:13d-23:42:11 [BOT     ] - <DEBUG> Going to play [] with 0 mana
+04m:13d-23:42:11 [BOT     ] - <INFO > **********
+04m:13d-23:42:11 [BOT     ] - <INFO > Attack Phase
+04m:13d-23:42:11 [BOT     ] - <INFO > **********
+04m:13d-23:42:11 [BOT     ] - <INFO > []
+04m:13d-23:42:11 [BOT     ] - <DEBUG> Attack phase
+04m:13d-23:42:11 [CONTROL ] - <INFO > Ending turn

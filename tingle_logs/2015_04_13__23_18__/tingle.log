@@ -1,0 +1,9 @@
+04m:13d - 23:18:37 BOT      - DEBUG    Logging configured for Tingle
+04m:13d - 23:18:37 BOT      - INFO     STARTING IN 5 SECONDS
+04m:13d - 23:18:42 BOT      - INFO     Tingle Tingle! Kooloo limpah!
+04m:13d - 23:18:45 CONTROL  - INFO     Clicking play button
+04m:13d - 23:18:46 BOT      - INFO     Waiting for game state to start: GameState: started: False
+04m:13d - 23:19:01 BOT      - INFO     Waiting for game state to start: GameState: started: False
+04m:13d - 23:19:01 STATE    - INFO     **************************
+04m:13d - 23:19:01 STATE    - INFO     ***** STARTING GAME *****
+04m:13d - 23:19:01 STATE    - INFO     **************************

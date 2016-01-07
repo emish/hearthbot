@@ -222,7 +222,7 @@ def config_main_logging(game_dir):
 
     logger = logging.getLogger('BOT')
     logger.debug("Logging configured for Tingle")
-        
+
 def main():
     # Right now, we just play a game. later, we'll add the ability to keep playing games
     # You must have hearthstone synced with coordinates and at the start game screen

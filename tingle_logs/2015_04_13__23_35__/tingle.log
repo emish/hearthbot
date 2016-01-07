@@ -1,0 +1,108 @@
+04m:13d-23:35:03 [BOT     ] - <DEBUG   > Logging configured for Tingle
+04m:13d-23:35:03 [BOT     ] - <INFO    > STARTING IN 5 SECONDS
+04m:13d-23:35:08 [BOT     ] - <INFO    > Tingle Tingle! Kooloo limpah!
+04m:13d-23:35:11 [parser  ] - <INFO    > Skipping to end of log file
+04m:13d-23:35:11 [CONTROL ] - <INFO    > Clicking play button
+04m:13d-23:35:12 [BOT     ] - <INFO    > Waiting for game state to start: GameState: started: False
+04m:13d-23:35:14 [BOT     ] - <INFO    > Waiting for game state to start: GameState: started: False
+04m:13d-23:35:16 [BOT     ] - <INFO    > Waiting for game state to start: GameState: started: False
+04m:13d-23:35:18 [STATE   ] - <INFO    > **************************
+04m:13d-23:35:18 [STATE   ] - <INFO    > ***** STARTING GAME *****
+04m:13d-23:35:18 [STATE   ] - <INFO    > **************************
+04m:13d-23:35:18 [STATE   ] - <INFO    > TINGLE is player 1
+04m:13d-23:35:18 [STATE   ] - <INFO    > OPPONENT is player 2
+04m:13d-23:35:18 [parser  ] - <DEBUG   > [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Gul'dan id=4 zone=PLAY zonePos=0 cardId=HERO_07 player=1] zone from  -> FRIENDLY PLAY (Hero)
+
+04m:13d-23:35:18 [STATE   ] - <INFO    > Adding our hero to play: Gul'dan (0/30) - (id:4)
+04m:13d-23:35:18 [STATE   ] - <INFO    > Adding Gul'dan (0/30) - (id:4) to active cards in zone PLAY
+04m:13d-23:35:18 [parser  ] - <DEBUG   > [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Life Tap id=5 zone=PLAY zonePos=0 cardId=CS2_056 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+
+04m:13d-23:35:18 [STATE   ] - <INFO    > Moving Hero Power/Weapon to play but not as a minion: Life Tap - (id:5)
+04m:13d-23:35:18 [STATE   ] - <INFO    > Adding Life Tap - (id:5) to active cards in zone PLAY
+04m:13d-23:35:18 [STATE   ] - <INFO    > DRAW CARD: Sen'jin Shieldmasta (4:3/5) (id:13) (pos:None)
+04m:13d-23:35:18 [STATE   ] - <INFO    > Adding Sen'jin Shieldmasta (4:3/5) (id:13) (pos:None) to active cards in zone HAND
+04m:13d-23:35:18 [STATE   ] - <INFO    > Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:13) (pos:None)]
+04m:13d-23:35:18 [STATE   ] - <DEBUG   > Update card Sen'jin Shieldmasta (4:3/5) (id:13) (pos:2) to position 2 in HAND
+04m:13d-23:35:18 [STATE   ] - <INFO    > DRAW CARD: Boulderfist Ogre (6:6/7) (id:17) (pos:None)
+04m:13d-23:35:18 [STATE   ] - <INFO    > Adding Boulderfist Ogre (6:6/7) (id:17) (pos:None) to active cards in zone HAND
+04m:13d-23:35:18 [STATE   ] - <INFO    > Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:13) (pos:2),
+ Boulderfist Ogre (6:6/7) (id:17) (pos:None)]
+04m:13d-23:35:18 [STATE   ] - <DEBUG   > Update card Boulderfist Ogre (6:6/7) (id:17) (pos:4) to position 4 in HAND
+04m:13d-23:35:18 [STATE   ] - <INFO    > DRAW CARD: Stormwind Knight (4:2/5) (id:26) (pos:None)
+04m:13d-23:35:18 [STATE   ] - <INFO    > Adding Stormwind Knight (4:2/5) (id:26) (pos:None) to active cards in zone HAND
+04m:13d-23:35:18 [STATE   ] - <INFO    > Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:13) (pos:2),
+ Boulderfist Ogre (6:6/7) (id:17) (pos:4),
+ Stormwind Knight (4:2/5) (id:26) (pos:None)]
+04m:13d-23:35:18 [STATE   ] - <DEBUG   > Update card Stormwind Knight (4:2/5) (id:26) (pos:3) to position 3 in HAND
+04m:13d-23:35:18 [STATE   ] - <INFO    > DRAW CARD: Stormwind Champion (7:6/6) (id:29) (pos:None)
+04m:13d-23:35:18 [STATE   ] - <INFO    > Adding Stormwind Champion (7:6/6) (id:29) (pos:None) to active cards in zone HAND
+04m:13d-23:35:18 [STATE   ] - <INFO    > Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:13) (pos:2),
+ Boulderfist Ogre (6:6/7) (id:17) (pos:4),
+ Stormwind Knight (4:2/5) (id:26) (pos:3),
+ Stormwind Champion (7:6/6) (id:29) (pos:None)]
+04m:13d-23:35:18 [STATE   ] - <DEBUG   > Update card Stormwind Champion (7:6/6) (id:29) (pos:1) to position 1 in HAND
+04m:13d-23:35:18 [parser  ] - <DEBUG   > [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Valeera Sanguinar id=36 zone=PLAY zonePos=0 cardId=HERO_03 player=2] zone from  -> OPPOSING PLAY (Hero)
+
+04m:13d-23:35:18 [STATE   ] - <INFO    > Adding opponent hero to play: Valeera Sanguinar (0/30) - (id:36)
+04m:13d-23:35:18 [STATE   ] - <INFO    > Adding Valeera Sanguinar (0/30) - (id:36) to active cards in zone PLAY
+04m:13d-23:35:18 [parser  ] - <DEBUG   > [Zone] ZoneChangeList.ProcessChanges() - id=1 local=False [name=Dagger Mastery id=37 zone=PLAY zonePos=0 cardId=CS2_083b player=2] zone from  -> OPPOSING PLAY (Hero Power)
+
+04m:13d-23:35:18 [STATE   ] - <INFO    > Moving Hero Power/Weapon to play but not as minion: Dagger Mastery - (id:37)
+04m:13d-23:35:18 [STATE   ] - <INFO    > Adding Dagger Mastery - (id:37) to active cards in zone PLAY
+04m:13d-23:35:18 [STATE   ] - <INFO    > DRAW CARD: The Coin - 0 mana (id:68)
+04m:13d-23:35:18 [STATE   ] - <INFO    > Adding The Coin - 0 mana (id:68) to active cards in zone HAND
+04m:13d-23:35:18 [STATE   ] - <INFO    > Cards in HAND:
+[Sen'jin Shieldmasta (4:3/5) (id:13) (pos:2),
+ Boulderfist Ogre (6:6/7) (id:17) (pos:4),
+ Stormwind Knight (4:2/5) (id:26) (pos:3),
+ Stormwind Champion (7:6/6) (id:29) (pos:1),
+ The Coin - 0 mana (id:68)]
+04m:13d-23:35:18 [STATE   ] - <DEBUG   > Update card The Coin - 0 mana (id:68) to position 5 in HAND
+04m:13d-23:35:28 [BOT     ] - <INFO    > **********
+04m:13d-23:35:28 [BOT     ] - <INFO    > Play Phase
+04m:13d-23:35:28 [BOT     ] - <INFO    > **********
+04m:13d-23:35:28 [BOT     ] - <INFO    > Tingle's Hand: 
+04m:13d-23:35:28 [BOT     ] - <INFO    > [Sen'jin Shieldmasta (4:3/5) (id:13) (pos:2),
+ Boulderfist Ogre (6:6/7) (id:17) (pos:4),
+ Stormwind Knight (4:2/5) (id:26) (pos:3),
+ Stormwind Champion (7:6/6) (id:29) (pos:1),
+ The Coin - 0 mana (id:68)]
+04m:13d-23:35:28 [BOT     ] - <DEBUG   > Play phase start
+04m:13d-23:35:28 [ALGS    ] - <INFO    > Spend max mana. Available mana to spend: 0
+04m:13d-23:35:28 [ALGS    ] - <INFO    > Cards that cost less than 0:
+[]
+04m:13d-23:35:28 [ALGS    ] - <INFO    > Potential play is: 0 Mana
+[]
+04m:13d-23:35:28 [BOT     ] - <DEBUG   > Going to play [] with 0 mana
+04m:13d-23:35:28 [BOT     ] - <INFO    > **********
+04m:13d-23:35:28 [BOT     ] - <INFO    > Attack Phase
+04m:13d-23:35:28 [BOT     ] - <INFO    > **********
+04m:13d-23:35:28 [BOT     ] - <INFO    > []
+04m:13d-23:35:28 [BOT     ] - <DEBUG   > Attack phase
+04m:13d-23:35:28 [CONTROL ] - <INFO    > Ending turn
+04m:13d-23:35:41 [BOT     ] - <INFO    > **********
+04m:13d-23:35:41 [BOT     ] - <INFO    > Play Phase
+04m:13d-23:35:41 [BOT     ] - <INFO    > **********
+04m:13d-23:35:41 [BOT     ] - <INFO    > Tingle's Hand: 
+04m:13d-23:35:41 [BOT     ] - <INFO    > [Sen'jin Shieldmasta (4:3/5) (id:13) (pos:2),
+ Boulderfist Ogre (6:6/7) (id:17) (pos:4),
+ Stormwind Knight (4:2/5) (id:26) (pos:3),
+ Stormwind Champion (7:6/6) (id:29) (pos:1),
+ The Coin - 0 mana (id:68)]
+04m:13d-23:35:41 [BOT     ] - <DEBUG   > Play phase start
+04m:13d-23:35:41 [ALGS    ] - <INFO    > Spend max mana. Available mana to spend: 0
+04m:13d-23:35:41 [ALGS    ] - <INFO    > Cards that cost less than 0:
+[]
+04m:13d-23:35:41 [ALGS    ] - <INFO    > Potential play is: 0 Mana
+[]
+04m:13d-23:35:41 [BOT     ] - <DEBUG   > Going to play [] with 0 mana
+04m:13d-23:35:41 [BOT     ] - <INFO    > **********
+04m:13d-23:35:41 [BOT     ] - <INFO    > Attack Phase
+04m:13d-23:35:41 [BOT     ] - <INFO    > **********
+04m:13d-23:35:41 [BOT     ] - <INFO    > []
+04m:13d-23:35:41 [BOT     ] - <DEBUG   > Attack phase
+04m:13d-23:35:41 [CONTROL ] - <INFO    > Ending turn
